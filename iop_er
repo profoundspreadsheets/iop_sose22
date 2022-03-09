@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T19:04:39.429Z" agent="5.0 (X11)" etag="qQEQgf6gMx6yd3UZ-26I" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T19:05:26.395Z" agent="5.0 (X11)" etag="ZYX6YCdXw6uJRD_lDSx1" version="17.0.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1635" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -30,10 +30,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2aNY9N9d42ohjzKNOFKe-5" value="Beverage" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;rounded=0;glass=0;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="590" width="100" height="40" as="geometry" />
+          <mxGeometry x="290" y="700" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2aNY9N9d42ohjzKNOFKe-6" value="Toilet Unit" style="whiteSpace=wrap;html=1;align=center;rounded=0;glass=0;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="170" y="520" width="100" height="40" as="geometry" />
+          <mxGeometry x="180" y="520" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2aNY9N9d42ohjzKNOFKe-8" value="Test Flight" style="whiteSpace=wrap;html=1;align=center;rounded=0;glass=0;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="380" width="100" height="40" as="geometry" />
@@ -57,10 +57,10 @@
           <mxGeometry x="290" y="350" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2aNY9N9d42ohjzKNOFKe-14" value="Seating Unit" style="whiteSpace=wrap;html=1;align=center;rounded=0;glass=0;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="780" width="100" height="40" as="geometry" />
+          <mxGeometry x="400" y="520" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2aNY9N9d42ohjzKNOFKe-15" value="Bar Unit" style="whiteSpace=wrap;html=1;align=center;rounded=0;glass=0;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="530" y="760" width="100" height="40" as="geometry" />
+          <mxGeometry x="290" y="520" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2aNY9N9d42ohjzKNOFKe-16" value="Protocol" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;rounded=0;glass=0;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="440" width="100" height="40" as="geometry" />
@@ -76,6 +76,15 @@
         </mxCell>
         <mxCell id="2aNY9N9d42ohjzKNOFKe-19" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;rounded=0;glass=0;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2aNY9N9d42ohjzKNOFKe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2aNY9N9d42ohjzKNOFKe-22" target="2aNY9N9d42ohjzKNOFKe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2aNY9N9d42ohjzKNOFKe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="2aNY9N9d42ohjzKNOFKe-22" target="2aNY9N9d42ohjzKNOFKe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2aNY9N9d42ohjzKNOFKe-22" value="Relationship" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;rounded=0;glass=0;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
