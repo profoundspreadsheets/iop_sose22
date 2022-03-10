@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T12:19:29.838Z" agent="5.0 (X11)" etag="CFZ9BjR0KO2pSnr9IUd4" version="17.1.0" type="github" pages="3">
-  <diagram id="R2lEEEUBdFMjLlhIrx00" name="ER">
+<mxfile host="app.diagrams.net" modified="2022-03-10T12:20:07.121Z" agent="5.0 (X11)" etag="T5mz6RTIGfTYkymxTMGK" version="17.1.0" type="github" pages="3">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="All">
     <mxGraphModel dx="1845" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
@@ -1244,7 +1244,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="t_9_4JGFA07DRtrNNsd9" name="Page-2">
+  <diagram id="t_9_4JGFA07DRtrNNsd9" name="ER">
     <mxGraphModel dx="1845" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="Af3AM1Oscx8MGJg_4fuh-0" />
@@ -1845,7 +1845,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="HeTKYjskUIevUPYj4kZ5" name="Page-3">
+  <diagram id="HeTKYjskUIevUPYj4kZ5" name="Class">
     <mxGraphModel dx="1845" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="2I80DL_YEO4l91L-rn86-0" />
