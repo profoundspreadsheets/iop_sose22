@@ -1,5 +1,5 @@
 import psycopg2
-
+import randomutil
 
 def main():
     conn = None
@@ -18,10 +18,12 @@ def main():
 
         # display the PostgreSQL database server version
         db_version = cursor.fetchone()
-        print(db_version)
+        #print(db_version)
 
         # close the communication with the PostgreSQL
         cursor.close()
+
+        randoms = randomutil.RandomUtil()
 
     except (Exception, psycopg2.DatabaseError) as e:
         print(e)
@@ -29,7 +31,7 @@ def main():
     finally:
         if conn is not None:
             conn.close()
-            print("Database connect closed.")
+            #print("Database connect closed.")
 
 
 if __name__ == "__main__":
