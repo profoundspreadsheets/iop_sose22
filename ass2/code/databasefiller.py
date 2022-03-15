@@ -1,6 +1,7 @@
 from randomutil import RandomUtil
 import psycopg2
 
+
 class DatabaseFiller:
     def __init__(self):
         self.randomutil = RandomUtil()
@@ -9,18 +10,29 @@ class DatabaseFiller:
 
     def generateCountries(self):
         pass
-    
+
     def generateCustomers(self, amount):
         print("Generating {} amount of customers".format(amount))
+        cursor = self.conn.cursor()
 
+        for i in range(amount):
+            firstname = self.randomutil.getRandomFirstname()
+            lastname = self.randomutil.getRandomLastname()
+            birthday = self.randomutil.getRandomBirthday()
+            address = self.randomutil.getRandomAddress()
+            stmt = 'INSERT INTO customer (firstname, lastname, birthday, street, housenumber, zip) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', {}, {});'.format(
+                firstname, lastname, birthday, address[0], 5, address[1]
+            )
+            print(stmt)
+
+            cursor.execute(stmt)
+
+            self.conn.commit()
 
     def connect(self):
         try:
             self.conn = psycopg2.connect(
-                host="localhost",
-                database="iop",
-                user="paul",
-                password="password"
+                host="localhost", database="iop", user="paul", password="password"
             )
 
             cursor = self.conn.cursor()
@@ -36,8 +48,6 @@ class DatabaseFiller:
 
         except (Exception, psycopg2.DatabaseError) as e:
             print(e)
-
-            
 
     def close(self):
         if self.conn is not None:

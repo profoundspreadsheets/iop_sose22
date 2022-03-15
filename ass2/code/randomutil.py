@@ -1,6 +1,8 @@
 import csv
-from secrets import choice
+from random import choice
 import numpy as np
+from faker import Faker
+from datetime import datetime
 
 class RandomUtil:
     
@@ -19,11 +21,16 @@ class RandomUtil:
             self.streets = np.genfromtxt(file, dtype=str, delimiter=";")
             file.close()
 
+        self.faker = Faker()
+
     def getRandomFirstname(self):
         return choice(self.firstnames)[0]
 
     def getRandomLastname(self):
         return choice(self.lastnames)[0]
 
-    def getRandomAdress(self):
+    def getRandomAddress(self):
         return choice(self.streets)
+
+    def getRandomBirthday(self):
+        return self.faker.date_between_dates(date_start=datetime(1940,1,1), date_end=datetime(2000,1,1))

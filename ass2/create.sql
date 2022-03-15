@@ -8,7 +8,7 @@ CREATE TABLE COUNTRY(
 );
 
 CREATE TABLE CUSTOMER(
-    CustomerId INTEGER PRIMARY KEY,
+    CustomerId SERIAL PRIMARY KEY,
     Firstname VARCHAR(50),
     Lastname VARCHAR(50),
     Birthday DATE,
