@@ -3,7 +3,7 @@ from databasefiller import DatabaseFiller
 def main():
     databasefiller = DatabaseFiller()
 
-    databasefiller.generateCustomers(10)
+    databasefiller.generateCustomers(800)
 
     databasefiller.close()
 

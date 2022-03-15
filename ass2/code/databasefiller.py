@@ -20,13 +20,11 @@ class DatabaseFiller:
             lastname = self.randomutil.getRandomLastname()
             birthday = self.randomutil.getRandomBirthday()
             address = self.randomutil.getRandomAddress()
-            stmt = 'INSERT INTO customer (firstname, lastname, birthday, street, housenumber, zip) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', {}, {});'.format(
-                firstname, lastname, birthday, address[0], 5, address[1]
+            housenumber = self.randomutil.getRandomInteger()
+            stmt = 'INSERT INTO customer (firstname, lastname, birthday, street, housenumber, zip, city) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', {}, {}, \'{}\');'.format(
+                firstname, lastname, birthday, address[0], housenumber, address[1], address[2]
             )
-            print(stmt)
-
             cursor.execute(stmt)
-
             self.conn.commit()
 
     def connect(self):

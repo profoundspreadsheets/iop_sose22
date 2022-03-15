@@ -14,7 +14,8 @@ CREATE TABLE CUSTOMER(
     Birthday DATE,
     Street VARCHAR(50),
     Housenumber INTEGER,
-    Zip INTEGER
+    Zip INTEGER,
+    City VARCHAR(20)
 );
 
 CREATE TABLE PLANE(

@@ -32,5 +32,8 @@ class RandomUtil:
     def getRandomAddress(self):
         return choice(self.streets)
 
+    def getRandomInteger(self):
+        return np.random.randint(1, 500)
+
     def getRandomBirthday(self):
         return self.faker.date_between_dates(date_start=datetime(1940,1,1), date_end=datetime(2000,1,1))
