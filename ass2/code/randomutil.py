@@ -9,6 +9,7 @@ class RandomUtil:
     firstnameFile = "./resources/firstnames.csv"
     lastnameFile = "./resources/lastnames.csv"
     streetsFile = "./resources/streets.csv"
+    countriesFile = "./resources/countries.csv"
 
     def __init__(self):
         with open(self.firstnameFile) as file:
@@ -20,6 +21,8 @@ class RandomUtil:
         with open(self.streetsFile) as file:
             self.streets = np.genfromtxt(file, dtype=str, delimiter=";")
             file.close()
+        with open(self.countriesFile) as file:
+            self.countries = np.genfromtxt(file, dtype=str, delimiter=",")
 
         self.faker = Faker()
 

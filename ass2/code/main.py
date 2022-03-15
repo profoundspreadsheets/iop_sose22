@@ -3,7 +3,10 @@ from databasefiller import DatabaseFiller
 def main():
     databasefiller = DatabaseFiller()
 
-    databasefiller.generateCustomers(800)
+    # TODO works fine
+    #databasefiller.generateCustomers(800)
+
+    databasefiller.generateCountries()
 
     databasefiller.close()
 

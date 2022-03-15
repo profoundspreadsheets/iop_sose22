@@ -17,3 +17,7 @@ After receiving the individual bits and pieces, the interior of the plane is
 assembled, and the plane is sent on a test flight. During the flight you 
 create a test protocol which is sent to you and the customer. The plane is
 delivered to the customer, which has to confirm.
+
+# References
+List of countries from:
+https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.csv

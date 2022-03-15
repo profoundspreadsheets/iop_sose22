@@ -9,7 +9,11 @@ class DatabaseFiller:
         self.connect()
 
     def generateCountries(self):
-        pass
+        countries = self.randomutil.countries
+        for i in countries:
+            isoCode = i[1]
+            countryName = i[0]
+            print ("{} {}".format(isoCode, countryName))
 
     def generateCustomers(self, amount):
         print("Generating {} amount of customers".format(amount))
