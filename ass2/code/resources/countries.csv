@@ -2,7 +2,7 @@ Afghanistan;AF;Afghani;AFN
 Albania;AL;Lek;ALL
 Algeria;DZ;Algerian Dinar;DZD
 American samoa;AS;US Dollar;USD
-Andorra ;AD;Euro;EUR
+Andorra;AD;Euro;EUR
 Angola;AO;Kwanza;AOA
 Anguilla;AI;East Carribbean Dollar;XCD
 Antarctica;AQ;No universal currency; 
@@ -29,7 +29,7 @@ Botswana;BW;Pula;BWP
 Bouvet island;BV;Norvegian Krone;NOK
 Brazil;BR;Brazilian Real;BRL
 British indian ocean territory;IO;US Dollar;USD
-Brunei darussalam;BN;Brunei Dollar;BND
+Brunei;BN;Brunei Dollar;BND
 Bulgaria;BG;Bulgarian Lev;BGN
 Burkina faso;BF;CFA Franc BCEAO;XOF
 Burundi;BI;Burundi Franc;BIF
@@ -47,7 +47,7 @@ Cocos (keeling) islands;CC;Australian Dollar;AUD
 Colombia;CO;Colombian Peso;COP
 Comoros;KM;Comoro Franc;KMF
 Congo;CG;CFA Franc BEAC;XAF
-Congo, the democratic republic of;CD;Franc Congolais;CDF
+Congo;CD;Franc Congolais;CDF
 Cook islands;CK;New Zealand Dollar;NZD
 Costa rica;CR;Costa Rican Colon;CRC
 Cote d ivoire;CI;CFA Franc BCEAO;XOF
@@ -109,8 +109,8 @@ Jordan;JO;Jordanian Dinar;JOD
 Kazakhstan;KZ;Tenge;KZT
 Kenya;KE;Kenyan Shilling;KES
 Kiribati;KI;Australian Dollar;AUD
-Korea, democratic peoples republic of;KP;North Korean Won;KPW
-Korea, republic of;KR;Won;KRW
+Korea;KP;North Korean Won;KPW
+Korea;KR;Won;KRW
 Kuwait;KW;Kuwaiti Dinar;KWD
 Kyrgyzstan;KG;Som;KGS
 Lao peoples democratic republic;LA;Kip;LAK
@@ -123,7 +123,7 @@ Liechtenstein;LI;Swiss Franc;CHF
 Lithuania;LT;Lithuanian Litas;LTL
 Luxembourg;LU;Euro;EUR
 Macao;MO;Pataca;MOP
-Macedonia, the former yugoslav republic of;MK;Denar;MKD
+Macedonia;MK;Denar;MKD
 Madagascar;MG;Malagasy Franc;MGF
 Malawi;MW;Kwacha;MWK
 Malaysia;MY;Malaysian Ringgit;MYR
@@ -136,10 +136,11 @@ Mauritania;MR;Ouguiya;MRO
 Mauritius;MU;Mauritius Rupee;MUR
 Mayotte;YT;Euro;EUR
 Mexico;MX;Mexican Peso;MXN
-Micronesia, federated states of;FM;US Dollar;USD
-Moldova, republic of;MD;Moldovan Leu;MDL
+Micronesia;FM;US Dollar;USD
+Moldova;MD;Moldovan Leu;MDL
 Monaco;MC;Euro;EUR
 Mongolia;MN;Tugrik;MNT
+Montenegro;ME;Euro;EUR
 Montserrat;MS;East Caribbean Dollar;XCD
 Morocco;MA;Moroccan Dirham;MAD
 Mozambique;MZ;Metical;MZM
@@ -161,7 +162,7 @@ Norway;NO;Norwegian Krone;NOK
 Oman;OM;Rial Omani;OMR
 Pakistan;PK;Pakistan Rupee;PKR
 Palau;PW;US Dollar;USD
-Palestinian territory, occupied;PS; ; 
+Palestinian territory;PS; ; 
 Panama;PA;US Dollar;USD
 Papua new guinea;PG;Kina;PGK
 Paraguay;PY;Guarani;PYG
@@ -186,7 +187,7 @@ San marino;SM;Euro;EUR
 Sao tome and principe;ST;Dobra;STD
 Saudi arabia;SA;Saudi Riyal;SAR
 Senegal;SN;CFA Franc BCEAO;XOF
-Serbia & montenegro;CS;Serbian Dinar;CSD
+Serbia;RS;Serbian Dinar;CSD
 Seychelles;SC;Seychelles Rupee;SCR
 Sierra leone;SL;Leone;SLL
 Singapore;SG;Singapore Dollar;SGD

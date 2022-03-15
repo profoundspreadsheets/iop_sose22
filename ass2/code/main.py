@@ -3,8 +3,11 @@ from databasefiller import DatabaseFiller
 def main():
     databasefiller = DatabaseFiller()
 
-    #databasefiller.generateCustomers(800)
-    #databasefiller.generateCountries()
+    databasefiller.generateCustomers(777)
+    
+    databasefiller.generateCountries()
+
+    databasefiller.generateManufacturingTeams(777)
 
     databasefiller.close()
 
