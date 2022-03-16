@@ -3,6 +3,7 @@ from databasefiller import DatabaseFiller
 def main():
     amountInserts = 777
     databasefiller = DatabaseFiller()
+
     databasefiller.generateCustomers(amountInserts)
     databasefiller.generateCountries()
     databasefiller.generateManufacturingTeams(amountInserts)
@@ -10,6 +11,8 @@ def main():
     databasefiller.generateToiletUnits(amountInserts)
     databasefiller.generateBarUnits(amountInserts)
     databasefiller.generateBeverages(amountInserts)
+    databasefiller.generateTestProtocols(amountInserts)
+    
     databasefiller.close()
 
 if __name__ == "__main__":

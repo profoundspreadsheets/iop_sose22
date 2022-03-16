@@ -1,7 +1,5 @@
+from datetime import datetime
 from random import choice
-from numpy import mat
-
-from pyparsing import col
 from randomutil import RandomUtil
 import psycopg2
 
@@ -35,7 +33,7 @@ class DatabaseFiller:
         for i in range(amount):
             firstname = self.randomutil.getRandomFirstname()
             lastname = self.randomutil.getRandomLastname()
-            birthday = self.randomutil.getRandomBirthday()
+            birthday = self.randomutil.getRandomDate(datetime(1940,1,1), datetime(2000,1,1))
             address = self.randomutil.getRandomAddress()
             stmt = 'INSERT INTO customer (firstname, lastname, birthday, street, housenumber, zip, city) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', {}, {}, \'{}\');'.format(
                 firstname, lastname, birthday, address[0], address[1], address[2], address[3]
@@ -142,13 +140,24 @@ class DatabaseFiller:
             self.cursor.execute(stmt)
         self.conn.commit()
 
+    def generateTestProtocols(self, amount):
+        self.cursor.execute("SELECT registration FROM plane;")
+        planes = self.cursor.fetchall()
         
-        # TODO implement
-        pass
+        for i in range(amount):
+            plane = choice(planes)[0]
+            protocolid = self.randomutil.createRandomString(10)
+            testdate = self.randomutil.getRandomDate(datetime(2015, 1, 1), datetime(2022, 3, 1))
+            testroute = self.randomutil.getRandomRoute()
+            testtest = self.randomutil.getRandomTest()
+            testaiport = self.randomutil.createRandomString(3)
+            testpilot = self.randomutil.getRandomFirstname() + " " + self.randomutil.getRandomLastname()
 
-    def generateTestProtocols(self):
-        # TODO implement
-        pass
+            stmt = "INSERT INTO testprotocol (registration, protocolid, testdate, testroute, test, airport, pilot) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');".format(
+                plane, protocolid, testdate, testroute, testtest, testaiport, testpilot
+            )
+            self.cursor.execute(stmt)
+        self.conn.commit()
 
 
     def connect(self):

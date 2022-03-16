@@ -19,6 +19,8 @@ class RandomUtil:
     colors = ["white", "black", "red", "green", "yellow", "taupe", "mauve"]
     liveries = ["bare metal", "cheatline", "hockey stick", "all-over color", "eurowhite", "jelly bean", "billboard", "retro"]
     materials = ["wood", "gold", "plastic", "leather", "frottee", "metal", "chrome", "steel"]
+    routes = ["open sea", "mountains", "desert", "alps", "scenic", "sketchy", "forests", "fields"]
+    tests = ["high-g", "instrument", "barrel-roll", "looping", "engine", "structural-integrity", "wings", "pimp-status"]
 
     def __init__(self):
         with open(self.firstnameFile) as file:
@@ -81,6 +83,12 @@ class RandomUtil:
     def getRandomAlcohol(self):
         return choice(self.alcohols)
 
+    def getRandomRoute(self):
+        return choice(self.routes)
+
+    def getRandomTest(self):
+        return choice(self.tests)
+
     def getRandomAddress(self):
         street = self.faker.street_name()
         housenumber = self.getRandomInteger(1, 500)
@@ -103,5 +111,5 @@ class RandomUtil:
     def getRandomCountryCode(self):
         return choice(self.countries)[1]
 
-    def getRandomBirthday(self):
-        return self.faker.date_between_dates(date_start=datetime(1940,1,1), date_end=datetime(2000,1,1))
+    def getRandomDate(self, start, end):
+        return self.faker.date_between_dates(date_start=start, date_end=end)

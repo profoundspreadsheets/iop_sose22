@@ -79,17 +79,17 @@ CREATE TABLE BEVERAGE(
     Cost FLOAT,
     Size FLOAT,
     PRIMARY KEY(UnitId, BottleId),
-    FOREIGN KEY (UnitId) REFERENCES BARUNIT (UnitId)
+    FOREIGN KEY (UnitId) REFERENCES BARUNIT (UnitId) ON DELETE CASCADE
 );
 
 CREATE TABLE TESTPROTOCOL(
     Registration VARCHAR(10),
     ProtocolId VARCHAR(10),
     TestDate DATE,
-    TestRoute VARCHAR(10),
-    Test VARCHAR(10),
-    Airport VARCHAR(10),
+    TestRoute VARCHAR(50),
+    Test VARCHAR(50),
+    Airport VARCHAR(3),
     Pilot VARCHAR(50),
     PRIMARY KEY(Registration, ProtocolId),
-    FOREIGN KEY (Registration) REFERENCES PLANE (Registration)
+    FOREIGN KEY (Registration) REFERENCES PLANE (Registration) ON DELETE CASCADE
 );
