@@ -24,8 +24,8 @@ CREATE TABLE PLANE(
     PlaneName VARCHAR(50),
     Color VARCHAR(50),
     Livery VARCHAR(50),
-    Seats INTEGER,
     NumWindows INTEGER,
+    Seats XML,
     FOREIGN KEY (CustomerId) REFERENCES CUSTOMER (CustomerId)
 );
 
@@ -85,14 +85,9 @@ CREATE TABLE TESTPROTOCOL(
     ProtocolId VARCHAR(10),
     TestDate DATE,
     TestRoute VARCHAR(50),
-    Test VARCHAR(50),
     Airport VARCHAR(3),
     Pilot VARCHAR(50),
+    Results XML,
     PRIMARY KEY(Registration, ProtocolId),
     FOREIGN KEY (Registration) REFERENCES PLANE (Registration) ON DELETE CASCADE
 );
-
-CREATE TABLE TESTTABLE(
-    primareykey SERIAL PRIMARY KEY,
-    testjson JSON
-)

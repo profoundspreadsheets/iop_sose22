@@ -62,11 +62,16 @@ class DatabaseFiller:
             planename = self.randomutil.createRandomString(20)
             color = self.randomutil.getRandomColor()
             livery = self.randomutil.getRandomLivery()
-            seats = self.randomutil.getRandomInteger(10, 300)
             windows = self.randomutil.getRandomInteger(10, 120)
 
-            stmt = 'INSERT INTO plane (registration, customerid, planename, color, livery, seats, numwindows) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
-                registration, customer, planename, color, livery, seats, windows
+            seatseco = self.randomutil.getRandomInteger(10, 80)
+            seatsbus = self.randomutil.getRandomInteger(8, 30)
+            seatsfirst = self.randomutil.getRandomInteger(2, 8)
+
+            seats = '<seats><compartment><eco><amount>{}</amount><cover>fabric</cover></eco><business><amount>{}</amount><cover>leather</cover></business><first><amount>{}</amount><cover>leather</cover></first></compartment><brand>Recaro</brand></seats>'.format(seatseco, seatsbus, seatsfirst)
+
+            stmt = 'INSERT INTO plane (registration, customerid, planename, color, livery, numwindows, seats) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
+                registration, customer, planename, color, livery, windows, seats
             )
             self.cursor.execute(stmt)
         self.conn.commit()
@@ -179,8 +184,10 @@ class DatabaseFiller:
             testaiport = self.randomutil.createRandomString(3)
             testpilot = self.randomutil.getRandomFirstname() + " " + self.randomutil.getRandomLastname()
 
-            stmt = "INSERT INTO testprotocol (registration, protocolid, testdate, testroute, test, airport, pilot) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');".format(
-                plane, protocolid, testdate, testroute, testtest, testaiport, testpilot
+            results = '<results><test>{}</test><occurrences><vibrations>low</vibrations><brokeninstrument>none</brokeninstrument><detached-wing>none</detached-wing></occurrences></results>'.format(testtest)
+
+            stmt = "INSERT INTO testprotocol (registration, protocolid, testdate, testroute, airport, pilot, results) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');".format(
+                plane, protocolid, testdate, testroute, testaiport, testpilot, results
             )
             self.cursor.execute(stmt)
         self.conn.commit()

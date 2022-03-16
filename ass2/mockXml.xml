@@ -1,0 +1,30 @@
+<seats>
+    <compartment>
+        <eco>
+            <amount>10</amount>
+            <cover>fabric</cover>
+        </eco>
+        <business>
+            <amount>4</amount>
+            <cover>leather</cover>
+        </business>
+        <first>
+            <amount>4</amount>
+            <cover>leather</cover>
+        </first>
+    </compartment>
+    <brand>Recaro</brand>
+</seats>
+
+<seats><compartment><eco><amount>10</amount><cover>fabric</cover></eco><business><amount>4</amount><cover>leather</cover></business><first><amount>4</amount><cover>leather</cover></first></compartment><brand>Recaro</brand></seats>
+
+<results>
+    <test>high-g</test>
+    <occurrences>
+        <vibrations>low</vibrations>
+        <brokeninstrument>none</brokeninstrument>
+        <detached-wing>none</detached-wing>
+    </occurrences>
+</results>
+
+<results><test>high-g</test><occurrences><vibrations>low</vibrations><brokeninstrument>none</brokeninstrument><detached-wing>none</detached-wing></occurrences></results>
