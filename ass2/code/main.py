@@ -2,17 +2,19 @@ from databasefiller import DatabaseFiller
 
 def main():
 
-    amount = 777
+    amountInserts = 777
 
     databasefiller = DatabaseFiller()
 
-    databasefiller.generateCustomers(amount)
+    databasefiller.generateCustomers(amountInserts)
     
     databasefiller.generateCountries()
 
-    databasefiller.generateManufacturingTeams(amount)
+    databasefiller.generateManufacturingTeams(amountInserts)
 
-    databasefiller.generatePlanes(amount)    
+    databasefiller.generatePlanes(amountInserts)
+
+    databasefiller.generateToiletUnits(amountInserts)
 
     databasefiller.close()
 

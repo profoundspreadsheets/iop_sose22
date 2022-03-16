@@ -1,4 +1,5 @@
 from random import choice
+from numpy import mat
 
 from pyparsing import col
 from randomutil import RandomUtil
@@ -67,6 +68,32 @@ class DatabaseFiller:
 
             stmt = 'INSERT INTO plane (registration, customerid, planename, color, livery, seats, numwindows) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
                 registration, customer, planename, color, livery, seats, windows
+            )
+            self.cursor.execute(stmt)
+        self.conn.commit()
+
+    def generateToiletUnits(self, amount):
+        self.cursor.execute("SELECT registration FROM plane;")
+        planes = self.cursor.fetchall()
+
+        self.cursor.execute("SELECT teamid FROM manufacturingteam;")
+        teams = self.cursor.fetchall()
+
+        for i in range(amount):
+            unitid = self.randomutil.createUUID()
+            plane  = choice(planes)[0]
+            team = choice(teams)[0]
+            cost = self.randomutil.getRandomFloat(20000, 150000)
+            manufacturingtime = self.randomutil.getRandomTime()
+            material = self.randomutil.getRandomMaterial()
+            volume = self.randomutil.getRandomFloat(3, 15)
+            weight = self.randomutil.getRandomFloat(100, 500)
+            capacity = self.randomutil.getRandomFloat(5, 20)
+            flowrate = self.randomutil.getRandomFloat(2, 5)
+            bidet = self.randomutil.getRandomBoolean(0.5)
+
+            stmt = 'INSERT INTO toiletunit (unitid, registration, teamid, manufacturingtime, material, unitvolume, unitweight, capacity, flowrate, bidet) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
+                unitid, plane, team, cost, manufacturingtime, material, volume, weight, capacity, flowrate, bidet
             )
             self.cursor.execute(stmt)
         self.conn.commit()

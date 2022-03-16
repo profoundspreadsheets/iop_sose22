@@ -17,6 +17,7 @@ class RandomUtil:
     numbers = [0,1,2,3,4,5,6,7,8,9]
     colors = ["white", "black", "red", "green", "yellow", "taupe", "mauve"]
     liveries = ["bare metal", "cheatline", "hockey stick", "all-over color", "eurowhite", "jelly bean", "billboard", "retro"]
+    materials = ["wood", "gold", "plastic", "leather", "frottee", "metal", "chrome", "steel"]
 
     def __init__(self):
         with open(self.firstnameFile) as file:
@@ -57,6 +58,12 @@ class RandomUtil:
 
     def getRandomLivery(self):
         return choice(self.liveries)
+
+    def getRandomMaterial(self):
+        return choice(self.materials)
+
+    def getRandomTime(self):
+        return self.faker.time(pattern="%H:%M")
 
     def getRandomBoolean(self, probability):
         return random() < probability
