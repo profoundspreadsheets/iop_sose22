@@ -20,7 +20,10 @@ delivered to the customer, which has to confirm.
 
 # References
 List of countries from:
-https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.csv
+https://unece.org/fileadmin/DAM/cefact/recommendations/bkup_htm/cocucod.htm
 
 Alcohol pricing:
 https://cat.data.gov.bc.ca/dataset/bc-liquor-store-product-price-list-historical-prices
+
+View for rows of all tables:
+https://www.sisense.com/blog/exact-row-counts-for-every-database-table/
