@@ -1,8 +1,6 @@
-from audioop import add
-from codecs import lookup
 import csv
 from random import choice, random
-from secrets import randbits
+import string
 import numpy as np
 from faker import Faker
 from datetime import datetime
@@ -15,6 +13,10 @@ class RandomUtil:
     streetsFile = "./resources/streets.csv"
     countriesFile = "./resources/countries.csv"
     countryLookupFile = "./resources/countrylookup.csv"
+    upperCaseLetters = list(string.ascii_uppercase)
+    numbers = [0,1,2,3,4,5,6,7,8,9]
+    colors = ["white", "black", "red", "green", "yellow", "taupe", "mauve"]
+    liveries = ["bare metal", "cheatline", "hockey stick", "all-over color", "eurowhite", "jelly bean", "billboard", "retro"]
 
     def __init__(self):
         with open(self.firstnameFile) as file:
@@ -35,8 +37,26 @@ class RandomUtil:
 
         self.faker = Faker()
 
+    def createRandomString(self, len):
+        returnString = ""
+        for i in range(len):
+            returnString = returnString + choice(self.upperCaseLetters)
+        return returnString
+
+    def createRandomNumberString(self, len):
+        returnString = ""
+        for i in range(len):
+            returnString = returnString + str(choice(self.numbers))
+        return returnString
+
     def createUUID(self):
         return str(uuid.uuid4())
+
+    def getRandomColor(self):
+        return choice(self.colors)
+
+    def getRandomLivery(self):
+        return choice(self.liveries)
 
     def getRandomBoolean(self, probability):
         return random() < probability
