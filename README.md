@@ -21,3 +21,6 @@ delivered to the customer, which has to confirm.
 # References
 List of countries from:
 https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/slim-2/slim-2.csv
+
+Alcohol pricing:
+https://cat.data.gov.bc.ca/dataset/bc-liquor-store-product-price-list-historical-prices

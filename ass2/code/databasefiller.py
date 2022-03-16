@@ -122,6 +122,35 @@ class DatabaseFiller:
             self.cursor.execute(stmt)
         self.conn.commit()
 
+    def generateBeverages(self, amount):
+        self.cursor.execute("SELECT unitid FROM barunit;")
+        barunits = self.cursor.fetchall()
+
+        for i in range(amount):
+            unitid = choice(barunits)[0]
+            bottleid = self.randomutil.createRandomString(10)
+            beverage = self.randomutil.getRandomAlcohol()
+            beveragename = beverage[2]
+            beveragepercentage = beverage[4]
+            beveragetype = beverage[0]
+            beveragecost = beverage[5]
+            beveragesize = beverage[3]
+
+            stmt = 'INSERT INTO beverage (unitid, bottleid, beveragename, beveragepercentage, beveragetype, cost, size) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
+                unitid, bottleid, beveragename, beveragepercentage, beveragetype, beveragecost, beveragesize
+            )
+            self.cursor.execute(stmt)
+        self.conn.commit()
+
+        
+        # TODO implement
+        pass
+
+    def generateTestProtocols(self):
+        # TODO implement
+        pass
+
+
     def connect(self):
         try:
             self.conn = psycopg2.connect(

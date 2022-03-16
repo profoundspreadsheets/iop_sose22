@@ -13,6 +13,7 @@ class RandomUtil:
     streetsFile = "./resources/streets.csv"
     countriesFile = "./resources/countries.csv"
     countryLookupFile = "./resources/countrylookup.csv"
+    alcoholsFile = "./resources/alcohol_min.csv"
     upperCaseLetters = list(string.ascii_uppercase)
     numbers = [0,1,2,3,4,5,6,7,8,9]
     colors = ["white", "black", "red", "green", "yellow", "taupe", "mauve"]
@@ -34,6 +35,9 @@ class RandomUtil:
             file.close()
         with open(self.countryLookupFile) as file:
             self.countryLookup = dict(csv.reader(file, delimiter=";"))
+            file.close()
+        with open(self.alcoholsFile) as file:
+            self.alcohols = list(csv.reader(file, delimiter=","))
             file.close()
 
         self.faker = Faker()
@@ -73,6 +77,9 @@ class RandomUtil:
 
     def getRandomLastname(self):
         return choice(self.lastnames)[0]
+
+    def getRandomAlcohol(self):
+        return choice(self.alcohols)
 
     def getRandomAddress(self):
         street = self.faker.street_name()

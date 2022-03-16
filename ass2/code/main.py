@@ -9,6 +9,7 @@ def main():
     databasefiller.generatePlanes(amountInserts)
     databasefiller.generateToiletUnits(amountInserts)
     databasefiller.generateBarUnits(amountInserts)
+    databasefiller.generateBeverages(amountInserts)
     databasefiller.close()
 
 if __name__ == "__main__":

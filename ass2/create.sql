@@ -73,9 +73,9 @@ CREATE TABLE BARUNIT(
 CREATE TABLE BEVERAGE(
     UnitId VARCHAR(100),
     BottleId VARCHAR(10),
-    BeverageName VARCHAR(10),
+    BeverageName VARCHAR(100),
     BeveragePercentage FLOAT,
-    BeverageType VARCHAR(10),
+    BeverageType VARCHAR(50),
     Cost FLOAT,
     Size FLOAT,
     PRIMARY KEY(UnitId, BottleId),
