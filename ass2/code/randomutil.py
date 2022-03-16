@@ -16,7 +16,7 @@ class RandomUtil:
     alcoholsFile = "./resources/alcohol_min.csv"
     upperCaseLetters = list(string.ascii_uppercase)
     numbers = [0,1,2,3,4,5,6,7,8,9]
-    colors = ["white", "black", "red", "green", "yellow", "taupe", "mauve"]
+    glasses = ["high ball", "collins", "old fashioned", "wine glass", "beer", "flute", "martini", "pint", "mug"]
     liveries = ["bare metal", "cheatline", "hockey stick", "all-over color", "eurowhite", "jelly bean", "billboard", "retro"]
     materials = ["wood", "gold", "plastic", "leather", "frottee", "metal", "chrome", "steel"]
     routes = ["open sea", "mountains", "desert", "alps", "scenic", "sketchy", "forests", "fields"]
@@ -60,10 +60,13 @@ class RandomUtil:
         return str(uuid.uuid4())
 
     def getRandomColor(self):
-        return choice(self.colors)
+        return self.faker.safe_color_name()
 
     def getRandomLivery(self):
         return choice(self.liveries)
+
+    def getRandomGlass(self):
+        return choice(self.glasses)
 
     def getRandomMaterial(self):
         return choice(self.materials)

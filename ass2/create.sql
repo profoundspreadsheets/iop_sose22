@@ -47,11 +47,9 @@ CREATE TABLE TOILETUNIT(
     Cost FLOAT,
     ManufacturingTime TIME,
     Material VARCHAR(50),
-    UnitVolume FLOAT,
-    UnitWeight FLOAT,
     Capacity FLOAT,
     Flowrate FLOAT,
-    Bidet BOOLEAN,
+    ToiletSpecs JSON,
     FOREIGN KEY (Registration) REFERENCES PLANE (Registration),
     FOREIGN KEY (TeamId) REFERENCES MANUFACTURINGTEAM (TeamId)
 );
@@ -65,7 +63,7 @@ CREATE TABLE BARUNIT(
     Material VARCHAR(50),
     UnitVolume FLOAT,
     UnitWeight FLOAT,
-    Minifridges INTEGER,
+    Features JSON,
     FOREIGN KEY (Registration) REFERENCES PLANE (Registration),
     FOREIGN KEY (TeamId) REFERENCES MANUFACTURINGTEAM (TeamId)
 );
@@ -93,3 +91,8 @@ CREATE TABLE TESTPROTOCOL(
     PRIMARY KEY(Registration, ProtocolId),
     FOREIGN KEY (Registration) REFERENCES PLANE (Registration) ON DELETE CASCADE
 );
+
+CREATE TABLE TESTTABLE(
+    primareykey SERIAL PRIMARY KEY,
+    testjson JSON
+)

@@ -12,7 +12,7 @@ def main():
     databasefiller.generateBarUnits(amountInserts)
     databasefiller.generateBeverages(amountInserts)
     databasefiller.generateTestProtocols(amountInserts)
-    
+
     databasefiller.close()
 
 if __name__ == "__main__":

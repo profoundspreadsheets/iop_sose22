@@ -1,0 +1,26 @@
+{
+    "toiletunit-specs": {
+        "unitvolume": 100.00,
+        "unitweight": 500.00,
+        "features": {
+            "bidet": true,
+            "self-cleaning": true
+        }
+    }
+}
+
+{
+    "barunit-features": {
+        "minifridges": {
+            "amount": 10,
+            "color": "green",
+            "glass-door": true
+        },
+        "glasses": {
+            "type": "high ball",
+            "amount": 20
+        },
+        "included-auto-butler": true
+    }
+}
+

@@ -1,4 +1,5 @@
 from datetime import datetime
+import json
 from random import choice
 from randomutil import RandomUtil
 import psycopg2
@@ -12,7 +13,7 @@ class DatabaseFiller:
 
     def generateCountries(self):
         countries = self.randomutil.countries
-        stmt = 'INSERT INTO country (iso_code, countryname, sanctioned, currency, tariff, billionaires) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', {}, {});'.format(
+        stmt = 'INSERT INTO country (iso_code, countryname, sanctioned, currency, tariff, billionaires) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
                 "XX", "Fallbackistan", False, "XXX", 50000000, 1
             )
         self.cursor.execute(stmt)
@@ -23,7 +24,7 @@ class DatabaseFiller:
             currency = i[3]
             tariff = self.randomutil.getRandomInteger(100000, 999999)
             billionaires = self.randomutil.getRandomInteger(1, 50)
-            stmt = 'INSERT INTO country (iso_code, countryname, sanctioned, currency, tariff, billionaires) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', {}, {});'.format(
+            stmt = 'INSERT INTO country (iso_code, countryname, sanctioned, currency, tariff, billionaires) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
                 isoCode, countryName, sanctioned, currency, tariff, billionaires
             )
             self.cursor.execute(stmt)
@@ -89,9 +90,20 @@ class DatabaseFiller:
             capacity = self.randomutil.getRandomFloat(5, 20)
             flowrate = self.randomutil.getRandomFloat(2, 5)
             bidet = self.randomutil.getRandomBoolean(0.5)
-
-            stmt = 'INSERT INTO toiletunit (unitid, registration, teamid, cost, manufacturingtime, material, unitvolume, unitweight, capacity, flowrate, bidet) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
-                unitid, plane, team, cost, manufacturingtime, material, volume, weight, capacity, flowrate, bidet
+            selfCleaning = self.randomutil.getRandomBoolean(0.5)
+            jsonobj = {
+                "toiletunit-specs": {
+                    "unitvolume": "{}".format(volume),
+                    "unitweight": "{}".format(weight),
+                    "features": {
+                        "bidet": "{}".format(bidet),
+                        "self-cleaning": "{}".format(selfCleaning)
+                    }
+                }
+            }
+            toiletspecs = json.dumps(jsonobj)
+            stmt = 'INSERT INTO toiletunit (unitid, registration, teamid, cost, manufacturingtime, material, capacity, flowrate, toiletspecs) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
+                unitid, plane, team, cost, manufacturingtime, material, capacity, flowrate, toiletspecs
             )
             self.cursor.execute(stmt)
         self.conn.commit()
@@ -112,10 +124,24 @@ class DatabaseFiller:
             material = self.randomutil.getRandomMaterial()
             volume = self.randomutil.getRandomFloat(3, 15)
             weight = self.randomutil.getRandomFloat(100, 500)
-            minifridges = self.randomutil.getRandomInteger(1, 20)
+            jsonobj = {
+                "barunit-features": {
+                    "minifridges": {
+                        "amount": "{}".format(self.randomutil.getRandomInteger(5, 10)),
+                        "color": "{}".format(self.randomutil.getRandomColor()),
+                        "glass-door": "{}".format(self.randomutil.getRandomBoolean(0.5))
+                    },
+                    "glasses": {
+                        "type": "{}".format(self.randomutil.getRandomGlass()),
+                        "amount": "{}".format(self.randomutil.getRandomInteger(10, 100))
+                    },
+                    "included-auto-butler": "{}".format(self.randomutil.getRandomBoolean(0.1))
+                }
+            }
+            features = json.dumps(jsonobj)
 
-            stmt = 'INSERT INTO barunit (unitid, registration, teamid, cost, manufacturingtime, material, unitvolume, unitweight, minifridges) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
-                unitid, plane, team, cost, manufacturingtime, material, volume, weight, minifridges
+            stmt = 'INSERT INTO barunit (unitid, registration, teamid, cost, manufacturingtime, material, unitvolume, unitweight, features) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
+                unitid, plane, team, cost, manufacturingtime, material, volume, weight, features
             )
             self.cursor.execute(stmt)
         self.conn.commit()
@@ -168,7 +194,7 @@ class DatabaseFiller:
 
             self.cursor = self.conn.cursor()
 
-            self.cursor.execute("SELECT version()")
+            self.cursor.execute("SELECT version();")
 
             # display the PostgreSQL database server version
             db_version = self.cursor.fetchone()
