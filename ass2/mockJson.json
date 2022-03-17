@@ -1,7 +1,7 @@
 {
     "toiletunit-specs": {
-        "unitvolume": 100.00,
-        "unitweight": 500.00,
+        "capacity": 10.00,
+        "flowrate": 5.00,
         "features": {
             "bidet": true,
             "self-cleaning": true

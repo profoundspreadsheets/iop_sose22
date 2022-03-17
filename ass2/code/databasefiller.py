@@ -99,8 +99,8 @@ class DatabaseFiller:
             selfCleaning = self.randomutil.getRandomBoolean(0.5)
             jsonobj = {
                 "toiletunit-specs": {
-                    "unitvolume": "{}".format(volume),
-                    "unitweight": "{}".format(weight),
+                    "capacity": "{}".format(capacity),
+                    "flowrate": "{}".format(flowrate),
                     "features": {
                         "bidet": "{}".format(bidet),
                         "self-cleaning": "{}".format(selfCleaning)
@@ -108,8 +108,8 @@ class DatabaseFiller:
                 }
             }
             toiletspecs = json.dumps(jsonobj)
-            stmt = 'INSERT INTO toiletunit (unitid, registration, teamid, cost, manufacturingtime, material, capacity, flowrate, toiletspecs) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
-                unitid, plane, team, cost, manufacturingtime, material, capacity, flowrate, toiletspecs
+            stmt = 'INSERT INTO toiletunit (unitid, registration, teamid, cost, manufacturingtime, material, unitvolume, unitweight, toiletspecs) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
+                unitid, plane, team, cost, manufacturingtime, material, volume, weight, toiletspecs
             )
             self.cursor.execute(stmt)
         self.conn.commit()

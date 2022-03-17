@@ -48,8 +48,8 @@ CREATE TABLE TOILETUNIT(
     Cost FLOAT,
     ManufacturingTime TIME,
     Material VARCHAR(50),
-    Capacity FLOAT,
-    Flowrate FLOAT,
+    UnitVolume FLOAT,
+    UnitWeight FLOAT,
     ToiletSpecs JSON,
     FOREIGN KEY (Registration) REFERENCES PLANE (Registration),
     FOREIGN KEY (TeamId) REFERENCES MANUFACTURINGTEAM (TeamId)
