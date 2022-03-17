@@ -32,6 +32,6 @@ old: <seats><compartment><eco><amount>10</amount><cover>fabric</cover></eco><bus
     <detached-wing side="left">none</detached-wing>
     <detached-wing side="right">none</detached-wing>
 </results>
-
+Code-ZIP: Should include the source code that creates the database schema in PostgresSQL and fills the database tables with data.
 old: <results><test>high-g</test><occurrences><vibrations>low</vibrations><brokeninstrument>none</brokeninstrument><detached-wing>none</detached-wing></occurrences></results>
 new: <results><test>high-g</test><vibrations loc="cockpit"><scale>low</scale><critical>false</critical></vibrations><vibrations loc="cabin"><scale>negligible</scale><critical>false</critical></vibrations><detached-wing side="left">none</detached-wing><detached-wing side="right">none</detached-wing></occurrences></results>
