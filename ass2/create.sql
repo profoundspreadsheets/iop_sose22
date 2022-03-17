@@ -24,6 +24,7 @@ CREATE TABLE PLANE(
     PlaneName VARCHAR(50),
     Color VARCHAR(50),
     Livery VARCHAR(50),
+    Wingtips BOOLEAN,
     NumWindows INTEGER,
     Seats XML,
     FOREIGN KEY (CustomerId) REFERENCES CUSTOMER (CustomerId)

@@ -1,30 +1,37 @@
-<seats>
-    <compartment>
-        <eco>
-            <amount>10</amount>
-            <cover>fabric</cover>
-        </eco>
-        <business>
-            <amount>4</amount>
-            <cover>leather</cover>
-        </business>
-        <first>
-            <amount>4</amount>
-            <cover>leather</cover>
-        </first>
-    </compartment>
+<seatconfig>
+    <seat compartment="eco" cover="fabric">
+        <amount>10</amount>
+        <tv>false</tv>
+    </seat>
+    <seat compartment="business" cover="fabric">
+        <amount>10</amount>
+        <tv>true</tv>
+    </seat>
+    <seat compartment="first" cover="leather">
+        <amount>4</amount>
+        <tv>true</tv>
+    </seat>
     <brand>Recaro</brand>
-</seats>
+</seatconfig>
 
-<seats><compartment><eco><amount>10</amount><cover>fabric</cover></eco><business><amount>4</amount><cover>leather</cover></business><first><amount>4</amount><cover>leather</cover></first></compartment><brand>Recaro</brand></seats>
+
+<seatconfig><seat compartment="eco" cover="fabric"><amount>10</amount><tv>false</tv></seat><seat compartment="business" cover="fabric"><amount>10</amount><tv>true</tv></seat><seat compartment="first" cover="leather"><amount>4</amount><tv>true</tv></seat><brand>Recaro</brand></seatconfig>
+new: <seatconfig><seat compartment="eco" cover="fabric"><amount>10</amount><tv>false</tv></seat><seat compartment="business" cover="fabric"><amount>10</amount><tv>true</tv></seat><seat compartment="first" cover="leather"><amount>4</amount><tv>true</tv></seat><brand>Recaro</brand></seatconfig
+old: <seats><compartment><eco><amount>10</amount><cover>fabric</cover></eco><business><amount>4</amount><cover>leather</cover></business><first><amount>4</amount><cover>leather</cover></first></compartment><brand>Recaro</brand></seats>
 
 <results>
     <test>high-g</test>
-    <occurrences>
-        <vibrations>low</vibrations>
-        <brokeninstrument>none</brokeninstrument>
-        <detached-wing>none</detached-wing>
-    </occurrences>
+    <vibrations loc="cockpit">
+        <scale>low</scale>
+        <critical>false</critical>
+    </vibrations>
+    <vibrations loc="cabin">
+        <scale>negligible</scale>
+        <critical>false</critical>
+    </vibrations>
+    <detached-wing side="left">none</detached-wing>
+    <detached-wing side="right">none</detached-wing>
 </results>
 
-<results><test>high-g</test><occurrences><vibrations>low</vibrations><brokeninstrument>none</brokeninstrument><detached-wing>none</detached-wing></occurrences></results>
+old: <results><test>high-g</test><occurrences><vibrations>low</vibrations><brokeninstrument>none</brokeninstrument><detached-wing>none</detached-wing></occurrences></results>
+new: <results><test>high-g</test><vibrations loc="cockpit"><scale>low</scale><critical>false</critical></vibrations><vibrations loc="cabin"><scale>negligible</scale><critical>false</critical></vibrations><detached-wing side="left">none</detached-wing><detached-wing side="right">none</detached-wing></occurrences></results>

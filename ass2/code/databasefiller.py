@@ -62,16 +62,17 @@ class DatabaseFiller:
             planename = self.randomutil.createRandomString(20)
             color = self.randomutil.getRandomColor()
             livery = self.randomutil.getRandomLivery()
+            wingtips = self.randomutil.getRandomBoolean(0.8)
             windows = self.randomutil.getRandomInteger(10, 120)
 
             seatseco = self.randomutil.getRandomInteger(10, 80)
             seatsbus = self.randomutil.getRandomInteger(8, 30)
             seatsfirst = self.randomutil.getRandomInteger(2, 8)
 
-            seats = '<seats><compartment><eco><amount>{}</amount><cover>fabric</cover></eco><business><amount>{}</amount><cover>leather</cover></business><first><amount>{}</amount><cover>leather</cover></first></compartment><brand>Recaro</brand></seats>'.format(seatseco, seatsbus, seatsfirst)
+            seats = '<seatconfig><seat compartment="eco" cover="fabric"><amount>{}</amount><tv>false</tv></seat><seat compartment="business" cover="fabric"><amount>{}</amount><tv>true</tv></seat><seat compartment="first" cover="leather"><amount>{}</amount><tv>true</tv></seat><brand>Recaro</brand></seatconfig>'.format(seatseco, seatsbus, seatsfirst)
 
-            stmt = 'INSERT INTO plane (registration, customerid, planename, color, livery, numwindows, seats) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
-                registration, customer, planename, color, livery, windows, seats
+            stmt = 'INSERT INTO plane (registration, customerid, planename, color, livery, wingtips, numwindows, seats) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
+                registration, customer, planename, color, livery, wingtips, windows, seats
             )
             self.cursor.execute(stmt)
         self.conn.commit()
@@ -184,7 +185,7 @@ class DatabaseFiller:
             testaiport = self.randomutil.createRandomString(3)
             testpilot = self.randomutil.getRandomFirstname() + " " + self.randomutil.getRandomLastname()
 
-            results = '<results><test>{}</test><occurrences><vibrations>low</vibrations><brokeninstrument>none</brokeninstrument><detached-wing>none</detached-wing></occurrences></results>'.format(testtest)
+            results = '<results><test>{}</test><vibrations loc="cockpit"><scale>low</scale><critical>false</critical></vibrations><vibrations loc="cabin"><scale>negligible</scale><critical>false</critical></vibrations><detached-wing side="left">none</detached-wing><detached-wing side="right">none</detached-wing></results>'.format(testtest)
 
             stmt = "INSERT INTO testprotocol (registration, protocolid, testdate, testroute, airport, pilot, results) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');".format(
                 plane, protocolid, testdate, testroute, testaiport, testpilot, results
