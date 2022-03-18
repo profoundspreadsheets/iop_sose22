@@ -26,7 +26,7 @@ CREATE TABLE PLANE(
     Livery VARCHAR(50),
     Wingtips BOOLEAN,
     NumWindows INTEGER,
-    Seats XML,
+    SeatConfig XML,
     FOREIGN KEY (CustomerId) REFERENCES CUSTOMER (CustomerId)
 );
 

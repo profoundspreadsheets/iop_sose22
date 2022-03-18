@@ -71,7 +71,7 @@ class DatabaseFiller:
 
             seats = '<seatconfig><seat compartment="eco" cover="fabric"><amount>{}</amount><tv>false</tv></seat><seat compartment="business" cover="fabric"><amount>{}</amount><tv>true</tv></seat><seat compartment="first" cover="leather"><amount>{}</amount><tv>true</tv></seat><brand>Recaro</brand></seatconfig>'.format(seatseco, seatsbus, seatsfirst)
 
-            stmt = 'INSERT INTO plane (registration, customerid, planename, color, livery, wingtips, numwindows, seats) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
+            stmt = 'INSERT INTO plane (registration, customerid, planename, color, livery, wingtips, numwindows, seatconfig) VALUES (\'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\', \'{}\');'.format(
                 registration, customer, planename, color, livery, wingtips, windows, seats
             )
             self.cursor.execute(stmt)
@@ -217,4 +217,4 @@ class DatabaseFiller:
     def close(self):
         if self.conn is not None:
             self.conn.close()
-            print("Database connect closed.")
+            print("Database connection closed.")
