@@ -1,10 +1,14 @@
-/* JSON Query 2 */
+/* DONE JSON 2 */
 \copy (SELECT xmlroot(
     XMLELEMENT(NAME "Planes",
         XMLAGG(
             XMLELEMENT(NAME "Plane",
                 XMLATTRIBUTES(
                     plane.registration AS "registration"
+                ),
+                XMLFOREST(
+                    plane.color AS "Color",
+                    plane.livery AS "Livery"
                 ),
                 XMLELEMENT(
                     NAME "Bars",
@@ -42,9 +46,8 @@
                 )
             )
         )
-), 
-version '1.0', standalone yes)
-FROM plane 
+    ), version '1.0', standalone yes
+) FROM plane 
 INNER JOIN barunit ON plane.registration=barunit.registration 
 INNER JOIN beverage ON barunit.unitid=beverage.unitid
 WHERE plane.livery='eurowhite') TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/4_data.xml';

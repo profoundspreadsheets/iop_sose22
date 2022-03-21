@@ -1,6 +1,8 @@
 <?xml version="1.0" standalone="yes"?>
 <Planes>
     <Plane registration="UZU2639">
+        <Color>maroon</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9c70c989-a841-4982-b1b7-b0c4b8007d6c" teamid="445">
                 <Minifridges>
@@ -30,6 +32,8 @@
         </Bars>
     </Plane>
     <Plane registration="DGK9894">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="4da08c5c-4cfc-4ba1-b528-29ca45dee910" teamid="754">
                 <Minifridges>
@@ -72,6 +76,8 @@
         </Bars>
     </Plane>
     <Plane registration="ZPG5399">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="ffdcc182-ff02-4fdd-bcf2-bcc848c1e851" teamid="499">
                 <Minifridges>
@@ -115,6 +121,8 @@
         </Bars>
     </Plane>
     <Plane registration="LYG3658">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="265ef496-4522-4e8a-8bdd-571e73bf1261" teamid="72">
                 <Minifridges>
@@ -138,6 +146,8 @@
         </Bars>
     </Plane>
     <Plane registration="HMV0400">
+        <Color>fuchsia</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d0761353-6bc7-4a27-9e65-66db1258d247" teamid="313">
                 <Minifridges>
@@ -201,6 +211,8 @@
         </Bars>
     </Plane>
     <Plane registration="ATX0416">
+        <Color>black</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="73a7de62-ca25-48f3-9fa3-c9f9ff659a1a" teamid="317">
                 <Minifridges>
@@ -264,6 +276,8 @@
         </Bars>
     </Plane>
     <Plane registration="HLV3877">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="5add2129-2669-4ff4-aefa-a371e72aebb1" teamid="299">
                 <Minifridges>
@@ -321,6 +335,8 @@
         </Bars>
     </Plane>
     <Plane registration="YQR1913">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="af70cea4-4921-4e84-a99f-77abc38a9721" teamid="327">
                 <Minifridges>
@@ -363,6 +379,8 @@
         </Bars>
     </Plane>
     <Plane registration="PLS5902">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="ec23f829-ad56-4868-bf38-963db7d67b7d" teamid="211">
                 <Minifridges>
@@ -386,6 +404,8 @@
         </Bars>
     </Plane>
     <Plane registration="ATX0416">
+        <Color>black</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="73a7de62-ca25-48f3-9fa3-c9f9ff659a1a" teamid="317">
                 <Minifridges>
@@ -449,6 +469,8 @@
         </Bars>
     </Plane>
     <Plane registration="PME4571">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9d875074-2624-4844-839b-975af7cbf98d" teamid="446">
                 <Minifridges>
@@ -516,6 +538,8 @@
         </Bars>
     </Plane>
     <Plane registration="HLV3877">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="5add2129-2669-4ff4-aefa-a371e72aebb1" teamid="299">
                 <Minifridges>
@@ -573,6 +597,8 @@
         </Bars>
     </Plane>
     <Plane registration="LYG3658">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="265ef496-4522-4e8a-8bdd-571e73bf1261" teamid="72">
                 <Minifridges>
@@ -596,6 +622,8 @@
         </Bars>
     </Plane>
     <Plane registration="HMV0400">
+        <Color>fuchsia</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d0761353-6bc7-4a27-9e65-66db1258d247" teamid="313">
                 <Minifridges>
@@ -659,6 +687,8 @@
         </Bars>
     </Plane>
     <Plane registration="PFY9130">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="608d4f2f-2a93-4b42-81f0-7378ae510018" teamid="672">
                 <Minifridges>
@@ -697,6 +727,8 @@
         </Bars>
     </Plane>
     <Plane registration="HMV0400">
+        <Color>fuchsia</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d0761353-6bc7-4a27-9e65-66db1258d247" teamid="313">
                 <Minifridges>
@@ -760,6 +792,8 @@
         </Bars>
     </Plane>
     <Plane registration="HIK0630">
+        <Color>yellow</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="286873bc-65c7-4633-9e30-f379118c40f1" teamid="587">
                 <Minifridges>
@@ -812,6 +846,8 @@
         </Bars>
     </Plane>
     <Plane registration="CHI9431">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="aed9d02c-aee3-4486-a400-82b2bafddf74" teamid="302">
                 <Minifridges>
@@ -845,6 +881,8 @@
         </Bars>
     </Plane>
     <Plane registration="YQR1913">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="af70cea4-4921-4e84-a99f-77abc38a9721" teamid="327">
                 <Minifridges>
@@ -887,6 +925,8 @@
         </Bars>
     </Plane>
     <Plane registration="PLZ0752">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8437e1c9-f11f-4b6b-8230-f85726f180a1" teamid="651">
                 <Minifridges>
@@ -935,6 +975,8 @@
         </Bars>
     </Plane>
     <Plane registration="KSS7783">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8b986d60-4f03-4e71-a2a3-222916fea871" teamid="273">
                 <Minifridges>
@@ -977,6 +1019,8 @@
         </Bars>
     </Plane>
     <Plane registration="IYR0615">
+        <Color>black</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="611ad8d0-fe77-4a6b-ad3a-9a7d1494fc6e" teamid="234">
                 <Minifridges>
@@ -1006,6 +1050,8 @@
         </Bars>
     </Plane>
     <Plane registration="DGK9894">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="4da08c5c-4cfc-4ba1-b528-29ca45dee910" teamid="754">
                 <Minifridges>
@@ -1048,6 +1094,8 @@
         </Bars>
     </Plane>
     <Plane registration="CNS5621">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="f5a4a065-0927-4b19-bc55-3ea9a6f9f3ec" teamid="280">
                 <Minifridges>
@@ -1096,6 +1144,8 @@
         </Bars>
     </Plane>
     <Plane registration="DGK9894">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="4da08c5c-4cfc-4ba1-b528-29ca45dee910" teamid="754">
                 <Minifridges>
@@ -1138,6 +1188,8 @@
         </Bars>
     </Plane>
     <Plane registration="AKN7312">
+        <Color>gray</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8ad960ec-8474-4cd8-b7b9-ffc21655ef71" teamid="164">
                 <Minifridges>
@@ -1184,6 +1236,8 @@
         </Bars>
     </Plane>
     <Plane registration="PME4571">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9d875074-2624-4844-839b-975af7cbf98d" teamid="446">
                 <Minifridges>
@@ -1251,6 +1305,8 @@
         </Bars>
     </Plane>
     <Plane registration="JAH1777">
+        <Color>purple</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="e637fc14-e4ad-46d3-96c6-97e799ce35c6" teamid="65">
                 <Minifridges>
@@ -1274,6 +1330,8 @@
         </Bars>
     </Plane>
     <Plane registration="EBK6438">
+        <Color>purple</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9caca4de-52be-4a47-b69d-a9a78f32ed9c" teamid="304">
                 <Minifridges>
@@ -1316,6 +1374,8 @@
         </Bars>
     </Plane>
     <Plane registration="OXD7242">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="a1687c80-1c97-4cd2-a0ab-7847cc5f6822" teamid="290">
                 <Minifridges>
@@ -1335,6 +1395,8 @@
         </Bars>
     </Plane>
     <Plane registration="VBX6275">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="2e923861-1635-443d-ac2a-6d2fc0bd696f" teamid="509">
                 <Minifridges>
@@ -1373,6 +1435,8 @@
         </Bars>
     </Plane>
     <Plane registration="CNS5621">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="f5a4a065-0927-4b19-bc55-3ea9a6f9f3ec" teamid="280">
                 <Minifridges>
@@ -1421,6 +1485,8 @@
         </Bars>
     </Plane>
     <Plane registration="AKN7312">
+        <Color>gray</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8ad960ec-8474-4cd8-b7b9-ffc21655ef71" teamid="164">
                 <Minifridges>
@@ -1467,6 +1533,8 @@
         </Bars>
     </Plane>
     <Plane registration="KSS7783">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8b986d60-4f03-4e71-a2a3-222916fea871" teamid="273">
                 <Minifridges>
@@ -1509,6 +1577,8 @@
         </Bars>
     </Plane>
     <Plane registration="HIK0630">
+        <Color>yellow</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="286873bc-65c7-4633-9e30-f379118c40f1" teamid="587">
                 <Minifridges>
@@ -1561,6 +1631,8 @@
         </Bars>
     </Plane>
     <Plane registration="MHM8553">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="818e5115-1c31-47dc-a6a3-9d6b4efe5cec" teamid="477">
                 <Minifridges>
@@ -1594,6 +1666,8 @@
         </Bars>
     </Plane>
     <Plane registration="MHM8553">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="818e5115-1c31-47dc-a6a3-9d6b4efe5cec" teamid="477">
                 <Minifridges>
@@ -1627,6 +1701,8 @@
         </Bars>
     </Plane>
     <Plane registration="VBX6275">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="2e923861-1635-443d-ac2a-6d2fc0bd696f" teamid="509">
                 <Minifridges>
@@ -1665,6 +1741,8 @@
         </Bars>
     </Plane>
     <Plane registration="KYP1549">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="1c62748c-bd9d-4b1a-92f1-0539253aa7e6" teamid="134">
                 <Minifridges>
@@ -1688,6 +1766,8 @@
         </Bars>
     </Plane>
     <Plane registration="YQR1913">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="af70cea4-4921-4e84-a99f-77abc38a9721" teamid="327">
                 <Minifridges>
@@ -1730,6 +1810,8 @@
         </Bars>
     </Plane>
     <Plane registration="EUB0906">
+        <Color>olive</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="55b076e4-10d7-41ba-bb06-9a9c89cb0400" teamid="280">
                 <Minifridges>
@@ -1769,6 +1851,8 @@
         </Bars>
     </Plane>
     <Plane registration="JAH1777">
+        <Color>purple</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="e637fc14-e4ad-46d3-96c6-97e799ce35c6" teamid="65">
                 <Minifridges>
@@ -1792,6 +1876,8 @@
         </Bars>
     </Plane>
     <Plane registration="PLZ0752">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8437e1c9-f11f-4b6b-8230-f85726f180a1" teamid="651">
                 <Minifridges>
@@ -1840,6 +1926,8 @@
         </Bars>
     </Plane>
     <Plane registration="ATX0416">
+        <Color>black</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="73a7de62-ca25-48f3-9fa3-c9f9ff659a1a" teamid="317">
                 <Minifridges>
@@ -1903,6 +1991,8 @@
         </Bars>
     </Plane>
     <Plane registration="HIK0630">
+        <Color>yellow</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="286873bc-65c7-4633-9e30-f379118c40f1" teamid="587">
                 <Minifridges>
@@ -1955,6 +2045,8 @@
         </Bars>
     </Plane>
     <Plane registration="SHN3872">
+        <Color>purple</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="0634f91b-345a-495a-8f14-e9058fac2d46" teamid="477">
                 <Minifridges>
@@ -1978,6 +2070,8 @@
         </Bars>
     </Plane>
     <Plane registration="AKN7312">
+        <Color>gray</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8ad960ec-8474-4cd8-b7b9-ffc21655ef71" teamid="164">
                 <Minifridges>
@@ -2024,6 +2118,8 @@
         </Bars>
     </Plane>
     <Plane registration="HLV3877">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="5add2129-2669-4ff4-aefa-a371e72aebb1" teamid="299">
                 <Minifridges>
@@ -2081,6 +2177,8 @@
         </Bars>
     </Plane>
     <Plane registration="COQ0294">
+        <Color>green</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="0201998e-9abd-410f-93a9-1ac0372ac692" teamid="612">
                 <Minifridges>
@@ -2100,6 +2198,8 @@
         </Bars>
     </Plane>
     <Plane registration="SHN3872">
+        <Color>purple</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="0634f91b-345a-495a-8f14-e9058fac2d46" teamid="477">
                 <Minifridges>
@@ -2123,6 +2223,8 @@
         </Bars>
     </Plane>
     <Plane registration="SPJ5551">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8dd31672-9849-41fa-8608-91ac1a7d67df" teamid="296">
                 <Minifridges>
@@ -2152,6 +2254,8 @@
         </Bars>
     </Plane>
     <Plane registration="JWG2823">
+        <Color>blue</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="6bc1053b-f89a-49d0-a2b5-e58de2c5bc42" teamid="597">
                 <Minifridges>
@@ -2171,6 +2275,8 @@
         </Bars>
     </Plane>
     <Plane registration="ACA0540">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d1270ed8-72a1-47a3-98b2-7745f6064bd2" teamid="17">
                 <Minifridges>
@@ -2190,6 +2296,8 @@
         </Bars>
     </Plane>
     <Plane registration="LRI5418">
+        <Color>teal</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="512fb0f7-e1a6-4764-afe0-96a053c89841" teamid="774">
                 <Minifridges>
@@ -2213,6 +2321,8 @@
         </Bars>
     </Plane>
     <Plane registration="HLV3877">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="5add2129-2669-4ff4-aefa-a371e72aebb1" teamid="299">
                 <Minifridges>
@@ -2270,6 +2380,8 @@
         </Bars>
     </Plane>
     <Plane registration="OGR4311">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="6b8338e6-3fb6-4528-8b47-373224d4a53a" teamid="523">
                 <Minifridges>
@@ -2289,6 +2401,8 @@
         </Bars>
     </Plane>
     <Plane registration="PME4571">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9d875074-2624-4844-839b-975af7cbf98d" teamid="446">
                 <Minifridges>
@@ -2356,6 +2470,8 @@
         </Bars>
     </Plane>
     <Plane registration="CHI9431">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="aed9d02c-aee3-4486-a400-82b2bafddf74" teamid="302">
                 <Minifridges>
@@ -2389,6 +2505,8 @@
         </Bars>
     </Plane>
     <Plane registration="KSS7783">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8b986d60-4f03-4e71-a2a3-222916fea871" teamid="273">
                 <Minifridges>
@@ -2431,6 +2549,8 @@
         </Bars>
     </Plane>
     <Plane registration="GLG3116">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d727955c-d7a4-40f4-abec-d4e0cb0a802c" teamid="382">
                 <Minifridges>
@@ -2493,6 +2613,8 @@
         </Bars>
     </Plane>
     <Plane registration="ZAG0587">
+        <Color>blue</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="556c2cab-6899-4a77-97db-90af07fe5923" teamid="350">
                 <Minifridges>
@@ -2520,6 +2642,8 @@
         </Bars>
     </Plane>
     <Plane registration="ZPG5399">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="ffdcc182-ff02-4fdd-bcf2-bcc848c1e851" teamid="499">
                 <Minifridges>
@@ -2563,6 +2687,8 @@
         </Bars>
     </Plane>
     <Plane registration="PME4571">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9d875074-2624-4844-839b-975af7cbf98d" teamid="446">
                 <Minifridges>
@@ -2630,6 +2756,8 @@
         </Bars>
     </Plane>
     <Plane registration="VBX6275">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="2e923861-1635-443d-ac2a-6d2fc0bd696f" teamid="509">
                 <Minifridges>
@@ -2668,6 +2796,8 @@
         </Bars>
     </Plane>
     <Plane registration="PLZ0752">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8437e1c9-f11f-4b6b-8230-f85726f180a1" teamid="651">
                 <Minifridges>
@@ -2716,6 +2846,8 @@
         </Bars>
     </Plane>
     <Plane registration="EBK6438">
+        <Color>purple</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9caca4de-52be-4a47-b69d-a9a78f32ed9c" teamid="304">
                 <Minifridges>
@@ -2758,6 +2890,8 @@
         </Bars>
     </Plane>
     <Plane registration="QIJ1058">
+        <Color>blue</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="a3624aed-08eb-4776-9120-4a8dde02f356" teamid="451">
                 <Minifridges>
@@ -2785,6 +2919,8 @@
         </Bars>
     </Plane>
     <Plane registration="QIJ1058">
+        <Color>blue</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="a3624aed-08eb-4776-9120-4a8dde02f356" teamid="451">
                 <Minifridges>
@@ -2812,6 +2948,8 @@
         </Bars>
     </Plane>
     <Plane registration="FIQ4279">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="91529f3d-c679-4f01-ae5d-2dfc56d95f16" teamid="245">
                 <Minifridges>
@@ -2831,6 +2969,8 @@
         </Bars>
     </Plane>
     <Plane registration="GLG3116">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d727955c-d7a4-40f4-abec-d4e0cb0a802c" teamid="382">
                 <Minifridges>
@@ -2893,6 +3033,8 @@
         </Bars>
     </Plane>
     <Plane registration="QIJ1058">
+        <Color>blue</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="a3624aed-08eb-4776-9120-4a8dde02f356" teamid="451">
                 <Minifridges>
@@ -2920,6 +3062,8 @@
         </Bars>
     </Plane>
     <Plane registration="YQR1913">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="af70cea4-4921-4e84-a99f-77abc38a9721" teamid="327">
                 <Minifridges>
@@ -2962,6 +3106,8 @@
         </Bars>
     </Plane>
     <Plane registration="GLG3116">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d727955c-d7a4-40f4-abec-d4e0cb0a802c" teamid="382">
                 <Minifridges>
@@ -3024,6 +3170,8 @@
         </Bars>
     </Plane>
     <Plane registration="FHH2020">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="35ef927a-69b1-480f-91e7-cb2578afbf87" teamid="605">
                 <Minifridges>
@@ -3053,6 +3201,8 @@
         </Bars>
     </Plane>
     <Plane registration="JKA1892">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="30d4dfef-dcbc-4b55-b4f6-8ce91e42cd69" teamid="477">
                 <Minifridges>
@@ -3082,6 +3232,8 @@
         </Bars>
     </Plane>
     <Plane registration="ZAG0587">
+        <Color>blue</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="556c2cab-6899-4a77-97db-90af07fe5923" teamid="350">
                 <Minifridges>
@@ -3109,6 +3261,8 @@
         </Bars>
     </Plane>
     <Plane registration="CNS5621">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="f5a4a065-0927-4b19-bc55-3ea9a6f9f3ec" teamid="280">
                 <Minifridges>
@@ -3157,6 +3311,8 @@
         </Bars>
     </Plane>
     <Plane registration="HJQ2764">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="81d5f2ba-694c-489b-983f-0d3a68492be6" teamid="183">
                 <Minifridges>
@@ -3176,6 +3332,8 @@
         </Bars>
     </Plane>
     <Plane registration="KSS7783">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8b986d60-4f03-4e71-a2a3-222916fea871" teamid="273">
                 <Minifridges>
@@ -3218,6 +3376,8 @@
         </Bars>
     </Plane>
     <Plane registration="PQK7874">
+        <Color>olive</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="7a9dfeee-4632-41ee-9eee-5a28aad0b63f" teamid="294">
                 <Minifridges>
@@ -3262,6 +3422,8 @@
         </Bars>
     </Plane>
     <Plane registration="PLS5902">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="ec23f829-ad56-4868-bf38-963db7d67b7d" teamid="211">
                 <Minifridges>
@@ -3285,6 +3447,8 @@
         </Bars>
     </Plane>
     <Plane registration="MKU0959">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="fe4731f8-3b82-4f65-a485-5092149478b0" teamid="741">
                 <Minifridges>
@@ -3314,6 +3478,8 @@
         </Bars>
     </Plane>
     <Plane registration="ATX0416">
+        <Color>black</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="73a7de62-ca25-48f3-9fa3-c9f9ff659a1a" teamid="317">
                 <Minifridges>
@@ -3377,6 +3543,8 @@
         </Bars>
     </Plane>
     <Plane registration="EBK6438">
+        <Color>purple</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9caca4de-52be-4a47-b69d-a9a78f32ed9c" teamid="304">
                 <Minifridges>
@@ -3419,6 +3587,8 @@
         </Bars>
     </Plane>
     <Plane registration="LRI5418">
+        <Color>teal</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="512fb0f7-e1a6-4764-afe0-96a053c89841" teamid="774">
                 <Minifridges>
@@ -3442,6 +3612,8 @@
         </Bars>
     </Plane>
     <Plane registration="UXH3561">
+        <Color>yellow</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="7a8c844c-fad2-4f10-9455-25ea84320c6e" teamid="245">
                 <Minifridges>
@@ -3461,6 +3633,8 @@
         </Bars>
     </Plane>
     <Plane registration="HLV3877">
+        <Color>white</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="5add2129-2669-4ff4-aefa-a371e72aebb1" teamid="299">
                 <Minifridges>
@@ -3518,6 +3692,8 @@
         </Bars>
     </Plane>
     <Plane registration="ZAG0587">
+        <Color>blue</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="556c2cab-6899-4a77-97db-90af07fe5923" teamid="350">
                 <Minifridges>
@@ -3545,6 +3721,8 @@
         </Bars>
     </Plane>
     <Plane registration="PME4571">
+        <Color>silver</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9d875074-2624-4844-839b-975af7cbf98d" teamid="446">
                 <Minifridges>
@@ -3612,6 +3790,8 @@
         </Bars>
     </Plane>
     <Plane registration="HMV0400">
+        <Color>fuchsia</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d0761353-6bc7-4a27-9e65-66db1258d247" teamid="313">
                 <Minifridges>
@@ -3675,6 +3855,8 @@
         </Bars>
     </Plane>
     <Plane registration="AKN7312">
+        <Color>gray</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8ad960ec-8474-4cd8-b7b9-ffc21655ef71" teamid="164">
                 <Minifridges>
@@ -3721,6 +3903,8 @@
         </Bars>
     </Plane>
     <Plane registration="DGK9894">
+        <Color>aqua</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="4da08c5c-4cfc-4ba1-b528-29ca45dee910" teamid="754">
                 <Minifridges>
@@ -3763,6 +3947,8 @@
         </Bars>
     </Plane>
     <Plane registration="KYP1549">
+        <Color>lime</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="1c62748c-bd9d-4b1a-92f1-0539253aa7e6" teamid="134">
                 <Minifridges>
@@ -3786,6 +3972,8 @@
         </Bars>
     </Plane>
     <Plane registration="PKE3491">
+        <Color>fuchsia</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d2231c7d-eff9-40c3-b38f-3ac07743ba48" teamid="410">
                 <Minifridges>
@@ -3805,6 +3993,8 @@
         </Bars>
     </Plane>
     <Plane registration="AKN7312">
+        <Color>gray</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="8ad960ec-8474-4cd8-b7b9-ffc21655ef71" teamid="164">
                 <Minifridges>
@@ -3851,6 +4041,8 @@
         </Bars>
     </Plane>
     <Plane registration="PFY9130">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="608d4f2f-2a93-4b42-81f0-7378ae510018" teamid="672">
                 <Minifridges>
@@ -3889,6 +4081,8 @@
         </Bars>
     </Plane>
     <Plane registration="GLG3116">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="d727955c-d7a4-40f4-abec-d4e0cb0a802c" teamid="382">
                 <Minifridges>
@@ -3951,6 +4145,8 @@
         </Bars>
     </Plane>
     <Plane registration="HIK0630">
+        <Color>yellow</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="286873bc-65c7-4633-9e30-f379118c40f1" teamid="587">
                 <Minifridges>
@@ -4003,6 +4199,8 @@
         </Bars>
     </Plane>
     <Plane registration="PFY9130">
+        <Color>navy</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="608d4f2f-2a93-4b42-81f0-7378ae510018" teamid="672">
                 <Minifridges>
@@ -4041,6 +4239,8 @@
         </Bars>
     </Plane>
     <Plane registration="EBK6438">
+        <Color>purple</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="9caca4de-52be-4a47-b69d-a9a78f32ed9c" teamid="304">
                 <Minifridges>
@@ -4083,6 +4283,8 @@
         </Bars>
     </Plane>
     <Plane registration="PQK7874">
+        <Color>olive</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="7a9dfeee-4632-41ee-9eee-5a28aad0b63f" teamid="294">
                 <Minifridges>
@@ -4127,6 +4329,8 @@
         </Bars>
     </Plane>
     <Plane registration="PSD5577">
+        <Color>green</Color>
+        <Livery>eurowhite</Livery>
         <Bars>
             <Bar unitid="7617736c-9ac8-40fb-a70f-ad80725745a6" teamid="228">
                 <Minifridges>

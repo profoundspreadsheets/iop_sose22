@@ -1,13 +1,12 @@
+/* DONE XML 1*/
 SELECT manufacturingteam.teamid, 
-employees, 
-country.iso_code, 
-tariff, 
-cost, 
-toiletunit.unitid, 
-unitvolume, 
-unitweight, 
-toiletspecs 
+manufacturingteam.employees, 
+barunit.unitid,
+barunit.registration,
+plane.Wingtips,
+plane.NumWindows,
+plane.seatconfig
 FROM manufacturingteam 
-INNER JOIN country ON manufacturingteam.iso_code=country.iso_code 
-INNER JOIN toiletunit ON manufacturingteam.teamid=toiletunit.teamid 
+INNER JOIN barunit ON manufacturingteam.teamid=barunit.teamid 
+INNER JOIN plane ON barunit.registration=plane.registration 
 WHERE employees<4;

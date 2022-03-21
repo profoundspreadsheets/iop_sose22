@@ -1,11 +1,11 @@
-/* JSON Query 1 */
+/* DONE JSON 1 */
 SELECT plane.registration, 
-plane.livery, 
+plane.color,
 barunit.unitid,
-barunit.cost,
+barunit.teamid,
 barunit.features,
-beverage.bottleid,
-beverage.beveragetype 
+beverage.beveragetype,
+beverage.cost, 
 FROM plane 
 INNER JOIN barunit ON plane.registration=barunit.registration 
 INNER JOIN beverage ON barunit.unitid=beverage.unitid
