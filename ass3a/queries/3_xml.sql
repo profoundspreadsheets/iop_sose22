@@ -14,7 +14,7 @@
                     XMLELEMENT( NAME "Address",
                         XMLATTRIBUTES(
                             customer.zip AS "zip",
-                            customer.City AS "City"
+                            customer.City AS "city"
                         ),
                         XMLFOREST(
                             customer.street AS "Street",
@@ -40,5 +40,7 @@
         )
 ),
 version '1.0', standalone yes)
-FROM plane INNER JOIN customer ON plane.customerid=customer.customerid INNER JOIN toiletunit ON plane.registration=toiletunit.registration
+FROM plane 
+INNER JOIN customer ON plane.customerid=customer.customerid 
+INNER JOIN toiletunit ON plane.registration=toiletunit.registration
 WHERE plane.livery='eurowhite') TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/3_data.xml';

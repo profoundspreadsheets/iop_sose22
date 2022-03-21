@@ -4,7 +4,7 @@
         <Customer>
             <Firstname>Cleo</Firstname>
             <Lastname>Eckert</Lastname>
-            <Address zip="14331" City="Jacksonmouth">
+            <Address zip="14331" city="Jacksonmouth">
                 <Street>Christopher Terrace</Street>
                 <Housenumber>153</Housenumber>
             </Address>
@@ -20,7 +20,7 @@
         <Customer>
             <Firstname>Sila</Firstname>
             <Lastname>Hunter</Lastname>
-            <Address zip="21360" City="South Erintown">
+            <Address zip="21360" city="South Erintown">
                 <Street>Spencer Shoals</Street>
                 <Housenumber>360</Housenumber>
             </Address>
@@ -40,7 +40,7 @@
         <Customer>
             <Firstname>Jeremy</Firstname>
             <Lastname>Claes</Lastname>
-            <Address zip="2708" City="Michaelland">
+            <Address zip="2708" city="Michaelland">
                 <Street>Melendez Locks</Street>
                 <Housenumber>381</Housenumber>
             </Address>
@@ -56,7 +56,7 @@
         <Customer>
             <Firstname>Fabienne</Firstname>
             <Lastname>Hayes</Lastname>
-            <Address zip="5840" City="East Marymouth">
+            <Address zip="5840" city="East Marymouth">
                 <Street>Cantu Road</Street>
                 <Housenumber>281</Housenumber>
             </Address>
@@ -76,7 +76,7 @@
         <Customer>
             <Firstname>Michelle</Firstname>
             <Lastname>Moore</Lastname>
-            <Address zip="44878" City="North Henryside">
+            <Address zip="44878" city="North Henryside">
                 <Street>Le Field</Street>
                 <Housenumber>207</Housenumber>
             </Address>
@@ -92,7 +92,7 @@
         <Customer>
             <Firstname>Marek</Firstname>
             <Lastname>Payne</Lastname>
-            <Address zip="40579" City="New Taylormouth">
+            <Address zip="40579" city="New Taylormouth">
                 <Street>Heather Trace</Street>
                 <Housenumber>244</Housenumber>
             </Address>
@@ -108,7 +108,7 @@
         <Customer>
             <Firstname>Sila</Firstname>
             <Lastname>Hunter</Lastname>
-            <Address zip="21360" City="South Erintown">
+            <Address zip="21360" city="South Erintown">
                 <Street>Spencer Shoals</Street>
                 <Housenumber>360</Housenumber>
             </Address>
@@ -128,7 +128,7 @@
         <Customer>
             <Firstname>Ahmet</Firstname>
             <Lastname>Kirk</Lastname>
-            <Address zip="26834" City="Stephanieberg">
+            <Address zip="26834" city="Stephanieberg">
                 <Street>Megan Isle</Street>
                 <Housenumber>192</Housenumber>
             </Address>
@@ -152,7 +152,7 @@
         <Customer>
             <Firstname>Nisa</Firstname>
             <Lastname>Scott</Lastname>
-            <Address zip="18343" City="Port Susan">
+            <Address zip="18343" city="Port Susan">
                 <Street>Jennifer Villages</Street>
                 <Housenumber>327</Housenumber>
             </Address>
@@ -168,7 +168,7 @@
         <Customer>
             <Firstname>Melvin</Firstname>
             <Lastname>Garrett</Lastname>
-            <Address zip="95799" City="Colemanfort">
+            <Address zip="95799" city="Colemanfort">
                 <Street>Green Loaf</Street>
                 <Housenumber>373</Housenumber>
             </Address>
@@ -196,7 +196,7 @@
         <Customer>
             <Firstname>Lionel</Firstname>
             <Lastname>White</Lastname>
-            <Address zip="10497" City="Maryside">
+            <Address zip="10497" city="Maryside">
                 <Street>Cooper Curve</Street>
                 <Housenumber>324</Housenumber>
             </Address>
@@ -212,7 +212,7 @@
         <Customer>
             <Firstname>Amar</Firstname>
             <Lastname>Lane</Lastname>
-            <Address zip="15172" City="New Earlburgh">
+            <Address zip="15172" city="New Earlburgh">
                 <Street>Mckinney Harbor</Street>
                 <Housenumber>366</Housenumber>
             </Address>
@@ -236,7 +236,7 @@
         <Customer>
             <Firstname>Elissa</Firstname>
             <Lastname>Rogers</Lastname>
-            <Address zip="42201" City="South Williamstad">
+            <Address zip="42201" city="South Williamstad">
                 <Street>Marcus Gardens</Street>
                 <Housenumber>197</Housenumber>
             </Address>
@@ -256,7 +256,7 @@
         <Customer>
             <Firstname>Logan</Firstname>
             <Lastname>Greer</Lastname>
-            <Address zip="10083" City="Brianfort">
+            <Address zip="10083" city="Brianfort">
                 <Street>Shah Parkway</Street>
                 <Housenumber>274</Housenumber>
             </Address>
@@ -272,7 +272,7 @@
         <Customer>
             <Firstname>Amar</Firstname>
             <Lastname>Lane</Lastname>
-            <Address zip="15172" City="New Earlburgh">
+            <Address zip="15172" city="New Earlburgh">
                 <Street>Mckinney Harbor</Street>
                 <Housenumber>366</Housenumber>
             </Address>
@@ -296,7 +296,7 @@
         <Customer>
             <Firstname>Hannah</Firstname>
             <Lastname>Pena</Lastname>
-            <Address zip="13435" City="North Richard">
+            <Address zip="13435" city="North Richard">
                 <Street>Julia Street</Street>
                 <Housenumber>330</Housenumber>
             </Address>
@@ -316,7 +316,7 @@
         <Customer>
             <Firstname>Anouk</Firstname>
             <Lastname>Mueller</Lastname>
-            <Address zip="42381" City="East Angel">
+            <Address zip="42381" city="East Angel">
                 <Street>Rebecca Lodge</Street>
                 <Housenumber>52</Housenumber>
             </Address>
@@ -332,7 +332,7 @@
         <Customer>
             <Firstname>Rudi</Firstname>
             <Lastname>Thornton</Lastname>
-            <Address zip="60050" City="Bowmanhaven">
+            <Address zip="60050" city="Bowmanhaven">
                 <Street>Michael Springs</Street>
                 <Housenumber>190</Housenumber>
             </Address>
@@ -348,7 +348,7 @@
         <Customer>
             <Firstname>Melvin</Firstname>
             <Lastname>Garrett</Lastname>
-            <Address zip="95799" City="Colemanfort">
+            <Address zip="95799" city="Colemanfort">
                 <Street>Green Loaf</Street>
                 <Housenumber>373</Housenumber>
             </Address>
@@ -376,7 +376,7 @@
         <Customer>
             <Firstname>Inga</Firstname>
             <Lastname>Moreno</Lastname>
-            <Address zip="77716" City="New Ryanport">
+            <Address zip="77716" city="New Ryanport">
                 <Street>Stephen Place</Street>
                 <Housenumber>403</Housenumber>
             </Address>
@@ -392,7 +392,7 @@
         <Customer>
             <Firstname>Sila</Firstname>
             <Lastname>Schwartz</Lastname>
-            <Address zip="16287" City="Danieltown">
+            <Address zip="16287" city="Danieltown">
                 <Street>Taylor Mall</Street>
                 <Housenumber>244</Housenumber>
             </Address>
@@ -408,7 +408,7 @@
         <Customer>
             <Firstname>Ismail</Firstname>
             <Lastname>Miranda</Lastname>
-            <Address zip="25241" City="East Richard">
+            <Address zip="25241" city="East Richard">
                 <Street>Lynch Course</Street>
                 <Housenumber>436</Housenumber>
             </Address>
@@ -428,7 +428,7 @@
         <Customer>
             <Firstname>Talea</Firstname>
             <Lastname>Mills</Lastname>
-            <Address zip="66480" City="Houstonfurt">
+            <Address zip="66480" city="Houstonfurt">
                 <Street>Courtney Underpass</Street>
                 <Housenumber>472</Housenumber>
             </Address>
@@ -444,7 +444,7 @@
         <Customer>
             <Firstname>Lenn</Firstname>
             <Lastname>Hodge</Lastname>
-            <Address zip="84506" City="Meganport">
+            <Address zip="84506" city="Meganport">
                 <Street>Jeremy Courts</Street>
                 <Housenumber>304</Housenumber>
             </Address>
@@ -460,7 +460,7 @@
         <Customer>
             <Firstname>Svea</Firstname>
             <Lastname>Parker</Lastname>
-            <Address zip="17434" City="Reginaldmouth">
+            <Address zip="17434" city="Reginaldmouth">
                 <Street>Curtis Run</Street>
                 <Housenumber>46</Housenumber>
             </Address>
@@ -480,7 +480,7 @@
         <Customer>
             <Firstname>Amadeus</Firstname>
             <Lastname>Leonard</Lastname>
-            <Address zip="99178" City="Atkinsburgh">
+            <Address zip="99178" city="Atkinsburgh">
                 <Street>Jeffery Trace</Street>
                 <Housenumber>356</Housenumber>
             </Address>
@@ -496,7 +496,7 @@
         <Customer>
             <Firstname>Gero</Firstname>
             <Lastname>Foerster</Lastname>
-            <Address zip="47700" City="Lake Phillip">
+            <Address zip="47700" city="Lake Phillip">
                 <Street>Harris Junction</Street>
                 <Housenumber>354</Housenumber>
             </Address>
@@ -516,7 +516,7 @@
         <Customer>
             <Firstname>Jella</Firstname>
             <Lastname>Love</Lastname>
-            <Address zip="20164" City="Westmouth">
+            <Address zip="20164" city="Westmouth">
                 <Street>Farrell Mission</Street>
                 <Housenumber>443</Housenumber>
             </Address>
@@ -532,7 +532,7 @@
         <Customer>
             <Firstname>Gero</Firstname>
             <Lastname>Foerster</Lastname>
-            <Address zip="47700" City="Lake Phillip">
+            <Address zip="47700" city="Lake Phillip">
                 <Street>Harris Junction</Street>
                 <Housenumber>354</Housenumber>
             </Address>
@@ -552,7 +552,7 @@
         <Customer>
             <Firstname>Friederike</Firstname>
             <Lastname>Gallegos</Lastname>
-            <Address zip="517" City="Danielsmouth">
+            <Address zip="517" city="Danielsmouth">
                 <Street>William Course</Street>
                 <Housenumber>406</Housenumber>
             </Address>
@@ -572,7 +572,7 @@
         <Customer>
             <Firstname>Madeleine</Firstname>
             <Lastname>Eaton</Lastname>
-            <Address zip="19478" City="Duaneville">
+            <Address zip="19478" city="Duaneville">
                 <Street>Erickson Ramp</Street>
                 <Housenumber>269</Housenumber>
             </Address>
@@ -588,7 +588,7 @@
         <Customer>
             <Firstname>Amar</Firstname>
             <Lastname>Mcgee</Lastname>
-            <Address zip="12531" City="Josephborough">
+            <Address zip="12531" city="Josephborough">
                 <Street>Christopher Villages</Street>
                 <Housenumber>286</Housenumber>
             </Address>
@@ -608,7 +608,7 @@
         <Customer>
             <Firstname>Emily</Firstname>
             <Lastname>Carey</Lastname>
-            <Address zip="85734" City="Port Amanda">
+            <Address zip="85734" city="Port Amanda">
                 <Street>Lam Inlet</Street>
                 <Housenumber>308</Housenumber>
             </Address>
@@ -628,7 +628,7 @@
         <Customer>
             <Firstname>Sena</Firstname>
             <Lastname>Neumann</Lastname>
-            <Address zip="72415" City="Lake David">
+            <Address zip="72415" city="Lake David">
                 <Street>Anthony Loop</Street>
                 <Housenumber>432</Housenumber>
             </Address>
@@ -644,7 +644,7 @@
         <Customer>
             <Firstname>Amar</Firstname>
             <Lastname>Mcgee</Lastname>
-            <Address zip="12531" City="Josephborough">
+            <Address zip="12531" city="Josephborough">
                 <Street>Christopher Villages</Street>
                 <Housenumber>286</Housenumber>
             </Address>
@@ -664,7 +664,7 @@
         <Customer>
             <Firstname>Eduard</Firstname>
             <Lastname>Romero</Lastname>
-            <Address zip="54497" City="Colemanhaven">
+            <Address zip="54497" city="Colemanhaven">
                 <Street>Terri Spring</Street>
                 <Housenumber>15</Housenumber>
             </Address>
@@ -680,7 +680,7 @@
         <Customer>
             <Firstname>Adelina</Firstname>
             <Lastname>Fuchs</Lastname>
-            <Address zip="25020" City="Matthewtown">
+            <Address zip="25020" city="Matthewtown">
                 <Street>Robinson Stravenue</Street>
                 <Housenumber>309</Housenumber>
             </Address>
@@ -696,7 +696,7 @@
         <Customer>
             <Firstname>Berkay</Firstname>
             <Lastname>Graf</Lastname>
-            <Address zip="33835" City="West John">
+            <Address zip="33835" city="West John">
                 <Street>Randolph Haven</Street>
                 <Housenumber>176</Housenumber>
             </Address>
@@ -720,7 +720,7 @@
         <Customer>
             <Firstname>Marcel</Firstname>
             <Lastname>Silva</Lastname>
-            <Address zip="51904" City="Lake Ryanton">
+            <Address zip="51904" city="Lake Ryanton">
                 <Street>Olson Isle</Street>
                 <Housenumber>199</Housenumber>
             </Address>
@@ -740,7 +740,7 @@
         <Customer>
             <Firstname>Korbinian</Firstname>
             <Lastname>Lucas</Lastname>
-            <Address zip="48526" City="Angelafurt">
+            <Address zip="48526" city="Angelafurt">
                 <Street>Dominguez Mount</Street>
                 <Housenumber>85</Housenumber>
             </Address>
@@ -764,7 +764,7 @@
         <Customer>
             <Firstname>Hamza</Firstname>
             <Lastname>Cross</Lastname>
-            <Address zip="28008" City="Yoderland">
+            <Address zip="28008" city="Yoderland">
                 <Street>Michael Hill</Street>
                 <Housenumber>386</Housenumber>
             </Address>
@@ -780,7 +780,7 @@
         <Customer>
             <Firstname>Marian</Firstname>
             <Lastname>Adams</Lastname>
-            <Address zip="78994" City="Bobbyburgh">
+            <Address zip="78994" city="Bobbyburgh">
                 <Street>Carter Highway</Street>
                 <Housenumber>286</Housenumber>
             </Address>
@@ -800,7 +800,7 @@
         <Customer>
             <Firstname>Fabienne</Firstname>
             <Lastname>Hayes</Lastname>
-            <Address zip="5840" City="East Marymouth">
+            <Address zip="5840" city="East Marymouth">
                 <Street>Cantu Road</Street>
                 <Housenumber>281</Housenumber>
             </Address>
@@ -820,7 +820,7 @@
         <Customer>
             <Firstname>Leona</Firstname>
             <Lastname>Summers</Lastname>
-            <Address zip="24469" City="Lake Matthewstad">
+            <Address zip="24469" city="Lake Matthewstad">
                 <Street>Gardner Place</Street>
                 <Housenumber>218</Housenumber>
             </Address>
@@ -840,7 +840,7 @@
         <Customer>
             <Firstname>Kaethe</Firstname>
             <Lastname>Palmer</Lastname>
-            <Address zip="92658" City="Lake Tonya">
+            <Address zip="92658" city="Lake Tonya">
                 <Street>Wall Prairie</Street>
                 <Housenumber>194</Housenumber>
             </Address>
@@ -860,7 +860,7 @@
         <Customer>
             <Firstname>Samu</Firstname>
             <Lastname>Torres</Lastname>
-            <Address zip="43725" City="New Ashleyport">
+            <Address zip="43725" city="New Ashleyport">
                 <Street>Christina Summit</Street>
                 <Housenumber>14</Housenumber>
             </Address>
@@ -876,7 +876,7 @@
         <Customer>
             <Firstname>Alessia</Firstname>
             <Lastname>Franklin</Lastname>
-            <Address zip="10212" City="Heatherfort">
+            <Address zip="10212" city="Heatherfort">
                 <Street>Randy Views</Street>
                 <Housenumber>109</Housenumber>
             </Address>
@@ -892,7 +892,7 @@
         <Customer>
             <Firstname>Marius</Firstname>
             <Lastname>Koenig</Lastname>
-            <Address zip="83972" City="New Dylan">
+            <Address zip="83972" city="New Dylan">
                 <Street>Williams Road</Street>
                 <Housenumber>457</Housenumber>
             </Address>
@@ -908,7 +908,7 @@
         <Customer>
             <Firstname>Marcel</Firstname>
             <Lastname>Silva</Lastname>
-            <Address zip="51904" City="Lake Ryanton">
+            <Address zip="51904" city="Lake Ryanton">
                 <Street>Olson Isle</Street>
                 <Housenumber>199</Housenumber>
             </Address>
@@ -928,7 +928,7 @@
         <Customer>
             <Firstname>Melvin</Firstname>
             <Lastname>Garrett</Lastname>
-            <Address zip="95799" City="Colemanfort">
+            <Address zip="95799" city="Colemanfort">
                 <Street>Green Loaf</Street>
                 <Housenumber>373</Housenumber>
             </Address>
@@ -956,7 +956,7 @@
         <Customer>
             <Firstname>Alena</Firstname>
             <Lastname>Paul</Lastname>
-            <Address zip="54436" City="Port Christinaberg">
+            <Address zip="54436" city="Port Christinaberg">
                 <Street>Matthew View</Street>
                 <Housenumber>160</Housenumber>
             </Address>
@@ -972,7 +972,7 @@
         <Customer>
             <Firstname>Katja</Firstname>
             <Lastname>Colon</Lastname>
-            <Address zip="56535" City="Justintown">
+            <Address zip="56535" city="Justintown">
                 <Street>Sandra Center</Street>
                 <Housenumber>122</Housenumber>
             </Address>
@@ -988,7 +988,7 @@
         <Customer>
             <Firstname>Ilja</Firstname>
             <Lastname>Gerlach</Lastname>
-            <Address zip="42053" City="Jacquelineview">
+            <Address zip="42053" city="Jacquelineview">
                 <Street>Cox Dale</Street>
                 <Housenumber>368</Housenumber>
             </Address>
@@ -1004,7 +1004,7 @@
         <Customer>
             <Firstname>Berkay</Firstname>
             <Lastname>Graf</Lastname>
-            <Address zip="33835" City="West John">
+            <Address zip="33835" city="West John">
                 <Street>Randolph Haven</Street>
                 <Housenumber>176</Housenumber>
             </Address>
@@ -1028,7 +1028,7 @@
         <Customer>
             <Firstname>Lian</Firstname>
             <Lastname>Kuhn</Lastname>
-            <Address zip="27169" City="Williamton">
+            <Address zip="27169" city="Williamton">
                 <Street>Wiggins Rapid</Street>
                 <Housenumber>386</Housenumber>
             </Address>
@@ -1044,7 +1044,7 @@
         <Customer>
             <Firstname>Harald</Firstname>
             <Lastname>Wolff</Lastname>
-            <Address zip="57311" City="East Michael">
+            <Address zip="57311" city="East Michael">
                 <Street>Ramirez Common</Street>
                 <Housenumber>292</Housenumber>
             </Address>
@@ -1060,7 +1060,7 @@
         <Customer>
             <Firstname>Elissa</Firstname>
             <Lastname>Rogers</Lastname>
-            <Address zip="42201" City="South Williamstad">
+            <Address zip="42201" city="South Williamstad">
                 <Street>Marcus Gardens</Street>
                 <Housenumber>197</Housenumber>
             </Address>
@@ -1080,7 +1080,7 @@
         <Customer>
             <Firstname>Saphira</Firstname>
             <Lastname>Heilig</Lastname>
-            <Address zip="33509" City="New Tannerland">
+            <Address zip="33509" city="New Tannerland">
                 <Street>Wheeler Meadows</Street>
                 <Housenumber>110</Housenumber>
             </Address>
@@ -1104,7 +1104,7 @@
         <Customer>
             <Firstname>Korbinian</Firstname>
             <Lastname>Lucas</Lastname>
-            <Address zip="48526" City="Angelafurt">
+            <Address zip="48526" city="Angelafurt">
                 <Street>Dominguez Mount</Street>
                 <Housenumber>85</Housenumber>
             </Address>
@@ -1128,7 +1128,7 @@
         <Customer>
             <Firstname>Mieke</Firstname>
             <Lastname>Powell</Lastname>
-            <Address zip="49043" City="Elizabethmouth">
+            <Address zip="49043" city="Elizabethmouth">
                 <Street>Byrd Shore</Street>
                 <Housenumber>443</Housenumber>
             </Address>
@@ -1144,7 +1144,7 @@
         <Customer>
             <Firstname>Emily</Firstname>
             <Lastname>Carey</Lastname>
-            <Address zip="85734" City="Port Amanda">
+            <Address zip="85734" city="Port Amanda">
                 <Street>Lam Inlet</Street>
                 <Housenumber>308</Housenumber>
             </Address>
@@ -1164,7 +1164,7 @@
         <Customer>
             <Firstname>Ben</Firstname>
             <Lastname>Christensen</Lastname>
-            <Address zip="54271" City="South Leeland">
+            <Address zip="54271" city="South Leeland">
                 <Street>Johnson Stream</Street>
                 <Housenumber>293</Housenumber>
             </Address>
@@ -1180,7 +1180,7 @@
         <Customer>
             <Firstname>Nathanael</Firstname>
             <Lastname>Ryan</Lastname>
-            <Address zip="61332" City="West Courtneytown">
+            <Address zip="61332" city="West Courtneytown">
                 <Street>Lee Forge</Street>
                 <Housenumber>228</Housenumber>
             </Address>
@@ -1200,7 +1200,7 @@
         <Customer>
             <Firstname>Larissa</Firstname>
             <Lastname>Mack</Lastname>
-            <Address zip="26069" City="Floresside">
+            <Address zip="26069" city="Floresside">
                 <Street>Judith Rue</Street>
                 <Housenumber>363</Housenumber>
             </Address>
@@ -1216,7 +1216,7 @@
         <Customer>
             <Firstname>Michelle</Firstname>
             <Lastname>Moore</Lastname>
-            <Address zip="44878" City="North Henryside">
+            <Address zip="44878" city="North Henryside">
                 <Street>Le Field</Street>
                 <Housenumber>207</Housenumber>
             </Address>
@@ -1232,7 +1232,7 @@
         <Customer>
             <Firstname>Ashley</Firstname>
             <Lastname>Salazar</Lastname>
-            <Address zip="84762" City="Davidland">
+            <Address zip="84762" city="Davidland">
                 <Street>Rodriguez Parks</Street>
                 <Housenumber>216</Housenumber>
             </Address>
@@ -1248,7 +1248,7 @@
         <Customer>
             <Firstname>Emanuel</Firstname>
             <Lastname>Stephan</Lastname>
-            <Address zip="53642" City="East Alexandra">
+            <Address zip="53642" city="East Alexandra">
                 <Street>Baker Underpass</Street>
                 <Housenumber>287</Housenumber>
             </Address>
@@ -1264,7 +1264,7 @@
         <Customer>
             <Firstname>Marian</Firstname>
             <Lastname>Adams</Lastname>
-            <Address zip="78994" City="Bobbyburgh">
+            <Address zip="78994" city="Bobbyburgh">
                 <Street>Carter Highway</Street>
                 <Housenumber>286</Housenumber>
             </Address>
@@ -1284,7 +1284,7 @@
         <Customer>
             <Firstname>Amar</Firstname>
             <Lastname>Lane</Lastname>
-            <Address zip="15172" City="New Earlburgh">
+            <Address zip="15172" city="New Earlburgh">
                 <Street>Mckinney Harbor</Street>
                 <Housenumber>366</Housenumber>
             </Address>
@@ -1308,7 +1308,7 @@
         <Customer>
             <Firstname>Miriam</Firstname>
             <Lastname>Mckenzie</Lastname>
-            <Address zip="6544" City="Briannabury">
+            <Address zip="6544" city="Briannabury">
                 <Street>Hughes Ford</Street>
                 <Housenumber>136</Housenumber>
             </Address>
@@ -1324,7 +1324,7 @@
         <Customer>
             <Firstname>Darian</Firstname>
             <Lastname>Herzog</Lastname>
-            <Address zip="40506" City="New Christy">
+            <Address zip="40506" city="New Christy">
                 <Street>Jonathan Squares</Street>
                 <Housenumber>463</Housenumber>
             </Address>
@@ -1340,7 +1340,7 @@
         <Customer>
             <Firstname>Tabea</Firstname>
             <Lastname>Garner</Lastname>
-            <Address zip="17661" City="Melissaland">
+            <Address zip="17661" city="Melissaland">
                 <Street>Cooper Square</Street>
                 <Housenumber>437</Housenumber>
             </Address>
@@ -1356,7 +1356,7 @@
         <Customer>
             <Firstname>Seyit</Firstname>
             <Lastname>Pittman</Lastname>
-            <Address zip="74337" City="West Stevenburgh">
+            <Address zip="74337" city="West Stevenburgh">
                 <Street>Alexander Manor</Street>
                 <Housenumber>325</Housenumber>
             </Address>
@@ -1372,7 +1372,7 @@
         <Customer>
             <Firstname>Saphira</Firstname>
             <Lastname>Heilig</Lastname>
-            <Address zip="33509" City="New Tannerland">
+            <Address zip="33509" city="New Tannerland">
                 <Street>Wheeler Meadows</Street>
                 <Housenumber>110</Housenumber>
             </Address>
@@ -1396,7 +1396,7 @@
         <Customer>
             <Firstname>Melvin</Firstname>
             <Lastname>Garrett</Lastname>
-            <Address zip="95799" City="Colemanfort">
+            <Address zip="95799" city="Colemanfort">
                 <Street>Green Loaf</Street>
                 <Housenumber>373</Housenumber>
             </Address>
@@ -1424,7 +1424,7 @@
         <Customer>
             <Firstname>Ahmet</Firstname>
             <Lastname>Kirk</Lastname>
-            <Address zip="26834" City="Stephanieberg">
+            <Address zip="26834" city="Stephanieberg">
                 <Street>Megan Isle</Street>
                 <Housenumber>192</Housenumber>
             </Address>
@@ -1448,7 +1448,7 @@
         <Customer>
             <Firstname>Miriam</Firstname>
             <Lastname>Mckenzie</Lastname>
-            <Address zip="6544" City="Briannabury">
+            <Address zip="6544" city="Briannabury">
                 <Street>Hughes Ford</Street>
                 <Housenumber>136</Housenumber>
             </Address>
@@ -1464,7 +1464,7 @@
         <Customer>
             <Firstname>Vito</Firstname>
             <Lastname>Robbins</Lastname>
-            <Address zip="82659" City="West Nicholasburgh">
+            <Address zip="82659" city="West Nicholasburgh">
                 <Street>Edward Lodge</Street>
                 <Housenumber>275</Housenumber>
             </Address>
@@ -1484,7 +1484,7 @@
         <Customer>
             <Firstname>Vito</Firstname>
             <Lastname>Robbins</Lastname>
-            <Address zip="82659" City="West Nicholasburgh">
+            <Address zip="82659" city="West Nicholasburgh">
                 <Street>Edward Lodge</Street>
                 <Housenumber>275</Housenumber>
             </Address>
@@ -1504,7 +1504,7 @@
         <Customer>
             <Firstname>Friederike</Firstname>
             <Lastname>Gallegos</Lastname>
-            <Address zip="517" City="Danielsmouth">
+            <Address zip="517" city="Danielsmouth">
                 <Street>William Course</Street>
                 <Housenumber>406</Housenumber>
             </Address>
@@ -1524,7 +1524,7 @@
         <Customer>
             <Firstname>Berkay</Firstname>
             <Lastname>Graf</Lastname>
-            <Address zip="33835" City="West John">
+            <Address zip="33835" city="West John">
                 <Street>Randolph Haven</Street>
                 <Housenumber>176</Housenumber>
             </Address>
@@ -1548,7 +1548,7 @@
         <Customer>
             <Firstname>Korbinian</Firstname>
             <Lastname>Lucas</Lastname>
-            <Address zip="48526" City="Angelafurt">
+            <Address zip="48526" city="Angelafurt">
                 <Street>Dominguez Mount</Street>
                 <Housenumber>85</Housenumber>
             </Address>
@@ -1572,7 +1572,7 @@
         <Customer>
             <Firstname>Valentina</Firstname>
             <Lastname>Gonzales</Lastname>
-            <Address zip="42999" City="New Jasmineport">
+            <Address zip="42999" city="New Jasmineport">
                 <Street>Williams Rapid</Street>
                 <Housenumber>412</Housenumber>
             </Address>
@@ -1588,7 +1588,7 @@
         <Customer>
             <Firstname>Ahmet</Firstname>
             <Lastname>Kirk</Lastname>
-            <Address zip="26834" City="Stephanieberg">
+            <Address zip="26834" city="Stephanieberg">
                 <Street>Megan Isle</Street>
                 <Housenumber>192</Housenumber>
             </Address>
@@ -1612,7 +1612,7 @@
         <Customer>
             <Firstname>Hannah</Firstname>
             <Lastname>Pena</Lastname>
-            <Address zip="13435" City="North Richard">
+            <Address zip="13435" city="North Richard">
                 <Street>Julia Street</Street>
                 <Housenumber>330</Housenumber>
             </Address>
@@ -1632,7 +1632,7 @@
         <Customer>
             <Firstname>Kaethe</Firstname>
             <Lastname>Palmer</Lastname>
-            <Address zip="92658" City="Lake Tonya">
+            <Address zip="92658" city="Lake Tonya">
                 <Street>Wall Prairie</Street>
                 <Housenumber>194</Housenumber>
             </Address>
@@ -1652,7 +1652,7 @@
         <Customer>
             <Firstname>Svea</Firstname>
             <Lastname>Parker</Lastname>
-            <Address zip="17434" City="Reginaldmouth">
+            <Address zip="17434" city="Reginaldmouth">
                 <Street>Curtis Run</Street>
                 <Housenumber>46</Housenumber>
             </Address>
@@ -1672,7 +1672,7 @@
         <Customer>
             <Firstname>Ismail</Firstname>
             <Lastname>Miranda</Lastname>
-            <Address zip="25241" City="East Richard">
+            <Address zip="25241" city="East Richard">
                 <Street>Lynch Course</Street>
                 <Housenumber>436</Housenumber>
             </Address>
@@ -1692,7 +1692,7 @@
         <Customer>
             <Firstname>Soraya</Firstname>
             <Lastname>Carr</Lastname>
-            <Address zip="31976" City="South Nicholas">
+            <Address zip="31976" city="South Nicholas">
                 <Street>Todd Manor</Street>
                 <Housenumber>203</Housenumber>
             </Address>
@@ -1708,7 +1708,7 @@
         <Customer>
             <Firstname>Nathanael</Firstname>
             <Lastname>Ryan</Lastname>
-            <Address zip="61332" City="West Courtneytown">
+            <Address zip="61332" city="West Courtneytown">
                 <Street>Lee Forge</Street>
                 <Housenumber>228</Housenumber>
             </Address>
@@ -1728,7 +1728,7 @@
         <Customer>
             <Firstname>Tim</Firstname>
             <Lastname>Cooper</Lastname>
-            <Address zip="11076" City="South Linda">
+            <Address zip="11076" city="South Linda">
                 <Street>Kim Greens</Street>
                 <Housenumber>233</Housenumber>
             </Address>
@@ -1744,7 +1744,7 @@
         <Customer>
             <Firstname>Berat</Firstname>
             <Lastname>Graf</Lastname>
-            <Address zip="94980" City="Joanmouth">
+            <Address zip="94980" city="Joanmouth">
                 <Street>Hester Views</Street>
                 <Housenumber>128</Housenumber>
             </Address>
@@ -1760,7 +1760,7 @@
         <Customer>
             <Firstname>Saphira</Firstname>
             <Lastname>Heilig</Lastname>
-            <Address zip="33509" City="New Tannerland">
+            <Address zip="33509" city="New Tannerland">
                 <Street>Wheeler Meadows</Street>
                 <Housenumber>110</Housenumber>
             </Address>
@@ -1784,7 +1784,7 @@
         <Customer>
             <Firstname>Maxi</Firstname>
             <Lastname>Gray</Lastname>
-            <Address zip="23453" City="Justinborough">
+            <Address zip="23453" city="Justinborough">
                 <Street>Barbara Neck</Street>
                 <Housenumber>50</Housenumber>
             </Address>
@@ -1800,7 +1800,7 @@
         <Customer>
             <Firstname>Leona</Firstname>
             <Lastname>Summers</Lastname>
-            <Address zip="24469" City="Lake Matthewstad">
+            <Address zip="24469" city="Lake Matthewstad">
                 <Street>Gardner Place</Street>
                 <Housenumber>218</Housenumber>
             </Address>
@@ -1820,7 +1820,7 @@
         <Customer>
             <Firstname>Cara</Firstname>
             <Lastname>Peters</Lastname>
-            <Address zip="33443" City="Garytown">
+            <Address zip="33443" city="Garytown">
                 <Street>Smith Tunnel</Street>
                 <Housenumber>112</Housenumber>
             </Address>
@@ -1836,7 +1836,7 @@
         <Customer>
             <Firstname>Lily</Firstname>
             <Lastname>Moody</Lastname>
-            <Address zip="10458" City="New Heather">
+            <Address zip="10458" city="New Heather">
                 <Street>Priscilla Extensions</Street>
                 <Housenumber>247</Housenumber>
             </Address>
@@ -1852,7 +1852,7 @@
         <Customer>
             <Firstname>Sunny</Firstname>
             <Lastname>Christensen</Lastname>
-            <Address zip="97948" City="Lopeztown">
+            <Address zip="97948" city="Lopeztown">
                 <Street>Antonio Meadows</Street>
                 <Housenumber>292</Housenumber>
             </Address>
