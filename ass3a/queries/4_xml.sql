@@ -1,5 +1,5 @@
 /* DONE JSON 2 */
-\copy (SELECT xmlroot(
+SELECT xmlroot(
     XMLELEMENT(NAME "Planes",
         XMLAGG(
             XMLELEMENT(NAME "Plane",
@@ -50,4 +50,4 @@
 ) FROM plane 
 INNER JOIN barunit ON plane.registration=barunit.registration 
 INNER JOIN beverage ON barunit.unitid=beverage.unitid
-WHERE plane.livery='eurowhite') TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/4_data.xml';
+WHERE plane.livery='eurowhite';

@@ -1,5 +1,5 @@
 /* DONE XML 1 */
-\copy (SELECT xmlroot(
+SELECT xmlroot(
     XMLELEMENT(NAME "Teams",
         XMLAGG(
             XMLELEMENT(NAME "Team",
@@ -29,4 +29,4 @@
 ) FROM manufacturingteam 
 INNER JOIN barunit ON barunit.teamid=manufacturingteam.teamid
 INNER JOIN plane ON plane.registration=barunit.registration
-WHERE employees<4) TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/1_data.xml';
+WHERE employees<4;

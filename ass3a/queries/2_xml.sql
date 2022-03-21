@@ -1,5 +1,5 @@
 /* DONE XML 1*/
-\copy (SELECT xmlroot(
+SELECT xmlroot(
     XMLELEMENT(NAME "Customers",
         XMLAGG(
             XMLELEMENT(NAME "Customer",
@@ -38,5 +38,4 @@
 ) FROM plane 
 INNER JOIN testprotocol ON plane.registration=testprotocol.registration 
 INNER JOIN customer ON plane.customerid=customer.customerid 
-WHERE plane.livery='cheatline')
-TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/2_data.xml';
+WHERE plane.livery='cheatline';
