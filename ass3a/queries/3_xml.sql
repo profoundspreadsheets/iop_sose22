@@ -1,3 +1,4 @@
+/* Query uses JSON */
 \copy (SELECT xmlroot(
     XMLELEMENT(NAME "Planes",
         XMLAGG(
@@ -40,4 +41,4 @@
 ),
 version '1.0', standalone yes)
 FROM plane INNER JOIN customer ON plane.customerid=customer.customerid INNER JOIN toiletunit ON plane.registration=toiletunit.registration
-WHERE plane.livery='eurowhite') TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/2_data.xml';
+WHERE plane.livery='eurowhite') TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/3_data.xml';
