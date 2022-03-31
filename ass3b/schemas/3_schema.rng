@@ -60,7 +60,10 @@
         <text/>
     </element>
     <element name="Housenumber">
-        <text/>
+        <choice>
+            <data type="int" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+            <data type="integer" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+        </choice>
     </element>
 </define>
 
