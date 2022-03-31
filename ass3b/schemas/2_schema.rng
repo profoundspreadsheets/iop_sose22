@@ -52,7 +52,16 @@
 <define name="Results">
     <interleave>
         <element name="test">
-            <text/>
+            <choice>
+                <value>high-g</value>
+                <value>instrument</value>
+                <value>barrel-roll</value>
+                <value>looping</value>
+                <value>engine</value>
+                <value>structural-integrity</value>
+                <value>wings</value>
+                <value>pimp-status</value>
+            </choice>
         </element>
         <oneOrMore>
             <element name="vibrations">
