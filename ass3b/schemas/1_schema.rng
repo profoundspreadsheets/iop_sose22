@@ -33,16 +33,18 @@
 </start>
 
 <define name="seat">
-    <element name="seat">
-        <attribute name="compartment"/>
-        <attribute name="cover"/>
-        <element name="amount">
-            <text/>
+    <interleave>
+        <element name="seat">
+            <attribute name="compartment"/>
+            <attribute name="cover"/>
+            <element name="amount">
+                <text/>
+            </element>
+            <element name="tv">
+                <text/>
+            </element>
         </element>
-        <element name="tv">
-            <text/>
-        </element>
-    </element>
+    </interleave>
 </define>
 
 </grammar>
