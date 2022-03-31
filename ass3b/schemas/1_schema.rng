@@ -42,15 +42,28 @@
         <text/>
     </element>
     <element name="Windows">
-        <text/>
+        <list>
+            <data type="integer" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+        </list>
     </element>
 </define>
 
 <define name="seat">
     <interleave>
         <element name="seat">
-            <attribute name="compartment"/>
-            <attribute name="cover"/>
+            <attribute name="compartment">
+                <choice>
+                    <value>eco</value>
+                    <value>business</value>
+                    <value>first</value>
+                </choice>
+            </attribute>
+            <attribute name="cover">
+                <choice>
+                    <value>fabric</value>
+                    <value>leather</value>
+                </choice>
+            </attribute>
             <element name="amount">
                 <text/>
             </element>
