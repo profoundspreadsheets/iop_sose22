@@ -1,0 +1,48 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+<start>
+    <element name="Teams">
+        <oneOrMore>
+            <element name="Team">
+                <attribute name="teamid"/>
+                <attribute name="employees"/>
+                <element name="Units">
+                    <oneOrMore>
+                        <element name="Unit">
+                            <attribute name="unitid"/>
+                            <attribute name="registration"/>
+                            <element name="Wingtips">
+                                <text/>
+                            </element>
+                            <element name="Windows">
+                                <text/>
+                            </element>
+                            <element name="seatconfig">
+                                <oneOrMore>
+                                    <ref name="seat"/>
+                                </oneOrMore>
+                                <element name="brand">
+                                    <text/>
+                                </element>
+                            </element>
+                        </element>
+                    </oneOrMore>
+                </element>
+            </element>
+        </oneOrMore>
+    </element>
+</start>
+
+<define name="seat">
+    <element name="seat">
+        <attribute name="compartment"/>
+        <attribute name="cover"/>
+        <element name="amount">
+            <text/>
+        </element>
+        <element name="tv">
+            <text/>
+        </element>
+    </element>
+</define>
+
+</grammar>
