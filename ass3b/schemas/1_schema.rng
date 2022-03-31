@@ -1,36 +1,50 @@
 <grammar xmlns="http://relaxng.org/ns/structure/1.0">
 <start>
+    <ref name="Teams"/>
+</start>
+
+<define name="Teams">
     <element name="Teams">
         <oneOrMore>
-            <element name="Team">
-                <attribute name="teamid"/>
-                <attribute name="employees"/>
-                <element name="Units">
-                    <oneOrMore>
-                        <element name="Unit">
-                            <attribute name="unitid"/>
-                            <attribute name="registration"/>
-                            <element name="Wingtips">
-                                <text/>
-                            </element>
-                            <element name="Windows">
-                                <text/>
-                            </element>
-                            <element name="seatconfig">
-                                <oneOrMore>
-                                    <ref name="seat"/>
-                                </oneOrMore>
-                                <element name="brand">
-                                    <text/>
-                                </element>
-                            </element>
-                        </element>
-                    </oneOrMore>
-                </element>
-            </element>
+            <ref name="Team"/>
         </oneOrMore>
     </element>
-</start>
+</define>
+
+<define name="Team">
+    <element name="Team">
+        <attribute name="teamid"/>
+        <attribute name="employees"/>
+        <element name="Units">
+            <oneOrMore>
+                <element name="Unit">
+                    <attribute name="unitid"/>
+                    <attribute name="registration"/>
+                    <optional>
+                        <ref name="plane"/>
+                    </optional>
+                    <element name="seatconfig">
+                        <oneOrMore>
+                            <ref name="seat"/>
+                        </oneOrMore>
+                        <element name="brand">
+                            <text/>
+                        </element>
+                    </element>
+                </element>
+            </oneOrMore>
+        </element>
+    </element>
+</define>
+
+<define name="plane">
+    <element name="Wingtips">
+        <text/>
+    </element>
+    <element name="Windows">
+        <text/>
+    </element>
+</define>
 
 <define name="seat">
     <interleave>
