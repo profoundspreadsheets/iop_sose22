@@ -7,6 +7,10 @@
                     manufacturingteam.teamid AS "teamid",
                     manufacturingteam.employees AS "employees"
                 ),
+                XMLFOREST(
+                    manufacturingteam.ISO_Code AS "ISO_Code",
+                    manufacturingteam.HourlyRate AS "HourlyRate"
+                ),
                 XMLELEMENT(NAME "Units", 
                 (SELECT XMLAGG(
                     XMLELEMENT(NAME "Unit", 
@@ -14,9 +18,11 @@
                             barunit.unitid AS "unitid",
                             barunit.registration AS "registration"
                         ),
-                        XMLFOREST(
-                            plane.Wingtips AS "Wingtips",
-                            plane.NumWindows AS "Windows"
+                        XMLELEMENT(NAME "Wingtips",
+                            (SELECT plane.Wingtips FROM plane WHERE plane.registration=barunit.registration)    
+                        ),
+                        XMLELEMENT(NAME "Windows",
+                            (SELECT plane.NumWindows FROM plane WHERE plane.registration=barunit.registration)    
                         ),
                         (SELECT plane.seatconfig FROM plane WHERE plane.registration=barunit.registration)
                     )
@@ -29,4 +35,4 @@
 ) FROM manufacturingteam 
 INNER JOIN barunit ON barunit.teamid=manufacturingteam.teamid
 INNER JOIN plane ON plane.registration=barunit.registration
-WHERE employees<4) TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/1_data.xml';
+WHERE employees<4) TO '/home/paul/Documents/iop_sose22/ass3a/xmls/1_data.xml';

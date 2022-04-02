@@ -7,6 +7,10 @@ SELECT xmlroot(
                     manufacturingteam.teamid AS "teamid",
                     manufacturingteam.employees AS "employees"
                 ),
+                XMLFOREST(
+                    manufacturingteam.ISO_Code AS "ISO_Code",
+                    manufacturingteam.HourlyRate AS "HourlyRate"
+                ),
                 XMLELEMENT(NAME "Units", 
                 (SELECT XMLAGG(
                     XMLELEMENT(NAME "Unit", 
@@ -14,9 +18,11 @@ SELECT xmlroot(
                             barunit.unitid AS "unitid",
                             barunit.registration AS "registration"
                         ),
-                        XMLFOREST(
-                            plane.Wingtips AS "Wingtips",
-                            plane.NumWindows AS "Windows"
+                        XMLELEMENT(NAME "Wingtips",
+                            (SELECT plane.Wingtips FROM plane WHERE plane.registration=barunit.registration)    
+                        ),
+                        XMLELEMENT(NAME "Windows",
+                            (SELECT plane.NumWindows FROM plane WHERE plane.registration=barunit.registration)    
                         ),
                         (SELECT plane.seatconfig FROM plane WHERE plane.registration=barunit.registration)
                     )

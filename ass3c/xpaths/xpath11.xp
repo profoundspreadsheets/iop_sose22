@@ -1,1 +1,1 @@
-//Team[@teamid="327"]
+//Team[@employees <= "3"]/@teamid
