@@ -1,1 +1,1 @@
-/Teams/Team[1]/Units/Unit/@registration
+//ISO_Code[.="IT"]/ancestor::Team/@teamid

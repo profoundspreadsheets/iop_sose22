@@ -1,0 +1,1 @@
+/Teams/Team/@teamid[not(. > /Teams/Team/@teamid)]

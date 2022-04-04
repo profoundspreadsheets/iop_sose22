@@ -29,14 +29,13 @@
                                 WHERE testprotocol.registration = plane.registration)
                             )
                         )
-                    ) FROM plane 
-                    WHERE plane.customerid = customer.customerid)
+                    ) FROM plane
+                    WHERE plane.customerid = customer.customerid AND plane.livery='cheatline')
                 )
             )
         )
     ), version '1.0', standalone yes
 ) FROM plane 
-INNER JOIN testprotocol ON plane.registration=testprotocol.registration 
-INNER JOIN customer ON plane.customerid=customer.customerid 
+INNER JOIN customer ON plane.customerid = customer.customerid
 WHERE plane.livery='cheatline')
-TO '/home/paul/Dokumente/iop_sose22/ass3a/xmls/2_data.xml';
+TO '/home/paul/Documents/iop_sose22/ass3c/xmls/2_data.xml';
