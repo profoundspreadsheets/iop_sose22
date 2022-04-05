@@ -1,0 +1,1 @@
+count(//test[.="looping"]/ancestor::results/ancestor::Protocol/@protocolid)
