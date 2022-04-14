@@ -1,0 +1,83 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+<start>
+    <ref name="Planes"/>
+</start>
+
+<define name="Planes">
+    <element name="Planes">
+        <oneOrMore>
+            <ref name="Plane"/>
+        </oneOrMore>
+    </element>
+</define>
+
+<define name="Plane">
+    <element name="Plane">
+        <attribute name="registration"/>
+        <element name="Color">
+            <text/>
+        </element>
+        <element name="Livery">
+            <choice>
+                <value>bare metal</value>
+                <value>cheatline</value>
+                <value>hockey stick</value>
+                <value>all-over color</value>
+                <value>eurowhite</value>
+                <value>jelly bean</value>
+                <value>billboard</value>
+                <value>retro</value>
+            </choice>
+        </element>
+        <element name="Bars">
+            <interleave>
+                <zeroOrMore>
+                    <ref name="Bar"/>    
+                </zeroOrMore>
+            </interleave>
+        </element>
+    </element>
+</define>
+
+<define name="Bar">
+    <element name="Bar">
+        <attribute name="unitid"/>
+        <attribute name="teamid"/>
+        <element name="Minifridges">
+            <element name="Amount">
+                <choice>
+                    <data type="int" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+                    <data type="integer" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+                </choice>
+            </element>
+        </element>
+        <element name="Glasses">
+            <element name="Type">
+                <text/>
+            </element>
+            <element name="Amount">
+                <list>
+                    <data type="integer" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+                </list>
+            </element>
+        </element>
+        <element name="Beverages">
+            <zeroOrMore>
+                <ref name="Beverage"/>
+            </zeroOrMore>
+        </element>
+    </element>
+</define>
+
+<define name="Beverage">
+    <element name="Beverage">
+        <element name="Drink">    
+            <text/>
+        </element>
+        <element name="Cost">
+            <data type="float" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+        </element>
+    </element>
+</define>
+
+</grammar>

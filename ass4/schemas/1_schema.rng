@@ -1,0 +1,80 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+<start>
+    <ref name="Teams"/>
+</start>
+
+<define name="Teams">
+    <element name="Teams">
+        <oneOrMore>
+            <ref name="Team"/>
+        </oneOrMore>
+    </element>
+</define>
+
+<define name="Team">
+    <element name="Team">
+        <attribute name="teamid"/>
+        <attribute name="employees"/>
+        <element name="Units">
+            <oneOrMore>
+                <element name="Unit">
+                    <attribute name="unitid"/>
+                    <attribute name="registration"/>
+                    <optional>
+                        <ref name="plane"/>
+                    </optional>
+                    <element name="seatconfig">
+                        <zeroOrMore>
+                            <ref name="seat"/>
+                        </zeroOrMore>
+                        <element name="brand">
+                            <text/>
+                        </element>
+                    </element>
+                </element>
+            </oneOrMore>
+        </element>
+    </element>
+</define>
+
+<define name="plane">
+    <element name="Wingtips">
+        <text/>
+    </element>
+    <element name="Windows">
+        <list>
+            <data type="integer" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+        </list>
+    </element>
+</define>
+
+<define name="seat">
+    <interleave>
+        <element name="seat">
+            <attribute name="compartment">
+                <choice>
+                    <value>eco</value>
+                    <value>business</value>
+                    <value>first</value>
+                </choice>
+            </attribute>
+            <attribute name="cover">
+                <choice>
+                    <value>fabric</value>
+                    <value>leather</value>
+                </choice>
+            </attribute>
+            <element name="amount">
+                <choice>
+                    <data type="int" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+                    <data type="integer" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+                </choice>
+            </element>
+            <element name="tv">
+                <text/>
+            </element>
+        </element>
+    </interleave>
+</define>
+
+</grammar>

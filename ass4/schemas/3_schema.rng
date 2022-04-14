@@ -1,0 +1,70 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+<start>
+    <element name="Planes">
+        <interleave>
+            <zeroOrMore>
+                <ref name="Plane"/>
+            </zeroOrMore>
+        </interleave>
+    </element>
+</start>
+
+<define name="Toiletspecs">
+    <element name="ToiletSpecs">
+        <attribute name="unitid"/>
+        <element name="Capacity">
+            <list>
+                <data type="float" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+            </list>
+        </element>
+        <element name="Flowrate">
+            <list>
+                <data type="float" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+            </list>
+        </element>
+    </element>
+</define>
+
+<define name="Plane">
+    <element name="Plane">
+        <attribute name="registration"/>
+        <element name="Customer">
+            <ref name="Customer"/>
+        </element>
+        <element name="Toilets">
+            <zeroOrMore>
+                <ref name="Toiletspecs"/>    
+            </zeroOrMore>
+        </element>
+    </element>
+</define>
+
+<define name="Customer">
+    <element name="Firstname">    
+        <text/>
+    </element>
+    <element name="Lastname">
+        <text/>
+    </element>
+    <optional>
+        <element name="Address">
+            <ref name="Address"/>
+        </element>
+    </optional>
+</define>
+
+<define name="Address">
+    <attribute name="zip"/>
+    <attribute name="city"/>
+    <element name="Street">
+        <text/>
+    </element>
+    <element name="Housenumber">
+        <choice>
+            <data type="int" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+            <data type="integer" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+        </choice>
+    </element>
+</define>
+
+</grammar>

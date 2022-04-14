@@ -1,0 +1,32 @@
+1_schema.rng
+    Teams 
+        2_data.xml teamid, 
+        4_data.xml teamid, 
+    Units
+    Planes
+        2_data.xml registration,
+
+2_schema.rng
+    Customers
+        2_data.xml registration,
+    Planes
+    Protocols
+        2_data.xml testid, testdate
+        3_data.xml registration, testid, testdate
+    Results
+
+3_schema.rng
+    Planes
+        2_data.xml registration,
+    Customer 
+        1_data.xml firstname, surname
+    Toilets 
+        1_data.xml amountofwater, numberofseats apcolor
+    Address 
+        1_data.xml street, city, number, zip, country
+
+4_schema.rng
+    Planes
+        2_data.xml registration,
+    Bar
+    Beverage
