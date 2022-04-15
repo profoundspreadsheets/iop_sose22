@@ -5,14 +5,12 @@
         <Customer>
         <Firstname>{data($customer/firstname)}</Firstname>
         <Lastname>{data($customer/surname)}</Lastname>
-        <Toilets>
-            <Toilet>
-                <toiletspecs unitid="Insert UUID here">
-                    <Capacity>10.0</Capacity>
-                    <Flowrate>2.0</Flowrate>
-                </toiletspecs>
-            </Toilet>
-        </Toilets>
         </Customer>
+        <Toilets>
+            <ToiletSpecs unitid="Insert UUID here">
+                <Capacity>10.0</Capacity>
+                <Flowrate>2.0</Flowrate>
+            </ToiletSpecs>
+        </Toilets>
     </Plane>
 }</Planes>

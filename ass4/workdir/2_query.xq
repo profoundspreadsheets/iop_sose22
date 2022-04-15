@@ -17,7 +17,15 @@
                                 return
                                 <Protocol protocolid="{data($protocol/@testId)}">
                                     <Testdate>{data($protocol/testdate)}</Testdate>
-                                    <results/>
+                                    <results>
+                                        <test>wings</test>
+                                        <vibrations loc="DEFAULT">
+                                            <scale/>
+                                            <critical>false</critical>
+                                        </vibrations>
+                                        <detached-wing side="left">false</detached-wing>
+                                        <detached-wing side="right">false</detached-wing>
+                                    </results>
                                 </Protocol>
                             }
                             </Protocols>
