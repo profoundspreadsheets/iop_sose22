@@ -1,19 +1,19 @@
 <customers>
 	<customer>
 		<customerid>0</customerid>
-		<firstname>Ru</firstname>
+		<firstname>Ru�</firstname>
 		<surname>Tejero</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>1</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Denerley</surname>
 		<companies>
 			<company companyId="715">
 				<companyname>Dabvine</companyname>
 				<companysize>M</companysize>
-				<givenname>Valrie</givenname>
+				<givenname>Val�rie</givenname>
 				<mail>mhellenba@tinypic.com</mail>
 				<provider>psu.edu</provider>
 				<mail>bvernazzap5@exblog.jp</mail>
@@ -50,25 +50,25 @@
 	</customer>
 	<customer>
 		<customerid>2</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Wiggin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>3</customerid>
-		<firstname>Mlys</firstname>
+		<firstname>M�lys</firstname>
 		<surname>Orta</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>4</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Lawrey</surname>
 		<companies>
 			<company companyId="697">
 				<companyname>Trunyx</companyname>
 				<companysize>S</companysize>
-				<givenname>Vnus</givenname>
+				<givenname>V�nus</givenname>
 				<mail>cshirdex@desdev.cn</mail>
 				<provider>simplemachines.org</provider>
 				<mail>agoundsyrn@networksolutions.com</mail>
@@ -79,31 +79,31 @@
 	</customer>
 	<customer>
 		<customerid>5</customerid>
-		<firstname>Mahlie</firstname>
+		<firstname>Mah�lie</firstname>
 		<surname>Darell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>6</customerid>
-		<firstname>Los</firstname>
+		<firstname>Lo�s</firstname>
 		<surname>Morpeth</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>7</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Sidle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>8</customerid>
-		<firstname>Analle</firstname>
+		<firstname>Ana�lle</firstname>
 		<surname>Nucci</surname>
 		<companies>
 			<company companyId="307">
 				<companyname>Jabbersphere</companyname>
 				<companysize>M</companysize>
-				<givenname>Annots</givenname>
+				<givenname>Annot�s</givenname>
 				<mail>eixor94@webnode.com</mail>
 				<provider>opera.com</provider>
 				<mail>clemarquish5@ebay.co.uk</mail>
@@ -120,37 +120,37 @@
 	</customer>
 	<customer>
 		<customerid>9</customerid>
-		<firstname>Clopatre</firstname>
+		<firstname>Cl�opatre</firstname>
 		<surname>Morilla</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>10</customerid>
-		<firstname>Bndicte</firstname>
+		<firstname>B�n�dicte</firstname>
 		<surname>Shoesmith</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>11</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Broadey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>12</customerid>
-		<firstname>Eugnie</firstname>
+		<firstname>Eug�nie</firstname>
 		<surname>Hanrott</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>13</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Paulitschke</surname>
 		<companies>
 			<company companyId="773">
 				<companyname>Layo</companyname>
 				<companysize>L</companysize>
-				<givenname>Mrta</givenname>
+				<givenname>M�rta</givenname>
 				<mail>chardisty44@thetimes.co.uk</mail>
 				<provider>businessinsider.com</provider>
 				<mail>maldgatenf@istockphoto.com</mail>
@@ -161,19 +161,19 @@
 	</customer>
 	<customer>
 		<customerid>14</customerid>
-		<firstname>Ophlie</firstname>
+		<firstname>Oph�lie</firstname>
 		<surname>Hurdle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>15</customerid>
-		<firstname>Y</firstname>
+		<firstname>Y�</firstname>
 		<surname>Lonsdale</surname>
 		<companies>
 			<company companyId="709">
 				<companyname>Ailane</companyname>
 				<companysize>M</companysize>
-				<givenname>Landre</givenname>
+				<givenname>L�andre</givenname>
 				<mail>ngrigoryov73@weebly.com</mail>
 				<provider>oracle.com</provider>
 				<mail>anehlhn@1688.com</mail>
@@ -195,25 +195,25 @@
 	</customer>
 	<customer>
 		<customerid>16</customerid>
-		<firstname>Lala</firstname>
+		<firstname>La�la</firstname>
 		<surname>Strasse</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>17</customerid>
-		<firstname>La</firstname>
+		<firstname>L�a</firstname>
 		<surname>Muck</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>18</customerid>
-		<firstname>Mthode</firstname>
+		<firstname>M�thode</firstname>
 		<surname>Swinney</surname>
 		<companies>
 			<company companyId="733">
 				<companyname>Yakijo</companyname>
 				<companysize>S</companysize>
-				<givenname>Rene</givenname>
+				<givenname>Ren�e</givenname>
 				<mail>jgaylardrj@de.vu</mail>
 				<provider>elegantthemes.com</provider>
 				<mail>rcamamillqm@state.tx.us</mail>
@@ -224,19 +224,19 @@
 	</customer>
 	<customer>
 		<customerid>19</customerid>
-		<firstname>Marie-franoise</firstname>
+		<firstname>Marie-fran�oise</firstname>
 		<surname>Davidi</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>20</customerid>
-		<firstname>Clestine</firstname>
+		<firstname>C�lestine</firstname>
 		<surname>Cadalleder</surname>
 		<companies>
 			<company companyId="775">
 				<companyname>Bluejam</companyname>
 				<companysize>L</companysize>
-				<givenname>Solne</givenname>
+				<givenname>Sol�ne</givenname>
 				<mail>tstattonbq@ted.com</mail>
 				<provider>vimeo.com</provider>
 				<mail>halelsandrowicz5m@yellowpages.com</mail>
@@ -253,37 +253,37 @@
 	</customer>
 	<customer>
 		<customerid>21</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>Ikins</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>22</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Charnick</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>23</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Boddy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>24</customerid>
-		<firstname>Dorothe</firstname>
+		<firstname>Doroth�e</firstname>
 		<surname>Brideau</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>25</customerid>
-		<firstname>Mline</firstname>
+		<firstname>M�line</firstname>
 		<surname>Nanetti</surname>
 		<companies>
 			<company companyId="137">
 				<companyname>Ozu</companyname>
 				<companysize>S</companysize>
-				<givenname>Gsta</givenname>
+				<givenname>G�sta</givenname>
 				<mail>fkehir3y@constantcontact.com</mail>
 				<provider>nasa.gov</provider>
 				<mail>bmatussevichnw@va.gov</mail>
@@ -293,7 +293,7 @@
 			<company companyId="193">
 				<companyname>Riffwire</companyname>
 				<companysize>S</companysize>
-				<givenname>Chlo</givenname>
+				<givenname>Chlo�</givenname>
 				<mail>adalla4x@youtu.be</mail>
 				<provider>fda.gov</provider>
 				<mail>rdumingos72@mlb.com</mail>
@@ -310,43 +310,43 @@
 	</customer>
 	<customer>
 		<customerid>26</customerid>
-		<firstname>Nolla</firstname>
+		<firstname>No�lla</firstname>
 		<surname>McIlhone</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>27</customerid>
-		<firstname>Marie-thrse</firstname>
+		<firstname>Marie-th�r�se</firstname>
 		<surname>Nand</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>28</customerid>
-		<firstname>Mthode</firstname>
+		<firstname>M�thode</firstname>
 		<surname>Roz</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>29</customerid>
-		<firstname>Lonie</firstname>
+		<firstname>L�onie</firstname>
 		<surname>Richardot</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>30</customerid>
-		<firstname>Este</firstname>
+		<firstname>Est�e</firstname>
 		<surname>Apark</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>31</customerid>
-		<firstname>Nomie</firstname>
+		<firstname>No�mie</firstname>
 		<surname>Cotgrove</surname>
 		<companies>
 			<company companyId="393">
 				<companyname>Gevee</companyname>
 				<companysize>S</companysize>
-				<givenname>Cllia</givenname>
+				<givenname>Cl�lia</givenname>
 				<mail>chatterslay12@1688.com</mail>
 				<provider>ox.ac.uk</provider>
 				<mail>skimmince8@irs.gov</mail>
@@ -367,7 +367,7 @@
 			<company companyId="119">
 				<companyname>Jaxbean</companyname>
 				<companysize>L</companysize>
-				<givenname>Torbjrn</givenname>
+				<givenname>Torbj�rn</givenname>
 				<mail>cdragonette4d@cpanel.net</mail>
 				<provider>live.com</provider>
 				<mail>zroglieroa2@wikimedia.org</mail>
@@ -389,43 +389,43 @@
 	</customer>
 	<customer>
 		<customerid>32</customerid>
-		<firstname>Brengre</firstname>
+		<firstname>B�reng�re</firstname>
 		<surname>Gyde</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>33</customerid>
-		<firstname>Malle</firstname>
+		<firstname>Ma�lle</firstname>
 		<surname>Thomlinson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>34</customerid>
-		<firstname>Malys</firstname>
+		<firstname>Ma�lys</firstname>
 		<surname>Poundesford</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>35</customerid>
-		<firstname>sa</firstname>
+		<firstname>�sa</firstname>
 		<surname>Bankhurst</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>36</customerid>
-		<firstname>A</firstname>
+		<firstname>A�</firstname>
 		<surname>Shermore</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>37</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Sitwell</surname>
 		<companies>
 			<company companyId="791">
 				<companyname>Gabtune</companyname>
 				<companysize>S</companysize>
-				<givenname>Andre</givenname>
+				<givenname>Andr�e</givenname>
 				<mail>apiddlehintony@spiegel.de</mail>
 				<provider>amazon.com</provider>
 				<mail>wlailey1s@wufoo.com</mail>
@@ -442,31 +442,31 @@
 	</customer>
 	<customer>
 		<customerid>38</customerid>
-		<firstname>Gwenalle</firstname>
+		<firstname>Gwena�lle</firstname>
 		<surname>Leil</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>39</customerid>
-		<firstname>Ru</firstname>
+		<firstname>Ru�</firstname>
 		<surname>Stiller</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>40</customerid>
-		<firstname>Mlina</firstname>
+		<firstname>M�lina</firstname>
 		<surname>Shorto</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>41</customerid>
-		<firstname>Zh</firstname>
+		<firstname>Zh�</firstname>
 		<surname>Persence</surname>
 		<companies>
 			<company companyId="637">
 				<companyname>Centimia</companyname>
 				<companysize>L</companysize>
-				<givenname>Eugnie</givenname>
+				<givenname>Eug�nie</givenname>
 				<mail>aleavey6t@t.co</mail>
 				<provider>printfriendly.com</provider>
 				<mail>hbeatenso4@cyberchimps.com</mail>
@@ -483,31 +483,31 @@
 	</customer>
 	<customer>
 		<customerid>42</customerid>
-		<firstname>Daphne</firstname>
+		<firstname>Daphn�e</firstname>
 		<surname>Darell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>43</customerid>
-		<firstname>Mlina</firstname>
+		<firstname>M�lina</firstname>
 		<surname>OConnor</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>44</customerid>
-		<firstname>Edme</firstname>
+		<firstname>Edm�e</firstname>
 		<surname>Salomon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>45</customerid>
-		<firstname>Annots</firstname>
+		<firstname>Annot�s</firstname>
 		<surname>Vernazza</surname>
 		<companies>
 			<company companyId="418">
 				<companyname>Skinte</companyname>
 				<companysize>M</companysize>
-				<givenname>Lana</givenname>
+				<givenname>L�ana</givenname>
 				<mail>ndegiorgioc9@springer.com</mail>
 				<provider>jiathis.com</provider>
 				<mail>acorbyot@eepurl.com</mail>
@@ -529,13 +529,13 @@
 	</customer>
 	<customer>
 		<customerid>46</customerid>
-		<firstname>Illustre</firstname>
+		<firstname>Illustr�e</firstname>
 		<surname>Dalglish</surname>
 		<companies>
 			<company companyId="195">
 				<companyname>Livefish</companyname>
 				<companysize>M</companysize>
-				<givenname>Thrsa</givenname>
+				<givenname>Th�r�sa</givenname>
 				<mail>gdangerfieldco@sourceforge.net</mail>
 				<provider>bbc.co.uk</provider>
 				<mail>umcnabfr@cpanel.net</mail>
@@ -546,37 +546,37 @@
 	</customer>
 	<customer>
 		<customerid>47</customerid>
-		<firstname>Clmentine</firstname>
+		<firstname>Cl�mentine</firstname>
 		<surname>Neicho</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>48</customerid>
-		<firstname>Loca</firstname>
+		<firstname>Lo�ca</firstname>
 		<surname>Piddlehinton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>49</customerid>
-		<firstname>Lane</firstname>
+		<firstname>L�ane</firstname>
 		<surname>Zanitti</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>50</customerid>
-		<firstname>sa</firstname>
+		<firstname>�sa</firstname>
 		<surname>Pinor</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>51</customerid>
-		<firstname>Vrane</firstname>
+		<firstname>V�rane</firstname>
 		<surname>Dubois</surname>
 		<companies>
 			<company companyId="144">
 				<companyname>Dynava</companyname>
 				<companysize>S</companysize>
-				<givenname>Chlo</givenname>
+				<givenname>Chlo�</givenname>
 				<mail>sfairebrother2i@businessweek.com</mail>
 				<provider>wikipedia.org</provider>
 				<mail>kcracoec2@howstuffworks.com</mail>
@@ -593,31 +593,31 @@
 	</customer>
 	<customer>
 		<customerid>52</customerid>
-		<firstname>Marylne</firstname>
+		<firstname>Maryl�ne</firstname>
 		<surname>Aldgate</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>53</customerid>
-		<firstname>Publicit</firstname>
+		<firstname>Publicit�</firstname>
 		<surname>Denerley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>54</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Bees</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>55</customerid>
-		<firstname>Aurlie</firstname>
+		<firstname>Aur�lie</firstname>
 		<surname>Cleatherow</surname>
 		<companies>
 			<company companyId="282">
 				<companyname>Oyondu</companyname>
 				<companysize>M</companysize>
-				<givenname>Kallist</givenname>
+				<givenname>Kallist�</givenname>
 				<mail>ltaffeegl@reverbnation.com</mail>
 				<provider>pinterest.com</provider>
 				<mail>atoke5e@nih.gov</mail>
@@ -639,19 +639,19 @@
 	</customer>
 	<customer>
 		<customerid>56</customerid>
-		<firstname>Audranne</firstname>
+		<firstname>Audr�anne</firstname>
 		<surname>Cullin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>57</customerid>
-		<firstname>Salom</firstname>
+		<firstname>Salom�</firstname>
 		<surname>Anthonies</surname>
 		<companies>
 			<company companyId="690">
 				<companyname>Brainverse</companyname>
 				<companysize>L</companysize>
-				<givenname>sten</givenname>
+				<givenname>�sten</givenname>
 				<mail>mmorora@feedburner.com</mail>
 				<provider>slideshare.net</provider>
 				<mail>acastreedr@gravatar.com</mail>
@@ -667,7 +667,7 @@
 			<company companyId="187">
 				<companyname>Blogspan</companyname>
 				<companysize>L</companysize>
-				<givenname>Marie-nol</givenname>
+				<givenname>Marie-no�l</givenname>
 				<mail>pthorwarthcn@jiathis.com</mail>
 				<provider>china.com.cn</provider>
 				<mail>jannattlb@parallels.com</mail>
@@ -678,103 +678,103 @@
 	</customer>
 	<customer>
 		<customerid>58</customerid>
-		<firstname>Malys</firstname>
+		<firstname>Ma�lys</firstname>
 		<surname>Gave</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>59</customerid>
-		<firstname>Brangre</firstname>
+		<firstname>B�rang�re</firstname>
 		<surname>Oxbie</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>60</customerid>
-		<firstname>Mthode</firstname>
+		<firstname>M�thode</firstname>
 		<surname>Dowderswell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>61</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Elland</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>62</customerid>
-		<firstname>Malla</firstname>
+		<firstname>Ma�lla</firstname>
 		<surname>Godley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>63</customerid>
-		<firstname>Estve</firstname>
+		<firstname>Est�ve</firstname>
 		<surname>Pettigree</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>64</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Starking</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>65</customerid>
-		<firstname>J</firstname>
+		<firstname>J�</firstname>
 		<surname>Bines</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>66</customerid>
-		<firstname>Ku</firstname>
+		<firstname>Ku�</firstname>
 		<surname>Gerrets</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>67</customerid>
-		<firstname>Mlys</firstname>
+		<firstname>M�lys</firstname>
 		<surname>Strutley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>68</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>Shorto</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>69</customerid>
-		<firstname>Annots</firstname>
+		<firstname>Annot�s</firstname>
 		<surname>Boorne</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>70</customerid>
-		<firstname>Pnlope</firstname>
+		<firstname>P�n�lope</firstname>
 		<surname>Morpeth</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>71</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Jessel</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>72</customerid>
-		<firstname>Erwi</firstname>
+		<firstname>Erw�i</firstname>
 		<surname>Waller-Bridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>73</customerid>
-		<firstname>Lone</firstname>
+		<firstname>L�one</firstname>
 		<surname>Gargett</surname>
 		<companies>
 			<company companyId="69">
 				<companyname>Chatterbridge</companyname>
 				<companysize>L</companysize>
-				<givenname>Mylne</givenname>
+				<givenname>Myl�ne</givenname>
 				<mail>cshirdex@desdev.cn</mail>
 				<provider>deviantart.com</provider>
 				<mail>alambswoodm@hibu.com</mail>
@@ -791,55 +791,55 @@
 	</customer>
 	<customer>
 		<customerid>74</customerid>
-		<firstname>Clia</firstname>
+		<firstname>C�lia</firstname>
 		<surname>Mixter</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>75</customerid>
-		<firstname>Landre</firstname>
+		<firstname>L�andre</firstname>
 		<surname>Hallagan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>76</customerid>
-		<firstname>Slne</firstname>
+		<firstname>S�l�ne</firstname>
 		<surname>Knevett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>77</customerid>
-		<firstname>Milna</firstname>
+		<firstname>Mil�na</firstname>
 		<surname>Minshaw</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>78</customerid>
-		<firstname>La</firstname>
+		<firstname>L�a</firstname>
 		<surname>Dugood</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>79</customerid>
-		<firstname>Laurlie</firstname>
+		<firstname>Laur�lie</firstname>
 		<surname>Cecere</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>80</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Bausmann</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>81</customerid>
-		<firstname>Nlie</firstname>
+		<firstname>N�lie</firstname>
 		<surname>Muscat</surname>
 		<companies>
 			<company companyId="299">
 				<companyname>Viva</companyname>
 				<companysize>M</companysize>
-				<givenname>Rachle</givenname>
+				<givenname>Rach�le</givenname>
 				<mail>cortac5@comcast.net</mail>
 				<provider>symantec.com</provider>
 				<mail>dsysonjt@infoseek.co.jp</mail>
@@ -850,31 +850,31 @@
 	</customer>
 	<customer>
 		<customerid>82</customerid>
-		<firstname>Andr</firstname>
+		<firstname>Andr�</firstname>
 		<surname>Gerrets</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>83</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Cackett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>84</customerid>
-		<firstname>Laurne</firstname>
+		<firstname>Laur�ne</firstname>
 		<surname>Devanney</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>85</customerid>
-		<firstname>Judical</firstname>
+		<firstname>Judica�l</firstname>
 		<surname>Morilla</surname>
 		<companies>
 			<company companyId="354">
 				<companyname>Jayo</companyname>
 				<companysize>M</companysize>
-				<givenname>Marie-nol</givenname>
+				<givenname>Marie-no�l</givenname>
 				<mail>kstiller4a@dedecms.com</mail>
 				<provider>upenn.edu</provider>
 				<mail>egwilliamiq@amazon.co.uk</mail>
@@ -885,13 +885,13 @@
 	</customer>
 	<customer>
 		<customerid>86</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Puckham</surname>
 		<companies>
 			<company companyId="346">
 				<companyname>Thoughtstorm</companyname>
 				<companysize>S</companysize>
-				<givenname>Los</givenname>
+				<givenname>Lo�s</givenname>
 				<mail>egraftonherbertnn@123-reg.co.uk</mail>
 				<provider>addthis.com</provider>
 				<mail>nkeel7w@icio.us</mail>
@@ -908,73 +908,73 @@
 	</customer>
 	<customer>
 		<customerid>87</customerid>
-		<firstname>La</firstname>
+		<firstname>L�a</firstname>
 		<surname>Belasco</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>88</customerid>
-		<firstname>Milna</firstname>
+		<firstname>Mil�na</firstname>
 		<surname>Gilbeart</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>89</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>MacShirrie</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>90</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Axworthy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>91</customerid>
-		<firstname>La</firstname>
+		<firstname>L�a</firstname>
 		<surname>Fleetwood</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>92</customerid>
-		<firstname>Maly</firstname>
+		<firstname>Ma�ly</firstname>
 		<surname>Bankhurst</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>93</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Golborn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>94</customerid>
-		<firstname>Mlinda</firstname>
+		<firstname>M�linda</firstname>
 		<surname>Labbez</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>95</customerid>
-		<firstname>Mat</firstname>
+		<firstname>Ma�t�</firstname>
 		<surname>Ades</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>96</customerid>
-		<firstname>M</firstname>
+		<firstname>M�</firstname>
 		<surname>Ashment</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>97</customerid>
-		<firstname>Clmence</firstname>
+		<firstname>Cl�mence</firstname>
 		<surname>Lawrey</surname>
 		<companies>
 			<company companyId="18">
 				<companyname>Trupe</companyname>
 				<companysize>S</companysize>
-				<givenname>Landre</givenname>
+				<givenname>L�andre</givenname>
 				<mail>ckitchener2j@nyu.edu</mail>
 				<provider>etsy.com</provider>
 				<mail>tlochrie1h@multiply.com</mail>
@@ -985,31 +985,31 @@
 	</customer>
 	<customer>
 		<customerid>98</customerid>
-		<firstname>Cla</firstname>
+		<firstname>Cl�a</firstname>
 		<surname>Wardhaugh</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>99</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Pettigree</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>100</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Vella</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>101</customerid>
-		<firstname>Nava</firstname>
+		<firstname>Na�va</firstname>
 		<surname>Svanini</surname>
 		<companies>
 			<company companyId="465">
 				<companyname>Vinte</companyname>
 				<companysize>M</companysize>
-				<givenname>sa</givenname>
+				<givenname>�sa</givenname>
 				<mail>jkeddydj@china.com.cn</mail>
 				<provider>unicef.org</provider>
 				<mail>wspillanefi@cbsnews.com</mail>
@@ -1020,13 +1020,13 @@
 	</customer>
 	<customer>
 		<customerid>102</customerid>
-		<firstname>Erwi</firstname>
+		<firstname>Erw�i</firstname>
 		<surname>Ludford</surname>
 		<companies>
 			<company companyId="705">
 				<companyname>Yotz</companyname>
 				<companysize>M</companysize>
-				<givenname>Laurna</givenname>
+				<givenname>Laur�na</givenname>
 				<mail>cburginrc@yale.edu</mail>
 				<provider>twitter.com</provider>
 				<mail>iminoril@ovh.net</mail>
@@ -1052,7 +1052,7 @@
 			<company companyId="287">
 				<companyname>Linkbridge</companyname>
 				<companysize>M</companysize>
-				<givenname>sa</givenname>
+				<givenname>�sa</givenname>
 				<mail>lwealthallge@howstuffworks.com</mail>
 				<provider>usa.gov</provider>
 				<mail>scapelingn@time.com</mail>
@@ -1074,37 +1074,37 @@
 	</customer>
 	<customer>
 		<customerid>103</customerid>
-		<firstname>Illustre</firstname>
+		<firstname>Illustr�e</firstname>
 		<surname>Densumbe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>104</customerid>
-		<firstname>Ku</firstname>
+		<firstname>Ku�</firstname>
 		<surname>Gratton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>105</customerid>
-		<firstname>Bndicte</firstname>
+		<firstname>B�n�dicte</firstname>
 		<surname>Bolduc</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>106</customerid>
-		<firstname>Y</firstname>
+		<firstname>Y�</firstname>
 		<surname>Burborough</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>107</customerid>
-		<firstname>Mn</firstname>
+		<firstname>M�n</firstname>
 		<surname>Osmint</surname>
 		<companies>
 			<company companyId="734">
 				<companyname>Aimbo</companyname>
 				<companysize>M</companysize>
-				<givenname>Laurne</givenname>
+				<givenname>Laur�ne</givenname>
 				<mail>ltaffeegl@reverbnation.com</mail>
 				<provider>auda.org.au</provider>
 				<mail>gskitteral2c@ehow.com</mail>
@@ -1115,43 +1115,43 @@
 	</customer>
 	<customer>
 		<customerid>108</customerid>
-		<firstname>Nlie</firstname>
+		<firstname>N�lie</firstname>
 		<surname>Brack</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>109</customerid>
-		<firstname>T</firstname>
+		<firstname>T�</firstname>
 		<surname>Heys</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>110</customerid>
-		<firstname>Adlie</firstname>
+		<firstname>Ad�lie</firstname>
 		<surname>Zannuto</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>111</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Felipe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>112</customerid>
-		<firstname>Brnice</firstname>
+		<firstname>B�r�nice</firstname>
 		<surname>Dargavel</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>113</customerid>
-		<firstname>Garon</firstname>
+		<firstname>Gar�on</firstname>
 		<surname>Looney</surname>
 		<companies>
 			<company companyId="193">
 				<companyname>Riffwire</companyname>
 				<companysize>S</companysize>
-				<givenname>Chlo</givenname>
+				<givenname>Chlo�</givenname>
 				<mail>adalla4x@youtu.be</mail>
 				<provider>fda.gov</provider>
 				<mail>rdumingos72@mlb.com</mail>
@@ -1168,25 +1168,25 @@
 	</customer>
 	<customer>
 		<customerid>114</customerid>
-		<firstname>Landre</firstname>
+		<firstname>L�andre</firstname>
 		<surname>Kehir</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>115</customerid>
-		<firstname>Batrice</firstname>
+		<firstname>B�atrice</firstname>
 		<surname>Mounter</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>116</customerid>
-		<firstname>rjan</firstname>
+		<firstname>�rjan</firstname>
 		<surname>Childers</surname>
 		<companies>
 			<company companyId="233">
 				<companyname>Feedmix</companyname>
 				<companysize>M</companysize>
-				<givenname>Mlys</givenname>
+				<givenname>M�lys</givenname>
 				<mail>gjuliffpu@deliciousdays.com</mail>
 				<provider>apple.com</provider>
 				<mail>bgrandham9v@si.edu</mail>
@@ -1213,25 +1213,25 @@
 	</customer>
 	<customer>
 		<customerid>117</customerid>
-		<firstname>Danile</firstname>
+		<firstname>Dani�le</firstname>
 		<surname>Lohan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>118</customerid>
-		<firstname>Clestine</firstname>
+		<firstname>C�lestine</firstname>
 		<surname>Bougen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>119</customerid>
-		<firstname>Nalle</firstname>
+		<firstname>Na�lle</firstname>
 		<surname>Renbold</surname>
 		<companies>
 			<company companyId="677">
 				<companyname>Jetpulse</companyname>
 				<companysize>M</companysize>
-				<givenname>Clo</givenname>
+				<givenname>Clo�</givenname>
 				<mail>mlardiner23@uol.com.br</mail>
 				<provider>infoseek.co.jp</provider>
 				<mail>hludfordn9@redcross.org</mail>
@@ -1248,115 +1248,115 @@
 	</customer>
 	<customer>
 		<customerid>120</customerid>
-		<firstname>Gaa</firstname>
+		<firstname>Ga�a</firstname>
 		<surname>Gras</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>121</customerid>
-		<firstname>Pnlope</firstname>
+		<firstname>P�n�lope</firstname>
 		<surname>Spain</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>122</customerid>
-		<firstname>Bndicte</firstname>
+		<firstname>B�n�dicte</firstname>
 		<surname>Lambarton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>123</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Scemp</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>124</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Sneden</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>125</customerid>
-		<firstname>Kallist</firstname>
+		<firstname>Kallist�</firstname>
 		<surname>Rosiello</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>126</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Neachell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>127</customerid>
-		<firstname>Marie-franoise</firstname>
+		<firstname>Marie-fran�oise</firstname>
 		<surname>Lohan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>128</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Chasson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>129</customerid>
-		<firstname>Flicie</firstname>
+		<firstname>F�licie</firstname>
 		<surname>Ranyell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>130</customerid>
-		<firstname>Garon</firstname>
+		<firstname>Gar�on</firstname>
 		<surname>Davidi</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>131</customerid>
-		<firstname>Gatane</firstname>
+		<firstname>Ga�tane</firstname>
 		<surname>Alebrooke</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>132</customerid>
-		<firstname>Adle</firstname>
+		<firstname>Ad�le</firstname>
 		<surname>Lambarton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>133</customerid>
-		<firstname>Annots</firstname>
+		<firstname>Annot�s</firstname>
 		<surname>Dyos</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>134</customerid>
-		<firstname>Yu</firstname>
+		<firstname>Y�u</firstname>
 		<surname>Poulson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>135</customerid>
-		<firstname>Lysa</firstname>
+		<firstname>Lys�a</firstname>
 		<surname>Barkworth</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>136</customerid>
-		<firstname>Loc</firstname>
+		<firstname>Lo�c</firstname>
 		<surname>Harvey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>137</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Sitwell</surname>
 		<companies>
 			<company companyId="346">
 				<companyname>Thoughtstorm</companyname>
 				<companysize>S</companysize>
-				<givenname>Los</givenname>
+				<givenname>Lo�s</givenname>
 				<mail>egraftonherbertnn@123-reg.co.uk</mail>
 				<provider>addthis.com</provider>
 				<mail>nkeel7w@icio.us</mail>
@@ -1373,97 +1373,97 @@
 	</customer>
 	<customer>
 		<customerid>138</customerid>
-		<firstname>Ana</firstname>
+		<firstname>Ana�</firstname>
 		<surname>Petera</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>139</customerid>
-		<firstname>Michle</firstname>
+		<firstname>Mich�le</firstname>
 		<surname>Shaddock</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>140</customerid>
-		<firstname>Cla</firstname>
+		<firstname>Cl�a</firstname>
 		<surname>Twinbrow</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>141</customerid>
-		<firstname>Brengre</firstname>
+		<firstname>B�reng�re</firstname>
 		<surname>Duro</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>142</customerid>
-		<firstname>P</firstname>
+		<firstname>P�</firstname>
 		<surname>Mathiasen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>143</customerid>
-		<firstname>Slne</firstname>
+		<firstname>S�l�ne</firstname>
 		<surname>Nanetti</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>144</customerid>
-		<firstname>Anal</firstname>
+		<firstname>Ana�l</firstname>
 		<surname>Duthy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>145</customerid>
-		<firstname>Los</firstname>
+		<firstname>Lo�s</firstname>
 		<surname>McDermott-Row</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>146</customerid>
-		<firstname>Brengre</firstname>
+		<firstname>B�reng�re</firstname>
 		<surname>Beadnall</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>147</customerid>
-		<firstname>Ru</firstname>
+		<firstname>Ru�</firstname>
 		<surname>Piddlehinton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>148</customerid>
-		<firstname>Mrten</firstname>
+		<firstname>M�rten</firstname>
 		<surname>Richardot</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>149</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Hanlon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>150</customerid>
-		<firstname>Publicit</firstname>
+		<firstname>Publicit�</firstname>
 		<surname>Shillan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>151</customerid>
-		<firstname>Malys</firstname>
+		<firstname>Ma�lys</firstname>
 		<surname>Mockford</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>152</customerid>
-		<firstname>Este</firstname>
+		<firstname>Est�e</firstname>
 		<surname>Heggs</surname>
 		<companies>
 			<company companyId="502">
 				<companyname>Quinu</companyname>
 				<companysize>S</companysize>
-				<givenname>Mylne</givenname>
+				<givenname>Myl�ne</givenname>
 				<mail>egipp7j@jigsy.com</mail>
 				<provider>shop-pro.jp</provider>
 				<mail>pborthe92@sciencedaily.com</mail>
@@ -1480,13 +1480,13 @@
 	</customer>
 	<customer>
 		<customerid>153</customerid>
-		<firstname>Michle</firstname>
+		<firstname>Mich�le</firstname>
 		<surname>Poxson</surname>
 		<companies>
 			<company companyId="42">
 				<companyname>Shufflebeat</companyname>
 				<companysize>M</companysize>
-				<givenname>Magdalne</givenname>
+				<givenname>Magdal�ne</givenname>
 				<mail>halelsandrowicz5m@yellowpages.com</mail>
 				<provider>deviantart.com</provider>
 				<mail>dweetch3d@tripadvisor.com</mail>
@@ -1503,43 +1503,43 @@
 	</customer>
 	<customer>
 		<customerid>154</customerid>
-		<firstname>Los</firstname>
+		<firstname>Lo�s</firstname>
 		<surname>Paike</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>155</customerid>
-		<firstname>Mylne</firstname>
+		<firstname>Myl�ne</firstname>
 		<surname>Gerrets</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>156</customerid>
-		<firstname>Ru</firstname>
+		<firstname>Ru�</firstname>
 		<surname>Alderman</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>157</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Batie</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>158</customerid>
-		<firstname>Daphne</firstname>
+		<firstname>Daphn�e</firstname>
 		<surname>Drohun</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>159</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Van Leeuwen</surname>
 		<companies>
 			<company companyId="419">
 				<companyname>Jazzy</companyname>
 				<companysize>S</companysize>
-				<givenname>Cungonde</givenname>
+				<givenname>Cun�gonde</givenname>
 				<mail>hcusted21@acquirethisname.com</mail>
 				<provider>yellowbook.com</provider>
 				<mail>igravelle7@hud.gov</mail>
@@ -1561,19 +1561,19 @@
 	</customer>
 	<customer>
 		<customerid>160</customerid>
-		<firstname>Laurne</firstname>
+		<firstname>Laur�ne</firstname>
 		<surname>Brum</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>161</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Utterson</surname>
 		<companies>
 			<company companyId="16">
 				<companyname>Dynava</companyname>
 				<companysize>S</companysize>
-				<givenname>Mawenn</givenname>
+				<givenname>Ma�wenn</givenname>
 				<mail>cchinncg@npr.org</mail>
 				<provider>jugem.jp</provider>
 				<mail>gblackborow9o@newsvine.com</mail>
@@ -1590,25 +1590,25 @@
 	</customer>
 	<customer>
 		<customerid>162</customerid>
-		<firstname>Almrinda</firstname>
+		<firstname>Alm�rinda</firstname>
 		<surname>Blanchette</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>163</customerid>
-		<firstname>Ro</firstname>
+		<firstname>R�o</firstname>
 		<surname>Disley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>164</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Trundell</surname>
 		<companies>
 			<company companyId="455">
 				<companyname>Vitz</companyname>
 				<companysize>S</companysize>
-				<givenname>Agns</givenname>
+				<givenname>Agn�s</givenname>
 				<mail>mvandalen5t@tripod.com</mail>
 				<provider>webnode.com</provider>
 				<mail>cgeraldinid@columbia.edu</mail>
@@ -1619,19 +1619,19 @@
 	</customer>
 	<customer>
 		<customerid>165</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Stockton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>166</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Hoggetts</surname>
 		<companies>
 			<company companyId="403">
 				<companyname>Dablist</companyname>
 				<companysize>L</companysize>
-				<givenname>Mng</givenname>
+				<givenname>M�ng</givenname>
 				<mail>sjahnckehg@weibo.com</mail>
 				<provider>sun.com</provider>
 				<mail>laspell42@sohu.com</mail>
@@ -1668,25 +1668,25 @@
 	</customer>
 	<customer>
 		<customerid>167</customerid>
-		<firstname>Lane</firstname>
+		<firstname>L�ane</firstname>
 		<surname>McQuaker</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>168</customerid>
-		<firstname>Nomie</firstname>
+		<firstname>No�mie</firstname>
 		<surname>Pamment</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>169</customerid>
-		<firstname>M</firstname>
+		<firstname>M�</firstname>
 		<surname>Gwilliam</surname>
 		<companies>
 			<company companyId="669">
 				<companyname>Teklist</companyname>
 				<companysize>M</companysize>
-				<givenname>Mgane</givenname>
+				<givenname>M�gane</givenname>
 				<mail>vkimblingjr@vkontakte.ru</mail>
 				<provider>sun.com</provider>
 				<mail>cmounter4z@xrea.com</mail>
@@ -1696,7 +1696,7 @@
 			<company companyId="773">
 				<companyname>Layo</companyname>
 				<companysize>L</companysize>
-				<givenname>Mrta</givenname>
+				<givenname>M�rta</givenname>
 				<mail>chardisty44@thetimes.co.uk</mail>
 				<provider>businessinsider.com</provider>
 				<mail>maldgatenf@istockphoto.com</mail>
@@ -1707,13 +1707,13 @@
 	</customer>
 	<customer>
 		<customerid>170</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Kahn</surname>
 		<companies>
 			<company companyId="794">
 				<companyname>Meezzy</companyname>
 				<companysize>L</companysize>
-				<givenname>Malle</givenname>
+				<givenname>Ma�lle</givenname>
 				<mail>mpashleykl@bluehost.com</mail>
 				<provider>adobe.com</provider>
 				<mail>kroza@is.gd</mail>
@@ -1735,37 +1735,37 @@
 	</customer>
 	<customer>
 		<customerid>171</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Christofle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>172</customerid>
-		<firstname>Mn</firstname>
+		<firstname>M�n</firstname>
 		<surname>Bresnen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>173</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Lambswood</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>174</customerid>
-		<firstname>Dorothe</firstname>
+		<firstname>Doroth�e</firstname>
 		<surname>Hames</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>175</customerid>
-		<firstname>Hlne</firstname>
+		<firstname>H�l�ne</firstname>
 		<surname>Hovert</surname>
 		<companies>
 			<company companyId="356">
 				<companyname>Kwilith</companyname>
 				<companysize>M</companysize>
-				<givenname>Camlia</givenname>
+				<givenname>Cam�lia</givenname>
 				<mail>cburtenshawc6@gnu.org</mail>
 				<provider>trellian.com</provider>
 				<mail>bchoupin3p@wix.com</mail>
@@ -1776,61 +1776,61 @@
 	</customer>
 	<customer>
 		<customerid>176</customerid>
-		<firstname>Genevive</firstname>
+		<firstname>Genevi�ve</firstname>
 		<surname>Darbey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>177</customerid>
-		<firstname>Rservs</firstname>
+		<firstname>R�serv�s</firstname>
 		<surname>Gras</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>178</customerid>
-		<firstname>Lone</firstname>
+		<firstname>L�one</firstname>
 		<surname>Duthy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>179</customerid>
-		<firstname>Marie-franoise</firstname>
+		<firstname>Marie-fran�oise</firstname>
 		<surname>Nanetti</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>180</customerid>
-		<firstname>Marie-thrse</firstname>
+		<firstname>Marie-th�r�se</firstname>
 		<surname>Andrusyak</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>181</customerid>
-		<firstname>Malys</firstname>
+		<firstname>Ma�lys</firstname>
 		<surname>Pockett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>182</customerid>
-		<firstname>Publicit</firstname>
+		<firstname>Publicit�</firstname>
 		<surname>Tejero</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>183</customerid>
-		<firstname>Marie-thrse</firstname>
+		<firstname>Marie-th�r�se</firstname>
 		<surname>Goligly</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>184</customerid>
-		<firstname>Edme</firstname>
+		<firstname>Edm�e</firstname>
 		<surname>Dugood</surname>
 		<companies>
 			<company companyId="536">
 				<companyname>Bluejam</companyname>
 				<companysize>M</companysize>
-				<givenname>Mthode</givenname>
+				<givenname>M�thode</givenname>
 				<mail>edowderswella4@state.gov</mail>
 				<provider>ox.ac.uk</provider>
 				<mail>mrubensqv@deviantart.com</mail>
@@ -1852,25 +1852,25 @@
 	</customer>
 	<customer>
 		<customerid>185</customerid>
-		<firstname>Mana</firstname>
+		<firstname>Ma�na</firstname>
 		<surname>Trundell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>186</customerid>
-		<firstname>Dafne</firstname>
+		<firstname>Dafn�e</firstname>
 		<surname>Kahn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>187</customerid>
-		<firstname>Brengre</firstname>
+		<firstname>B�reng�re</firstname>
 		<surname>McGavigan</surname>
 		<companies>
 			<company companyId="497">
 				<companyname>Kayveo</companyname>
 				<companysize>L</companysize>
-				<givenname>Andra</givenname>
+				<givenname>Andr�a</givenname>
 				<mail>fpetticanhx@bbc.co.uk</mail>
 				<provider>barnesandnoble.com</provider>
 				<mail>reastbrook57@ucsd.edu</mail>
@@ -1887,37 +1887,37 @@
 	</customer>
 	<customer>
 		<customerid>188</customerid>
-		<firstname>Loc</firstname>
+		<firstname>Lo�c</firstname>
 		<surname>Chopping</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>189</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Worge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>190</customerid>
-		<firstname>rjan</firstname>
+		<firstname>�rjan</firstname>
 		<surname>Pettican</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>191</customerid>
-		<firstname>Mryl</firstname>
+		<firstname>M�ryl</firstname>
 		<surname>Ruckert</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>192</customerid>
-		<firstname>Batrice</firstname>
+		<firstname>B�atrice</firstname>
 		<surname>Spillane</surname>
 		<companies>
 			<company companyId="63">
 				<companyname>Yozio</companyname>
 				<companysize>L</companysize>
-				<givenname>Hlna</givenname>
+				<givenname>H�l�na</givenname>
 				<mail>aspaingu@nymag.com</mail>
 				<provider>networkadvertising.org</provider>
 				<mail>fmatchett1a@hubpages.com</mail>
@@ -1928,43 +1928,43 @@
 	</customer>
 	<customer>
 		<customerid>193</customerid>
-		<firstname>Kallist</firstname>
+		<firstname>Kallist�</firstname>
 		<surname>Doudny</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>194</customerid>
-		<firstname>Esbjrn</firstname>
+		<firstname>Esbj�rn</firstname>
 		<surname>Stopps</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>195</customerid>
-		<firstname>Ela</firstname>
+		<firstname>El�a</firstname>
 		<surname>Zanitti</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>196</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Haylett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>197</customerid>
-		<firstname>Malann</firstname>
+		<firstname>Ma�lann</firstname>
 		<surname>Ely</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>198</customerid>
-		<firstname>Lorne</firstname>
+		<firstname>Lor�ne</firstname>
 		<surname>Sanzio</surname>
 		<companies>
 			<company companyId="770">
 				<companyname>Jayo</companyname>
 				<companysize>M</companysize>
-				<givenname>Torbjrn</givenname>
+				<givenname>Torbj�rn</givenname>
 				<mail>jbleaseij@sphinn.com</mail>
 				<provider>admin.ch</provider>
 				<mail>bdolbyc1@ftc.gov</mail>
@@ -1986,19 +1986,19 @@
 	</customer>
 	<customer>
 		<customerid>199</customerid>
-		<firstname>Ln</firstname>
+		<firstname>L�n</firstname>
 		<surname>Lambswood</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>200</customerid>
-		<firstname>Lorne</firstname>
+		<firstname>Lor�ne</firstname>
 		<surname>Leith-Harvey</surname>
 		<companies>
 			<company companyId="717">
 				<companyname>Skidoo</companyname>
 				<companysize>S</companysize>
-				<givenname>Rachle</givenname>
+				<givenname>Rach�le</givenname>
 				<mail>mwrotchford6g@uiuc.edu</mail>
 				<provider>irs.gov</provider>
 				<mail>sstoppsab@dyndns.org</mail>
@@ -2009,13 +2009,13 @@
 	</customer>
 	<customer>
 		<customerid>201</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Crannach</surname>
 		<companies>
 			<company companyId="276">
 				<companyname>Zoomdog</companyname>
 				<companysize>L</companysize>
-				<givenname>Mn</givenname>
+				<givenname>M�n</givenname>
 				<mail>mbertwistlems@google.de</mail>
 				<provider>sourceforge.net</provider>
 				<mail>clipyeat4u@jigsy.com</mail>
@@ -2032,37 +2032,37 @@
 	</customer>
 	<customer>
 		<customerid>202</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Giff</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>203</customerid>
-		<firstname>P</firstname>
+		<firstname>P�</firstname>
 		<surname>Blackaller</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>204</customerid>
-		<firstname>U</firstname>
+		<firstname>U�</firstname>
 		<surname>Gebhardt</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>205</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Philipot</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>206</customerid>
-		<firstname>Mn</firstname>
+		<firstname>M�n</firstname>
 		<surname>Charnick</surname>
 		<companies>
 			<company companyId="684">
 				<companyname>Photospace</companyname>
 				<companysize>M</companysize>
-				<givenname>Laurne</givenname>
+				<givenname>Laur�ne</givenname>
 				<mail>kanthonsenie@yellowpages.com</mail>
 				<provider>foxnews.com</provider>
 				<mail>skingshottff@shinystat.com</mail>
@@ -2073,13 +2073,13 @@
 	</customer>
 	<customer>
 		<customerid>207</customerid>
-		<firstname>Salom</firstname>
+		<firstname>Salom�</firstname>
 		<surname>McLelland</surname>
 		<companies>
 			<company companyId="393">
 				<companyname>Gevee</companyname>
 				<companysize>S</companysize>
-				<givenname>Cllia</givenname>
+				<givenname>Cl�lia</givenname>
 				<mail>chatterslay12@1688.com</mail>
 				<provider>ox.ac.uk</provider>
 				<mail>skimmince8@irs.gov</mail>
@@ -2101,31 +2101,31 @@
 	</customer>
 	<customer>
 		<customerid>208</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>OFarris</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>209</customerid>
-		<firstname>ke</firstname>
+		<firstname>�ke</firstname>
 		<surname>Bloxsome</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>210</customerid>
-		<firstname>Kallist</firstname>
+		<firstname>Kallist�</firstname>
 		<surname>Poxton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>211</customerid>
-		<firstname>Analle</firstname>
+		<firstname>Ana�lle</firstname>
 		<surname>Guisby</surname>
 		<companies>
 			<company companyId="115">
 				<companyname>Linktype</companyname>
 				<companysize>M</companysize>
-				<givenname>Josphine</givenname>
+				<givenname>Jos�phine</givenname>
 				<mail>pratiebr@goodreads.com</mail>
 				<provider>unesco.org</provider>
 				<mail>lcleatherowg4@cbsnews.com</mail>
@@ -2152,19 +2152,19 @@
 	</customer>
 	<customer>
 		<customerid>212</customerid>
-		<firstname>Aime</firstname>
+		<firstname>Aim�e</firstname>
 		<surname>Yitshak</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>213</customerid>
-		<firstname>Anal</firstname>
+		<firstname>Ana�l</firstname>
 		<surname>Girardetti</surname>
 		<companies>
 			<company companyId="620">
 				<companyname>Dabvine</companyname>
 				<companysize>L</companysize>
-				<givenname>Genevive</givenname>
+				<givenname>Genevi�ve</givenname>
 				<mail>rpaddy4l@businessinsider.com</mail>
 				<provider>tumblr.com</provider>
 				<mail>mnovacekdw@pen.io</mail>
@@ -2181,19 +2181,19 @@
 	</customer>
 	<customer>
 		<customerid>214</customerid>
-		<firstname>W</firstname>
+		<firstname>W�</firstname>
 		<surname>Giamitti</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>215</customerid>
-		<firstname>Lana</firstname>
+		<firstname>L�ana</firstname>
 		<surname>Cotta</surname>
 		<companies>
 			<company companyId="49">
 				<companyname>Photolist</companyname>
 				<companysize>L</companysize>
-				<givenname>Thrsa</givenname>
+				<givenname>Th�r�sa</givenname>
 				<mail>lcrimes7l@pinterest.com</mail>
 				<provider>arizona.edu</provider>
 				<mail>cotridgece@parallels.com</mail>
@@ -2204,61 +2204,61 @@
 	</customer>
 	<customer>
 		<customerid>216</customerid>
-		<firstname>Lucrce</firstname>
+		<firstname>Lucr�ce</firstname>
 		<surname>Hellewell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>217</customerid>
-		<firstname>Aurlie</firstname>
+		<firstname>Aur�lie</firstname>
 		<surname>Van Leeuwen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>218</customerid>
-		<firstname>Garon</firstname>
+		<firstname>Gar�on</firstname>
 		<surname>Bridgen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>219</customerid>
-		<firstname>Malyss</firstname>
+		<firstname>Ma�lyss</firstname>
 		<surname>Wibrew</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>220</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Dyos</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>221</customerid>
-		<firstname>Mn</firstname>
+		<firstname>M�n</firstname>
 		<surname>Benda</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>222</customerid>
-		<firstname>Dorothe</firstname>
+		<firstname>Doroth�e</firstname>
 		<surname>Ambridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>223</customerid>
-		<firstname>Loc</firstname>
+		<firstname>Lo�c</firstname>
 		<surname>Snartt</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>224</customerid>
-		<firstname>Lonie</firstname>
+		<firstname>L�onie</firstname>
 		<surname>De Rechter</surname>
 		<companies>
 			<company companyId="737">
 				<companyname>Feednation</companyname>
 				<companysize>S</companysize>
-				<givenname>Milna</givenname>
+				<givenname>Mil�na</givenname>
 				<mail>efinbyjx@slideshare.net</mail>
 				<provider>nature.com</provider>
 				<mail>esutherley9u@dion.ne.jp</mail>
@@ -2269,13 +2269,13 @@
 	</customer>
 	<customer>
 		<customerid>225</customerid>
-		<firstname>Zo</firstname>
+		<firstname>Zo�</firstname>
 		<surname>LAmie</surname>
 		<companies>
 			<company companyId="81">
 				<companyname>Topicware</companyname>
 				<companysize>S</companysize>
-				<givenname>Rachle</givenname>
+				<givenname>Rach�le</givenname>
 				<mail>scoweygd@rakuten.co.jp</mail>
 				<provider>admin.ch</provider>
 				<mail>mboornejm@webs.com</mail>
@@ -2286,13 +2286,13 @@
 	</customer>
 	<customer>
 		<customerid>226</customerid>
-		<firstname>Nolla</firstname>
+		<firstname>No�lla</firstname>
 		<surname>Levine</surname>
 		<companies>
 			<company companyId="361">
 				<companyname>Meeveo</companyname>
 				<companysize>L</companysize>
-				<givenname>Nava</givenname>
+				<givenname>Na�va</givenname>
 				<mail>adutchna@mapy.cz</mail>
 				<provider>pcworld.com</provider>
 				<mail>ystiddard5g@nationalgeographic.com</mail>
@@ -2314,115 +2314,115 @@
 	</customer>
 	<customer>
 		<customerid>227</customerid>
-		<firstname>Dafne</firstname>
+		<firstname>Dafn�e</firstname>
 		<surname>Blaydes</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>228</customerid>
-		<firstname>Marie-ve</firstname>
+		<firstname>Marie-�ve</firstname>
 		<surname>Christofe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>229</customerid>
-		<firstname>Angle</firstname>
+		<firstname>Ang�le</firstname>
 		<surname>Belle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>230</customerid>
-		<firstname>Zh</firstname>
+		<firstname>Zh�</firstname>
 		<surname>Flay</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>231</customerid>
-		<firstname>Pnlope</firstname>
+		<firstname>P�n�lope</firstname>
 		<surname>OFarris</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>232</customerid>
-		<firstname>Bndicte</firstname>
+		<firstname>B�n�dicte</firstname>
 		<surname>Etheridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>233</customerid>
-		<firstname>Fi</firstname>
+		<firstname>F�i</firstname>
 		<surname>Piddlehinton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>234</customerid>
-		<firstname>Bjrn</firstname>
+		<firstname>Bj�rn</firstname>
 		<surname>Sharp</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>235</customerid>
-		<firstname>Lng</firstname>
+		<firstname>L�ng</firstname>
 		<surname>Ixor</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>236</customerid>
-		<firstname>Personnalise</firstname>
+		<firstname>Personnalis�e</firstname>
 		<surname>Padly</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>237</customerid>
-		<firstname>Publicit</firstname>
+		<firstname>Publicit�</firstname>
 		<surname>Christophle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>238</customerid>
-		<firstname>Lone</firstname>
+		<firstname>L�one</firstname>
 		<surname>Borthe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>239</customerid>
-		<firstname>Brje</firstname>
+		<firstname>B�rje</firstname>
 		<surname>Scrivin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>240</customerid>
-		<firstname>Mng</firstname>
+		<firstname>M�ng</firstname>
 		<surname>Leil</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>241</customerid>
-		<firstname>Plagie</firstname>
+		<firstname>P�lagie</firstname>
 		<surname>Blinerman</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>242</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Choupin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>243</customerid>
-		<firstname>Mana</firstname>
+		<firstname>Ma�na</firstname>
 		<surname>Disley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>244</customerid>
-		<firstname>Mylne</firstname>
+		<firstname>Myl�ne</firstname>
 		<surname>Hark</surname>
 		<companies>
 			<company companyId="471">
 				<companyname>Topiclounge</companyname>
 				<companysize>M</companysize>
-				<givenname>Ynora</givenname>
+				<givenname>Y�nora</givenname>
 				<mail>smcginlaybg@ebay.com</mail>
 				<provider>hud.gov</provider>
 				<mail>dsysonjt@infoseek.co.jp</mail>
@@ -2439,13 +2439,13 @@
 	</customer>
 	<customer>
 		<customerid>245</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Dolby</surname>
 		<companies>
 			<company companyId="165">
 				<companyname>Eidel</companyname>
 				<companysize>S</companysize>
-				<givenname>Ins</givenname>
+				<givenname>In�s</givenname>
 				<mail>bhanlonls@dion.ne.jp</mail>
 				<provider>sciencedirect.com</provider>
 				<mail>psaphgi@samsung.com</mail>
@@ -2462,49 +2462,49 @@
 	</customer>
 	<customer>
 		<customerid>246</customerid>
-		<firstname>Lone</firstname>
+		<firstname>L�one</firstname>
 		<surname>McNab</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>247</customerid>
-		<firstname>Loca</firstname>
+		<firstname>Lo�ca</firstname>
 		<surname>Joblin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>248</customerid>
-		<firstname>Mlodie</firstname>
+		<firstname>M�lodie</firstname>
 		<surname>Wulfinger</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>249</customerid>
-		<firstname>Lala</firstname>
+		<firstname>La�la</firstname>
 		<surname>Dows</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>250</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Hellen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>251</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Martynka</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>252</customerid>
-		<firstname>Valrie</firstname>
+		<firstname>Val�rie</firstname>
 		<surname>Norssister</surname>
 		<companies>
 			<company companyId="121">
 				<companyname>Skinte</companyname>
 				<companysize>M</companysize>
-				<givenname>Rgine</givenname>
+				<givenname>R�gine</givenname>
 				<mail>ncallisterli@nsw.gov.au</mail>
 				<provider>instagram.com</provider>
 				<mail>maparkjs@angelfire.com</mail>
@@ -2521,19 +2521,19 @@
 	</customer>
 	<customer>
 		<customerid>253</customerid>
-		<firstname>Clo</firstname>
+		<firstname>Clo�</firstname>
 		<surname>Fillon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>254</customerid>
-		<firstname>Vrane</firstname>
+		<firstname>V�rane</firstname>
 		<surname>Frowd</surname>
 		<companies>
 			<company companyId="658">
 				<companyname>Tagpad</companyname>
 				<companysize>M</companysize>
-				<givenname>Nhmie</givenname>
+				<givenname>N�h�mie</givenname>
 				<mail>csitwell6l@google.ru</mail>
 				<provider>reverbnation.com</provider>
 				<mail>zroyalg@seattletimes.com</mail>
@@ -2544,13 +2544,13 @@
 	</customer>
 	<customer>
 		<customerid>255</customerid>
-		<firstname>Laurlie</firstname>
+		<firstname>Laur�lie</firstname>
 		<surname>Meneghi</surname>
 		<companies>
 			<company companyId="371">
 				<companyname>Meejo</companyname>
 				<companysize>M</companysize>
-				<givenname>Personnalise</givenname>
+				<givenname>Personnalis�e</givenname>
 				<mail>ceamgj@purevolume.com</mail>
 				<provider>infoseek.co.jp</provider>
 				<mail>bambrus99@foxnews.com</mail>
@@ -2561,67 +2561,67 @@
 	</customer>
 	<customer>
 		<customerid>256</customerid>
-		<firstname>Laurne</firstname>
+		<firstname>Laur�ne</firstname>
 		<surname>Denerley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>257</customerid>
-		<firstname>Srna</firstname>
+		<firstname>S�r�na</firstname>
 		<surname>Chapling</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>258</customerid>
-		<firstname>rjan</firstname>
+		<firstname>�rjan</firstname>
 		<surname>Faloon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>259</customerid>
-		<firstname>Lng</firstname>
+		<firstname>L�ng</firstname>
 		<surname>Haddock</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>260</customerid>
-		<firstname>Anas</firstname>
+		<firstname>Ana�s</firstname>
 		<surname>Rexworthy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>261</customerid>
-		<firstname>Kallist</firstname>
+		<firstname>Kallist�</firstname>
 		<surname>Christofle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>262</customerid>
-		<firstname>Estve</firstname>
+		<firstname>Est�ve</firstname>
 		<surname>Kellington</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>263</customerid>
-		<firstname>Landre</firstname>
+		<firstname>L�andre</firstname>
 		<surname>Shooter</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>264</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Hanlon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>265</customerid>
-		<firstname>Y</firstname>
+		<firstname>Y�</firstname>
 		<surname>Ludford</surname>
 		<companies>
 			<company companyId="184">
 				<companyname>Skimia</companyname>
 				<companysize>M</companysize>
-				<givenname>D</givenname>
+				<givenname>D�</givenname>
 				<mail>mbigleyrr@technorati.com</mail>
 				<provider>comsenz.com</provider>
 				<mail>nmathiaseni3@miitbeian.gov.cn</mail>
@@ -2643,43 +2643,43 @@
 	</customer>
 	<customer>
 		<customerid>266</customerid>
-		<firstname>Loca</firstname>
+		<firstname>Lo�ca</firstname>
 		<surname>Blease</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>267</customerid>
-		<firstname>U</firstname>
+		<firstname>U�</firstname>
 		<surname>Hawthorn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>268</customerid>
-		<firstname>Chlo</firstname>
+		<firstname>Chlo�</firstname>
 		<surname>Rosiello</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>269</customerid>
-		<firstname>Mthode</firstname>
+		<firstname>M�thode</firstname>
 		<surname>Twinbrow</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>270</customerid>
-		<firstname>Adlie</firstname>
+		<firstname>Ad�lie</firstname>
 		<surname>LAmie</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>271</customerid>
-		<firstname>Magdalne</firstname>
+		<firstname>Magdal�ne</firstname>
 		<surname>Yewdall</surname>
 		<companies>
 			<company companyId="29">
 				<companyname>Dazzlesphere</companyname>
 				<companysize>L</companysize>
-				<givenname>Stphanie</givenname>
+				<givenname>St�phanie</givenname>
 				<mail>oreucastlegr@utexas.edu</mail>
 				<provider>blog.com</provider>
 				<mail>hoshielsll@bravesites.com</mail>
@@ -2696,13 +2696,13 @@
 	</customer>
 	<customer>
 		<customerid>272</customerid>
-		<firstname>Mlina</firstname>
+		<firstname>M�lina</firstname>
 		<surname>Martschke</surname>
 		<companies>
 			<company companyId="335">
 				<companyname>Lazz</companyname>
 				<companysize>L</companysize>
-				<givenname>Stphanie</givenname>
+				<givenname>St�phanie</givenname>
 				<mail>fverlanderjj@cisco.com</mail>
 				<provider>va.gov</provider>
 				<mail>kelan5f@ed.gov</mail>
@@ -2719,13 +2719,13 @@
 	</customer>
 	<customer>
 		<customerid>273</customerid>
-		<firstname>Pl</firstname>
+		<firstname>P�l</firstname>
 		<surname>Nassey</surname>
 		<companies>
 			<company companyId="654">
 				<companyname>Trudoo</companyname>
 				<companysize>S</companysize>
-				<givenname>Srna</givenname>
+				<givenname>S�r�na</givenname>
 				<mail>lbarthrammu@desdev.cn</mail>
 				<provider>wordpress.org</provider>
 				<mail>shoggettse9@flickr.com</mail>
@@ -2742,67 +2742,67 @@
 	</customer>
 	<customer>
 		<customerid>274</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Olfert</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>275</customerid>
-		<firstname>Landre</firstname>
+		<firstname>L�andre</firstname>
 		<surname>Kernaghan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>276</customerid>
-		<firstname>Edme</firstname>
+		<firstname>Edm�e</firstname>
 		<surname>Beekmann</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>277</customerid>
-		<firstname>slg</firstname>
+		<firstname>�sl�g</firstname>
 		<surname>Geany</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>278</customerid>
-		<firstname>Tng</firstname>
+		<firstname>T�ng</firstname>
 		<surname>De Giorgio</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>279</customerid>
-		<firstname>P</firstname>
+		<firstname>P�</firstname>
 		<surname>Bawdon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>280</customerid>
-		<firstname>Fi</firstname>
+		<firstname>F�i</firstname>
 		<surname>Thomlinson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>281</customerid>
-		<firstname>Marlne</firstname>
+		<firstname>Marl�ne</firstname>
 		<surname>Krebs</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>282</customerid>
-		<firstname>rjan</firstname>
+		<firstname>�rjan</firstname>
 		<surname>Puckham</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>283</customerid>
-		<firstname>A</firstname>
+		<firstname>A�</firstname>
 		<surname>Geraldini</surname>
 		<companies>
 			<company companyId="202">
 				<companyname>Vitz</companyname>
 				<companysize>L</companysize>
-				<givenname>K</givenname>
+				<givenname>K�</givenname>
 				<mail>bwulfingerdp@woothemes.com</mail>
 				<provider>vinaora.com</provider>
 				<mail>vgiamittipj@liveinternet.ru</mail>
@@ -2824,49 +2824,49 @@
 	</customer>
 	<customer>
 		<customerid>284</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Gathercoal</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>285</customerid>
-		<firstname>Irne</firstname>
+		<firstname>Ir�ne</firstname>
 		<surname>Brideau</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>286</customerid>
-		<firstname>Rgine</firstname>
+		<firstname>R�gine</firstname>
 		<surname>Critten</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>287</customerid>
-		<firstname>Este</firstname>
+		<firstname>Est�e</firstname>
 		<surname>Bernardotti</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>288</customerid>
-		<firstname>Vnus</firstname>
+		<firstname>V�nus</firstname>
 		<surname>Izacenko</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>289</customerid>
-		<firstname>Mng</firstname>
+		<firstname>M�ng</firstname>
 		<surname>Hanlon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>290</customerid>
-		<firstname>Andr</firstname>
+		<firstname>Andr�</firstname>
 		<surname>Dalla</surname>
 		<companies>
 			<company companyId="71">
 				<companyname>Oyoloo</companyname>
 				<companysize>L</companysize>
-				<givenname>Nalle</givenname>
+				<givenname>Na�lle</givenname>
 				<mail>adurokw@360.cn</mail>
 				<provider>nasa.gov</provider>
 				<mail>fbrotherheadql@zdnet.com</mail>
@@ -2888,25 +2888,25 @@
 	</customer>
 	<customer>
 		<customerid>291</customerid>
-		<firstname>Mlys</firstname>
+		<firstname>M�lys</firstname>
 		<surname>Lendon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>292</customerid>
-		<firstname>Ana</firstname>
+		<firstname>Ana�</firstname>
 		<surname>Lightman</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>293</customerid>
-		<firstname>Fi</firstname>
+		<firstname>F�i</firstname>
 		<surname>Mabbs</surname>
 		<companies>
 			<company companyId="305">
 				<companyname>Tagcat</companyname>
 				<companysize>S</companysize>
-				<givenname>Nhmie</givenname>
+				<givenname>N�h�mie</givenname>
 				<mail>brosiellop8@canalblog.com</mail>
 				<provider>wikipedia.org</provider>
 				<mail>ddeakes26@blogger.com</mail>
@@ -2923,13 +2923,13 @@
 	</customer>
 	<customer>
 		<customerid>294</customerid>
-		<firstname>Zo</firstname>
+		<firstname>Zo�</firstname>
 		<surname>Spacie</surname>
 		<companies>
 			<company companyId="89">
 				<companyname>Avaveo</companyname>
 				<companysize>M</companysize>
-				<givenname>U</givenname>
+				<givenname>U�</givenname>
 				<mail>nmcelroyp3@parallels.com</mail>
 				<provider>360.cn</provider>
 				<mail>edoudny46@hhs.gov</mail>
@@ -2956,19 +2956,19 @@
 	</customer>
 	<customer>
 		<customerid>295</customerid>
-		<firstname>Nlie</firstname>
+		<firstname>N�lie</firstname>
 		<surname>Vella</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>296</customerid>
-		<firstname>Maline</firstname>
+		<firstname>Ma�line</firstname>
 		<surname>Carrel</surname>
 		<companies>
 			<company companyId="9">
 				<companyname>Fliptune</companyname>
 				<companysize>M</companysize>
-				<givenname>Yo</givenname>
+				<givenname>Y�o</givenname>
 				<mail>oocurranma@sbwire.com</mail>
 				<provider>webmd.com</provider>
 				<mail>hbeardsworthqa@furl.net</mail>
@@ -2979,13 +2979,13 @@
 	</customer>
 	<customer>
 		<customerid>297</customerid>
-		<firstname>Laurlie</firstname>
+		<firstname>Laur�lie</firstname>
 		<surname>Kellington</surname>
 		<companies>
 			<company companyId="604">
 				<companyname>Eazzy</companyname>
 				<companysize>L</companysize>
-				<givenname>Mdiamass</givenname>
+				<givenname>M�diamass</givenname>
 				<mail>dbascombeew@webmd.com</mail>
 				<provider>vinaora.com</provider>
 				<mail>ddunkirkcu@is.gd</mail>
@@ -3002,19 +3002,19 @@
 	</customer>
 	<customer>
 		<customerid>298</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Nutley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>299</customerid>
-		<firstname>Marie-thrse</firstname>
+		<firstname>Marie-th�r�se</firstname>
 		<surname>Parmiter</surname>
 		<companies>
 			<company companyId="300">
 				<companyname>Shufflester</companyname>
 				<companysize>M</companysize>
-				<givenname>Rgine</givenname>
+				<givenname>R�gine</givenname>
 				<mail>nmockfordpo@washingtonpost.com</mail>
 				<provider>sphinn.com</provider>
 				<mail>cwinskill59@unc.edu</mail>
@@ -3030,7 +3030,7 @@
 			<company companyId="215">
 				<companyname>Tagchat</companyname>
 				<companysize>M</companysize>
-				<givenname>Magdalne</givenname>
+				<givenname>Magdal�ne</givenname>
 				<mail>ulhommeaucm@princeton.edu</mail>
 				<provider>qq.com</provider>
 				<mail>sbesteoe@plala.or.jp</mail>
@@ -3041,19 +3041,19 @@
 	</customer>
 	<customer>
 		<customerid>300</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Meryett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>301</customerid>
-		<firstname>Mylne</firstname>
+		<firstname>Myl�ne</firstname>
 		<surname>Culleford</surname>
 		<companies>
 			<company companyId="219">
 				<companyname>Layo</companyname>
 				<companysize>M</companysize>
-				<givenname>Cla</givenname>
+				<givenname>Cl�a</givenname>
 				<mail>lkitchenek@independent.co.uk</mail>
 				<provider>chicagotribune.com</provider>
 				<mail>cortac5@comcast.net</mail>
@@ -3070,31 +3070,31 @@
 	</customer>
 	<customer>
 		<customerid>302</customerid>
-		<firstname>Ophlie</firstname>
+		<firstname>Oph�lie</firstname>
 		<surname>Drohun</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>303</customerid>
-		<firstname>Malys</firstname>
+		<firstname>Ma�lys</firstname>
 		<surname>Gergher</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>304</customerid>
-		<firstname>Hlna</firstname>
+		<firstname>H�l�na</firstname>
 		<surname>Gowing</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>305</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Gisbye</surname>
 		<companies>
 			<company companyId="45">
 				<companyname>Vidoo</companyname>
 				<companysize>S</companysize>
-				<givenname>Mlinda</givenname>
+				<givenname>M�linda</givenname>
 				<mail>jdeathelg@lycos.com</mail>
 				<provider>symantec.com</provider>
 				<mail>ltreagust4b@wikipedia.org</mail>
@@ -3111,19 +3111,19 @@
 	</customer>
 	<customer>
 		<customerid>306</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Knight</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>307</customerid>
-		<firstname>Malle</firstname>
+		<firstname>Ma�lle</firstname>
 		<surname>Bawdon</surname>
 		<companies>
 			<company companyId="327">
 				<companyname>Wordify</companyname>
 				<companysize>S</companysize>
-				<givenname>Dafne</givenname>
+				<givenname>Dafn�e</givenname>
 				<mail>pdugood4e@hc360.com</mail>
 				<provider>businessweek.com</provider>
 				<mail>igravelle7@hud.gov</mail>
@@ -3155,49 +3155,49 @@
 	</customer>
 	<customer>
 		<customerid>308</customerid>
-		<firstname>P</firstname>
+		<firstname>P�</firstname>
 		<surname>Bodell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>309</customerid>
-		<firstname>Mana</firstname>
+		<firstname>Ma�na</firstname>
 		<surname>Caton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>310</customerid>
-		<firstname>Personnalise</firstname>
+		<firstname>Personnalis�e</firstname>
 		<surname>Hames</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>311</customerid>
-		<firstname>Mlissandre</firstname>
+		<firstname>M�lissandre</firstname>
 		<surname>Tarbett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>312</customerid>
-		<firstname>Zo</firstname>
+		<firstname>Zo�</firstname>
 		<surname>Adshead</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>313</customerid>
-		<firstname>Clopatre</firstname>
+		<firstname>Cl�opatre</firstname>
 		<surname>Houselee</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>314</customerid>
-		<firstname>Malys</firstname>
+		<firstname>Ma�lys</firstname>
 		<surname>Oherlihy</surname>
 		<companies>
 			<company companyId="114">
 				<companyname>Realcube</companyname>
 				<companysize>M</companysize>
-				<givenname>K</givenname>
+				<givenname>K�</givenname>
 				<mail>arosenblummd@fotki.com</mail>
 				<provider>vk.com</provider>
 				<mail>ioneilm2@opera.com</mail>
@@ -3208,31 +3208,31 @@
 	</customer>
 	<customer>
 		<customerid>315</customerid>
-		<firstname>A</firstname>
+		<firstname>A�</firstname>
 		<surname>Caton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>316</customerid>
-		<firstname>Danile</firstname>
+		<firstname>Dani�le</firstname>
 		<surname>Chanders</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>317</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Merrison</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>318</customerid>
-		<firstname>Malys</firstname>
+		<firstname>Ma�lys</firstname>
 		<surname>Cappell</surname>
 		<companies>
 			<company companyId="303">
 				<companyname>LiveZ</companyname>
 				<companysize>S</companysize>
-				<givenname>Camlia</givenname>
+				<givenname>Cam�lia</givenname>
 				<mail>jbleaseij@sphinn.com</mail>
 				<provider>pagesperso-orange.fr</provider>
 				<mail>gskitteral2c@ehow.com</mail>
@@ -3254,13 +3254,13 @@
 	</customer>
 	<customer>
 		<customerid>319</customerid>
-		<firstname>Mana</firstname>
+		<firstname>Ma�na</firstname>
 		<surname>Treagust</surname>
 		<companies>
 			<company companyId="551">
 				<companyname>Jaxbean</companyname>
 				<companysize>M</companysize>
-				<givenname>Li</givenname>
+				<givenname>L�i</givenname>
 				<mail>hgisbye15@sitemeter.com</mail>
 				<provider>newsvine.com</provider>
 				<mail>mfreear4w@nytimes.com</mail>
@@ -3271,37 +3271,37 @@
 	</customer>
 	<customer>
 		<customerid>320</customerid>
-		<firstname>Lane</firstname>
+		<firstname>L�ane</firstname>
 		<surname>Warlowe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>321</customerid>
-		<firstname>A</firstname>
+		<firstname>A�</firstname>
 		<surname>Blinerman</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>322</customerid>
-		<firstname>Mline</firstname>
+		<firstname>M�line</firstname>
 		<surname>Beste</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>323</customerid>
-		<firstname>Mlodie</firstname>
+		<firstname>M�lodie</firstname>
 		<surname>Portman</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>324</customerid>
-		<firstname>Personnalise</firstname>
+		<firstname>Personnalis�e</firstname>
 		<surname>Brack</surname>
 		<companies>
 			<company companyId="475">
 				<companyname>Snaptags</companyname>
 				<companysize>S</companysize>
-				<givenname>Zh</givenname>
+				<givenname>Zh�</givenname>
 				<mail>dlancettcc@360.cn</mail>
 				<provider>elegantthemes.com</provider>
 				<mail>emassingberd69@nytimes.com</mail>
@@ -3323,13 +3323,13 @@
 	</customer>
 	<customer>
 		<customerid>325</customerid>
-		<firstname>Ma</firstname>
+		<firstname>Ma�</firstname>
 		<surname>Cotgrove</surname>
 		<companies>
 			<company companyId="28">
 				<companyname>Skyvu</companyname>
 				<companysize>L</companysize>
-				<givenname>Andra</givenname>
+				<givenname>Andr�a</givenname>
 				<mail>jwaldrami8@hao123.com</mail>
 				<provider>webmd.com</provider>
 				<mail>jgaylardrj@de.vu</mail>
@@ -3340,19 +3340,19 @@
 	</customer>
 	<customer>
 		<customerid>326</customerid>
-		<firstname>Malann</firstname>
+		<firstname>Ma�lann</firstname>
 		<surname>Pendrey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>327</customerid>
-		<firstname>ke</firstname>
+		<firstname>�ke</firstname>
 		<surname>Strasse</surname>
 		<companies>
 			<company companyId="661">
 				<companyname>Kanoodle</companyname>
 				<companysize>S</companysize>
-				<givenname>Hlna</givenname>
+				<givenname>H�l�na</givenname>
 				<mail>dbierslq@ted.com</mail>
 				<provider>ucla.edu</provider>
 				<mail>hbellini16@tuttocitta.it</mail>
@@ -3374,13 +3374,13 @@
 	</customer>
 	<customer>
 		<customerid>328</customerid>
-		<firstname>Kallist</firstname>
+		<firstname>Kallist�</firstname>
 		<surname>Vernazza</surname>
 		<companies>
 			<company companyId="690">
 				<companyname>Brainverse</companyname>
 				<companysize>L</companysize>
-				<givenname>sten</givenname>
+				<givenname>�sten</givenname>
 				<mail>mmorora@feedburner.com</mail>
 				<provider>slideshare.net</provider>
 				<mail>acastreedr@gravatar.com</mail>
@@ -3397,25 +3397,25 @@
 	</customer>
 	<customer>
 		<customerid>329</customerid>
-		<firstname>Valrie</firstname>
+		<firstname>Val�rie</firstname>
 		<surname>Castelli</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>330</customerid>
-		<firstname>Chlo</firstname>
+		<firstname>Chlo�</firstname>
 		<surname>Nollet</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>331</customerid>
-		<firstname>Lonore</firstname>
+		<firstname>L�onore</firstname>
 		<surname>McReynolds</surname>
 		<companies>
 			<company companyId="596">
 				<companyname>Yotz</companyname>
 				<companysize>L</companysize>
-				<givenname>Vrane</givenname>
+				<givenname>V�rane</givenname>
 				<mail>cotridgece@parallels.com</mail>
 				<provider>oracle.com</provider>
 				<mail>gheinigp2@europa.eu</mail>
@@ -3442,55 +3442,55 @@
 	</customer>
 	<customer>
 		<customerid>332</customerid>
-		<firstname>Grald</firstname>
+		<firstname>G�rald</firstname>
 		<surname>Willavize</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>333</customerid>
-		<firstname>Gran</firstname>
+		<firstname>G�ran</firstname>
 		<surname>Greatland</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>334</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Christofe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>335</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Balcon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>336</customerid>
-		<firstname>Plagie</firstname>
+		<firstname>P�lagie</firstname>
 		<surname>Jahncke</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>337</customerid>
-		<firstname>Athna</firstname>
+		<firstname>Ath�na</firstname>
 		<surname>Megroff</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>338</customerid>
-		<firstname>Brje</firstname>
+		<firstname>B�rje</firstname>
 		<surname>Dubois</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>339</customerid>
-		<firstname>Aime</firstname>
+		<firstname>Aim�e</firstname>
 		<surname>Brinsford</surname>
 		<companies>
 			<company companyId="160">
 				<companyname>Zoombeat</companyname>
 				<companysize>L</companysize>
-				<givenname>Y</givenname>
+				<givenname>Y�</givenname>
 				<mail>rstudde1k@plala.or.jp</mail>
 				<provider>chronoengine.com</provider>
 				<mail>bmcgeaneyhf@diigo.com</mail>
@@ -3512,13 +3512,13 @@
 	</customer>
 	<customer>
 		<customerid>340</customerid>
-		<firstname>Analle</firstname>
+		<firstname>Ana�lle</firstname>
 		<surname>Delgua</surname>
 		<companies>
 			<company companyId="0">
 				<companyname>Brainverse</companyname>
 				<companysize>L</companysize>
-				<givenname>Publicit</givenname>
+				<givenname>Publicit�</givenname>
 				<mail>pdugood4e@hc360.com</mail>
 				<provider>cnet.com</provider>
 				<mail>skunathjw@51.la</mail>
@@ -3545,19 +3545,19 @@
 	</customer>
 	<customer>
 		<customerid>341</customerid>
-		<firstname>Flicie</firstname>
+		<firstname>F�licie</firstname>
 		<surname>Cappell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>342</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Cordeix</surname>
 		<companies>
 			<company companyId="339">
 				<companyname>Meejo</companyname>
 				<companysize>M</companysize>
-				<givenname>Cla</givenname>
+				<givenname>Cl�a</givenname>
 				<mail>ivigourslp@marketwatch.com</mail>
 				<provider>nih.gov</provider>
 				<mail>lmabbsci@photobucket.com</mail>
@@ -3568,61 +3568,61 @@
 	</customer>
 	<customer>
 		<customerid>343</customerid>
-		<firstname>Lone</firstname>
+		<firstname>L�one</firstname>
 		<surname>McCrone</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>344</customerid>
-		<firstname>Rachle</firstname>
+		<firstname>Rach�le</firstname>
 		<surname>Andriolli</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>345</customerid>
-		<firstname>Irne</firstname>
+		<firstname>Ir�ne</firstname>
 		<surname>Caton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>346</customerid>
-		<firstname>Lorne</firstname>
+		<firstname>Lor�ne</firstname>
 		<surname>Otridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>347</customerid>
-		<firstname>Mlys</firstname>
+		<firstname>M�lys</firstname>
 		<surname>Gisbye</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>348</customerid>
-		<firstname>Maline</firstname>
+		<firstname>Ma�line</firstname>
 		<surname>Gaitskill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>349</customerid>
-		<firstname>Irne</firstname>
+		<firstname>Ir�ne</firstname>
 		<surname>Sheeran</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>350</customerid>
-		<firstname>Lala</firstname>
+		<firstname>La�la</firstname>
 		<surname>Martynka</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>351</customerid>
-		<firstname>Loc</firstname>
+		<firstname>Lo�c</firstname>
 		<surname>Master</surname>
 		<companies>
 			<company companyId="473">
 				<companyname>Dazzlesphere</companyname>
 				<companysize>L</companysize>
-				<givenname>Li</givenname>
+				<givenname>L�i</givenname>
 				<mail>avaudreyla@aboutads.info</mail>
 				<provider>yandex.ru</provider>
 				<mail>chirtzmann5r@a8.net</mail>
@@ -3633,37 +3633,37 @@
 	</customer>
 	<customer>
 		<customerid>352</customerid>
-		<firstname>Cinma</firstname>
+		<firstname>Cin�ma</firstname>
 		<surname>Highway</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>353</customerid>
-		<firstname>Daphne</firstname>
+		<firstname>Daphn�e</firstname>
 		<surname>De Simoni</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>354</customerid>
-		<firstname>Desire</firstname>
+		<firstname>Desir�e</firstname>
 		<surname>Tydd</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>355</customerid>
-		<firstname>Sverine</firstname>
+		<firstname>S�verine</firstname>
 		<surname>Alebrooke</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>356</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Freear</surname>
 		<companies>
 			<company companyId="30">
 				<companyname>Voolith</companyname>
 				<companysize>S</companysize>
-				<givenname>Plagie</givenname>
+				<givenname>P�lagie</givenname>
 				<mail>mkleehuhler7h@networksolutions.com</mail>
 				<provider>walmart.com</provider>
 				<mail>mdruel18@army.mil</mail>
@@ -3674,19 +3674,19 @@
 	</customer>
 	<customer>
 		<customerid>357</customerid>
-		<firstname>Ln</firstname>
+		<firstname>L�n</firstname>
 		<surname>Isaksson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>358</customerid>
-		<firstname>Elis</firstname>
+		<firstname>Eli�s</firstname>
 		<surname>Muscat</surname>
 		<companies>
 			<company companyId="431">
 				<companyname>Trudoo</companyname>
 				<companysize>M</companysize>
-				<givenname>Lysa</givenname>
+				<givenname>Lys�a</givenname>
 				<mail>canglimbc@tinyurl.com</mail>
 				<provider>sbwire.com</provider>
 				<mail>dblanchetteaz@google.es</mail>
@@ -3703,13 +3703,13 @@
 	</customer>
 	<customer>
 		<customerid>359</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Bertwistle</surname>
 		<companies>
 			<company companyId="526">
 				<companyname>Shuffletag</companyname>
 				<companysize>S</companysize>
-				<givenname>Srna</givenname>
+				<givenname>S�r�na</givenname>
 				<mail>vduesterj9@intel.com</mail>
 				<provider>dagondesign.com</provider>
 				<mail>pgiffmw@last.fm</mail>
@@ -3730,7 +3730,7 @@
 			<company companyId="525">
 				<companyname>Twitterworks</companyname>
 				<companysize>M</companysize>
-				<givenname>Ru</givenname>
+				<givenname>Ru�</givenname>
 				<mail>rheggs3x@stanford.edu</mail>
 				<provider>nyu.edu</provider>
 				<mail>hambridge1i@wordpress.com</mail>
@@ -3747,55 +3747,55 @@
 	</customer>
 	<customer>
 		<customerid>360</customerid>
-		<firstname>Yu</firstname>
+		<firstname>Y�u</firstname>
 		<surname>Gargett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>361</customerid>
-		<firstname>Edme</firstname>
+		<firstname>Edm�e</firstname>
 		<surname>Noteyoung</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>362</customerid>
-		<firstname>Srna</firstname>
+		<firstname>S�r�na</firstname>
 		<surname>Noteyoung</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>363</customerid>
-		<firstname>Rene</firstname>
+		<firstname>Ren�e</firstname>
 		<surname>Mabbs</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>364</customerid>
-		<firstname>Clestine</firstname>
+		<firstname>C�lestine</firstname>
 		<surname>Mival</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>365</customerid>
-		<firstname>Daphne</firstname>
+		<firstname>Daphn�e</firstname>
 		<surname>Capponeer</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>366</customerid>
-		<firstname>Srna</firstname>
+		<firstname>S�r�na</firstname>
 		<surname>Shalders</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>367</customerid>
-		<firstname>Mns</firstname>
+		<firstname>M�ns</firstname>
 		<surname>Askham</surname>
 		<companies>
 			<company companyId="435">
 				<companyname>Eayo</companyname>
 				<companysize>M</companysize>
-				<givenname>Michle</givenname>
+				<givenname>Mich�le</givenname>
 				<mail>lshearsby3q@elpais.com</mail>
 				<provider>pinterest.com</provider>
 				<mail>dpakenham8x@sohu.com</mail>
@@ -3806,13 +3806,13 @@
 	</customer>
 	<customer>
 		<customerid>368</customerid>
-		<firstname>Srna</firstname>
+		<firstname>S�r�na</firstname>
 		<surname>Hatterslay</surname>
 		<companies>
 			<company companyId="203">
 				<companyname>Fadeo</companyname>
 				<companysize>L</companysize>
-				<givenname>Clia</givenname>
+				<givenname>C�lia</givenname>
 				<mail>jgibberdo5@economist.com</mail>
 				<provider>amazon.com</provider>
 				<mail>pklaffsgv@google.ca</mail>
@@ -3838,7 +3838,7 @@
 			<company companyId="708">
 				<companyname>Skyvu</companyname>
 				<companysize>L</companysize>
-				<givenname>Rachle</givenname>
+				<givenname>Rach�le</givenname>
 				<mail>dweetch3d@tripadvisor.com</mail>
 				<provider>adobe.com</provider>
 				<mail>blunbechjd@example.com</mail>
@@ -3849,61 +3849,61 @@
 	</customer>
 	<customer>
 		<customerid>369</customerid>
-		<firstname>Hkan</firstname>
+		<firstname>H�kan</firstname>
 		<surname>Leith-Harvey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>370</customerid>
-		<firstname>Gwenalle</firstname>
+		<firstname>Gwena�lle</firstname>
 		<surname>Gregoriou</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>371</customerid>
-		<firstname>Vronique</firstname>
+		<firstname>V�ronique</firstname>
 		<surname>Lebourn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>372</customerid>
-		<firstname>Milna</firstname>
+		<firstname>Mil�na</firstname>
 		<surname>Forsdicke</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>373</customerid>
-		<firstname>Mgane</firstname>
+		<firstname>M�gane</firstname>
 		<surname>Christofle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>374</customerid>
-		<firstname>Agns</firstname>
+		<firstname>Agn�s</firstname>
 		<surname>Donnett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>375</customerid>
-		<firstname>Landre</firstname>
+		<firstname>L�andre</firstname>
 		<surname>Jennick</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>376</customerid>
-		<firstname>Publicit</firstname>
+		<firstname>Publicit�</firstname>
 		<surname>Ivashov</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>377</customerid>
-		<firstname>Marie-hlne</firstname>
+		<firstname>Marie-h�l�ne</firstname>
 		<surname>Vaudrey</surname>
 		<companies>
 			<company companyId="519">
 				<companyname>Jazzy</companyname>
 				<companysize>L</companysize>
-				<givenname>D</givenname>
+				<givenname>D�</givenname>
 				<mail>msheeraniv@a8.net</mail>
 				<provider>miitbeian.gov.cn</provider>
 				<mail>ngrigoryov73@weebly.com</mail>
@@ -3925,31 +3925,31 @@
 	</customer>
 	<customer>
 		<customerid>378</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Pressdee</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>379</customerid>
-		<firstname>Ana</firstname>
+		<firstname>Ana�</firstname>
 		<surname>Greatland</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>380</customerid>
-		<firstname>Cllia</firstname>
+		<firstname>Cl�lia</firstname>
 		<surname>Chapling</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>381</customerid>
-		<firstname>Clia</firstname>
+		<firstname>C�lia</firstname>
 		<surname>Manzell</surname>
 		<companies>
 			<company companyId="551">
 				<companyname>Jaxbean</companyname>
 				<companysize>M</companysize>
-				<givenname>Li</givenname>
+				<givenname>L�i</givenname>
 				<mail>hgisbye15@sitemeter.com</mail>
 				<provider>newsvine.com</provider>
 				<mail>mfreear4w@nytimes.com</mail>
@@ -3960,49 +3960,49 @@
 	</customer>
 	<customer>
 		<customerid>382</customerid>
-		<firstname>Rservs</firstname>
+		<firstname>R�serv�s</firstname>
 		<surname>Doudny</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>383</customerid>
-		<firstname>Desire</firstname>
+		<firstname>Desir�e</firstname>
 		<surname>Pamment</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>384</customerid>
-		<firstname>Mat</firstname>
+		<firstname>Ma�t�</firstname>
 		<surname>Simonite</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>385</customerid>
-		<firstname>Bjrn</firstname>
+		<firstname>Bj�rn</firstname>
 		<surname>Zannuto</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>386</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Imason</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>387</customerid>
-		<firstname>Milna</firstname>
+		<firstname>Mil�na</firstname>
 		<surname>Doudny</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>388</customerid>
-		<firstname>Slne</firstname>
+		<firstname>S�l�ne</firstname>
 		<surname>McQuaker</surname>
 		<companies>
 			<company companyId="201">
 				<companyname>Fanoodle</companyname>
 				<companysize>S</companysize>
-				<givenname>Intressant</givenname>
+				<givenname>Int�ressant</givenname>
 				<mail>clebourn30@nsw.gov.au</mail>
 				<provider>naver.com</provider>
 				<mail>afallowes4p@ebay.co.uk</mail>
@@ -4019,25 +4019,25 @@
 	</customer>
 	<customer>
 		<customerid>389</customerid>
-		<firstname>Mns</firstname>
+		<firstname>M�ns</firstname>
 		<surname>Beardsworth</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>390</customerid>
-		<firstname>Nalle</firstname>
+		<firstname>Na�lle</firstname>
 		<surname>Sture</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>391</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Studdeard</surname>
 		<companies>
 			<company companyId="761">
 				<companyname>Tagchat</companyname>
 				<companysize>M</companysize>
-				<givenname>Malys</givenname>
+				<givenname>Ma�lys</givenname>
 				<mail>mlynchit@uol.com.br</mail>
 				<provider>i2i.jp</provider>
 				<mail>efinbyjx@slideshare.net</mail>
@@ -4048,37 +4048,37 @@
 	</customer>
 	<customer>
 		<customerid>392</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Thoday</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>393</customerid>
-		<firstname>Nalle</firstname>
+		<firstname>Na�lle</firstname>
 		<surname>McEneny</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>394</customerid>
-		<firstname>Yo</firstname>
+		<firstname>Y�o</firstname>
 		<surname>Gaitskill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>395</customerid>
-		<firstname>Bcassine</firstname>
+		<firstname>B�cassine</firstname>
 		<surname>Pietrusiak</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>396</customerid>
-		<firstname>Analle</firstname>
+		<firstname>Ana�lle</firstname>
 		<surname>Puffett</surname>
 		<companies>
 			<company companyId="531">
 				<companyname>Dazzlesphere</companyname>
 				<companysize>M</companysize>
-				<givenname>Andra</givenname>
+				<givenname>Andr�a</givenname>
 				<mail>enanetti1e@163.com</mail>
 				<provider>bizjournals.com</provider>
 				<mail>evancele@naver.com</mail>
@@ -4089,37 +4089,37 @@
 	</customer>
 	<customer>
 		<customerid>397</customerid>
-		<firstname>Annots</firstname>
+		<firstname>Annot�s</firstname>
 		<surname>Alelsandrowicz</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>398</customerid>
-		<firstname>Kvina</firstname>
+		<firstname>K�vina</firstname>
 		<surname>Bedburrow</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>399</customerid>
-		<firstname>Thrsa</firstname>
+		<firstname>Th�r�sa</firstname>
 		<surname>Dolby</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>400</customerid>
-		<firstname>Los</firstname>
+		<firstname>Lo�s</firstname>
 		<surname>Oneil</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>401</customerid>
-		<firstname>T</firstname>
+		<firstname>T�</firstname>
 		<surname>Popov</surname>
 		<companies>
 			<company companyId="445">
 				<companyname>Zoombox</companyname>
 				<companysize>S</companysize>
-				<givenname>Mng</givenname>
+				<givenname>M�ng</givenname>
 				<mail>fnandio@mail.ru</mail>
 				<provider>nymag.com</provider>
 				<mail>lbyrde@goodreads.com</mail>
@@ -4130,19 +4130,19 @@
 	</customer>
 	<customer>
 		<customerid>402</customerid>
-		<firstname>Lonie</firstname>
+		<firstname>L�onie</firstname>
 		<surname>McClymond</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>403</customerid>
-		<firstname>Ophlie</firstname>
+		<firstname>Oph�lie</firstname>
 		<surname>Toke</surname>
 		<companies>
 			<company companyId="279">
 				<companyname>Jaxbean</companyname>
 				<companysize>L</companysize>
-				<givenname>Mthode</givenname>
+				<givenname>M�thode</givenname>
 				<mail>acorbyot@eepurl.com</mail>
 				<provider>blogger.com</provider>
 				<mail>fsalomonq2@zimbio.com</mail>
@@ -4159,31 +4159,31 @@
 	</customer>
 	<customer>
 		<customerid>404</customerid>
-		<firstname>Ln</firstname>
+		<firstname>L�n</firstname>
 		<surname>Jehan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>405</customerid>
-		<firstname>Sverine</firstname>
+		<firstname>S�verine</firstname>
 		<surname>Heads</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>406</customerid>
-		<firstname>Amlie</firstname>
+		<firstname>Am�lie</firstname>
 		<surname>Petraitis</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>407</customerid>
-		<firstname>Mana</firstname>
+		<firstname>Ma�na</firstname>
 		<surname>Bigley</surname>
 		<companies>
 			<company companyId="716">
 				<companyname>Voonyx</companyname>
 				<companysize>M</companysize>
-				<givenname>Aime</givenname>
+				<givenname>Aim�e</givenname>
 				<mail>iminoril@ovh.net</mail>
 				<provider>howstuffworks.com</provider>
 				<mail>omasterfl@issuu.com</mail>
@@ -4193,7 +4193,7 @@
 			<company companyId="514">
 				<companyname>Youfeed</companyname>
 				<companysize>L</companysize>
-				<givenname>Andra</givenname>
+				<givenname>Andr�a</givenname>
 				<mail>nmellero7@shareasale.com</mail>
 				<provider>google.de</provider>
 				<mail>patrill6d@pagesperso-orange.fr</mail>
@@ -4204,13 +4204,13 @@
 	</customer>
 	<customer>
 		<customerid>408</customerid>
-		<firstname>Brengre</firstname>
+		<firstname>B�reng�re</firstname>
 		<surname>Pheazey</surname>
 		<companies>
 			<company companyId="536">
 				<companyname>Bluejam</companyname>
 				<companysize>M</companysize>
-				<givenname>Mthode</givenname>
+				<givenname>M�thode</givenname>
 				<mail>edowderswella4@state.gov</mail>
 				<provider>ox.ac.uk</provider>
 				<mail>mrubensqv@deviantart.com</mail>
@@ -4232,55 +4232,55 @@
 	</customer>
 	<customer>
 		<customerid>409</customerid>
-		<firstname>Publicit</firstname>
+		<firstname>Publicit�</firstname>
 		<surname>Maxted</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>410</customerid>
-		<firstname>Solne</firstname>
+		<firstname>Sol�ne</firstname>
 		<surname>Halpin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>411</customerid>
-		<firstname>Mns</firstname>
+		<firstname>M�ns</firstname>
 		<surname>Kattenhorn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>412</customerid>
-		<firstname>Adlade</firstname>
+		<firstname>Ad�la�de</firstname>
 		<surname>Tuttle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>413</customerid>
-		<firstname>Marie-nol</firstname>
+		<firstname>Marie-no�l</firstname>
 		<surname>Jeannequin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>414</customerid>
-		<firstname>Marie-jose</firstname>
+		<firstname>Marie-jos�e</firstname>
 		<surname>Oakshott</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>415</customerid>
-		<firstname>Stvina</firstname>
+		<firstname>St�vina</firstname>
 		<surname>Halpin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>416</customerid>
-		<firstname>Yu</firstname>
+		<firstname>Y�u</firstname>
 		<surname>Thomlinson</surname>
 		<companies>
 			<company companyId="630">
 				<companyname>Shuffledrive</companyname>
 				<companysize>S</companysize>
-				<givenname>Ccile</givenname>
+				<givenname>C�cile</givenname>
 				<mail>eserlek2@tripod.com</mail>
 				<provider>shop-pro.jp</provider>
 				<mail>dskedgerd@google.ru</mail>
@@ -4297,79 +4297,79 @@
 	</customer>
 	<customer>
 		<customerid>417</customerid>
-		<firstname>Esbjrn</firstname>
+		<firstname>Esbj�rn</firstname>
 		<surname>Wibrew</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>418</customerid>
-		<firstname>Bndicte</firstname>
+		<firstname>B�n�dicte</firstname>
 		<surname>Sheekey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>419</customerid>
-		<firstname>Lysa</firstname>
+		<firstname>Lys�a</firstname>
 		<surname>Hovert</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>420</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Bonsall</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>421</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Shenton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>422</customerid>
-		<firstname>Desire</firstname>
+		<firstname>Desir�e</firstname>
 		<surname>Asken</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>423</customerid>
-		<firstname>Clo</firstname>
+		<firstname>Clo�</firstname>
 		<surname>Blanchette</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>424</customerid>
-		<firstname>Marie-thrse</firstname>
+		<firstname>Marie-th�r�se</firstname>
 		<surname>Ealles</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>425</customerid>
-		<firstname>Lone</firstname>
+		<firstname>L�one</firstname>
 		<surname>Reddan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>426</customerid>
-		<firstname>Ma</firstname>
+		<firstname>Ma�</firstname>
 		<surname>Lavelle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>427</customerid>
-		<firstname>Mana</firstname>
+		<firstname>Ma�na</firstname>
 		<surname>Askham</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>428</customerid>
-		<firstname>Cllia</firstname>
+		<firstname>Cl�lia</firstname>
 		<surname>Aartsen</surname>
 		<companies>
 			<company companyId="690">
 				<companyname>Brainverse</companyname>
 				<companysize>L</companysize>
-				<givenname>sten</givenname>
+				<givenname>�sten</givenname>
 				<mail>mmorora@feedburner.com</mail>
 				<provider>slideshare.net</provider>
 				<mail>acastreedr@gravatar.com</mail>
@@ -4386,13 +4386,13 @@
 	</customer>
 	<customer>
 		<customerid>429</customerid>
-		<firstname>Hkan</firstname>
+		<firstname>H�kan</firstname>
 		<surname>Anglim</surname>
 		<companies>
 			<company companyId="227">
 				<companyname>Yombu</companyname>
 				<companysize>S</companysize>
-				<givenname>Nhmie</givenname>
+				<givenname>N�h�mie</givenname>
 				<mail>cgavej1@mail.ru</mail>
 				<provider>free.fr</provider>
 				<mail>satrillnd@artisteer.com</mail>
@@ -4403,25 +4403,25 @@
 	</customer>
 	<customer>
 		<customerid>430</customerid>
-		<firstname>sa</firstname>
+		<firstname>�sa</firstname>
 		<surname>Golling</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>431</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Burborough</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>432</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Burnsyde</surname>
 		<companies>
 			<company companyId="500">
 				<companyname>Twitterwire</companyname>
 				<companysize>M</companysize>
-				<givenname>Cla</givenname>
+				<givenname>Cl�a</givenname>
 				<mail>fchapling1p@google.com.hk</mail>
 				<provider>pagesperso-orange.fr</provider>
 				<mail>hleadg5@multiply.com</mail>
@@ -4438,49 +4438,49 @@
 	</customer>
 	<customer>
 		<customerid>433</customerid>
-		<firstname>J</firstname>
+		<firstname>J�</firstname>
 		<surname>Eam</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>434</customerid>
-		<firstname>Anas</firstname>
+		<firstname>Ana�s</firstname>
 		<surname>Burgin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>435</customerid>
-		<firstname>Lala</firstname>
+		<firstname>La�la</firstname>
 		<surname>Zanardii</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>436</customerid>
-		<firstname>Estve</firstname>
+		<firstname>Est�ve</firstname>
 		<surname>Spinney</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>437</customerid>
-		<firstname>Ma</firstname>
+		<firstname>Ma�</firstname>
 		<surname>Warlowe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>438</customerid>
-		<firstname>Lucrce</firstname>
+		<firstname>Lucr�ce</firstname>
 		<surname>Shaddock</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>439</customerid>
-		<firstname>Mn</firstname>
+		<firstname>M�n</firstname>
 		<surname>Quarmby</surname>
 		<companies>
 			<company companyId="149">
 				<companyname>InnoZ</companyname>
 				<companysize>S</companysize>
-				<givenname>Cline</givenname>
+				<givenname>C�line</givenname>
 				<mail>gsealeycj@dropbox.com</mail>
 				<provider>amazon.de</provider>
 				<mail>rmccorkell5i@surveymonkey.com</mail>
@@ -4491,73 +4491,73 @@
 	</customer>
 	<customer>
 		<customerid>440</customerid>
-		<firstname>Mylne</firstname>
+		<firstname>Myl�ne</firstname>
 		<surname>Downage</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>441</customerid>
-		<firstname>ke</firstname>
+		<firstname>�ke</firstname>
 		<surname>Jerromes</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>442</customerid>
-		<firstname>Marylne</firstname>
+		<firstname>Maryl�ne</firstname>
 		<surname>Mance</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>443</customerid>
-		<firstname>rjan</firstname>
+		<firstname>�rjan</firstname>
 		<surname>Lambswood</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>444</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Oherlihy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>445</customerid>
-		<firstname>Kvina</firstname>
+		<firstname>K�vina</firstname>
 		<surname>Blanchette</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>446</customerid>
-		<firstname>Lone</firstname>
+		<firstname>L�one</firstname>
 		<surname>Healing</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>447</customerid>
-		<firstname>Torbjrn</firstname>
+		<firstname>Torbj�rn</firstname>
 		<surname>Joblin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>448</customerid>
-		<firstname>Milna</firstname>
+		<firstname>Mil�na</firstname>
 		<surname>Ridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>449</customerid>
-		<firstname>Valrie</firstname>
+		<firstname>Val�rie</firstname>
 		<surname>Dows</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>450</customerid>
-		<firstname>Slne</firstname>
+		<firstname>S�l�ne</firstname>
 		<surname>McLelland</surname>
 		<companies>
 			<company companyId="63">
 				<companyname>Yozio</companyname>
 				<companysize>L</companysize>
-				<givenname>Hlna</givenname>
+				<givenname>H�l�na</givenname>
 				<mail>aspaingu@nymag.com</mail>
 				<provider>networkadvertising.org</provider>
 				<mail>fmatchett1a@hubpages.com</mail>
@@ -4568,25 +4568,25 @@
 	</customer>
 	<customer>
 		<customerid>451</customerid>
-		<firstname>Rachle</firstname>
+		<firstname>Rach�le</firstname>
 		<surname>Borthe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>452</customerid>
-		<firstname>Vronique</firstname>
+		<firstname>V�ronique</firstname>
 		<surname>McIlhone</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>453</customerid>
-		<firstname>Mgane</firstname>
+		<firstname>M�gane</firstname>
 		<surname>Culleford</surname>
 		<companies>
 			<company companyId="485">
 				<companyname>Zoomcast</companyname>
 				<companysize>S</companysize>
-				<givenname>Anal</givenname>
+				<givenname>Ana�l</givenname>
 				<mail>ldowzell3r@123-reg.co.uk</mail>
 				<provider>sakura.ne.jp</provider>
 				<mail>zsmouten8o@topsy.com</mail>
@@ -4608,19 +4608,19 @@
 	</customer>
 	<customer>
 		<customerid>454</customerid>
-		<firstname>Nalle</firstname>
+		<firstname>Na�lle</firstname>
 		<surname>Goundsy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>455</customerid>
-		<firstname>Genevive</firstname>
+		<firstname>Genevi�ve</firstname>
 		<surname>Skedge</surname>
 		<companies>
 			<company companyId="392">
 				<companyname>Trudoo</companyname>
 				<companysize>M</companysize>
-				<givenname>Mryl</givenname>
+				<givenname>M�ryl</givenname>
 				<mail>pwiggini@mit.edu</mail>
 				<provider>ning.com</provider>
 				<mail>ahaily40@shinystat.com</mail>
@@ -4637,25 +4637,25 @@
 	</customer>
 	<customer>
 		<customerid>456</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Artis</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>457</customerid>
-		<firstname>Irne</firstname>
+		<firstname>Ir�ne</firstname>
 		<surname>Rathmell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>458</customerid>
-		<firstname>Marie-thrse</firstname>
+		<firstname>Marie-th�r�se</firstname>
 		<surname>Lindsell</surname>
 		<companies>
 			<company companyId="694">
 				<companyname>Babbleopia</companyname>
 				<companysize>S</companysize>
-				<givenname>Publicit</givenname>
+				<givenname>Publicit�</givenname>
 				<mail>dgisbyemk@wikimedia.org</mail>
 				<provider>wikipedia.org</provider>
 				<mail>oocurranma@sbwire.com</mail>
@@ -4666,25 +4666,25 @@
 	</customer>
 	<customer>
 		<customerid>459</customerid>
-		<firstname>Ophlie</firstname>
+		<firstname>Oph�lie</firstname>
 		<surname>Highton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>460</customerid>
-		<firstname>U</firstname>
+		<firstname>U�</firstname>
 		<surname>Gilyatt</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>461</customerid>
-		<firstname>Ma</firstname>
+		<firstname>Ma�</firstname>
 		<surname>Kimmince</surname>
 		<companies>
 			<company companyId="155">
 				<companyname>Cogilith</companyname>
 				<companysize>L</companysize>
-				<givenname>Lana</givenname>
+				<givenname>L�ana</givenname>
 				<mail>rluckett5w@chronoengine.com</mail>
 				<provider>domainmarket.com</provider>
 				<mail>cdonnett7n@boston.com</mail>
@@ -4700,7 +4700,7 @@
 			<company companyId="783">
 				<companyname>Twitterbridge</companyname>
 				<companysize>S</companysize>
-				<givenname>Franoise</givenname>
+				<givenname>Fran�oise</givenname>
 				<mail>ddeakes26@blogger.com</mail>
 				<provider>cisco.com</provider>
 				<mail>ecleefok@technorati.com</mail>
@@ -4717,25 +4717,25 @@
 	</customer>
 	<customer>
 		<customerid>462</customerid>
-		<firstname>Marie-ve</firstname>
+		<firstname>Marie-�ve</firstname>
 		<surname>Andrusyak</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>463</customerid>
-		<firstname>Lone</firstname>
+		<firstname>L�one</firstname>
 		<surname>Rorke</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>464</customerid>
-		<firstname>Vronique</firstname>
+		<firstname>V�ronique</firstname>
 		<surname>Sterman</surname>
 		<companies>
 			<company companyId="408">
 				<companyname>DabZ</companyname>
 				<companysize>S</companysize>
-				<givenname>Grel</givenname>
+				<givenname>G�rel</givenname>
 				<mail>cburginrc@yale.edu</mail>
 				<provider>wunderground.com</provider>
 				<mail>cbasek1j@ucla.edu</mail>
@@ -4757,49 +4757,49 @@
 	</customer>
 	<customer>
 		<customerid>465</customerid>
-		<firstname>Mgane</firstname>
+		<firstname>M�gane</firstname>
 		<surname>Giffen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>466</customerid>
-		<firstname>Malle</firstname>
+		<firstname>Ma�lle</firstname>
 		<surname>Paddy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>467</customerid>
-		<firstname>Almrinda</firstname>
+		<firstname>Alm�rinda</firstname>
 		<surname>Felipe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>468</customerid>
-		<firstname>Nlie</firstname>
+		<firstname>N�lie</firstname>
 		<surname>McLelland</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>469</customerid>
-		<firstname>Malann</firstname>
+		<firstname>Ma�lann</firstname>
 		<surname>Vance</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>470</customerid>
-		<firstname>Nadge</firstname>
+		<firstname>Nad�ge</firstname>
 		<surname>Ridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>471</customerid>
-		<firstname>Flicie</firstname>
+		<firstname>F�licie</firstname>
 		<surname>Scrivin</surname>
 		<companies>
 			<company companyId="227">
 				<companyname>Yombu</companyname>
 				<companysize>S</companysize>
-				<givenname>Nhmie</givenname>
+				<givenname>N�h�mie</givenname>
 				<mail>cgavej1@mail.ru</mail>
 				<provider>free.fr</provider>
 				<mail>satrillnd@artisteer.com</mail>
@@ -4810,25 +4810,25 @@
 	</customer>
 	<customer>
 		<customerid>472</customerid>
-		<firstname>Clmence</firstname>
+		<firstname>Cl�mence</firstname>
 		<surname>Swan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>473</customerid>
-		<firstname>Marie-ve</firstname>
+		<firstname>Marie-�ve</firstname>
 		<surname>Woodyatt</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>474</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>Blaxeland</surname>
 		<companies>
 			<company companyId="158">
 				<companyname>Einti</companyname>
 				<companysize>S</companysize>
-				<givenname>Mthode</givenname>
+				<givenname>M�thode</givenname>
 				<mail>blohanl6@usgs.gov</mail>
 				<provider>apple.com</provider>
 				<mail>zmessittrl@people.com.cn</mail>
@@ -4845,43 +4845,43 @@
 	</customer>
 	<customer>
 		<customerid>475</customerid>
-		<firstname>Valrie</firstname>
+		<firstname>Val�rie</firstname>
 		<surname>Gagg</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>476</customerid>
-		<firstname>Gran</firstname>
+		<firstname>G�ran</firstname>
 		<surname>Hartle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>477</customerid>
-		<firstname>Irne</firstname>
+		<firstname>Ir�ne</firstname>
 		<surname>Poundesford</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>478</customerid>
-		<firstname>Lala</firstname>
+		<firstname>La�la</firstname>
 		<surname>Lonsdale</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>479</customerid>
-		<firstname>Daphne</firstname>
+		<firstname>Daphn�e</firstname>
 		<surname>Battisson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>480</customerid>
-		<firstname>Edme</firstname>
+		<firstname>Edm�e</firstname>
 		<surname>Shillan</surname>
 		<companies>
 			<company companyId="412">
 				<companyname>Aimbu</companyname>
 				<companysize>M</companysize>
-				<givenname>Hlna</givenname>
+				<givenname>H�l�na</givenname>
 				<mail>pborthe92@sciencedaily.com</mail>
 				<provider>shareasale.com</provider>
 				<mail>dbayless1d@nymag.com</mail>
@@ -4898,13 +4898,13 @@
 	</customer>
 	<customer>
 		<customerid>481</customerid>
-		<firstname>Pnlope</firstname>
+		<firstname>P�n�lope</firstname>
 		<surname>Kenryd</surname>
 		<companies>
 			<company companyId="579">
 				<companyname>Bluezoom</companyname>
 				<companysize>S</companysize>
-				<givenname>Srna</givenname>
+				<givenname>S�r�na</givenname>
 				<mail>umcnabfr@cpanel.net</mail>
 				<provider>desdev.cn</provider>
 				<mail>kshortin7o@yellowbook.com</mail>
@@ -4915,25 +4915,25 @@
 	</customer>
 	<customer>
 		<customerid>482</customerid>
-		<firstname>Anas</firstname>
+		<firstname>Ana�s</firstname>
 		<surname>Bidgood</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>483</customerid>
-		<firstname>Valrie</firstname>
+		<firstname>Val�rie</firstname>
 		<surname>Vigours</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>484</customerid>
-		<firstname>Mthode</firstname>
+		<firstname>M�thode</firstname>
 		<surname>Muscat</surname>
 		<companies>
 			<company companyId="415">
 				<companyname>Linktype</companyname>
 				<companysize>M</companysize>
-				<givenname>Nalle</givenname>
+				<givenname>Na�lle</givenname>
 				<mail>mtowle67@netvibes.com</mail>
 				<provider>surveymonkey.com</provider>
 				<mail>jkellingtonfu@about.me</mail>
@@ -4944,25 +4944,25 @@
 	</customer>
 	<customer>
 		<customerid>485</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Eubank</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>486</customerid>
-		<firstname>Mthode</firstname>
+		<firstname>M�thode</firstname>
 		<surname>Vaudrey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>487</customerid>
-		<firstname>Ana</firstname>
+		<firstname>Ana�</firstname>
 		<surname>Nanetti</surname>
 		<companies>
 			<company companyId="582">
 				<companyname>Skipstorm</companyname>
 				<companysize>L</companysize>
-				<givenname>Mana</givenname>
+				<givenname>Ma�na</givenname>
 				<mail>areinbachmm@cdc.gov</mail>
 				<provider>jalbum.net</provider>
 				<mail>ceamgj@purevolume.com</mail>
@@ -4973,13 +4973,13 @@
 	</customer>
 	<customer>
 		<customerid>488</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>MacArd</surname>
 		<companies>
 			<company companyId="124">
 				<companyname>Meeveo</companyname>
 				<companysize>M</companysize>
-				<givenname>Nolla</givenname>
+				<givenname>No�lla</givenname>
 				<mail>mwrotchford6g@uiuc.edu</mail>
 				<provider>admin.ch</provider>
 				<mail>rfontehh@usgs.gov</mail>
@@ -4996,13 +4996,13 @@
 	</customer>
 	<customer>
 		<customerid>489</customerid>
-		<firstname>Lana</firstname>
+		<firstname>L�ana</firstname>
 		<surname>Pinor</surname>
 		<companies>
 			<company companyId="260">
 				<companyname>Reallinks</companyname>
 				<companysize>L</companysize>
-				<givenname>Lysa</givenname>
+				<givenname>Lys�a</givenname>
 				<mail>vpendrey7u@technorati.com</mail>
 				<provider>latimes.com</provider>
 				<mail>mshaldersog@networksolutions.com</mail>
@@ -5013,31 +5013,31 @@
 	</customer>
 	<customer>
 		<customerid>490</customerid>
-		<firstname>Tn</firstname>
+		<firstname>T�n</firstname>
 		<surname>Hassen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>491</customerid>
-		<firstname>Desire</firstname>
+		<firstname>Desir�e</firstname>
 		<surname>Harwick</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>492</customerid>
-		<firstname>Lng</firstname>
+		<firstname>L�ng</firstname>
 		<surname>Van Dalen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>493</customerid>
-		<firstname>Tng</firstname>
+		<firstname>T�ng</firstname>
 		<surname>Dows</surname>
 		<companies>
 			<company companyId="693">
 				<companyname>Skyble</companyname>
 				<companysize>M</companysize>
-				<givenname>Torbjrn</givenname>
+				<givenname>Torbj�rn</givenname>
 				<mail>mvandalen5t@tripod.com</mail>
 				<provider>jigsy.com</provider>
 				<mail>mkaasmannjy@multiply.com</mail>
@@ -5054,13 +5054,13 @@
 	</customer>
 	<customer>
 		<customerid>494</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>MacArthur</surname>
 		<companies>
 			<company companyId="684">
 				<companyname>Photospace</companyname>
 				<companysize>M</companysize>
-				<givenname>Laurne</givenname>
+				<givenname>Laur�ne</givenname>
 				<mail>kanthonsenie@yellowpages.com</mail>
 				<provider>foxnews.com</provider>
 				<mail>skingshottff@shinystat.com</mail>
@@ -5071,43 +5071,43 @@
 	</customer>
 	<customer>
 		<customerid>495</customerid>
-		<firstname>Bjrn</firstname>
+		<firstname>Bj�rn</firstname>
 		<surname>Meggison</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>496</customerid>
-		<firstname>Lucrce</firstname>
+		<firstname>Lucr�ce</firstname>
 		<surname>Tompkiss</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>497</customerid>
-		<firstname>Hlne</firstname>
+		<firstname>H�l�ne</firstname>
 		<surname>Burgin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>498</customerid>
-		<firstname>Kvina</firstname>
+		<firstname>K�vina</firstname>
 		<surname>Weldon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>499</customerid>
-		<firstname>Hlne</firstname>
+		<firstname>H�l�ne</firstname>
 		<surname>Yewdall</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>500</customerid>
-		<firstname>Clopatre</firstname>
+		<firstname>Cl�opatre</firstname>
 		<surname>Harwick</surname>
 		<companies>
 			<company companyId="648">
 				<companyname>Topicblab</companyname>
 				<companysize>S</companysize>
-				<givenname>Lonie</givenname>
+				<givenname>L�onie</givenname>
 				<mail>ndegiorgioc9@springer.com</mail>
 				<provider>nih.gov</provider>
 				<mail>sisaksson60@zimbio.com</mail>
@@ -5124,13 +5124,13 @@
 	</customer>
 	<customer>
 		<customerid>501</customerid>
-		<firstname>Plagie</firstname>
+		<firstname>P�lagie</firstname>
 		<surname>Batie</surname>
 		<companies>
 			<company companyId="459">
 				<companyname>Shufflebeat</companyname>
 				<companysize>L</companysize>
-				<givenname>Gwenalle</givenname>
+				<givenname>Gwena�lle</givenname>
 				<mail>lbarthrammu@desdev.cn</mail>
 				<provider>buzzfeed.com</provider>
 				<mail>dralphsk4@google.co.uk</mail>
@@ -5147,37 +5147,37 @@
 	</customer>
 	<customer>
 		<customerid>502</customerid>
-		<firstname>Dorothe</firstname>
+		<firstname>Doroth�e</firstname>
 		<surname>McElroy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>503</customerid>
-		<firstname>Franoise</firstname>
+		<firstname>Fran�oise</firstname>
 		<surname>Quinell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>504</customerid>
-		<firstname>Anglique</firstname>
+		<firstname>Ang�lique</firstname>
 		<surname>Oxbie</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>505</customerid>
-		<firstname>Marylne</firstname>
+		<firstname>Maryl�ne</firstname>
 		<surname>Boorne</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>506</customerid>
-		<firstname>Stphanie</firstname>
+		<firstname>St�phanie</firstname>
 		<surname>Hewertson</surname>
 		<companies>
 			<company companyId="566">
 				<companyname>Eayo</companyname>
 				<companysize>S</companysize>
-				<givenname>Anal</givenname>
+				<givenname>Ana�l</givenname>
 				<mail>slarmouth3l@springer.com</mail>
 				<provider>wordpress.com</provider>
 				<mail>vkimblingjr@vkontakte.ru</mail>
@@ -5187,7 +5187,7 @@
 			<company companyId="236">
 				<companyname>Tagtune</companyname>
 				<companysize>L</companysize>
-				<givenname>Li</givenname>
+				<givenname>L�i</givenname>
 				<mail>bhighway90@google.com.hk</mail>
 				<provider>webmd.com</provider>
 				<mail>kfardohy@pcworld.com</mail>
@@ -5204,115 +5204,115 @@
 	</customer>
 	<customer>
 		<customerid>507</customerid>
-		<firstname>Adlie</firstname>
+		<firstname>Ad�lie</firstname>
 		<surname>Chevis</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>508</customerid>
-		<firstname>Mlissandre</firstname>
+		<firstname>M�lissandre</firstname>
 		<surname>Rathmell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>509</customerid>
-		<firstname>M</firstname>
+		<firstname>M�</firstname>
 		<surname>Bartzen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>510</customerid>
-		<firstname>Ocanne</firstname>
+		<firstname>Oc�anne</firstname>
 		<surname>Dargavel</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>511</customerid>
-		<firstname>Sverine</firstname>
+		<firstname>S�verine</firstname>
 		<surname>Haylett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>512</customerid>
-		<firstname>Mahlie</firstname>
+		<firstname>Mah�lie</firstname>
 		<surname>Bullan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>513</customerid>
-		<firstname>Malle</firstname>
+		<firstname>Ma�lle</firstname>
 		<surname>OShiels</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>514</customerid>
-		<firstname>Gaa</firstname>
+		<firstname>Ga�a</firstname>
 		<surname>Sirett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>515</customerid>
-		<firstname>Cla</firstname>
+		<firstname>Cl�a</firstname>
 		<surname>Keddy</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>516</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Philipot</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>517</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Hanrott</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>518</customerid>
-		<firstname>Lysa</firstname>
+		<firstname>Lys�a</firstname>
 		<surname>Winspear</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>519</customerid>
-		<firstname>Personnalise</firstname>
+		<firstname>Personnalis�e</firstname>
 		<surname>Tripe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>520</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Orta</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>521</customerid>
-		<firstname>W</firstname>
+		<firstname>W�</firstname>
 		<surname>Benfield</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>522</customerid>
-		<firstname>Elose</firstname>
+		<firstname>Elo�se</firstname>
 		<surname>Hames</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>523</customerid>
-		<firstname>Ma</firstname>
+		<firstname>Ma�</firstname>
 		<surname>Ouver</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>524</customerid>
-		<firstname>Gwenalle</firstname>
+		<firstname>Gwena�lle</firstname>
 		<surname>OConnor</surname>
 		<companies>
 			<company companyId="709">
 				<companyname>Ailane</companyname>
 				<companysize>M</companysize>
-				<givenname>Landre</givenname>
+				<givenname>L�andre</givenname>
 				<mail>ngrigoryov73@weebly.com</mail>
 				<provider>oracle.com</provider>
 				<mail>anehlhn@1688.com</mail>
@@ -5334,25 +5334,25 @@
 	</customer>
 	<customer>
 		<customerid>525</customerid>
-		<firstname>Ma</firstname>
+		<firstname>Ma�</firstname>
 		<surname>Bussens</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>526</customerid>
-		<firstname>Yo</firstname>
+		<firstname>Y�o</firstname>
 		<surname>Padly</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>527</customerid>
-		<firstname>Amlie</firstname>
+		<firstname>Am�lie</firstname>
 		<surname>Astle</surname>
 		<companies>
 			<company companyId="645">
 				<companyname>Quinu</companyname>
 				<companysize>M</companysize>
-				<givenname>Lonie</givenname>
+				<givenname>L�onie</givenname>
 				<mail>sshooterm9@comsenz.com</mail>
 				<provider>addthis.com</provider>
 				<mail>vjubb2q@chicagotribune.com</mail>
@@ -5369,37 +5369,37 @@
 	</customer>
 	<customer>
 		<customerid>528</customerid>
-		<firstname>Thrsa</firstname>
+		<firstname>Th�r�sa</firstname>
 		<surname>Christofle</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>529</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>Geraldini</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>530</customerid>
-		<firstname>Analle</firstname>
+		<firstname>Ana�lle</firstname>
 		<surname>Purdom</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>531</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>Rippon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>532</customerid>
-		<firstname>Anas</firstname>
+		<firstname>Ana�s</firstname>
 		<surname>Ellard</surname>
 		<companies>
 			<company companyId="421">
 				<companyname>Eire</companyname>
 				<companysize>S</companysize>
-				<givenname>Mawenn</givenname>
+				<givenname>Ma�wenn</givenname>
 				<mail>rfontja@php.net</mail>
 				<provider>eepurl.com</provider>
 				<mail>bsalerno1o@digg.com</mail>
@@ -5410,49 +5410,49 @@
 	</customer>
 	<customer>
 		<customerid>533</customerid>
-		<firstname>Aurlie</firstname>
+		<firstname>Aur�lie</firstname>
 		<surname>Gave</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>534</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>OCurrigan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>535</customerid>
-		<firstname>T</firstname>
+		<firstname>T�</firstname>
 		<surname>Weetch</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>536</customerid>
-		<firstname>Alize</firstname>
+		<firstname>Aliz�e</firstname>
 		<surname>Jaffrey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>537</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Looney</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>538</customerid>
-		<firstname>Clopatre</firstname>
+		<firstname>Cl�opatre</firstname>
 		<surname>Aylesbury</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>539</customerid>
-		<firstname>Alos</firstname>
+		<firstname>Alo�s</firstname>
 		<surname>Illes</surname>
 		<companies>
 			<company companyId="197">
 				<companyname>Zoonoodle</companyname>
 				<companysize>L</companysize>
-				<givenname>Salom</givenname>
+				<givenname>Salom�</givenname>
 				<mail>blongfuth0@mozilla.com</mail>
 				<provider>vimeo.com</provider>
 				<mail>scastelin13@uiuc.edu</mail>
@@ -5463,19 +5463,19 @@
 	</customer>
 	<customer>
 		<customerid>540</customerid>
-		<firstname>Lala</firstname>
+		<firstname>La�la</firstname>
 		<surname>Van Dalen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>541</customerid>
-		<firstname>Zh</firstname>
+		<firstname>Zh�</firstname>
 		<surname>MacShirrie</surname>
 		<companies>
 			<company companyId="627">
 				<companyname>Rhyloo</companyname>
 				<companysize>M</companysize>
-				<givenname>Magdalne</givenname>
+				<givenname>Magdal�ne</givenname>
 				<mail>cerrichellihs@linkedin.com</mail>
 				<provider>fotki.com</provider>
 				<mail>jhearthfield5a@issuu.com</mail>
@@ -5497,37 +5497,37 @@
 	</customer>
 	<customer>
 		<customerid>542</customerid>
-		<firstname>Alize</firstname>
+		<firstname>Aliz�e</firstname>
 		<surname>Bacop</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>543</customerid>
-		<firstname>Gran</firstname>
+		<firstname>G�ran</firstname>
 		<surname>Hatterslay</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>544</customerid>
-		<firstname>Judical</firstname>
+		<firstname>Judica�l</firstname>
 		<surname>Meneghi</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>545</customerid>
-		<firstname>Nlie</firstname>
+		<firstname>N�lie</firstname>
 		<surname>Shoobridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>546</customerid>
-		<firstname>Torbjrn</firstname>
+		<firstname>Torbj�rn</firstname>
 		<surname>Peile</surname>
 		<companies>
 			<company companyId="462">
 				<companyname>Zoonder</companyname>
 				<companysize>S</companysize>
-				<givenname>Lorne</givenname>
+				<givenname>Lor�ne</givenname>
 				<mail>smatthesiusg0@blogtalkradio.com</mail>
 				<provider>theatlantic.com</provider>
 				<mail>dmacardk3@amazonaws.com</mail>
@@ -5538,25 +5538,25 @@
 	</customer>
 	<customer>
 		<customerid>547</customerid>
-		<firstname>Marie-nol</firstname>
+		<firstname>Marie-no�l</firstname>
 		<surname>Utterson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>548</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Myhill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>549</customerid>
-		<firstname>Lorne</firstname>
+		<firstname>Lor�ne</firstname>
 		<surname>Baser</surname>
 		<companies>
 			<company companyId="372">
 				<companyname>Gabtype</companyname>
 				<companysize>M</companysize>
-				<givenname>Lonore</givenname>
+				<givenname>L�onore</givenname>
 				<mail>mcadalledere3@altervista.org</mail>
 				<provider>wordpress.org</provider>
 				<mail>lshearsby3q@elpais.com</mail>
@@ -5566,7 +5566,7 @@
 			<company companyId="270">
 				<companyname>Layo</companyname>
 				<companysize>S</companysize>
-				<givenname>Nhmie</givenname>
+				<givenname>N�h�mie</givenname>
 				<mail>dfulkrf@shop-pro.jp</mail>
 				<provider>discuz.net</provider>
 				<mail>aleavey6t@t.co</mail>
@@ -5583,13 +5583,13 @@
 	</customer>
 	<customer>
 		<customerid>550</customerid>
-		<firstname>Mat</firstname>
+		<firstname>Ma�t�</firstname>
 		<surname>Skeene</surname>
 		<companies>
 			<company companyId="403">
 				<companyname>Dablist</companyname>
 				<companysize>L</companysize>
-				<givenname>Mng</givenname>
+				<givenname>M�ng</givenname>
 				<mail>sjahnckehg@weibo.com</mail>
 				<provider>sun.com</provider>
 				<mail>laspell42@sohu.com</mail>
@@ -5626,13 +5626,13 @@
 	</customer>
 	<customer>
 		<customerid>551</customerid>
-		<firstname>Ocane</firstname>
+		<firstname>Oc�ane</firstname>
 		<surname>Errichelli</surname>
 		<companies>
 			<company companyId="718">
 				<companyname>Zava</companyname>
 				<companysize>L</companysize>
-				<givenname>Salom</givenname>
+				<givenname>Salom�</givenname>
 				<mail>rellormi@usatoday.com</mail>
 				<provider>slashdot.org</provider>
 				<mail>ivigourslp@marketwatch.com</mail>
@@ -5643,19 +5643,19 @@
 	</customer>
 	<customer>
 		<customerid>552</customerid>
-		<firstname>Crz</firstname>
+		<firstname>Cr��z</firstname>
 		<surname>Chevis</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>553</customerid>
-		<firstname>Fates</firstname>
+		<firstname>Fa�tes</firstname>
 		<surname>Goldine</surname>
 		<companies>
 			<company companyId="174">
 				<companyname>Jaxnation</companyname>
 				<companysize>M</companysize>
-				<givenname>Elis</givenname>
+				<givenname>Eli�s</givenname>
 				<mail>sdoucef7@acquirethisname.com</mail>
 				<provider>imageshack.us</provider>
 				<mail>dmonard3m@w3.org</mail>
@@ -5666,13 +5666,13 @@
 	</customer>
 	<customer>
 		<customerid>554</customerid>
-		<firstname>Nadge</firstname>
+		<firstname>Nad�ge</firstname>
 		<surname>Sitwell</surname>
 		<companies>
 			<company companyId="511">
 				<companyname>Shuffletag</companyname>
 				<companysize>M</companysize>
-				<givenname>Brnice</givenname>
+				<givenname>B�r�nice</givenname>
 				<mail>qbeekmann5j@ucsd.edu</mail>
 				<provider>yelp.com</provider>
 				<mail>tdalessiore@constantcontact.com</mail>
@@ -5694,37 +5694,37 @@
 	</customer>
 	<customer>
 		<customerid>555</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Muscat</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>556</customerid>
-		<firstname>M</firstname>
+		<firstname>M�</firstname>
 		<surname>Weetch</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>557</customerid>
-		<firstname>Maly</firstname>
+		<firstname>Ma�ly</firstname>
 		<surname>Fillon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>558</customerid>
-		<firstname>Gaa</firstname>
+		<firstname>Ga�a</firstname>
 		<surname>Sture</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>559</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Ridge</surname>
 		<companies>
 			<company companyId="23">
 				<companyname>Vinte</companyname>
 				<companysize>M</companysize>
-				<givenname>Mana</givenname>
+				<givenname>Ma�na</givenname>
 				<mail>gmeneer33@people.com.cn</mail>
 				<provider>printfriendly.com</provider>
 				<mail>awaferi0@theguardian.com</mail>
@@ -5741,61 +5741,61 @@
 	</customer>
 	<customer>
 		<customerid>560</customerid>
-		<firstname>Malle</firstname>
+		<firstname>Ma�lle</firstname>
 		<surname>Brotherhead</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>561</customerid>
-		<firstname>Magdalne</firstname>
+		<firstname>Magdal�ne</firstname>
 		<surname>Keave</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>562</customerid>
-		<firstname>Athna</firstname>
+		<firstname>Ath�na</firstname>
 		<surname>Murtimer</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>563</customerid>
-		<firstname>Grald</firstname>
+		<firstname>G�rald</firstname>
 		<surname>Bedburrow</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>564</customerid>
-		<firstname>J</firstname>
+		<firstname>J�</firstname>
 		<surname>Mackro</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>565</customerid>
-		<firstname>Cla</firstname>
+		<firstname>Cl�a</firstname>
 		<surname>Jaulmes</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>566</customerid>
-		<firstname>ke</firstname>
+		<firstname>�ke</firstname>
 		<surname>Skotcher</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>567</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Fairebrother</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>568</customerid>
-		<firstname>Solne</firstname>
+		<firstname>Sol�ne</firstname>
 		<surname>Ridge</surname>
 		<companies>
 			<company companyId="212">
 				<companyname>Abatz</companyname>
 				<companysize>L</companysize>
-				<givenname>Andr</givenname>
+				<givenname>Andr�</givenname>
 				<mail>jannattlb@parallels.com</mail>
 				<provider>goo.gl</provider>
 				<mail>rcathee8r@cnet.com</mail>
@@ -5806,127 +5806,127 @@
 	</customer>
 	<customer>
 		<customerid>569</customerid>
-		<firstname>Franoise</firstname>
+		<firstname>Fran�oise</firstname>
 		<surname>Melbourn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>570</customerid>
-		<firstname>Srna</firstname>
+		<firstname>S�r�na</firstname>
 		<surname>Golling</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>571</customerid>
-		<firstname>Mrta</firstname>
+		<firstname>M�rta</firstname>
 		<surname>Vanetti</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>572</customerid>
-		<firstname>Bcassine</firstname>
+		<firstname>B�cassine</firstname>
 		<surname>Elan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>573</customerid>
-		<firstname>Analle</firstname>
+		<firstname>Ana�lle</firstname>
 		<surname>Battisson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>574</customerid>
-		<firstname>Gaa</firstname>
+		<firstname>Ga�a</firstname>
 		<surname>Harrismith</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>575</customerid>
-		<firstname>Mn</firstname>
+		<firstname>M�n</firstname>
 		<surname>Ridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>576</customerid>
-		<firstname>Adlie</firstname>
+		<firstname>Ad�lie</firstname>
 		<surname>Elland</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>577</customerid>
-		<firstname>Hlne</firstname>
+		<firstname>H�l�ne</firstname>
 		<surname>Bankhurst</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>578</customerid>
-		<firstname>Eugnie</firstname>
+		<firstname>Eug�nie</firstname>
 		<surname>Bees</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>579</customerid>
-		<firstname>Kvina</firstname>
+		<firstname>K�vina</firstname>
 		<surname>Ousby</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>580</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Dargavel</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>581</customerid>
-		<firstname>Gaa</firstname>
+		<firstname>Ga�a</firstname>
 		<surname>MacShane</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>582</customerid>
-		<firstname>Ro</firstname>
+		<firstname>R�o</firstname>
 		<surname>Alford</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>583</customerid>
-		<firstname>Josphine</firstname>
+		<firstname>Jos�phine</firstname>
 		<surname>Kinghorn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>584</customerid>
-		<firstname>Gsta</firstname>
+		<firstname>G�sta</firstname>
 		<surname>Goligly</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>585</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Atrill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>586</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>Chopping</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>587</customerid>
-		<firstname>Malle</firstname>
+		<firstname>Ma�lle</firstname>
 		<surname>Ticksall</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>588</customerid>
-		<firstname>Marie-nol</firstname>
+		<firstname>Marie-no�l</firstname>
 		<surname>McLaren</surname>
 		<companies>
 			<company companyId="32">
 				<companyname>Tazzy</companyname>
 				<companysize>S</companysize>
-				<givenname>Michle</givenname>
+				<givenname>Mich�le</givenname>
 				<mail>kelan5f@ed.gov</mail>
 				<provider>stumbleupon.com</provider>
 				<mail>cmclellandpt@clickbank.net</mail>
@@ -5947,7 +5947,7 @@
 			<company companyId="558">
 				<companyname>Voonte</companyname>
 				<companysize>L</companysize>
-				<givenname>Garon</givenname>
+				<givenname>Gar�on</givenname>
 				<mail>adutchna@mapy.cz</mail>
 				<provider>slashdot.org</provider>
 				<mail>rjoneat@flickr.com</mail>
@@ -5958,13 +5958,13 @@
 	</customer>
 	<customer>
 		<customerid>589</customerid>
-		<firstname>Mdiamass</firstname>
+		<firstname>M�diamass</firstname>
 		<surname>Dubois</surname>
 		<companies>
 			<company companyId="383">
 				<companyname>Ailane</companyname>
 				<companysize>L</companysize>
-				<givenname>Lala</givenname>
+				<givenname>La�la</givenname>
 				<mail>nvassallnq@g.co</mail>
 				<provider>youku.com</provider>
 				<mail>acullin8f@youtu.be</mail>
@@ -5981,31 +5981,31 @@
 	</customer>
 	<customer>
 		<customerid>590</customerid>
-		<firstname>Thrsa</firstname>
+		<firstname>Th�r�sa</firstname>
 		<surname>Pikesley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>591</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>Doutch</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>592</customerid>
-		<firstname>Mlina</firstname>
+		<firstname>M�lina</firstname>
 		<surname>Ackeroyd</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>593</customerid>
-		<firstname>Brje</firstname>
+		<firstname>B�rje</firstname>
 		<surname>Nend</surname>
 		<companies>
 			<company companyId="766">
 				<companyname>Devpoint</companyname>
 				<companysize>M</companysize>
-				<givenname>Zo</givenname>
+				<givenname>Zo�</givenname>
 				<mail>apembry8j@amazon.co.uk</mail>
 				<provider>cmu.edu</provider>
 				<mail>rmandevilleeu@t.co</mail>
@@ -6016,19 +6016,19 @@
 	</customer>
 	<customer>
 		<customerid>594</customerid>
-		<firstname>Eugnie</firstname>
+		<firstname>Eug�nie</firstname>
 		<surname>Cleatherow</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>595</customerid>
-		<firstname>Mlanie</firstname>
+		<firstname>M�lanie</firstname>
 		<surname>Messitt</surname>
 		<companies>
 			<company companyId="586">
 				<companyname>Feedfire</companyname>
 				<companysize>S</companysize>
-				<givenname>Flicie</givenname>
+				<givenname>F�licie</givenname>
 				<mail>emeneghiml@vinaora.com</mail>
 				<provider>go.com</provider>
 				<mail>acullin8f@youtu.be</mail>
@@ -6045,13 +6045,13 @@
 	</customer>
 	<customer>
 		<customerid>596</customerid>
-		<firstname>Bndicte</firstname>
+		<firstname>B�n�dicte</firstname>
 		<surname>Palomba</surname>
 		<companies>
 			<company companyId="193">
 				<companyname>Riffwire</companyname>
 				<companysize>S</companysize>
-				<givenname>Chlo</givenname>
+				<givenname>Chlo�</givenname>
 				<mail>adalla4x@youtu.be</mail>
 				<provider>fda.gov</provider>
 				<mail>rdumingos72@mlb.com</mail>
@@ -6068,49 +6068,49 @@
 	</customer>
 	<customer>
 		<customerid>597</customerid>
-		<firstname>Plagie</firstname>
+		<firstname>P�lagie</firstname>
 		<surname>Jessel</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>598</customerid>
-		<firstname>Mana</firstname>
+		<firstname>Ma�na</firstname>
 		<surname>Collister</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>599</customerid>
-		<firstname>Kvina</firstname>
+		<firstname>K�vina</firstname>
 		<surname>McCorkell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>600</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Robken</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>601</customerid>
-		<firstname>Maly</firstname>
+		<firstname>Ma�ly</firstname>
 		<surname>Ruckert</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>602</customerid>
-		<firstname>J</firstname>
+		<firstname>J�</firstname>
 		<surname>Abelson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>603</customerid>
-		<firstname>Plagie</firstname>
+		<firstname>P�lagie</firstname>
 		<surname>Hoggetts</surname>
 		<companies>
 			<company companyId="130">
 				<companyname>Trilith</companyname>
 				<companysize>L</companysize>
-				<givenname>Mns</givenname>
+				<givenname>M�ns</givenname>
 				<mail>mmcclymondcd@ebay.co.uk</mail>
 				<provider>twitter.com</provider>
 				<mail>bmcguiney6b@163.com</mail>
@@ -6120,7 +6120,7 @@
 			<company companyId="596">
 				<companyname>Yotz</companyname>
 				<companysize>L</companysize>
-				<givenname>Vrane</givenname>
+				<givenname>V�rane</givenname>
 				<mail>cotridgece@parallels.com</mail>
 				<provider>oracle.com</provider>
 				<mail>gheinigp2@europa.eu</mail>
@@ -6147,31 +6147,31 @@
 	</customer>
 	<customer>
 		<customerid>604</customerid>
-		<firstname>Laurne</firstname>
+		<firstname>Laur�ne</firstname>
 		<surname>Rippon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>605</customerid>
-		<firstname>Clmentine</firstname>
+		<firstname>Cl�mentine</firstname>
 		<surname>Fend</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>606</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Bankhurst</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>607</customerid>
-		<firstname>Landre</firstname>
+		<firstname>L�andre</firstname>
 		<surname>Duro</surname>
 		<companies>
 			<company companyId="603">
 				<companyname>Meejo</companyname>
 				<companysize>L</companysize>
-				<givenname>Hlne</givenname>
+				<givenname>H�l�ne</givenname>
 				<mail>mpashleykl@bluehost.com</mail>
 				<provider>prlog.org</provider>
 				<mail>fchanders3g@google.pl</mail>
@@ -6182,25 +6182,25 @@
 	</customer>
 	<customer>
 		<customerid>608</customerid>
-		<firstname>Alize</firstname>
+		<firstname>Aliz�e</firstname>
 		<surname>Dragonette</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>609</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Rippon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>610</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Rizzo</surname>
 		<companies>
 			<company companyId="401">
 				<companyname>Demizz</companyname>
 				<companysize>L</companysize>
-				<givenname>Malys</givenname>
+				<givenname>Ma�lys</givenname>
 				<mail>hdautrymo@nyu.edu</mail>
 				<provider>linkedin.com</provider>
 				<mail>hjohann5s@odnoklassniki.ru</mail>
@@ -6222,97 +6222,97 @@
 	</customer>
 	<customer>
 		<customerid>611</customerid>
-		<firstname>Mthode</firstname>
+		<firstname>M�thode</firstname>
 		<surname>Vassall</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>612</customerid>
-		<firstname>Dorothe</firstname>
+		<firstname>Doroth�e</firstname>
 		<surname>Blew</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>613</customerid>
-		<firstname>Anas</firstname>
+		<firstname>Ana�s</firstname>
 		<surname>Pietrusiak</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>614</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Tiley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>615</customerid>
-		<firstname>Chlo</firstname>
+		<firstname>Chlo�</firstname>
 		<surname>Selwyn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>616</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Jeroch</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>617</customerid>
-		<firstname>Pnlope</firstname>
+		<firstname>P�n�lope</firstname>
 		<surname>Tithecote</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>618</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Robottham</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>619</customerid>
-		<firstname>Annote</firstname>
+		<firstname>Annot�e</firstname>
 		<surname>Torri</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>620</customerid>
-		<firstname>Plagie</firstname>
+		<firstname>P�lagie</firstname>
 		<surname>Pakenham</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>621</customerid>
-		<firstname>Los</firstname>
+		<firstname>Lo�s</firstname>
 		<surname>Bussens</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>622</customerid>
-		<firstname>Valrie</firstname>
+		<firstname>Val�rie</firstname>
 		<surname>Cowwell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>623</customerid>
-		<firstname>Mdiamass</firstname>
+		<firstname>M�diamass</firstname>
 		<surname>Eam</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>624</customerid>
-		<firstname>Malis</firstname>
+		<firstname>Ma�lis</firstname>
 		<surname>Rubens</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>625</customerid>
-		<firstname>Desire</firstname>
+		<firstname>Desir�e</firstname>
 		<surname>Bugs</surname>
 		<companies>
 			<company companyId="686">
 				<companyname>Ailane</companyname>
 				<companysize>S</companysize>
-				<givenname>Michle</givenname>
+				<givenname>Mich�le</givenname>
 				<mail>nmellero7@shareasale.com</mail>
 				<provider>themeforest.net</provider>
 				<mail>kanthonsenie@yellowpages.com</mail>
@@ -6323,61 +6323,61 @@
 	</customer>
 	<customer>
 		<customerid>626</customerid>
-		<firstname>Nalle</firstname>
+		<firstname>Na�lle</firstname>
 		<surname>Pheazey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>627</customerid>
-		<firstname>Nalle</firstname>
+		<firstname>Na�lle</firstname>
 		<surname>Mighele</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>628</customerid>
-		<firstname>Esbjrn</firstname>
+		<firstname>Esbj�rn</firstname>
 		<surname>Haddock</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>629</customerid>
-		<firstname>Stphanie</firstname>
+		<firstname>St�phanie</firstname>
 		<surname>Strutley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>630</customerid>
-		<firstname>Marlne</firstname>
+		<firstname>Marl�ne</firstname>
 		<surname>Donnett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>631</customerid>
-		<firstname>Hlne</firstname>
+		<firstname>H�l�ne</firstname>
 		<surname>Pexton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>632</customerid>
-		<firstname>Ophlie</firstname>
+		<firstname>Oph�lie</firstname>
 		<surname>MacArthur</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>633</customerid>
-		<firstname>rjan</firstname>
+		<firstname>�rjan</firstname>
 		<surname>Capener</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>634</customerid>
-		<firstname>Magdalne</firstname>
+		<firstname>Magdal�ne</firstname>
 		<surname>Soppit</surname>
 		<companies>
 			<company companyId="427">
 				<companyname>Digitube</companyname>
 				<companysize>S</companysize>
-				<givenname>Salom</givenname>
+				<givenname>Salom�</givenname>
 				<mail>kneachell2a@hubpages.com</mail>
 				<provider>clickbank.net</provider>
 				<mail>jgergher7c@ameblo.jp</mail>
@@ -6388,37 +6388,37 @@
 	</customer>
 	<customer>
 		<customerid>635</customerid>
-		<firstname>Grald</firstname>
+		<firstname>G�rald</firstname>
 		<surname>Isaksson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>636</customerid>
-		<firstname>Zh</firstname>
+		<firstname>Zh�</firstname>
 		<surname>Corby</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>637</customerid>
-		<firstname>Eugnie</firstname>
+		<firstname>Eug�nie</firstname>
 		<surname>Luto</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>638</customerid>
-		<firstname>Hkan</firstname>
+		<firstname>H�kan</firstname>
 		<surname>Nehl</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>639</customerid>
-		<firstname>Brengre</firstname>
+		<firstname>B�reng�re</firstname>
 		<surname>Jehan</surname>
 		<companies>
 			<company companyId="353">
 				<companyname>Topicstorm</companyname>
 				<companysize>M</companysize>
-				<givenname>Cungonde</givenname>
+				<givenname>Cun�gonde</givenname>
 				<mail>etyddb4@usa.gov</mail>
 				<provider>a8.net</provider>
 				<mail>atoke5e@nih.gov</mail>
@@ -6429,31 +6429,31 @@
 	</customer>
 	<customer>
 		<customerid>640</customerid>
-		<firstname>Daphne</firstname>
+		<firstname>Daphn�e</firstname>
 		<surname>Thomlinson</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>641</customerid>
-		<firstname>Analle</firstname>
+		<firstname>Ana�lle</firstname>
 		<surname>Kane</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>642</customerid>
-		<firstname>Hlna</firstname>
+		<firstname>H�l�na</firstname>
 		<surname>Krebs</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>643</customerid>
-		<firstname>Li</firstname>
+		<firstname>Li�</firstname>
 		<surname>Coorington</surname>
 		<companies>
 			<company companyId="469">
 				<companyname>Ailane</companyname>
 				<companysize>S</companysize>
-				<givenname>Y</givenname>
+				<givenname>Y�</givenname>
 				<mail>wlailey1s@wufoo.com</mail>
 				<provider>mashable.com</provider>
 				<mail>lskeenei2@oracle.com</mail>
@@ -6469,7 +6469,7 @@
 			<company companyId="564">
 				<companyname>Bubblemix</companyname>
 				<companysize>M</companysize>
-				<givenname>Mylne</givenname>
+				<givenname>Myl�ne</givenname>
 				<mail>mcooringtoncv@jimdo.com</mail>
 				<provider>ovh.net</provider>
 				<mail>afloris58@gnu.org</mail>
@@ -6486,13 +6486,13 @@
 	</customer>
 	<customer>
 		<customerid>644</customerid>
-		<firstname>Salom</firstname>
+		<firstname>Salom�</firstname>
 		<surname>Selway</surname>
 		<companies>
 			<company companyId="93">
 				<companyname>Topdrive</companyname>
 				<companysize>L</companysize>
-				<givenname>rjan</givenname>
+				<givenname>�rjan</givenname>
 				<mail>bgrandham9v@si.edu</mail>
 				<provider>pinterest.com</provider>
 				<mail>dfeldmannno@wsj.com</mail>
@@ -6509,25 +6509,25 @@
 	</customer>
 	<customer>
 		<customerid>645</customerid>
-		<firstname>Srna</firstname>
+		<firstname>S�r�na</firstname>
 		<surname>Freear</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>646</customerid>
-		<firstname>Anal</firstname>
+		<firstname>Ana�l</firstname>
 		<surname>McNalley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>647</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Balcon</surname>
 		<companies>
 			<company companyId="603">
 				<companyname>Meejo</companyname>
 				<companysize>L</companysize>
-				<givenname>Hlne</givenname>
+				<givenname>H�l�ne</givenname>
 				<mail>mpashleykl@bluehost.com</mail>
 				<provider>prlog.org</provider>
 				<mail>fchanders3g@google.pl</mail>
@@ -6538,25 +6538,25 @@
 	</customer>
 	<customer>
 		<customerid>648</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Kernock</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>649</customerid>
-		<firstname>Malis</firstname>
+		<firstname>Ma�lis</firstname>
 		<surname>Atrill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>650</customerid>
-		<firstname>La</firstname>
+		<firstname>L�a</firstname>
 		<surname>Huckstepp</surname>
 		<companies>
 			<company companyId="216">
 				<companyname>Twitterwire</companyname>
 				<companysize>M</companysize>
-				<givenname>Alize</givenname>
+				<givenname>Aliz�e</givenname>
 				<mail>bdummiganof@loc.gov</mail>
 				<provider>house.gov</provider>
 				<mail>kparrenag@netscape.com</mail>
@@ -6573,25 +6573,25 @@
 	</customer>
 	<customer>
 		<customerid>651</customerid>
-		<firstname>Franoise</firstname>
+		<firstname>Fran�oise</firstname>
 		<surname>Downage</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>652</customerid>
-		<firstname>Judical</firstname>
+		<firstname>Judica�l</firstname>
 		<surname>Arnaudon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>653</customerid>
-		<firstname>Marie-thrse</firstname>
+		<firstname>Marie-th�r�se</firstname>
 		<surname>Spinnace</surname>
 		<companies>
 			<company companyId="273">
 				<companyname>DabZ</companyname>
 				<companysize>L</companysize>
-				<givenname>Clia</givenname>
+				<givenname>C�lia</givenname>
 				<mail>cattargeey@exblog.jp</mail>
 				<provider>jalbum.net</provider>
 				<mail>awealthall9g@adobe.com</mail>
@@ -6613,13 +6613,13 @@
 	</customer>
 	<customer>
 		<customerid>654</customerid>
-		<firstname>Srna</firstname>
+		<firstname>S�r�na</firstname>
 		<surname>Kerrod</surname>
 		<companies>
 			<company companyId="89">
 				<companyname>Avaveo</companyname>
 				<companysize>M</companysize>
-				<givenname>U</givenname>
+				<givenname>U�</givenname>
 				<mail>nmcelroyp3@parallels.com</mail>
 				<provider>360.cn</provider>
 				<mail>edoudny46@hhs.gov</mail>
@@ -6646,19 +6646,19 @@
 	</customer>
 	<customer>
 		<customerid>655</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>Cauldwell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>656</customerid>
-		<firstname>Torbjrn</firstname>
+		<firstname>Torbj�rn</firstname>
 		<surname>Bette</surname>
 		<companies>
 			<company companyId="54">
 				<companyname>Katz</companyname>
 				<companysize>L</companysize>
-				<givenname>Mahlie</givenname>
+				<givenname>Mah�lie</givenname>
 				<mail>crichardotet@multiply.com</mail>
 				<provider>tiny.cc</provider>
 				<mail>soakshottpf@mashable.com</mail>
@@ -6669,25 +6669,25 @@
 	</customer>
 	<customer>
 		<customerid>657</customerid>
-		<firstname>Adlade</firstname>
+		<firstname>Ad�la�de</firstname>
 		<surname>Nisbith</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>658</customerid>
-		<firstname>U</firstname>
+		<firstname>U�</firstname>
 		<surname>Rosenfelt</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>659</customerid>
-		<firstname>Mlanie</firstname>
+		<firstname>M�lanie</firstname>
 		<surname>Treagust</surname>
 		<companies>
 			<company companyId="567">
 				<companyname>Demizz</companyname>
 				<companysize>L</companysize>
-				<givenname>Daphne</givenname>
+				<givenname>Daphn�e</givenname>
 				<mail>pklaffsgv@google.ca</mail>
 				<provider>noaa.gov</provider>
 				<mail>rstanifordf3@princeton.edu</mail>
@@ -6704,43 +6704,43 @@
 	</customer>
 	<customer>
 		<customerid>660</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Keher</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>661</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Kitchen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>662</customerid>
-		<firstname>Andr</firstname>
+		<firstname>Andr�</firstname>
 		<surname>Cherrison</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>663</customerid>
-		<firstname>Ccile</firstname>
+		<firstname>C�cile</firstname>
 		<surname>Fairebrother</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>664</customerid>
-		<firstname>Solne</firstname>
+		<firstname>Sol�ne</firstname>
 		<surname>Pilling</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>665</customerid>
-		<firstname>Lucrce</firstname>
+		<firstname>Lucr�ce</firstname>
 		<surname>Matchett</surname>
 		<companies>
 			<company companyId="114">
 				<companyname>Realcube</companyname>
 				<companysize>M</companysize>
-				<givenname>K</givenname>
+				<givenname>K�</givenname>
 				<mail>arosenblummd@fotki.com</mail>
 				<provider>vk.com</provider>
 				<mail>ioneilm2@opera.com</mail>
@@ -6750,7 +6750,7 @@
 			<company companyId="459">
 				<companyname>Shufflebeat</companyname>
 				<companysize>L</companysize>
-				<givenname>Gwenalle</givenname>
+				<givenname>Gwena�lle</givenname>
 				<mail>lbarthrammu@desdev.cn</mail>
 				<provider>buzzfeed.com</provider>
 				<mail>dralphsk4@google.co.uk</mail>
@@ -6766,7 +6766,7 @@
 			<company companyId="75">
 				<companyname>DabZ</companyname>
 				<companysize>L</companysize>
-				<givenname>Mawenn</givenname>
+				<givenname>Ma�wenn</givenname>
 				<mail>igebb5l@mtv.com</mail>
 				<provider>list-manage.com</provider>
 				<mail>dbacop75@dot.gov</mail>
@@ -6783,55 +6783,55 @@
 	</customer>
 	<customer>
 		<customerid>666</customerid>
-		<firstname>Alize</firstname>
+		<firstname>Aliz�e</firstname>
 		<surname>Cherrison</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>667</customerid>
-		<firstname>Laurne</firstname>
+		<firstname>Laur�ne</firstname>
 		<surname>Delgua</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>668</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Costellow</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>669</customerid>
-		<firstname>Ru</firstname>
+		<firstname>Ru�</firstname>
 		<surname>Birdfield</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>670</customerid>
-		<firstname>Maly</firstname>
+		<firstname>Ma�ly</firstname>
 		<surname>Feechum</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>671</customerid>
-		<firstname>Bjrn</firstname>
+		<firstname>Bj�rn</firstname>
 		<surname>Esch</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>672</customerid>
-		<firstname>Torbjrn</firstname>
+		<firstname>Torbj�rn</firstname>
 		<surname>Hargess</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>673</customerid>
-		<firstname>Bndicte</firstname>
+		<firstname>B�n�dicte</firstname>
 		<surname>Svanini</surname>
 		<companies>
 			<company companyId="629">
 				<companyname>Gevee</companyname>
 				<companysize>M</companysize>
-				<givenname>sa</givenname>
+				<givenname>�sa</givenname>
 				<mail>bhanrottqd@dmoz.org</mail>
 				<provider>virginia.edu</provider>
 				<mail>egipp7j@jigsy.com</mail>
@@ -6853,19 +6853,19 @@
 	</customer>
 	<customer>
 		<customerid>674</customerid>
-		<firstname>Desire</firstname>
+		<firstname>Desir�e</firstname>
 		<surname>Shoesmith</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>675</customerid>
-		<firstname>Mylne</firstname>
+		<firstname>Myl�ne</firstname>
 		<surname>Nucci</surname>
 		<companies>
 			<company companyId="18">
 				<companyname>Trupe</companyname>
 				<companysize>S</companysize>
-				<givenname>Landre</givenname>
+				<givenname>L�andre</givenname>
 				<mail>ckitchener2j@nyu.edu</mail>
 				<provider>etsy.com</provider>
 				<mail>tlochrie1h@multiply.com</mail>
@@ -6876,37 +6876,37 @@
 	</customer>
 	<customer>
 		<customerid>676</customerid>
-		<firstname>Mline</firstname>
+		<firstname>M�line</firstname>
 		<surname>Moro</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>677</customerid>
-		<firstname>Loc</firstname>
+		<firstname>Lo�c</firstname>
 		<surname>Waller-Bridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>678</customerid>
-		<firstname>Torbjrn</firstname>
+		<firstname>Torbj�rn</firstname>
 		<surname>Tollemache</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>679</customerid>
-		<firstname>Bjrn</firstname>
+		<firstname>Bj�rn</firstname>
 		<surname>Statton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>680</customerid>
-		<firstname>sa</firstname>
+		<firstname>�sa</firstname>
 		<surname>Popov</surname>
 		<companies>
 			<company companyId="177">
 				<companyname>Feedbug</companyname>
 				<companysize>M</companysize>
-				<givenname>Marie-nol</givenname>
+				<givenname>Marie-no�l</givenname>
 				<mail>schanson4f@cbsnews.com</mail>
 				<provider>admin.ch</provider>
 				<mail>hjeffries4y@wsj.com</mail>
@@ -6916,7 +6916,7 @@
 			<company companyId="657">
 				<companyname>Skiba</companyname>
 				<companysize>S</companysize>
-				<givenname>Gaa</givenname>
+				<givenname>Ga�a</givenname>
 				<mail>aalfordmj@cafepress.com</mail>
 				<provider>ox.ac.uk</provider>
 				<mail>gbrimming3z@csmonitor.com</mail>
@@ -6926,7 +6926,7 @@
 			<company companyId="151">
 				<companyname>Tagfeed</companyname>
 				<companysize>S</companysize>
-				<givenname>Personnalise</givenname>
+				<givenname>Personnalis�e</givenname>
 				<mail>kanthonsenie@yellowpages.com</mail>
 				<provider>phpbb.com</provider>
 				<mail>rfresson9d@chicagotribune.com</mail>
@@ -6943,43 +6943,43 @@
 	</customer>
 	<customer>
 		<customerid>681</customerid>
-		<firstname>Simplifis</firstname>
+		<firstname>Simplifi�s</firstname>
 		<surname>Puckham</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>682</customerid>
-		<firstname>Malys</firstname>
+		<firstname>Ma�lys</firstname>
 		<surname>Gagg</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>683</customerid>
-		<firstname>Valrie</firstname>
+		<firstname>Val�rie</firstname>
 		<surname>Brinsford</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>684</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Dautry</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>685</customerid>
-		<firstname>J</firstname>
+		<firstname>J�</firstname>
 		<surname>Belch</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>686</customerid>
-		<firstname>Fi</firstname>
+		<firstname>F�i</firstname>
 		<surname>Critten</surname>
 		<companies>
 			<company companyId="101">
 				<companyname>Shufflebeat</companyname>
 				<companysize>L</companysize>
-				<givenname>Srna</givenname>
+				<givenname>S�r�na</givenname>
 				<mail>cbernardottimv@bing.com</mail>
 				<provider>uol.com.br</provider>
 				<mail>cotridgece@parallels.com</mail>
@@ -6990,37 +6990,37 @@
 	</customer>
 	<customer>
 		<customerid>687</customerid>
-		<firstname>Michle</firstname>
+		<firstname>Mich�le</firstname>
 		<surname>Newbigging</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>688</customerid>
-		<firstname>Ccilia</firstname>
+		<firstname>C�cilia</firstname>
 		<surname>Ades</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>689</customerid>
-		<firstname>Salom</firstname>
+		<firstname>Salom�</firstname>
 		<surname>Cator</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>690</customerid>
-		<firstname>Desire</firstname>
+		<firstname>Desir�e</firstname>
 		<surname>Sharrem</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>691</customerid>
-		<firstname>La</firstname>
+		<firstname>L�a</firstname>
 		<surname>Sealey</surname>
 		<companies>
 			<company companyId="637">
 				<companyname>Centimia</companyname>
 				<companysize>L</companysize>
-				<givenname>Eugnie</givenname>
+				<givenname>Eug�nie</givenname>
 				<mail>aleavey6t@t.co</mail>
 				<provider>printfriendly.com</provider>
 				<mail>hbeatenso4@cyberchimps.com</mail>
@@ -7037,49 +7037,49 @@
 	</customer>
 	<customer>
 		<customerid>692</customerid>
-		<firstname>Ccile</firstname>
+		<firstname>C�cile</firstname>
 		<surname>Northing</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>693</customerid>
-		<firstname>Nadge</firstname>
+		<firstname>Nad�ge</firstname>
 		<surname>Marmyon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>694</customerid>
-		<firstname>Gran</firstname>
+		<firstname>G�ran</firstname>
 		<surname>Meryett</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>695</customerid>
-		<firstname>Eugnie</firstname>
+		<firstname>Eug�nie</firstname>
 		<surname>Lebourn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>696</customerid>
-		<firstname>K</firstname>
+		<firstname>K�</firstname>
 		<surname>Lyfe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>697</customerid>
-		<firstname>Valrie</firstname>
+		<firstname>Val�rie</firstname>
 		<surname>Baser</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>698</customerid>
-		<firstname>Nomie</firstname>
+		<firstname>No�mie</firstname>
 		<surname>Poulson</surname>
 		<companies>
 			<company companyId="480">
 				<companyname>InnoZ</companyname>
 				<companysize>M</companysize>
-				<givenname>Andr</givenname>
+				<givenname>Andr�</givenname>
 				<mail>tscopynea@free.fr</mail>
 				<provider>apple.com</provider>
 				<mail>elawreypr@arstechnica.com</mail>
@@ -7096,61 +7096,61 @@
 	</customer>
 	<customer>
 		<customerid>699</customerid>
-		<firstname>Ru</firstname>
+		<firstname>Ru�</firstname>
 		<surname>Cappell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>700</customerid>
-		<firstname>Laurlie</firstname>
+		<firstname>Laur�lie</firstname>
 		<surname>Verlander</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>701</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Marmyon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>702</customerid>
-		<firstname>Anas</firstname>
+		<firstname>Ana�s</firstname>
 		<surname>Hellen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>703</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Haddock</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>704</customerid>
-		<firstname>Rachle</firstname>
+		<firstname>Rach�le</firstname>
 		<surname>Dalla</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>705</customerid>
-		<firstname>Nlie</firstname>
+		<firstname>N�lie</firstname>
 		<surname>Camamill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>706</customerid>
-		<firstname>Li</firstname>
+		<firstname>Li�</firstname>
 		<surname>Hirtzmann</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>707</customerid>
-		<firstname>Elonore</firstname>
+		<firstname>El�onore</firstname>
 		<surname>Ridge</surname>
 		<companies>
 			<company companyId="399">
 				<companyname>Trudoo</companyname>
 				<companysize>L</companysize>
-				<givenname>Daphne</givenname>
+				<givenname>Daphn�e</givenname>
 				<mail>aciani6m@independent.co.uk</mail>
 				<provider>myspace.com</provider>
 				<mail>mmuscatfa@google.com</mail>
@@ -7167,19 +7167,19 @@
 	</customer>
 	<customer>
 		<customerid>708</customerid>
-		<firstname>Kvina</firstname>
+		<firstname>K�vina</firstname>
 		<surname>McGeaney</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>709</customerid>
-		<firstname>Gran</firstname>
+		<firstname>G�ran</firstname>
 		<surname>Bacop</surname>
 		<companies>
 			<company companyId="467">
 				<companyname>Oba</companyname>
 				<companysize>S</companysize>
-				<givenname>Personnalise</givenname>
+				<givenname>Personnalis�e</givenname>
 				<mail>craithbie6j@cloudflare.com</mail>
 				<provider>uol.com.br</provider>
 				<mail>lnuccioy@bizjournals.com</mail>
@@ -7190,19 +7190,19 @@
 	</customer>
 	<customer>
 		<customerid>710</customerid>
-		<firstname>Sverine</firstname>
+		<firstname>S�verine</firstname>
 		<surname>Roman</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>711</customerid>
-		<firstname>Alize</firstname>
+		<firstname>Aliz�e</firstname>
 		<surname>Van Leeuwen</surname>
 		<companies>
 			<company companyId="492">
 				<companyname>Browsetype</companyname>
 				<companysize>M</companysize>
-				<givenname>Clmence</givenname>
+				<givenname>Cl�mence</givenname>
 				<mail>mlamiepx@drupal.org</mail>
 				<provider>squidoo.com</provider>
 				<mail>bbertlingo@qq.com</mail>
@@ -7213,13 +7213,13 @@
 	</customer>
 	<customer>
 		<customerid>712</customerid>
-		<firstname>Alos</firstname>
+		<firstname>Alo�s</firstname>
 		<surname>Clarkin</surname>
 		<companies>
 			<company companyId="703">
 				<companyname>Wikivu</companyname>
 				<companysize>M</companysize>
-				<givenname>rjan</givenname>
+				<givenname>�rjan</givenname>
 				<mail>rbuckenhillbp@tumblr.com</mail>
 				<provider>netvibes.com</provider>
 				<mail>starbett47@army.mil</mail>
@@ -7230,19 +7230,19 @@
 	</customer>
 	<customer>
 		<customerid>713</customerid>
-		<firstname>Andr</firstname>
+		<firstname>Andr�</firstname>
 		<surname>Dalla</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>714</customerid>
-		<firstname>Esbjrn</firstname>
+		<firstname>Esbj�rn</firstname>
 		<surname>Hanrott</surname>
 		<companies>
 			<company companyId="571">
 				<companyname>Quinu</companyname>
 				<companysize>L</companysize>
-				<givenname>Zh</givenname>
+				<givenname>Zh�</givenname>
 				<mail>gsorrieq0@bloomberg.com</mail>
 				<provider>domainmarket.com</provider>
 				<mail>drizzoj2@yale.edu</mail>
@@ -7259,133 +7259,133 @@
 	</customer>
 	<customer>
 		<customerid>715</customerid>
-		<firstname>Bndicte</firstname>
+		<firstname>B�n�dicte</firstname>
 		<surname>Langran</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>716</customerid>
-		<firstname>Franoise</firstname>
+		<firstname>Fran�oise</firstname>
 		<surname>Castree</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>717</customerid>
-		<firstname>Intressant</firstname>
+		<firstname>Int�ressant</firstname>
 		<surname>Saph</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>718</customerid>
-		<firstname>Hlne</firstname>
+		<firstname>H�l�ne</firstname>
 		<surname>Mepsted</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>719</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Labbez</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>720</customerid>
-		<firstname>Brangre</firstname>
+		<firstname>B�rang�re</firstname>
 		<surname>Mabbs</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>721</customerid>
-		<firstname>Mlys</firstname>
+		<firstname>M�lys</firstname>
 		<surname>Rorke</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>722</customerid>
-		<firstname>Mlodie</firstname>
+		<firstname>M�lodie</firstname>
 		<surname>Paynter</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>723</customerid>
-		<firstname>Mawenn</firstname>
+		<firstname>Ma�wenn</firstname>
 		<surname>Statton</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>724</customerid>
-		<firstname>Aurlie</firstname>
+		<firstname>Aur�lie</firstname>
 		<surname>Gibberd</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>725</customerid>
-		<firstname>Ma</firstname>
+		<firstname>Ma�</firstname>
 		<surname>Cotgrove</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>726</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Ranyell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>727</customerid>
-		<firstname>Marylne</firstname>
+		<firstname>Maryl�ne</firstname>
 		<surname>Gooders</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>728</customerid>
-		<firstname>Lane</firstname>
+		<firstname>L�ane</firstname>
 		<surname>Barkworth</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>729</customerid>
-		<firstname>Daphne</firstname>
+		<firstname>Daphn�e</firstname>
 		<surname>Mayzes</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>730</customerid>
-		<firstname>Zo</firstname>
+		<firstname>Zo�</firstname>
 		<surname>MacArthur</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>731</customerid>
-		<firstname>Nlie</firstname>
+		<firstname>N�lie</firstname>
 		<surname>Caron</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>732</customerid>
-		<firstname>Mawenn</firstname>
+		<firstname>Ma�wenn</firstname>
 		<surname>Popov</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>733</customerid>
-		<firstname>Maline</firstname>
+		<firstname>Ma�line</firstname>
 		<surname>Pascall</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>734</customerid>
-		<firstname>Cllia</firstname>
+		<firstname>Cl�lia</firstname>
 		<surname>Wealthall</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>735</customerid>
-		<firstname>Adlade</firstname>
+		<firstname>Ad�la�de</firstname>
 		<surname>Waller-Bridge</surname>
 		<companies>
 			<company companyId="691">
 				<companyname>Realpoint</companyname>
 				<companysize>M</companysize>
-				<givenname>Nalle</givenname>
+				<givenname>Na�lle</givenname>
 				<mail>brosenfeltgz@ow.ly</mail>
 				<provider>amazon.co.uk</provider>
 				<mail>kneachell2a@hubpages.com</mail>
@@ -7407,13 +7407,13 @@
 	</customer>
 	<customer>
 		<customerid>736</customerid>
-		<firstname>La</firstname>
+		<firstname>L�a</firstname>
 		<surname>Plaskitt</surname>
 		<companies>
 			<company companyId="752">
 				<companyname>Fivechat</companyname>
 				<companysize>S</companysize>
-				<givenname>Mrten</givenname>
+				<givenname>M�rten</givenname>
 				<mail>eyitshakiu@hp.com</mail>
 				<provider>theatlantic.com</provider>
 				<mail>sfairebrother2i@businessweek.com</mail>
@@ -7430,25 +7430,25 @@
 	</customer>
 	<customer>
 		<customerid>737</customerid>
-		<firstname>Gsta</firstname>
+		<firstname>G�sta</firstname>
 		<surname>Dargavel</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>738</customerid>
-		<firstname>Kallist</firstname>
+		<firstname>Kallist�</firstname>
 		<surname>Hovert</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>739</customerid>
-		<firstname>Gaa</firstname>
+		<firstname>Ga�a</firstname>
 		<surname>Maxted</surname>
 		<companies>
 			<company companyId="103">
 				<companyname>Skiptube</companyname>
 				<companysize>S</companysize>
-				<givenname>Alos</givenname>
+				<givenname>Alo�s</givenname>
 				<mail>ncherrisongt@opera.com</mail>
 				<provider>smugmug.com</provider>
 				<mail>ndegiorgioc9@springer.com</mail>
@@ -7465,55 +7465,55 @@
 	</customer>
 	<customer>
 		<customerid>740</customerid>
-		<firstname>Ku</firstname>
+		<firstname>Ku�</firstname>
 		<surname>Delgado</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>741</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Tejero</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>742</customerid>
-		<firstname>Gaa</firstname>
+		<firstname>Ga�a</firstname>
 		<surname>Ealles</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>743</customerid>
-		<firstname>Gisle</firstname>
+		<firstname>Gis�le</firstname>
 		<surname>Mose</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>744</customerid>
-		<firstname>Loc</firstname>
+		<firstname>Lo�c</firstname>
 		<surname>Kestin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>745</customerid>
-		<firstname>Lng</firstname>
+		<firstname>L�ng</firstname>
 		<surname>Christofe</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>746</customerid>
-		<firstname>Stvina</firstname>
+		<firstname>St�vina</firstname>
 		<surname>Shergill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>747</customerid>
-		<firstname>D</firstname>
+		<firstname>D�</firstname>
 		<surname>Viveash</surname>
 		<companies>
 			<company companyId="464">
 				<companyname>Gabcube</companyname>
 				<companysize>M</companysize>
-				<givenname>Torbjrn</givenname>
+				<givenname>Torbj�rn</givenname>
 				<mail>enanetti1e@163.com</mail>
 				<provider>nba.com</provider>
 				<mail>cpettigreeck@hp.com</mail>
@@ -7524,43 +7524,43 @@
 	</customer>
 	<customer>
 		<customerid>748</customerid>
-		<firstname>Li</firstname>
+		<firstname>L�i</firstname>
 		<surname>Freear</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>749</customerid>
-		<firstname>Nalle</firstname>
+		<firstname>Na�lle</firstname>
 		<surname>Hallagan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>750</customerid>
-		<firstname>Cllia</firstname>
+		<firstname>Cl�lia</firstname>
 		<surname>Dunridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>751</customerid>
-		<firstname>Crz</firstname>
+		<firstname>Cr��z</firstname>
 		<surname>Tollemache</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>752</customerid>
-		<firstname>Milna</firstname>
+		<firstname>Mil�na</firstname>
 		<surname>Sharp</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>753</customerid>
-		<firstname>Angle</firstname>
+		<firstname>Ang�le</firstname>
 		<surname>Rosiello</surname>
 		<companies>
 			<company companyId="216">
 				<companyname>Twitterwire</companyname>
 				<companysize>M</companysize>
-				<givenname>Alize</givenname>
+				<givenname>Aliz�e</givenname>
 				<mail>bdummiganof@loc.gov</mail>
 				<provider>house.gov</provider>
 				<mail>kparrenag@netscape.com</mail>
@@ -7577,25 +7577,25 @@
 	</customer>
 	<customer>
 		<customerid>754</customerid>
-		<firstname>Lane</firstname>
+		<firstname>L�ane</firstname>
 		<surname>Dows</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>755</customerid>
-		<firstname>Marie-franoise</firstname>
+		<firstname>Marie-fran�oise</firstname>
 		<surname>Jaffrey</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>756</customerid>
-		<firstname>Alos</firstname>
+		<firstname>Alo�s</firstname>
 		<surname>Luto</surname>
 		<companies>
 			<company companyId="96">
 				<companyname>Photolist</companyname>
 				<companysize>M</companysize>
-				<givenname>Adle</givenname>
+				<givenname>Ad�le</givenname>
 				<mail>snassey29@tuttocitta.it</mail>
 				<provider>ovh.net</provider>
 				<mail>hhucksteppqi@yelp.com</mail>
@@ -7606,49 +7606,49 @@
 	</customer>
 	<customer>
 		<customerid>757</customerid>
-		<firstname>Gwenalle</firstname>
+		<firstname>Gwena�lle</firstname>
 		<surname>Salerno</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>758</customerid>
-		<firstname>Lng</firstname>
+		<firstname>L�ng</firstname>
 		<surname>Greenstreet</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>759</customerid>
-		<firstname>Hlna</firstname>
+		<firstname>H�l�na</firstname>
 		<surname>Lebourn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>760</customerid>
-		<firstname>Andr</firstname>
+		<firstname>Andr�</firstname>
 		<surname>Burgin</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>761</customerid>
-		<firstname>Marie-hlne</firstname>
+		<firstname>Marie-h�l�ne</firstname>
 		<surname>Brack</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>762</customerid>
-		<firstname>Crz</firstname>
+		<firstname>Cr��z</firstname>
 		<surname>Mathiasen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>763</customerid>
-		<firstname>Plagie</firstname>
+		<firstname>P�lagie</firstname>
 		<surname>Snartt</surname>
 		<companies>
 			<company companyId="741">
 				<companyname>Twinte</companyname>
 				<companysize>M</companysize>
-				<givenname>Mthode</givenname>
+				<givenname>M�thode</givenname>
 				<mail>rblumsomfp@dot.gov</mail>
 				<provider>nytimes.com</provider>
 				<mail>cattargeey@exblog.jp</mail>
@@ -7675,13 +7675,13 @@
 	</customer>
 	<customer>
 		<customerid>764</customerid>
-		<firstname>Nalle</firstname>
+		<firstname>Na�lle</firstname>
 		<surname>Castelli</surname>
 		<companies>
 			<company companyId="497">
 				<companyname>Kayveo</companyname>
 				<companysize>L</companysize>
-				<givenname>Andra</givenname>
+				<givenname>Andr�a</givenname>
 				<mail>fpetticanhx@bbc.co.uk</mail>
 				<provider>barnesandnoble.com</provider>
 				<mail>reastbrook57@ucsd.edu</mail>
@@ -7698,49 +7698,49 @@
 	</customer>
 	<customer>
 		<customerid>765</customerid>
-		<firstname>Grel</firstname>
+		<firstname>G�rel</firstname>
 		<surname>Sebborn</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>766</customerid>
-		<firstname>Cungonde</firstname>
+		<firstname>Cun�gonde</firstname>
 		<surname>McReynolds</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>767</customerid>
-		<firstname>Brangre</firstname>
+		<firstname>B�rang�re</firstname>
 		<surname>Waller-Bridge</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>768</customerid>
-		<firstname>Dafne</firstname>
+		<firstname>Dafn�e</firstname>
 		<surname>Winskill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>769</customerid>
-		<firstname>P</firstname>
+		<firstname>P�</firstname>
 		<surname>Spalding</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>770</customerid>
-		<firstname>ke</firstname>
+		<firstname>�ke</firstname>
 		<surname>Minor</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>771</customerid>
-		<firstname>Angle</firstname>
+		<firstname>Ang�le</firstname>
 		<surname>Coorington</surname>
 		<companies>
 			<company companyId="659">
 				<companyname>Photofeed</companyname>
 				<companysize>L</companysize>
-				<givenname>Nalle</givenname>
+				<givenname>Na�lle</givenname>
 				<mail>btrundellbs@mapquest.com</mail>
 				<provider>newsvine.com</provider>
 				<mail>kelan5f@ed.gov</mail>
@@ -7751,49 +7751,49 @@
 	</customer>
 	<customer>
 		<customerid>772</customerid>
-		<firstname>Mylne</firstname>
+		<firstname>Myl�ne</firstname>
 		<surname>Bougen</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>773</customerid>
-		<firstname>Laurna</firstname>
+		<firstname>Laur�na</firstname>
 		<surname>Ellard</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>774</customerid>
-		<firstname>Marie-jose</firstname>
+		<firstname>Marie-jos�e</firstname>
 		<surname>Cathee</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>775</customerid>
-		<firstname>Rservs</firstname>
+		<firstname>R�serv�s</firstname>
 		<surname>Blaxeland</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>776</customerid>
-		<firstname>Andra</firstname>
+		<firstname>Andr�a</firstname>
 		<surname>Esch</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>777</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>Sitwell</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>778</customerid>
-		<firstname>Ru</firstname>
+		<firstname>Ru�</firstname>
 		<surname>Meneer</surname>
 		<companies>
 			<company companyId="158">
 				<companyname>Einti</companyname>
 				<companysize>S</companysize>
-				<givenname>Mthode</givenname>
+				<givenname>M�thode</givenname>
 				<mail>blohanl6@usgs.gov</mail>
 				<provider>apple.com</provider>
 				<mail>zmessittrl@people.com.cn</mail>
@@ -7810,13 +7810,13 @@
 	</customer>
 	<customer>
 		<customerid>779</customerid>
-		<firstname>Clestine</firstname>
+		<firstname>C�lestine</firstname>
 		<surname>Vigours</surname>
 		<companies>
 			<company companyId="26">
 				<companyname>Yakijo</companyname>
 				<companysize>L</companysize>
-				<givenname>D</givenname>
+				<givenname>D�</givenname>
 				<mail>babellnp@epa.gov</mail>
 				<provider>reuters.com</provider>
 				<mail>kstiffell5u@cargocollective.com</mail>
@@ -7833,37 +7833,37 @@
 	</customer>
 	<customer>
 		<customerid>780</customerid>
-		<firstname>Bjrn</firstname>
+		<firstname>Bj�rn</firstname>
 		<surname>Gold</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>781</customerid>
-		<firstname>Ro</firstname>
+		<firstname>R�o</firstname>
 		<surname>Chrishop</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>782</customerid>
-		<firstname>Milna</firstname>
+		<firstname>Mil�na</firstname>
 		<surname>Creedland</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>783</customerid>
-		<firstname>Almrinda</firstname>
+		<firstname>Alm�rinda</firstname>
 		<surname>Mirralls</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>784</customerid>
-		<firstname>Aime</firstname>
+		<firstname>Aim�e</firstname>
 		<surname>Burnsyde</surname>
 		<companies>
 			<company companyId="344">
 				<companyname>Twitterwire</companyname>
 				<companysize>L</companysize>
-				<givenname>Lonore</givenname>
+				<givenname>L�onore</givenname>
 				<mail>bbrackdm@de.vu</mail>
 				<provider>barnesandnoble.com</provider>
 				<mail>kridgehr@tripod.com</mail>
@@ -7880,31 +7880,31 @@
 	</customer>
 	<customer>
 		<customerid>785</customerid>
-		<firstname>Ccile</firstname>
+		<firstname>C�cile</firstname>
 		<surname>Shooter</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>786</customerid>
-		<firstname>Vnus</firstname>
+		<firstname>V�nus</firstname>
 		<surname>Fulk</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>787</customerid>
-		<firstname>Malis</firstname>
+		<firstname>Ma�lis</firstname>
 		<surname>Pressdee</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>788</customerid>
-		<firstname>Camlia</firstname>
+		<firstname>Cam�lia</firstname>
 		<surname>LHommeau</surname>
 		<companies>
 			<company companyId="280">
 				<companyname>Oloo</companyname>
 				<companysize>S</companysize>
-				<givenname>P</givenname>
+				<givenname>P�</givenname>
 				<mail>melluml8@wp.com</mail>
 				<provider>dropbox.com</provider>
 				<mail>rdelguako@mapy.cz</mail>
@@ -7926,25 +7926,25 @@
 	</customer>
 	<customer>
 		<customerid>789</customerid>
-		<firstname>Loca</firstname>
+		<firstname>Lo�ca</firstname>
 		<surname>Laffan</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>790</customerid>
-		<firstname>Personnalise</firstname>
+		<firstname>Personnalis�e</firstname>
 		<surname>Gebb</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>791</customerid>
-		<firstname>Nhmie</firstname>
+		<firstname>N�h�mie</firstname>
 		<surname>Dowderswell</surname>
 		<companies>
 			<company companyId="678">
 				<companyname>Topicblab</companyname>
 				<companysize>M</companysize>
-				<givenname>Andre</givenname>
+				<givenname>Andr�e</givenname>
 				<mail>reastbrook57@ucsd.edu</mail>
 				<provider>cloudflare.com</provider>
 				<mail>ocanadag7@toplist.cz</mail>
@@ -7961,13 +7961,13 @@
 	</customer>
 	<customer>
 		<customerid>792</customerid>
-		<firstname>Ro</firstname>
+		<firstname>R�o</firstname>
 		<surname>Vearnals</surname>
 		<companies>
 			<company companyId="436">
 				<companyname>Voomm</companyname>
 				<companysize>S</companysize>
-				<givenname>Batrice</givenname>
+				<givenname>B�atrice</givenname>
 				<mail>srobotthamd8@apache.org</mail>
 				<provider>zdnet.com</provider>
 				<mail>avanetti1x@printfriendly.com</mail>
@@ -7978,25 +7978,25 @@
 	</customer>
 	<customer>
 		<customerid>793</customerid>
-		<firstname>Annots</firstname>
+		<firstname>Annot�s</firstname>
 		<surname>Viveash</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>794</customerid>
-		<firstname>Erwi</firstname>
+		<firstname>Erw�i</firstname>
 		<surname>Vassall</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>795</customerid>
-		<firstname>Gaa</firstname>
+		<firstname>Ga�a</firstname>
 		<surname>Pfaff</surname>
 		<companies>
 			<company companyId="82">
 				<companyname>Twitterlist</companyname>
 				<companysize>L</companysize>
-				<givenname>Tng</givenname>
+				<givenname>T�ng</givenname>
 				<mail>ddavidescom0@goodreads.com</mail>
 				<provider>vk.com</provider>
 				<mail>mpinksr2@nytimes.com</mail>
@@ -8006,7 +8006,7 @@
 			<company companyId="290">
 				<companyname>Shuffledrive</companyname>
 				<companysize>L</companysize>
-				<givenname>Bcassine</givenname>
+				<givenname>B�cassine</givenname>
 				<mail>wdemanche97@digg.com</mail>
 				<provider>macromedia.com</provider>
 				<mail>qbeekmann5j@ucsd.edu</mail>
@@ -8017,25 +8017,25 @@
 	</customer>
 	<customer>
 		<customerid>796</customerid>
-		<firstname>Marylne</firstname>
+		<firstname>Maryl�ne</firstname>
 		<surname>Faloon</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>797</customerid>
-		<firstname>Kvina</firstname>
+		<firstname>K�vina</firstname>
 		<surname>Denerley</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>798</customerid>
-		<firstname>Nadge</firstname>
+		<firstname>Nad�ge</firstname>
 		<surname>Camamill</surname>
 		<companies/>
 	</customer>
 	<customer>
 		<customerid>799</customerid>
-		<firstname>Mn</firstname>
+		<firstname>M�n</firstname>
 		<surname>Lightman</surname>
 		<companies/>
 	</customer>

@@ -5,12 +5,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="340">
-				<firstname>Analle</firstname>
+				<firstname>Ana�lle</firstname>
 				<surname>Delgua</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Adlade</given_name>
+							<given_name>Ad�la�de</given_name>
 							<family_name>Dumingos</family_name>
 						</name>
 						<address zip="A41" country="Bangladesh">
@@ -20,7 +20,7 @@
 								<number type="staircase">7</number>
 								<number type="door">11</number>
 							</street>
-							<city>Farasn</city>
+							<city>Faras?n</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -88,12 +88,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="296">
-				<firstname>Maline</firstname>
+				<firstname>Ma�line</firstname>
 				<surname>Carrel</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Srna</given_name>
+							<given_name>S�r�na</given_name>
 							<family_name>Blanchette</family_name>
 						</name>
 						<address zip="2436" country="China">
@@ -153,12 +153,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="161">
-				<firstname>Li</firstname>
+				<firstname>L�i</firstname>
 				<surname>Utterson</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Ccilia</given_name>
+							<given_name>C�cilia</given_name>
 							<family_name>Pascall</family_name>
 						</name>
 						<address zip="" country="Nigeria">
@@ -188,12 +188,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="675">
-				<firstname>Mylne</firstname>
+				<firstname>Myl�ne</firstname>
 				<surname>Nucci</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>W</given_name>
+							<given_name>W�</given_name>
 							<family_name>Illes</family_name>
 						</name>
 						<address zip="" country="Sweden">
@@ -216,12 +216,12 @@
 				</specification>
 			</customer>
 			<customer customerId="97">
-				<firstname>Clmence</firstname>
+				<firstname>Cl�mence</firstname>
 				<surname>Lawrey</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Vnus</given_name>
+							<given_name>V�nus</given_name>
 							<family_name>Gilyatt</family_name>
 						</name>
 						<address zip="4705-676" country="Iran">
@@ -280,12 +280,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="559">
-				<firstname>Simplifis</firstname>
+				<firstname>Simplifi�s</firstname>
 				<surname>Ridge</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Malle</given_name>
+							<given_name>Ma�lle</given_name>
 							<family_name>Halahan</family_name>
 						</name>
 						<address zip="" country="Russia">
@@ -295,7 +295,7 @@
 								<number type="staircase">4</number>
 								<number type="door">35</number>
 							</street>
-							<city>Zambrw</city>
+							<city>Zambr�w</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -327,12 +327,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="779">
-				<firstname>Clestine</firstname>
+				<firstname>C�lestine</firstname>
 				<surname>Vigours</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Edme</given_name>
+							<given_name>Edm�e</given_name>
 							<family_name>Isaksson</family_name>
 						</name>
 						<address zip="46852" country="China">
@@ -373,12 +373,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="325">
-				<firstname>Ma</firstname>
+				<firstname>Ma�</firstname>
 				<surname>Cotgrove</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lala</given_name>
+							<given_name>La�la</given_name>
 							<family_name>OFarris</family_name>
 						</name>
 						<address zip="143035" country="Madagascar">
@@ -402,12 +402,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="271">
-				<firstname>Magdalne</firstname>
+				<firstname>Magdal�ne</firstname>
 				<surname>Yewdall</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Gaa</given_name>
+							<given_name>Ga�a</given_name>
 							<family_name>Davidesco</family_name>
 						</name>
 						<address zip="" country="Portugal">
@@ -437,12 +437,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="356">
-				<firstname>Camlia</firstname>
+				<firstname>Cam�lia</firstname>
 				<surname>Freear</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Simplifis</given_name>
+							<given_name>Simplifi�s</given_name>
 							<family_name>Chrishop</family_name>
 						</name>
 						<address zip="" country="China">
@@ -478,12 +478,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="588">
-				<firstname>Marie-nol</firstname>
+				<firstname>Marie-no�l</firstname>
 				<surname>McLaren</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Irne</given_name>
+							<given_name>Ir�ne</given_name>
 							<family_name>Leggett</family_name>
 						</name>
 						<address zip="2017" country="Indonesia">
@@ -561,12 +561,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="153">
-				<firstname>Michle</firstname>
+				<firstname>Mich�le</firstname>
 				<surname>Poxson</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Annots</given_name>
+							<given_name>Annot�s</given_name>
 							<family_name>Rayburn</family_name>
 						</name>
 						<address zip="" country="Russia">
@@ -613,12 +613,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="305">
-				<firstname>D</firstname>
+				<firstname>D�</firstname>
 				<surname>Gisbye</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mlys</given_name>
+							<given_name>M�lys</given_name>
 							<family_name>Millen</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -628,7 +628,7 @@
 								<number type="staircase">0</number>
 								<number type="door">27</number>
 							</street>
-							<city>Jabo</city>
+							<city>Jab?o?</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -660,12 +660,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="215">
-				<firstname>Lana</firstname>
+				<firstname>L�ana</firstname>
 				<surname>Cotta</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Brje</given_name>
+							<given_name>B�rje</given_name>
 							<family_name>Spraggs</family_name>
 						</name>
 						<address zip="1069" country="Thailand">
@@ -713,12 +713,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="656">
-				<firstname>Torbjrn</firstname>
+				<firstname>Torbj�rn</firstname>
 				<surname>Bette</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Nolla</given_name>
+							<given_name>No�lla</given_name>
 							<family_name>Balcon</family_name>
 						</name>
 						<address zip="" country="Mexico">
@@ -806,12 +806,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="192">
-				<firstname>Batrice</firstname>
+				<firstname>B�atrice</firstname>
 				<surname>Spillane</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Personnalise</given_name>
+							<given_name>Personnalis�e</given_name>
 							<family_name>Ellum</family_name>
 						</name>
 						<address zip="" country="Sweden">
@@ -834,12 +834,12 @@
 				</specification>
 			</customer>
 			<customer customerId="450">
-				<firstname>Slne</firstname>
+				<firstname>S�l�ne</firstname>
 				<surname>McLelland</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Anal</given_name>
+							<given_name>Ana�l</given_name>
 							<family_name>Dunbabin</family_name>
 						</name>
 						<address zip="45250" country="Ireland">
@@ -893,12 +893,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="73">
-				<firstname>Lone</firstname>
+				<firstname>L�one</firstname>
 				<surname>Gargett</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>La</given_name>
+							<given_name>L�a</given_name>
 							<family_name>Gerrets</family_name>
 						</name>
 						<address zip="" country="China">
@@ -908,7 +908,7 @@
 								<number type="staircase">6</number>
 								<number type="door">37</number>
 							</street>
-							<city>Outeir</city>
+							<city>Outeir�</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -939,12 +939,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="290">
-				<firstname>Andr</firstname>
+				<firstname>Andr�</firstname>
 				<surname>Dalla</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lane</given_name>
+							<given_name>L�ane</given_name>
 							<family_name>Crannis</family_name>
 						</name>
 						<address zip="" country="Poland">
@@ -992,12 +992,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="665">
-				<firstname>Lucrce</firstname>
+				<firstname>Lucr�ce</firstname>
 				<surname>Matchett</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marylne</given_name>
+							<given_name>Maryl�ne</given_name>
 							<family_name>Birkett</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -1057,12 +1057,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="225">
-				<firstname>Zo</firstname>
+				<firstname>Zo�</firstname>
 				<surname>LAmie</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mrten</given_name>
+							<given_name>M�rten</given_name>
 							<family_name>Stopps</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -1107,12 +1107,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="795">
-				<firstname>Gaa</firstname>
+				<firstname>Ga�a</firstname>
 				<surname>Pfaff</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mthode</given_name>
+							<given_name>M�thode</given_name>
 							<family_name>Rowbotham</family_name>
 						</name>
 						<address zip="" country="Russia">
@@ -1183,12 +1183,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="654">
-				<firstname>Srna</firstname>
+				<firstname>S�r�na</firstname>
 				<surname>Kerrod</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Ccilia</given_name>
+							<given_name>C�cilia</given_name>
 							<family_name>Ratie</family_name>
 						</name>
 						<address zip="97-216" country="Poland">
@@ -1198,19 +1198,19 @@
 								<number type="staircase">8</number>
 								<number type="door">76</number>
 							</street>
-							<city>Yingdeer</city>
+							<city>Yingde�er</city>
 						</address>
 					</address>
 				</customeraddress>
 				<specification/>
 			</customer>
 			<customer customerId="294">
-				<firstname>Zo</firstname>
+				<firstname>Zo�</firstname>
 				<surname>Spacie</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Almrinda</given_name>
+							<given_name>Alm�rinda</given_name>
 							<family_name>Kimmince</family_name>
 						</name>
 						<address zip="" country="Colombia">
@@ -1258,12 +1258,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="644">
-				<firstname>Salom</firstname>
+				<firstname>Salom�</firstname>
 				<surname>Selway</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Vronique</given_name>
+							<given_name>V�ronique</given_name>
 							<family_name>Pilling</family_name>
 						</name>
 						<address zip="15600-000" country="Indonesia">
@@ -1305,12 +1305,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="756">
-				<firstname>Alos</firstname>
+				<firstname>Alo�s</firstname>
 				<surname>Luto</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mdiamass</given_name>
+							<given_name>M�diamass</given_name>
 							<family_name>Arenson</family_name>
 						</name>
 						<address zip="8301" country="Afghanistan">
@@ -1364,12 +1364,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="686">
-				<firstname>Fi</firstname>
+				<firstname>F�i</firstname>
 				<surname>Critten</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Camlia</given_name>
+							<given_name>Cam�lia</given_name>
 							<family_name>Dubois</family_name>
 						</name>
 						<address zip="77140" country="Micronesia">
@@ -1399,12 +1399,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="739">
-				<firstname>Gaa</firstname>
+				<firstname>Ga�a</firstname>
 				<surname>Maxted</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Brnice</given_name>
+							<given_name>B�r�nice</given_name>
 							<family_name>Lighten</family_name>
 						</name>
 						<address zip="" country="Russia">
@@ -1504,12 +1504,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="665">
-				<firstname>Lucrce</firstname>
+				<firstname>Lucr�ce</firstname>
 				<surname>Matchett</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marylne</given_name>
+							<given_name>Maryl�ne</given_name>
 							<family_name>Birkett</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -1532,12 +1532,12 @@
 				</specification>
 			</customer>
 			<customer customerId="314">
-				<firstname>Malys</firstname>
+				<firstname>Ma�lys</firstname>
 				<surname>Oherlihy</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mgane</given_name>
+							<given_name>M�gane</given_name>
 							<family_name>Coorington</family_name>
 						</name>
 						<address zip="" country="Colombia">
@@ -1567,12 +1567,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="211">
-				<firstname>Analle</firstname>
+				<firstname>Ana�lle</firstname>
 				<surname>Guisby</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Rachle</given_name>
+							<given_name>Rach�le</given_name>
 							<family_name>Gillinghams</family_name>
 						</name>
 						<address zip="8410" country="China">
@@ -1620,12 +1620,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="31">
-				<firstname>Nomie</firstname>
+				<firstname>No�mie</firstname>
 				<surname>Cotgrove</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Publicit</given_name>
+							<given_name>Publicit�</given_name>
 							<family_name>Hovert</family_name>
 						</name>
 						<address zip="368580" country="Zambia">
@@ -1666,12 +1666,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="252">
-				<firstname>Valrie</firstname>
+				<firstname>Val�rie</firstname>
 				<surname>Norssister</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Nolla</given_name>
+							<given_name>No�lla</given_name>
 							<family_name>Master</family_name>
 						</name>
 						<address zip="" country="China">
@@ -1713,12 +1713,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="488">
-				<firstname>Ccilia</firstname>
+				<firstname>C�cilia</firstname>
 				<surname>MacArd</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cungonde</given_name>
+							<given_name>Cun�gonde</given_name>
 							<family_name>Lunbech</family_name>
 						</name>
 						<address zip="" country="Portugal">
@@ -1783,12 +1783,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="603">
-				<firstname>Plagie</firstname>
+				<firstname>P�lagie</firstname>
 				<surname>Hoggetts</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Erwi</given_name>
+							<given_name>Erw�i</given_name>
 							<family_name>LHommeau</family_name>
 						</name>
 						<address zip="" country="Thailand">
@@ -1798,7 +1798,7 @@
 								<number type="staircase">8</number>
 								<number type="door">61</number>
 							</street>
-							<city>Ciudad Bolvar</city>
+							<city>Ciudad Bol�var</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -1848,12 +1848,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="25">
-				<firstname>Mline</firstname>
+				<firstname>M�line</firstname>
 				<surname>Nanetti</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cla</given_name>
+							<given_name>Cl�a</given_name>
 							<family_name>Yanne</family_name>
 						</name>
 						<address zip="172048" country="Iran">
@@ -1919,12 +1919,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="51">
-				<firstname>Vrane</firstname>
+				<firstname>V�rane</firstname>
 				<surname>Dubois</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Milna</given_name>
+							<given_name>Mil�na</given_name>
 							<family_name>MacArthur</family_name>
 						</name>
 						<address zip="" country="Colombia">
@@ -1972,12 +1972,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="439">
-				<firstname>Mn</firstname>
+				<firstname>M�n</firstname>
 				<surname>Quarmby</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Ccile</given_name>
+							<given_name>C�cile</given_name>
 							<family_name>Feavyour</family_name>
 						</name>
 						<address zip="91154 CEDEX" country="Iran">
@@ -2018,12 +2018,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="680">
-				<firstname>sa</firstname>
+				<firstname>�sa</firstname>
 				<surname>Popov</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mns</given_name>
+							<given_name>M�ns</given_name>
 							<family_name>Newbigging</family_name>
 						</name>
 						<address zip="MD-6401" country="Slovenia">
@@ -2065,12 +2065,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="461">
-				<firstname>Ma</firstname>
+				<firstname>Ma�</firstname>
 				<surname>Kimmince</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Li</given_name>
+							<given_name>L�i</given_name>
 							<family_name>Abelson</family_name>
 						</name>
 						<address zip="13399 CEDEX 05" country="Russia">
@@ -2106,12 +2106,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="474">
-				<firstname>K</firstname>
+				<firstname>K�</firstname>
 				<surname>Blaxeland</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Flicie</given_name>
+							<given_name>F�licie</given_name>
 							<family_name>Massingberd</family_name>
 						</name>
 						<address zip="366609" country="China">
@@ -2128,12 +2128,12 @@
 				<specification/>
 			</customer>
 			<customer customerId="778">
-				<firstname>Ru</firstname>
+				<firstname>Ru�</firstname>
 				<surname>Meneer</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>M</given_name>
+							<given_name>M�</given_name>
 							<family_name>Girardetti</family_name>
 						</name>
 						<address zip="T1V" country="China">
@@ -2163,12 +2163,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="339">
-				<firstname>Aime</firstname>
+				<firstname>Aim�e</firstname>
 				<surname>Brinsford</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Athna</given_name>
+							<given_name>Ath�na</given_name>
 							<family_name>Cowey</family_name>
 						</name>
 						<address zip="" country="Brazil">
@@ -2178,7 +2178,7 @@
 								<number type="staircase">6</number>
 								<number type="door">66</number>
 							</street>
-							<city>Radzanw</city>
+							<city>Radzan�w</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -2216,12 +2216,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="245">
-				<firstname>Andra</firstname>
+				<firstname>Andr�a</firstname>
 				<surname>Dolby</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Li</given_name>
+							<given_name>L�i</given_name>
 							<family_name>Vignaux</family_name>
 						</name>
 						<address zip="4117" country="Slovenia">
@@ -2293,12 +2293,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="553">
-				<firstname>Fates</firstname>
+				<firstname>Fa�tes</firstname>
 				<surname>Goldine</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lonie</given_name>
+							<given_name>L�onie</given_name>
 							<family_name>McGavigan</family_name>
 						</name>
 						<address zip="" country="Bolivia">
@@ -2350,12 +2350,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="680">
-				<firstname>sa</firstname>
+				<firstname>�sa</firstname>
 				<surname>Popov</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mns</given_name>
+							<given_name>M�ns</given_name>
 							<family_name>Newbigging</family_name>
 						</name>
 						<address zip="MD-6401" country="Slovenia">
@@ -2415,12 +2415,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="265">
-				<firstname>Y</firstname>
+				<firstname>Y�</firstname>
 				<surname>Ludford</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Ccilia</given_name>
+							<given_name>C�cilia</given_name>
 							<family_name>Hunnybun</family_name>
 						</name>
 						<address zip="89240-000" country="Haiti">
@@ -2456,12 +2456,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="57">
-				<firstname>Salom</firstname>
+				<firstname>Salom�</firstname>
 				<surname>Anthonies</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lorne</given_name>
+							<given_name>Lor�ne</given_name>
 							<family_name>Birkett</family_name>
 						</name>
 						<address zip="37410" country="Malaysia">
@@ -2521,12 +2521,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="113">
-				<firstname>Garon</firstname>
+				<firstname>Gar�on</firstname>
 				<surname>Looney</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Nalle</given_name>
+							<given_name>Na�lle</given_name>
 							<family_name>Dahlman</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -2536,19 +2536,19 @@
 								<number type="staircase">9</number>
 								<number type="door">13</number>
 							</street>
-							<city>Kavr</city>
+							<city>Kav?r</city>
 						</address>
 					</address>
 				</customeraddress>
 				<specification/>
 			</customer>
 			<customer customerId="25">
-				<firstname>Mline</firstname>
+				<firstname>M�line</firstname>
 				<surname>Nanetti</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cla</given_name>
+							<given_name>Cl�a</given_name>
 							<family_name>Yanne</family_name>
 						</name>
 						<address zip="172048" country="Iran">
@@ -2571,12 +2571,12 @@
 				</specification>
 			</customer>
 			<customer customerId="596">
-				<firstname>Bndicte</firstname>
+				<firstname>B�n�dicte</firstname>
 				<surname>Palomba</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mns</given_name>
+							<given_name>M�ns</given_name>
 							<family_name>Cicullo</family_name>
 						</name>
 						<address zip="4750-005" country="Guatemala">
@@ -2586,7 +2586,7 @@
 								<number type="staircase">9</number>
 								<number type="door">27</number>
 							</street>
-							<city>Qarwul</city>
+							<city>Qar?wul</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -2622,12 +2622,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="46">
-				<firstname>Illustre</firstname>
+				<firstname>Illustr�e</firstname>
 				<surname>Dalglish</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Rgine</given_name>
+							<given_name>R�gine</given_name>
 							<family_name>Febre</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -2668,12 +2668,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="539">
-				<firstname>Alos</firstname>
+				<firstname>Alo�s</firstname>
 				<surname>Illes</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Srna</given_name>
+							<given_name>S�r�na</given_name>
 							<family_name>Hanrott</family_name>
 						</name>
 						<address zip="" country="China">
@@ -2726,12 +2726,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="388">
-				<firstname>Slne</firstname>
+				<firstname>S�l�ne</firstname>
 				<surname>McQuaker</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mlys</given_name>
+							<given_name>M�lys</given_name>
 							<family_name>Halpin</family_name>
 						</name>
 						<address zip="5508" country="Poland">
@@ -2741,7 +2741,7 @@
 								<number type="staircase">6</number>
 								<number type="door">98</number>
 							</street>
-							<city>Slvesborg</city>
+							<city>S�lvesborg</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -2761,12 +2761,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="283">
-				<firstname>A</firstname>
+				<firstname>A�</firstname>
 				<surname>Geraldini</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Valrie</given_name>
+							<given_name>Val�rie</given_name>
 							<family_name>Krzysztofiak</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -2801,12 +2801,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="368">
-				<firstname>Srna</firstname>
+				<firstname>S�r�na</firstname>
 				<surname>Hatterslay</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Daphne</given_name>
+							<given_name>Daphn�e</given_name>
 							<family_name>Treagust</family_name>
 						</name>
 						<address zip="" country="Nigeria">
@@ -2878,12 +2878,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="568">
-				<firstname>Solne</firstname>
+				<firstname>Sol�ne</firstname>
 				<surname>Ridge</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>rjan</given_name>
+							<given_name>�rjan</given_name>
 							<family_name>Willowby</family_name>
 						</name>
 						<address zip="" country="China">
@@ -2935,12 +2935,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="299">
-				<firstname>Marie-thrse</firstname>
+				<firstname>Marie-th�r�se</firstname>
 				<surname>Parmiter</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Annots</given_name>
+							<given_name>Annot�s</given_name>
 							<family_name>Puffett</family_name>
 						</name>
 						<address zip="" country="Poland">
@@ -2970,12 +2970,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="753">
-				<firstname>Angle</firstname>
+				<firstname>Ang�le</firstname>
 				<surname>Rosiello</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Srna</given_name>
+							<given_name>S�r�na</given_name>
 							<family_name>Dautry</family_name>
 						</name>
 						<address zip="" country="Georgia">
@@ -2985,7 +2985,7 @@
 								<number type="staircase">0</number>
 								<number type="door">93</number>
 							</street>
-							<city>Doln Dunajovice</city>
+							<city>Doln� Dunajovice</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -3008,12 +3008,12 @@
 				</specification>
 			</customer>
 			<customer customerId="650">
-				<firstname>La</firstname>
+				<firstname>L�a</firstname>
 				<surname>Huckstepp</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>D</given_name>
+							<given_name>D�</given_name>
 							<family_name>Skotcher</family_name>
 						</name>
 						<address zip="423371" country="United States">
@@ -3060,12 +3060,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="301">
-				<firstname>Mylne</firstname>
+				<firstname>Myl�ne</firstname>
 				<surname>Culleford</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Batrice</given_name>
+							<given_name>B�atrice</given_name>
 							<family_name>Ratie</family_name>
 						</name>
 						<address zip="34102" country="Portugal">
@@ -3137,12 +3137,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="429">
-				<firstname>Hkan</firstname>
+				<firstname>H�kan</firstname>
 				<surname>Anglim</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Laurlie</given_name>
+							<given_name>Laur�lie</given_name>
 							<family_name>Belhomme</family_name>
 						</name>
 						<address zip="P24" country="Finland">
@@ -3152,19 +3152,19 @@
 								<number type="staircase">2</number>
 								<number type="door">5</number>
 							</street>
-							<city>Vxj</city>
+							<city>V�xj�</city>
 						</address>
 					</address>
 				</customeraddress>
 				<specification/>
 			</customer>
 			<customer customerId="471">
-				<firstname>Flicie</firstname>
+				<firstname>F�licie</firstname>
 				<surname>Scrivin</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Garon</given_name>
+							<given_name>Gar�on</given_name>
 							<family_name>Deathe</family_name>
 						</name>
 						<address zip="" country="Myanmar">
@@ -3218,12 +3218,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="116">
-				<firstname>rjan</firstname>
+				<firstname>�rjan</firstname>
 				<surname>Childers</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Annote</given_name>
+							<given_name>Annot�e</given_name>
 							<family_name>Porritt</family_name>
 						</name>
 						<address zip="270009" country="Norway">
@@ -3265,12 +3265,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="506">
-				<firstname>Stphanie</firstname>
+				<firstname>St�phanie</firstname>
 				<surname>Hewertson</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lane</given_name>
+							<given_name>L�ane</given_name>
 							<family_name>Munby</family_name>
 						</name>
 						<address zip="T1V" country="Czech Republic">
@@ -3432,12 +3432,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="489">
-				<firstname>Lana</firstname>
+				<firstname>L�ana</firstname>
 				<surname>Pinor</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Nhmie</given_name>
+							<given_name>N�h�mie</given_name>
 							<family_name>Viveash</family_name>
 						</name>
 						<address zip="4990-690" country="Bolivia">
@@ -3515,12 +3515,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="549">
-				<firstname>Lorne</firstname>
+				<firstname>Lor�ne</firstname>
 				<surname>Baser</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Li</given_name>
+							<given_name>L�i</given_name>
 							<family_name>Jubb</family_name>
 						</name>
 						<address zip="42045 CEDEX 1" country="Russia">
@@ -3530,7 +3530,7 @@
 								<number type="staircase">0</number>
 								<number type="door">75</number>
 							</street>
-							<city>Vnersborg</city>
+							<city>V�nersborg</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -3556,12 +3556,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="653">
-				<firstname>Marie-thrse</firstname>
+				<firstname>Marie-th�r�se</firstname>
 				<surname>Spinnace</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Thrse</given_name>
+							<given_name>Th�r�se</given_name>
 							<family_name>Rorke</family_name>
 						</name>
 						<address zip="781" country="Mongolia">
@@ -3571,7 +3571,7 @@
 								<number type="staircase">1</number>
 								<number type="door">73</number>
 							</street>
-							<city>Yljrvi</city>
+							<city>Yl�j�rvi</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -3603,12 +3603,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="201">
-				<firstname>Nhmie</firstname>
+				<firstname>N�h�mie</firstname>
 				<surname>Crannach</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lonie</given_name>
+							<given_name>L�onie</given_name>
 							<family_name>Guisby</family_name>
 						</name>
 						<address zip="39-204" country="Indonesia">
@@ -3650,12 +3650,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="403">
-				<firstname>Ophlie</firstname>
+				<firstname>Oph�lie</firstname>
 				<surname>Toke</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Malys</given_name>
+							<given_name>Ma�lys</given_name>
 							<family_name>Pascall</family_name>
 						</name>
 						<address zip="" country="Azerbaijan">
@@ -3685,12 +3685,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="788">
-				<firstname>Camlia</firstname>
+				<firstname>Cam�lia</firstname>
 				<surname>LHommeau</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Maline</given_name>
+							<given_name>Ma�line</given_name>
 							<family_name>Guisby</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -3746,12 +3746,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="55">
-				<firstname>Aurlie</firstname>
+				<firstname>Aur�lie</firstname>
 				<surname>Cleatherow</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Malle</given_name>
+							<given_name>Ma�lle</given_name>
 							<family_name>Carrel</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -3799,12 +3799,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="102">
-				<firstname>Erwi</firstname>
+				<firstname>Erw�i</firstname>
 				<surname>Ludford</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Malys</given_name>
+							<given_name>Ma�lys</given_name>
 							<family_name>Blagden</family_name>
 						</name>
 						<address zip="271058" country="Uzbekistan">
@@ -3851,12 +3851,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="795">
-				<firstname>Gaa</firstname>
+				<firstname>Ga�a</firstname>
 				<surname>Pfaff</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mthode</given_name>
+							<given_name>M�thode</given_name>
 							<family_name>Rowbotham</family_name>
 						</name>
 						<address zip="" country="Russia">
@@ -3939,12 +3939,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="81">
-				<firstname>Nlie</firstname>
+				<firstname>N�lie</firstname>
 				<surname>Muscat</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Fates</given_name>
+							<given_name>Fa�tes</given_name>
 							<family_name>Rizzo</family_name>
 						</name>
 						<address zip="31501" country="China">
@@ -3968,12 +3968,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="299">
-				<firstname>Marie-thrse</firstname>
+				<firstname>Marie-th�r�se</firstname>
 				<surname>Parmiter</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Annots</given_name>
+							<given_name>Annot�s</given_name>
 							<family_name>Puffett</family_name>
 						</name>
 						<address zip="" country="Poland">
@@ -4015,12 +4015,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="318">
-				<firstname>Malys</firstname>
+				<firstname>Ma�lys</firstname>
 				<surname>Cappell</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Milna</given_name>
+							<given_name>Mil�na</given_name>
 							<family_name>Attarge</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -4061,12 +4061,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="293">
-				<firstname>Fi</firstname>
+				<firstname>F�i</firstname>
 				<surname>Mabbs</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Crz</given_name>
+							<given_name>Cr��z</given_name>
 							<family_name>Piddlehinton</family_name>
 						</name>
 						<address zip="649792" country="Democratic Republic of the Congo">
@@ -4107,12 +4107,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="8">
-				<firstname>Analle</firstname>
+				<firstname>Ana�lle</firstname>
 				<surname>Nucci</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cline</given_name>
+							<given_name>C�line</given_name>
 							<family_name>Worge</family_name>
 						</name>
 						<address zip="" country="Colombia">
@@ -4256,12 +4256,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="307">
-				<firstname>Malle</firstname>
+				<firstname>Ma�lle</firstname>
 				<surname>Bawdon</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lysa</given_name>
+							<given_name>Lys�a</given_name>
 							<family_name>Choupin</family_name>
 						</name>
 						<address zip="" country="Tanzania">
@@ -4338,12 +4338,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="272">
-				<firstname>Mlina</firstname>
+				<firstname>M�lina</firstname>
 				<surname>Martschke</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Ccile</given_name>
+							<given_name>C�cile</given_name>
 							<family_name>Gillies</family_name>
 						</name>
 						<address zip="" country="Ukraine">
@@ -4391,12 +4391,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="342">
-				<firstname>Li</firstname>
+				<firstname>L�i</firstname>
 				<surname>Cordeix</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Landre</given_name>
+							<given_name>L�andre</given_name>
 							<family_name>Stobbe</family_name>
 						</name>
 						<address zip="" country="Peru">
@@ -4406,7 +4406,7 @@
 								<number type="staircase">7</number>
 								<number type="door">94</number>
 							</street>
-							<city>Santo Antnio de Posse</city>
+							<city>Santo Ant�nio de Posse</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -4444,12 +4444,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="784">
-				<firstname>Aime</firstname>
+				<firstname>Aim�e</firstname>
 				<surname>Burnsyde</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Zo</given_name>
+							<given_name>Zo�</given_name>
 							<family_name>Jeannequin</family_name>
 						</name>
 						<address zip="" country="China">
@@ -4490,12 +4490,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="86">
-				<firstname>Li</firstname>
+				<firstname>L�i</firstname>
 				<surname>Puckham</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Landre</given_name>
+							<given_name>L�andre</given_name>
 							<family_name>Custed</family_name>
 						</name>
 						<address zip="694761" country="China">
@@ -4505,19 +4505,19 @@
 								<number type="staircase">4</number>
 								<number type="door">97</number>
 							</street>
-							<city>Podol</city>
+							<city>Podol�</city>
 						</address>
 					</address>
 				</customeraddress>
 				<specification/>
 			</customer>
 			<customer customerId="137">
-				<firstname>Li</firstname>
+				<firstname>L�i</firstname>
 				<surname>Sitwell</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Nalle</given_name>
+							<given_name>Na�lle</given_name>
 							<family_name>Sheekey</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -4577,12 +4577,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="639">
-				<firstname>Brengre</firstname>
+				<firstname>B�reng�re</firstname>
 				<surname>Jehan</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Ins</given_name>
+							<given_name>In�s</given_name>
 							<family_name>Traylen</family_name>
 						</name>
 						<address zip="" country="Kazakhstan">
@@ -4617,12 +4617,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="85">
-				<firstname>Judical</firstname>
+				<firstname>Judica�l</firstname>
 				<surname>Morilla</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Vrane</given_name>
+							<given_name>V�rane</given_name>
 							<family_name>Atrill</family_name>
 						</name>
 						<address zip="" country="China">
@@ -4658,12 +4658,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="175">
-				<firstname>Hlne</firstname>
+				<firstname>H�l�ne</firstname>
 				<surname>Hovert</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marie-ve</given_name>
+							<given_name>Marie-�ve</given_name>
 							<family_name>Tompkiss</family_name>
 						</name>
 						<address zip="" country="China">
@@ -4717,12 +4717,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="226">
-				<firstname>Nolla</firstname>
+				<firstname>No�lla</firstname>
 				<surname>Levine</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lonie</given_name>
+							<given_name>L�onie</given_name>
 							<family_name>MacArd</family_name>
 						</name>
 						<address zip="" country="Guatemala">
@@ -4732,7 +4732,7 @@
 								<number type="staircase">1</number>
 								<number type="door">60</number>
 							</street>
-							<city>Qalah-ye Frs</city>
+							<city>Qal�ah-ye F?rs?</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -4800,12 +4800,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="255">
-				<firstname>Laurlie</firstname>
+				<firstname>Laur�lie</firstname>
 				<surname>Meneghi</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Magdalne</given_name>
+							<given_name>Magdal�ne</given_name>
 							<family_name>Burborough</family_name>
 						</name>
 						<address zip="8421" country="Paraguay">
@@ -4835,12 +4835,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="549">
-				<firstname>Lorne</firstname>
+				<firstname>Lor�ne</firstname>
 				<surname>Baser</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Li</given_name>
+							<given_name>L�i</given_name>
 							<family_name>Jubb</family_name>
 						</name>
 						<address zip="42045 CEDEX 1" country="Russia">
@@ -4850,7 +4850,7 @@
 								<number type="staircase">0</number>
 								<number type="door">75</number>
 							</street>
-							<city>Vnersborg</city>
+							<city>V�nersborg</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -4924,12 +4924,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="589">
-				<firstname>Mdiamass</firstname>
+				<firstname>M�diamass</firstname>
 				<surname>Dubois</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Salom</given_name>
+							<given_name>Salom�</given_name>
 							<family_name>Waller-Bridge</family_name>
 						</name>
 						<address zip="5139" country="China">
@@ -5012,12 +5012,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="455">
-				<firstname>Genevive</firstname>
+				<firstname>Genevi�ve</firstname>
 				<surname>Skedge</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>sten</given_name>
+							<given_name>�sten</given_name>
 							<family_name>Caton</family_name>
 						</name>
 						<address zip="" country="Bulgaria">
@@ -5047,12 +5047,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="31">
-				<firstname>Nomie</firstname>
+				<firstname>No�mie</firstname>
 				<surname>Cotgrove</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Publicit</given_name>
+							<given_name>Publicit�</given_name>
 							<family_name>Hovert</family_name>
 						</name>
 						<address zip="368580" country="Zambia">
@@ -5080,12 +5080,12 @@
 				</specification>
 			</customer>
 			<customer customerId="207">
-				<firstname>Salom</firstname>
+				<firstname>Salom�</firstname>
 				<surname>McLelland</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lana</given_name>
+							<given_name>L�ana</given_name>
 							<family_name>Maile</family_name>
 						</name>
 						<address zip="990-1274" country="Papua New Guinea">
@@ -5095,7 +5095,7 @@
 								<number type="staircase">1</number>
 								<number type="door">89</number>
 							</street>
-							<city>Marne-la-Valle</city>
+							<city>Marne-la-Vall�e</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -5139,12 +5139,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="707">
-				<firstname>Elonore</firstname>
+				<firstname>El�onore</firstname>
 				<surname>Ridge</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Malla</given_name>
+							<given_name>Ma�lla</given_name>
 							<family_name>Spittall</family_name>
 						</name>
 						<address zip="" country="Russia">
@@ -5174,12 +5174,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="610">
-				<firstname>D</firstname>
+				<firstname>D�</firstname>
 				<surname>Rizzo</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Andra</given_name>
+							<given_name>Andr�a</given_name>
 							<family_name>Miskelly</family_name>
 						</name>
 						<address zip="949-3376" country="China">
@@ -5209,12 +5209,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="166">
-				<firstname>Gisle</firstname>
+				<firstname>Gis�le</firstname>
 				<surname>Hoggetts</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Clopatre</given_name>
+							<given_name>Cl�opatre</given_name>
 							<family_name>Legonidec</family_name>
 						</name>
 						<address zip="" country="China">
@@ -5224,19 +5224,19 @@
 								<number type="staircase">2</number>
 								<number type="door">45</number>
 							</street>
-							<city>Komsomolskiy</city>
+							<city>Komsomol�skiy</city>
 						</address>
 					</address>
 				</customeraddress>
 				<specification/>
 			</customer>
 			<customer customerId="550">
-				<firstname>Mat</firstname>
+				<firstname>Ma�t�</firstname>
 				<surname>Skeene</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lorne</given_name>
+							<given_name>Lor�ne</given_name>
 							<family_name>Skeene</family_name>
 						</name>
 						<address zip="51679 CEDEX 2" country="Philippines">
@@ -5290,12 +5290,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="464">
-				<firstname>Vronique</firstname>
+				<firstname>V�ronique</firstname>
 				<surname>Sterman</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Franoise</given_name>
+							<given_name>Fran�oise</given_name>
 							<family_name>Chinn</family_name>
 						</name>
 						<address zip="43120" country="Dominica">
@@ -5343,12 +5343,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="480">
-				<firstname>Edme</firstname>
+				<firstname>Edm�e</firstname>
 				<surname>Shillan</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>A</given_name>
+							<given_name>A�</given_name>
 							<family_name>Mc Ilory</family_name>
 						</name>
 						<address zip="4713" country="China">
@@ -5400,12 +5400,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="484">
-				<firstname>Mthode</firstname>
+				<firstname>M�thode</firstname>
 				<surname>Muscat</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mana</given_name>
+							<given_name>Ma�na</given_name>
 							<family_name>Swinney</family_name>
 						</name>
 						<address zip="" country="Pakistan">
@@ -5415,7 +5415,7 @@
 								<number type="staircase">6</number>
 								<number type="door">61</number>
 							</street>
-							<city>Santa Luca</city>
+							<city>Santa Luc�a</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -5457,12 +5457,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="45">
-				<firstname>Annots</firstname>
+				<firstname>Annot�s</firstname>
 				<surname>Vernazza</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Andra</given_name>
+							<given_name>Andr�a</given_name>
 							<family_name>Aldgate</family_name>
 						</name>
 						<address zip="739 30" country="Colombia">
@@ -5492,12 +5492,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="159">
-				<firstname>Ccilia</firstname>
+				<firstname>C�cilia</firstname>
 				<surname>Van Leeuwen</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Anas</given_name>
+							<given_name>Ana�s</given_name>
 							<family_name>Norssister</family_name>
 						</name>
 						<address zip="97-221" country="China">
@@ -5527,12 +5527,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="532">
-				<firstname>Anas</firstname>
+				<firstname>Ana�s</firstname>
 				<surname>Ellard</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Edme</given_name>
+							<given_name>Edm�e</given_name>
 							<family_name>Capener</family_name>
 						</name>
 						<address zip="" country="Portugal">
@@ -5586,12 +5586,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="634">
-				<firstname>Magdalne</firstname>
+				<firstname>Magdal�ne</firstname>
 				<surname>Soppit</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Landre</given_name>
+							<given_name>L�andre</given_name>
 							<family_name>Pashley</family_name>
 						</name>
 						<address zip="" country="China">
@@ -5639,12 +5639,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="358">
-				<firstname>Elis</firstname>
+				<firstname>Eli�s</firstname>
 				<surname>Muscat</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Brje</given_name>
+							<given_name>B�rje</given_name>
 							<family_name>Novacek</family_name>
 						</name>
 						<address zip="" country="China">
@@ -5654,7 +5654,7 @@
 								<number type="staircase">3</number>
 								<number type="door">82</number>
 							</street>
-							<city>So Vicente</city>
+							<city>S�o Vicente</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -5692,12 +5692,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="367">
-				<firstname>Mns</firstname>
+				<firstname>M�ns</firstname>
 				<surname>Askham</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Los</given_name>
+							<given_name>Lo�s</given_name>
 							<family_name>Manzell</family_name>
 						</name>
 						<address zip="" country="United Kingdom">
@@ -5732,12 +5732,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="792">
-				<firstname>Ro</firstname>
+				<firstname>R�o</firstname>
 				<surname>Vearnals</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cungonde</given_name>
+							<given_name>Cun�gonde</given_name>
 							<family_name>Dangerfield</family_name>
 						</name>
 						<address zip="" country="China">
@@ -5820,12 +5820,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="401">
-				<firstname>T</firstname>
+				<firstname>T�</firstname>
 				<surname>Popov</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Anal</given_name>
+							<given_name>Ana�l</given_name>
 							<family_name>Lebourn</family_name>
 						</name>
 						<address zip="30532" country="Azerbaijan">
@@ -5903,12 +5903,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="164">
-				<firstname>Simplifis</firstname>
+				<firstname>Simplifi�s</firstname>
 				<surname>Trundell</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mthode</given_name>
+							<given_name>M�thode</given_name>
 							<family_name>Allgood</family_name>
 						</name>
 						<address zip="" country="France">
@@ -5956,12 +5956,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="665">
-				<firstname>Lucrce</firstname>
+				<firstname>Lucr�ce</firstname>
 				<surname>Matchett</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marylne</given_name>
+							<given_name>Maryl�ne</given_name>
 							<family_name>Birkett</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -5984,12 +5984,12 @@
 				</specification>
 			</customer>
 			<customer customerId="501">
-				<firstname>Plagie</firstname>
+				<firstname>P�lagie</firstname>
 				<surname>Batie</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Almrinda</given_name>
+							<given_name>Alm�rinda</given_name>
 							<family_name>Vigours</family_name>
 						</name>
 						<address zip="" country="France">
@@ -6025,12 +6025,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="546">
-				<firstname>Torbjrn</firstname>
+				<firstname>Torbj�rn</firstname>
 				<surname>Peile</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Vnus</given_name>
+							<given_name>V�nus</given_name>
 							<family_name>Legonidec</family_name>
 						</name>
 						<address zip="" country="Uruguay">
@@ -6071,12 +6071,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="747">
-				<firstname>D</firstname>
+				<firstname>D�</firstname>
 				<surname>Viveash</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Ru</given_name>
+							<given_name>Ru�</given_name>
 							<family_name>Giamitti</family_name>
 						</name>
 						<address zip="" country="Russia">
@@ -6100,12 +6100,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="101">
-				<firstname>Nava</firstname>
+				<firstname>Na�va</firstname>
 				<surname>Svanini</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Rgine</given_name>
+							<given_name>R�gine</given_name>
 							<family_name>LHommeau</family_name>
 						</name>
 						<address zip="37-720" country="China">
@@ -6151,12 +6151,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="709">
-				<firstname>Gran</firstname>
+				<firstname>G�ran</firstname>
 				<surname>Bacop</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>K</given_name>
+							<given_name>K�</given_name>
 							<family_name>Capeling</family_name>
 						</name>
 						<address zip="143969" country="Jamaica">
@@ -6186,12 +6186,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="643">
-				<firstname>Li</firstname>
+				<firstname>Li�</firstname>
 				<surname>Coorington</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Los</given_name>
+							<given_name>Lo�s</given_name>
 							<family_name>Beardsworth</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -6242,12 +6242,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="244">
-				<firstname>Mylne</firstname>
+				<firstname>Myl�ne</firstname>
 				<surname>Hark</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Personnalise</given_name>
+							<given_name>Personnalis�e</given_name>
 							<family_name>Mepsted</family_name>
 						</name>
 						<address zip="44720-000" country="Nigeria">
@@ -6283,12 +6283,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="351">
-				<firstname>Loc</firstname>
+				<firstname>Lo�c</firstname>
 				<surname>Master</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Kvina</given_name>
+							<given_name>K�vina</given_name>
 							<family_name>Ousby</family_name>
 						</name>
 						<address zip="1510" country="Netherlands">
@@ -6324,12 +6324,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="324">
-				<firstname>Personnalise</firstname>
+				<firstname>Personnalis�e</firstname>
 				<surname>Brack</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cline</given_name>
+							<given_name>C�line</given_name>
 							<family_name>Sheeran</family_name>
 						</name>
 						<address zip="" country="Sweden">
@@ -6383,12 +6383,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="698">
-				<firstname>Nomie</firstname>
+				<firstname>No�mie</firstname>
 				<surname>Poulson</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Josphine</given_name>
+							<given_name>Jos�phine</given_name>
 							<family_name>Plaskitt</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -6442,12 +6442,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="453">
-				<firstname>Mgane</firstname>
+				<firstname>M�gane</firstname>
 				<surname>Culleford</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Vronique</given_name>
+							<given_name>V�ronique</given_name>
 							<family_name>Feavyour</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -6457,7 +6457,7 @@
 								<number type="staircase">7</number>
 								<number type="door">41</number>
 							</street>
-							<city>Mirw</city>
+							<city>Mir�w</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -6513,12 +6513,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="711">
-				<firstname>Alize</firstname>
+				<firstname>Aliz�e</firstname>
 				<surname>Van Leeuwen</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Irne</given_name>
+							<given_name>Ir�ne</given_name>
 							<family_name>Melby</family_name>
 						</name>
 						<address zip="3400-696" country="Cameroon">
@@ -6577,12 +6577,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="764">
-				<firstname>Nalle</firstname>
+				<firstname>Na�lle</firstname>
 				<surname>Castelli</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>rjan</given_name>
+							<given_name>�rjan</given_name>
 							<family_name>Girardetti</family_name>
 						</name>
 						<address zip="694761" country="Bulgaria">
@@ -6592,7 +6592,7 @@
 								<number type="staircase">4</number>
 								<number type="door">34</number>
 							</street>
-							<city>Czarna Dbrwka</city>
+							<city>Czarna D?br�wka</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -6615,12 +6615,12 @@
 				</specification>
 			</customer>
 			<customer customerId="187">
-				<firstname>Brengre</firstname>
+				<firstname>B�reng�re</firstname>
 				<surname>McGavigan</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Y</given_name>
+							<given_name>Y�</given_name>
 							<family_name>Huckstepp</family_name>
 						</name>
 						<address zip="" country="Greece">
@@ -6656,12 +6656,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="432">
-				<firstname>Simplifis</firstname>
+				<firstname>Simplifi�s</firstname>
 				<surname>Burnsyde</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marie-ve</given_name>
+							<given_name>Marie-�ve</given_name>
 							<family_name>Viveash</family_name>
 						</name>
 						<address zip="" country="Mexico">
@@ -6697,12 +6697,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="152">
-				<firstname>Este</firstname>
+				<firstname>Est�e</firstname>
 				<surname>Heggs</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>sa</given_name>
+							<given_name>�sa</given_name>
 							<family_name>Jessel</family_name>
 						</name>
 						<address zip="597 96" country="China">
@@ -6790,12 +6790,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="554">
-				<firstname>Nadge</firstname>
+				<firstname>Nad�ge</firstname>
 				<surname>Sitwell</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Irne</given_name>
+							<given_name>Ir�ne</given_name>
 							<family_name>Miskelly</family_name>
 						</name>
 						<address zip="216546" country="Brazil">
@@ -6805,7 +6805,7 @@
 								<number type="staircase">8</number>
 								<number type="door">38</number>
 							</street>
-							<city>byek</city>
+							<city>?byek</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -6837,12 +6837,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="407">
-				<firstname>Mana</firstname>
+				<firstname>Ma�na</firstname>
 				<surname>Bigley</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Illustre</given_name>
+							<given_name>Illustr�e</given_name>
 							<family_name>Farmar</family_name>
 						</name>
 						<address zip="8108" country="Indonesia">
@@ -6896,12 +6896,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="377">
-				<firstname>Marie-hlne</firstname>
+				<firstname>Marie-h�l�ne</firstname>
 				<surname>Vaudrey</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Simplifis</given_name>
+							<given_name>Simplifi�s</given_name>
 							<family_name>Klaffs</family_name>
 						</name>
 						<address zip="" country="Argentina">
@@ -6971,12 +6971,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="359">
-				<firstname>Cungonde</firstname>
+				<firstname>Cun�gonde</firstname>
 				<surname>Bertwistle</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mline</given_name>
+							<given_name>M�line</given_name>
 							<family_name>Vearnals</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -6986,7 +6986,7 @@
 								<number type="staircase">1</number>
 								<number type="door">8</number>
 							</street>
-							<city>Hfn</city>
+							<city>H�fn</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -7006,12 +7006,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="359">
-				<firstname>Cungonde</firstname>
+				<firstname>Cun�gonde</firstname>
 				<surname>Bertwistle</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mline</given_name>
+							<given_name>M�line</given_name>
 							<family_name>Vearnals</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -7021,7 +7021,7 @@
 								<number type="staircase">1</number>
 								<number type="door">8</number>
 							</street>
-							<city>Hfn</city>
+							<city>H�fn</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -7065,12 +7065,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="396">
-				<firstname>Analle</firstname>
+				<firstname>Ana�lle</firstname>
 				<surname>Puffett</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Landre</given_name>
+							<given_name>L�andre</given_name>
 							<family_name>Pendrey</family_name>
 						</name>
 						<address zip="4848" country="Indonesia">
@@ -7080,7 +7080,7 @@
 								<number type="staircase">8</number>
 								<number type="door">91</number>
 							</street>
-							<city>Poubo</city>
+							<city>Pou�bo</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -7118,12 +7118,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="408">
-				<firstname>Brengre</firstname>
+				<firstname>B�reng�re</firstname>
 				<surname>Pheazey</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mawenn</given_name>
+							<given_name>Ma�wenn</given_name>
 							<family_name>Leil</family_name>
 						</name>
 						<address zip="5009" country="Indonesia">
@@ -7140,12 +7140,12 @@
 				<specification/>
 			</customer>
 			<customer customerId="184">
-				<firstname>Edme</firstname>
+				<firstname>Edm�e</firstname>
 				<surname>Dugood</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Bndicte</given_name>
+							<given_name>B�n�dicte</given_name>
 							<family_name>Apark</family_name>
 						</name>
 						<address zip="" country="Albania">
@@ -7264,12 +7264,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="381">
-				<firstname>Clia</firstname>
+				<firstname>C�lia</firstname>
 				<surname>Manzell</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Angle</given_name>
+							<given_name>Ang�le</given_name>
 							<family_name>Tipling</family_name>
 						</name>
 						<address zip="" country="Russia">
@@ -7292,12 +7292,12 @@
 				</specification>
 			</customer>
 			<customer customerId="319">
-				<firstname>Mana</firstname>
+				<firstname>Ma�na</firstname>
 				<surname>Treagust</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Stphanie</given_name>
+							<given_name>St�phanie</given_name>
 							<family_name>Lisciardelli</family_name>
 						</name>
 						<address zip="N6J" country="Indonesia">
@@ -7307,7 +7307,7 @@
 								<number type="staircase">0</number>
 								<number type="door">63</number>
 							</street>
-							<city>Los Cndores</city>
+							<city>Los C�ndores</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -7378,12 +7378,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="588">
-				<firstname>Marie-nol</firstname>
+				<firstname>Marie-no�l</firstname>
 				<surname>McLaren</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Irne</given_name>
+							<given_name>Ir�ne</given_name>
 							<family_name>Leggett</family_name>
 						</name>
 						<address zip="2017" country="Indonesia">
@@ -7437,12 +7437,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="643">
-				<firstname>Li</firstname>
+				<firstname>Li�</firstname>
 				<surname>Coorington</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Los</given_name>
+							<given_name>Lo�s</given_name>
 							<family_name>Beardsworth</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -7493,12 +7493,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="506">
-				<firstname>Stphanie</firstname>
+				<firstname>St�phanie</firstname>
 				<surname>Hewertson</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lane</given_name>
+							<given_name>L�ane</given_name>
 							<family_name>Munby</family_name>
 						</name>
 						<address zip="T1V" country="Czech Republic">
@@ -7522,12 +7522,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="659">
-				<firstname>Mlanie</firstname>
+				<firstname>M�lanie</firstname>
 				<surname>Treagust</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Josphine</given_name>
+							<given_name>Jos�phine</given_name>
 							<family_name>Lead</family_name>
 						</name>
 						<address zip="" country="Norway">
@@ -7580,12 +7580,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="714">
-				<firstname>Esbjrn</firstname>
+				<firstname>Esbj�rn</firstname>
 				<surname>Hanrott</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Nalle</given_name>
+							<given_name>Na�lle</given_name>
 							<family_name>Abelson</family_name>
 						</name>
 						<address zip="" country="Portugal">
@@ -7595,7 +7595,7 @@
 								<number type="staircase">9</number>
 								<number type="door">1</number>
 							</street>
-							<city>Jaroov nad Nerkou</city>
+							<city>Jaro�ov nad Ne��rkou</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -7662,12 +7662,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="481">
-				<firstname>Pnlope</firstname>
+				<firstname>P�n�lope</firstname>
 				<surname>Kenryd</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cline</given_name>
+							<given_name>C�line</given_name>
 							<family_name>Myhill</family_name>
 						</name>
 						<address zip="663 42" country="Argentina">
@@ -7709,12 +7709,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="487">
-				<firstname>Ana</firstname>
+				<firstname>Ana�</firstname>
 				<surname>Nanetti</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Michle</given_name>
+							<given_name>Mich�le</given_name>
 							<family_name>Goulter</family_name>
 						</name>
 						<address zip="" country="Portugal">
@@ -7767,12 +7767,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="595">
-				<firstname>Mlanie</firstname>
+				<firstname>M�lanie</firstname>
 				<surname>Messitt</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Irne</given_name>
+							<given_name>Ir�ne</given_name>
 							<family_name>Charnick</family_name>
 						</name>
 						<address zip="307513" country="France">
@@ -7861,12 +7861,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="331">
-				<firstname>Lonore</firstname>
+				<firstname>L�onore</firstname>
 				<surname>McReynolds</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marie-thrse</given_name>
+							<given_name>Marie-th�r�se</given_name>
 							<family_name>Quinell</family_name>
 						</name>
 						<address zip="98516" country="Indonesia">
@@ -7876,7 +7876,7 @@
 								<number type="staircase">3</number>
 								<number type="door">67</number>
 							</street>
-							<city>Ar Rub</city>
+							<city>Ar Rub?�</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -7889,12 +7889,12 @@
 				</specification>
 			</customer>
 			<customer customerId="603">
-				<firstname>Plagie</firstname>
+				<firstname>P�lagie</firstname>
 				<surname>Hoggetts</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Erwi</given_name>
+							<given_name>Erw�i</given_name>
 							<family_name>LHommeau</family_name>
 						</name>
 						<address zip="" country="Thailand">
@@ -7904,7 +7904,7 @@
 								<number type="staircase">8</number>
 								<number type="door">61</number>
 							</street>
-							<city>Ciudad Bolvar</city>
+							<city>Ciudad Bol�var</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -7954,12 +7954,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="607">
-				<firstname>Landre</firstname>
+				<firstname>L�andre</firstname>
 				<surname>Duro</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Laurne</given_name>
+							<given_name>Laur�ne</given_name>
 							<family_name>Lailey</family_name>
 						</name>
 						<address zip="" country="Peru">
@@ -8002,12 +8002,12 @@
 				</specification>
 			</customer>
 			<customer customerId="647">
-				<firstname>Camlia</firstname>
+				<firstname>Cam�lia</firstname>
 				<surname>Balcon</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>A</given_name>
+							<given_name>A�</given_name>
 							<family_name>Mance</family_name>
 						</name>
 						<address zip="77414 CEDEX" country="Poland">
@@ -8017,7 +8017,7 @@
 								<number type="staircase">6</number>
 								<number type="door">27</number>
 							</street>
-							<city>Vnersborg</city>
+							<city>V�nersborg</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -8031,12 +8031,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="297">
-				<firstname>Laurlie</firstname>
+				<firstname>Laur�lie</firstname>
 				<surname>Kellington</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Laurna</given_name>
+							<given_name>Laur�na</given_name>
 							<family_name>Rubens</family_name>
 						</name>
 						<address zip="172048" country="China">
@@ -8150,12 +8150,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="213">
-				<firstname>Anal</firstname>
+				<firstname>Ana�l</firstname>
 				<surname>Girardetti</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marylne</given_name>
+							<given_name>Maryl�ne</given_name>
 							<family_name>Plumtree</family_name>
 						</name>
 						<address zip="990-2374" country="China">
@@ -8226,12 +8226,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="541">
-				<firstname>Zh</firstname>
+				<firstname>Zh�</firstname>
 				<surname>MacShirrie</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Publicit</given_name>
+							<given_name>Publicit�</given_name>
 							<family_name>Millen</family_name>
 						</name>
 						<address zip="98824" country="Russia">
@@ -8267,12 +8267,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="673">
-				<firstname>Bndicte</firstname>
+				<firstname>B�n�dicte</firstname>
 				<surname>Svanini</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Clopatre</given_name>
+							<given_name>Cl�opatre</given_name>
 							<family_name>Ciani</family_name>
 						</name>
 						<address zip="" country="Philippines">
@@ -8296,12 +8296,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="416">
-				<firstname>Yu</firstname>
+				<firstname>Y�u</firstname>
 				<surname>Thomlinson</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Andre</given_name>
+							<given_name>Andr�e</given_name>
 							<family_name>Swan</family_name>
 						</name>
 						<address zip="46852" country="China">
@@ -8372,12 +8372,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="691">
-				<firstname>La</firstname>
+				<firstname>L�a</firstname>
 				<surname>Sealey</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Andra</given_name>
+							<given_name>Andr�a</given_name>
 							<family_name>Oneil</family_name>
 						</name>
 						<address zip="" country="Spain">
@@ -8387,7 +8387,7 @@
 								<number type="staircase">9</number>
 								<number type="door">63</number>
 							</street>
-							<city>Yegoryevsk</city>
+							<city>Yegor�yevsk</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -8400,12 +8400,12 @@
 				</specification>
 			</customer>
 			<customer customerId="41">
-				<firstname>Zh</firstname>
+				<firstname>Zh�</firstname>
 				<surname>Persence</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marie-franoise</given_name>
+							<given_name>Marie-fran�oise</given_name>
 							<family_name>Tolworth</family_name>
 						</name>
 						<address zip="" country="Colombia">
@@ -8471,12 +8471,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="527">
-				<firstname>Amlie</firstname>
+				<firstname>Am�lie</firstname>
 				<surname>Astle</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Garon</given_name>
+							<given_name>Gar�on</given_name>
 							<family_name>Lackney</family_name>
 						</name>
 						<address zip="50733" country="Ethiopia">
@@ -8523,12 +8523,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="500">
-				<firstname>Clopatre</firstname>
+				<firstname>Cl�opatre</firstname>
 				<surname>Harwick</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Josphine</given_name>
+							<given_name>Jos�phine</given_name>
 							<family_name>Hirtzmann</family_name>
 						</name>
 						<address zip="" country="Venezuela">
@@ -8588,12 +8588,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="273">
-				<firstname>Pl</firstname>
+				<firstname>P�l</firstname>
 				<surname>Nassey</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Srna</given_name>
+							<given_name>S�r�na</given_name>
 							<family_name>Gregoriou</family_name>
 						</name>
 						<address zip="7609" country="South Africa">
@@ -8640,12 +8640,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="680">
-				<firstname>sa</firstname>
+				<firstname>�sa</firstname>
 				<surname>Popov</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Mns</given_name>
+							<given_name>M�ns</given_name>
 							<family_name>Newbigging</family_name>
 						</name>
 						<address zip="MD-6401" country="Slovenia">
@@ -8669,12 +8669,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="254">
-				<firstname>Vrane</firstname>
+				<firstname>V�rane</firstname>
 				<surname>Frowd</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Y</given_name>
+							<given_name>Y�</given_name>
 							<family_name>Bawdon</family_name>
 						</name>
 						<address zip="" country="China">
@@ -8709,12 +8709,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="771">
-				<firstname>Angle</firstname>
+				<firstname>Ang�le</firstname>
 				<surname>Coorington</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Elonore</given_name>
+							<given_name>El�onore</given_name>
 							<family_name>McNab</family_name>
 						</name>
 						<address zip="742 13" country="United States">
@@ -8744,12 +8744,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="327">
-				<firstname>ke</firstname>
+				<firstname>�ke</firstname>
 				<surname>Strasse</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marie-hlne</given_name>
+							<given_name>Marie-h�l�ne</given_name>
 							<family_name>Dutch</family_name>
 						</name>
 						<address zip="5139" country="Sweden">
@@ -8826,12 +8826,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="169">
-				<firstname>M</firstname>
+				<firstname>M�</firstname>
 				<surname>Gwilliam</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Vrane</given_name>
+							<given_name>V�rane</given_name>
 							<family_name>Nanetti</family_name>
 						</name>
 						<address zip="162700" country="Peru">
@@ -8913,12 +8913,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="119">
-				<firstname>Nalle</firstname>
+				<firstname>Na�lle</firstname>
 				<surname>Renbold</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>U</given_name>
+							<given_name>U�</given_name>
 							<family_name>Cator</family_name>
 						</name>
 						<address zip="9615" country="Philippines">
@@ -8948,12 +8948,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="791">
-				<firstname>Nhmie</firstname>
+				<firstname>N�h�mie</firstname>
 				<surname>Dowderswell</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>M</given_name>
+							<given_name>M�</given_name>
 							<family_name>Apark</family_name>
 						</name>
 						<address zip="78225" country="Japan">
@@ -9007,12 +9007,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="494">
-				<firstname>K</firstname>
+				<firstname>K�</firstname>
 				<surname>MacArthur</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Alos</given_name>
+							<given_name>Alo�s</given_name>
 							<family_name>Chrishop</family_name>
 						</name>
 						<address zip="75038 CEDEX 01" country="Kenya">
@@ -9035,12 +9035,12 @@
 				</specification>
 			</customer>
 			<customer customerId="206">
-				<firstname>Mn</firstname>
+				<firstname>M�n</firstname>
 				<surname>Charnick</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Amlie</given_name>
+							<given_name>Am�lie</given_name>
 							<family_name>Sorrie</family_name>
 						</name>
 						<address zip="" country="Zambia">
@@ -9050,7 +9050,7 @@
 								<number type="staircase">3</number>
 								<number type="door">59</number>
 							</street>
-							<city>Fmenn</city>
+							<city>F?men?n</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -9070,12 +9070,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="625">
-				<firstname>Desire</firstname>
+				<firstname>Desir�e</firstname>
 				<surname>Bugs</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Anas</given_name>
+							<given_name>Ana�s</given_name>
 							<family_name>Cotta</family_name>
 						</name>
 						<address zip="413028" country="Portugal">
@@ -9128,12 +9128,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="57">
-				<firstname>Salom</firstname>
+				<firstname>Salom�</firstname>
 				<surname>Anthonies</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Lorne</given_name>
+							<given_name>Lor�ne</given_name>
 							<family_name>Birkett</family_name>
 						</name>
 						<address zip="37410" country="Malaysia">
@@ -9156,12 +9156,12 @@
 				</specification>
 			</customer>
 			<customer customerId="428">
-				<firstname>Cllia</firstname>
+				<firstname>Cl�lia</firstname>
 				<surname>Aartsen</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>D</given_name>
+							<given_name>D�</given_name>
 							<family_name>Dowda</family_name>
 						</name>
 						<address zip="2200-499" country="Russia">
@@ -9184,12 +9184,12 @@
 				</specification>
 			</customer>
 			<customer customerId="328">
-				<firstname>Kallist</firstname>
+				<firstname>Kallist�</firstname>
 				<surname>Vernazza</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Illustre</given_name>
+							<given_name>Illustr�e</given_name>
 							<family_name>Bigley</family_name>
 						</name>
 						<address zip="60674" country="Belgium">
@@ -9224,12 +9224,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="735">
-				<firstname>Adlade</firstname>
+				<firstname>Ad�la�de</firstname>
 				<surname>Waller-Bridge</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>K</given_name>
+							<given_name>K�</given_name>
 							<family_name>Pamment</family_name>
 						</name>
 						<address zip="" country="China">
@@ -9259,12 +9259,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="493">
-				<firstname>Tng</firstname>
+				<firstname>T�ng</firstname>
 				<surname>Dows</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Daphne</given_name>
+							<given_name>Daphn�e</given_name>
 							<family_name>Rogliero</family_name>
 						</name>
 						<address zip="40205" country="Cameroon">
@@ -9299,12 +9299,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="458">
-				<firstname>Marie-thrse</firstname>
+				<firstname>Marie-th�r�se</firstname>
 				<surname>Lindsell</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cungonde</given_name>
+							<given_name>Cun�gonde</given_name>
 							<family_name>Ralphs</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -9340,12 +9340,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="4">
-				<firstname>Laurna</firstname>
+				<firstname>Laur�na</firstname>
 				<surname>Lawrey</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Rgine</given_name>
+							<given_name>R�gine</given_name>
 							<family_name>Priden</family_name>
 						</name>
 						<address zip="J6V" country="Finland">
@@ -9405,12 +9405,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="712">
-				<firstname>Alos</firstname>
+				<firstname>Alo�s</firstname>
 				<surname>Clarkin</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Dorothe</given_name>
+							<given_name>Doroth�e</given_name>
 							<family_name>Reddan</family_name>
 						</name>
 						<address zip="36689" country="United States">
@@ -9446,12 +9446,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="102">
-				<firstname>Erwi</firstname>
+				<firstname>Erw�i</firstname>
 				<surname>Ludford</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Malys</given_name>
+							<given_name>Ma�lys</given_name>
 							<family_name>Blagden</family_name>
 						</name>
 						<address zip="271058" country="Uzbekistan">
@@ -9498,12 +9498,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="368">
-				<firstname>Srna</firstname>
+				<firstname>S�r�na</firstname>
 				<surname>Hatterslay</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Daphne</given_name>
+							<given_name>Daphn�e</given_name>
 							<family_name>Treagust</family_name>
 						</name>
 						<address zip="" country="Nigeria">
@@ -9527,12 +9527,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="524">
-				<firstname>Gwenalle</firstname>
+				<firstname>Gwena�lle</firstname>
 				<surname>OConnor</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Camlia</given_name>
+							<given_name>Cam�lia</given_name>
 							<family_name>Stobbe</family_name>
 						</name>
 						<address zip="" country="South Korea">
@@ -9549,12 +9549,12 @@
 				<specification/>
 			</customer>
 			<customer customerId="15">
-				<firstname>Y</firstname>
+				<firstname>Y�</firstname>
 				<surname>Lonsdale</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Edme</given_name>
+							<given_name>Edm�e</given_name>
 							<family_name>Bernardotti</family_name>
 						</name>
 						<address zip="371 84" country="Japan">
@@ -9624,12 +9624,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="1">
-				<firstname>D</firstname>
+				<firstname>D�</firstname>
 				<surname>Denerley</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Andra</given_name>
+							<given_name>Andr�a</given_name>
 							<family_name>Lunbech</family_name>
 						</name>
 						<address zip="79083 CEDEX 9" country="Macedonia">
@@ -9669,12 +9669,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="407">
-				<firstname>Mana</firstname>
+				<firstname>Ma�na</firstname>
 				<surname>Bigley</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Illustre</given_name>
+							<given_name>Illustr�e</given_name>
 							<family_name>Farmar</family_name>
 						</name>
 						<address zip="8108" country="Indonesia">
@@ -9704,12 +9704,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="200">
-				<firstname>Lorne</firstname>
+				<firstname>Lor�ne</firstname>
 				<surname>Leith-Harvey</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marie-ve</given_name>
+							<given_name>Marie-�ve</given_name>
 							<family_name>Walworth</family_name>
 						</name>
 						<address zip="8138" country="Peru">
@@ -9719,7 +9719,7 @@
 								<number type="staircase">0</number>
 								<number type="door">24</number>
 							</street>
-							<city>Barra de So Francisco</city>
+							<city>Barra de S�o Francisco</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -9733,12 +9733,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="551">
-				<firstname>Ocane</firstname>
+				<firstname>Oc�ane</firstname>
 				<surname>Errichelli</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Illustre</given_name>
+							<given_name>Illustr�e</given_name>
 							<family_name>Ghirardi</family_name>
 						</name>
 						<address zip="54300" country="Finland">
@@ -9852,12 +9852,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="18">
-				<firstname>Mthode</firstname>
+				<firstname>M�thode</firstname>
 				<surname>Swinney</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Pl</given_name>
+							<given_name>P�l</given_name>
 							<family_name>MacShirrie</family_name>
 						</name>
 						<address zip="30045" country="China">
@@ -9867,7 +9867,7 @@
 								<number type="staircase">7</number>
 								<number type="door">51</number>
 							</street>
-							<city>Afanasyeva</city>
+							<city>Afanas�yeva</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -9887,12 +9887,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="107">
-				<firstname>Mn</firstname>
+				<firstname>M�n</firstname>
 				<surname>Osmint</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Elis</given_name>
+							<given_name>Eli�s</given_name>
 							<family_name>De Giorgio</family_name>
 						</name>
 						<address zip="96130" country="Chile">
@@ -9902,7 +9902,7 @@
 								<number type="staircase">8</number>
 								<number type="door">40</number>
 							</street>
-							<city>Kbenhavn</city>
+							<city>K�benhavn</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -9939,12 +9939,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="224">
-				<firstname>Lonie</firstname>
+				<firstname>L�onie</firstname>
 				<surname>De Rechter</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Valrie</given_name>
+							<given_name>Val�rie</given_name>
 							<family_name>Childers</family_name>
 						</name>
 						<address zip="8410" country="Portugal">
@@ -9954,7 +9954,7 @@
 								<number type="staircase">4</number>
 								<number type="door">84</number>
 							</street>
-							<city>Floreti</city>
+							<city>Flore?ti</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -9986,12 +9986,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="763">
-				<firstname>Plagie</firstname>
+				<firstname>P�lagie</firstname>
 				<surname>Snartt</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Ynora</given_name>
+							<given_name>Y�nora</given_name>
 							<family_name>Priden</family_name>
 						</name>
 						<address zip="" country="Republic of the Congo">
@@ -10075,12 +10075,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="736">
-				<firstname>La</firstname>
+				<firstname>L�a</firstname>
 				<surname>Plaskitt</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Gisle</given_name>
+							<given_name>Gis�le</given_name>
 							<family_name>Grattan</family_name>
 						</name>
 						<address zip="" country="Ghana">
@@ -10158,12 +10158,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="391">
-				<firstname>Camlia</firstname>
+				<firstname>Cam�lia</firstname>
 				<surname>Studdeard</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Valrie</given_name>
+							<given_name>Val�rie</given_name>
 							<family_name>Pither</family_name>
 						</name>
 						<address zip="8150-045" country="China">
@@ -10211,12 +10211,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="593">
-				<firstname>Brje</firstname>
+				<firstname>B�rje</firstname>
 				<surname>Nend</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marie-hlne</given_name>
+							<given_name>Marie-h�l�ne</given_name>
 							<family_name>Scopyn</family_name>
 						</name>
 						<address zip="" country="France">
@@ -10226,7 +10226,7 @@
 								<number type="staircase">1</number>
 								<number type="door">77</number>
 							</street>
-							<city>yrakw</city>
+							<city>?yrak�w</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -10258,12 +10258,12 @@
 		<companysize>M</companysize>
 		<customers>
 			<customer customerId="198">
-				<firstname>Lorne</firstname>
+				<firstname>Lor�ne</firstname>
 				<surname>Sanzio</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Pnlope</given_name>
+							<given_name>P�n�lope</given_name>
 							<family_name>Blinerman</family_name>
 						</name>
 						<address zip="25117 CEDEX" country="United States">
@@ -10273,7 +10273,7 @@
 								<number type="staircase">4</number>
 								<number type="door">94</number>
 							</street>
-							<city>Gus-Khrustalnyy</city>
+							<city>Gus�-Khrustal�nyy</city>
 						</address>
 					</address>
 				</customeraddress>
@@ -10299,12 +10299,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="169">
-				<firstname>M</firstname>
+				<firstname>M�</firstname>
 				<surname>Gwilliam</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Vrane</given_name>
+							<given_name>V�rane</given_name>
 							<family_name>Nanetti</family_name>
 						</name>
 						<address zip="162700" country="Peru">
@@ -10337,12 +10337,12 @@
 				</specification>
 			</customer>
 			<customer customerId="13">
-				<firstname>Laurna</firstname>
+				<firstname>Laur�na</firstname>
 				<surname>Paulitschke</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Srna</given_name>
+							<given_name>S�r�na</given_name>
 							<family_name>Canfer</family_name>
 						</name>
 						<address zip="" country="Ukraine">
@@ -10378,12 +10378,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="20">
-				<firstname>Clestine</firstname>
+				<firstname>C�lestine</firstname>
 				<surname>Cadalleder</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>La</given_name>
+							<given_name>L�a</given_name>
 							<family_name>Demanche</family_name>
 						</name>
 						<address zip="" country="Indonesia">
@@ -10449,12 +10449,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="461">
-				<firstname>Ma</firstname>
+				<firstname>Ma�</firstname>
 				<surname>Kimmince</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Li</given_name>
+							<given_name>L�i</given_name>
 							<family_name>Abelson</family_name>
 						</name>
 						<address zip="13399 CEDEX 05" country="Russia">
@@ -10520,12 +10520,12 @@
 		<companysize>S</companysize>
 		<customers>
 			<customer customerId="37">
-				<firstname>Cungonde</firstname>
+				<firstname>Cun�gonde</firstname>
 				<surname>Sitwell</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Marie-ve</given_name>
+							<given_name>Marie-�ve</given_name>
 							<family_name>Padly</family_name>
 						</name>
 						<address zip="85760-000" country="China">
@@ -10561,12 +10561,12 @@
 		<companysize>L</companysize>
 		<customers>
 			<customer customerId="170">
-				<firstname>Li</firstname>
+				<firstname>L�i</firstname>
 				<surname>Kahn</surname>
 				<customeraddress>
 					<address>
 						<name>
-							<given_name>Cla</given_name>
+							<given_name>Cl�a</given_name>
 							<family_name>McClymond</family_name>
 						</name>
 						<address zip="999-1413" country="Ukraine">
