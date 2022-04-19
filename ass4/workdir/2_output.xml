@@ -1,0 +1,883 @@
+<?xml version="1.0"?>
+<Customers>
+	<Customer customerid="340">
+		<Firstname>Ana�lle</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="296">
+		<Firstname>Ma�line</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="161">
+		<Firstname>L�i</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="675">
+		<Firstname>Myl�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="559">
+		<Firstname>Simplifi�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="779">
+		<Firstname>C�lestine</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="325">
+		<Firstname>Ma�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="271">
+		<Firstname>Magdal�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="356">
+		<Firstname>Cam�lia</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="588">
+		<Firstname>Marie-no�l</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="153">
+		<Firstname>Mich�le</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="305">
+		<Firstname>D�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="215">
+		<Firstname>L�ana</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="656">
+		<Firstname>Torbj�rn</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="192">
+		<Firstname>B�atrice</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="73">
+		<Firstname>L�one</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="290">
+		<Firstname>Andr�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="665">
+		<Firstname>Lucr�ce</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="225">
+		<Firstname>Zo�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="795">
+		<Firstname>Ga�a</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="654">
+		<Firstname>S�r�na</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="644">
+		<Firstname>Salom�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="756">
+		<Firstname>Alo�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="686">
+		<Firstname>F�i</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="739">
+		<Firstname>Ga�a</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="665">
+		<Firstname>Lucr�ce</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="211">
+		<Firstname>Ana�lle</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="31">
+		<Firstname>No�mie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="252">
+		<Firstname>Val�rie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="488">
+		<Firstname>C�cilia</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="603">
+		<Firstname>P�lagie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="25">
+		<Firstname>M�line</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="51">
+		<Firstname>V�rane</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="439">
+		<Firstname>M�n</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="680">
+		<Firstname>�sa</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="461">
+		<Firstname>Ma�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="474">
+		<Firstname>K�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="339">
+		<Firstname>Aim�e</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="245">
+		<Firstname>Andr�a</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="553">
+		<Firstname>Fa�tes</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="680">
+		<Firstname>�sa</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="265">
+		<Firstname>Y�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="57">
+		<Firstname>Salom�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="113">
+		<Firstname>Gar�on</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="46">
+		<Firstname>Illustr�e</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="539">
+		<Firstname>Alo�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="388">
+		<Firstname>S�l�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="283">
+		<Firstname>A�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="368">
+		<Firstname>S�r�na</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="568">
+		<Firstname>Sol�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="299">
+		<Firstname>Marie-th�r�se</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="753">
+		<Firstname>Ang�le</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="301">
+		<Firstname>Myl�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="429">
+		<Firstname>H�kan</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="116">
+		<Firstname>�rjan</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="506">
+		<Firstname>St�phanie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="489">
+		<Firstname>L�ana</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="549">
+		<Firstname>Lor�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="653">
+		<Firstname>Marie-th�r�se</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="201">
+		<Firstname>N�h�mie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="403">
+		<Firstname>Oph�lie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="788">
+		<Firstname>Cam�lia</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="55">
+		<Firstname>Aur�lie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="102">
+		<Firstname>Erw�i</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="795">
+		<Firstname>Ga�a</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="81">
+		<Firstname>N�lie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="299">
+		<Firstname>Marie-th�r�se</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="318">
+		<Firstname>Ma�lys</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="293">
+		<Firstname>F�i</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="8">
+		<Firstname>Ana�lle</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="307">
+		<Firstname>Ma�lle</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="272">
+		<Firstname>M�lina</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="342">
+		<Firstname>L�i</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="784">
+		<Firstname>Aim�e</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="86">
+		<Firstname>L�i</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="639">
+		<Firstname>B�reng�re</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="85">
+		<Firstname>Judica�l</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="175">
+		<Firstname>H�l�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="226">
+		<Firstname>No�lla</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="255">
+		<Firstname>Laur�lie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="549">
+		<Firstname>Lor�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="589">
+		<Firstname>M�diamass</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="455">
+		<Firstname>Genevi�ve</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="31">
+		<Firstname>No�mie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="707">
+		<Firstname>El�onore</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="610">
+		<Firstname>D�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="166">
+		<Firstname>Gis�le</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="464">
+		<Firstname>V�ronique</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="480">
+		<Firstname>Edm�e</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="484">
+		<Firstname>M�thode</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="45">
+		<Firstname>Annot�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="159">
+		<Firstname>C�cilia</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="532">
+		<Firstname>Ana�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="634">
+		<Firstname>Magdal�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="358">
+		<Firstname>Eli�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="367">
+		<Firstname>M�ns</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="792">
+		<Firstname>R�o</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="401">
+		<Firstname>T�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="164">
+		<Firstname>Simplifi�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="665">
+		<Firstname>Lucr�ce</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="546">
+		<Firstname>Torbj�rn</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="747">
+		<Firstname>D�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="101">
+		<Firstname>Na�va</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="709">
+		<Firstname>G�ran</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="643">
+		<Firstname>Li�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="244">
+		<Firstname>Myl�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="351">
+		<Firstname>Lo�c</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="324">
+		<Firstname>Personnalis�e</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="698">
+		<Firstname>No�mie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="453">
+		<Firstname>M�gane</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="711">
+		<Firstname>Aliz�e</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="764">
+		<Firstname>Na�lle</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="432">
+		<Firstname>Simplifi�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="152">
+		<Firstname>Est�e</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="554">
+		<Firstname>Nad�ge</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="407">
+		<Firstname>Ma�na</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="377">
+		<Firstname>Marie-h�l�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="359">
+		<Firstname>Cun�gonde</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="359">
+		<Firstname>Cun�gonde</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="396">
+		<Firstname>Ana�lle</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="408">
+		<Firstname>B�reng�re</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="381">
+		<Firstname>C�lia</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="588">
+		<Firstname>Marie-no�l</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="643">
+		<Firstname>Li�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="506">
+		<Firstname>St�phanie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="659">
+		<Firstname>M�lanie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="714">
+		<Firstname>Esbj�rn</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="481">
+		<Firstname>P�n�lope</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="487">
+		<Firstname>Ana�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="595">
+		<Firstname>M�lanie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="331">
+		<Firstname>L�onore</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="607">
+		<Firstname>L�andre</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="297">
+		<Firstname>Laur�lie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="213">
+		<Firstname>Ana�l</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="541">
+		<Firstname>Zh�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="673">
+		<Firstname>B�n�dicte</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="416">
+		<Firstname>Y�u</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="691">
+		<Firstname>L�a</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="527">
+		<Firstname>Am�lie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="500">
+		<Firstname>Cl�opatre</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="273">
+		<Firstname>P�l</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="680">
+		<Firstname>�sa</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="254">
+		<Firstname>V�rane</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="771">
+		<Firstname>Ang�le</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="327">
+		<Firstname>�ke</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="169">
+		<Firstname>M�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="119">
+		<Firstname>Na�lle</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="791">
+		<Firstname>N�h�mie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="494">
+		<Firstname>K�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="625">
+		<Firstname>Desir�e</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="57">
+		<Firstname>Salom�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="735">
+		<Firstname>Ad�la�de</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="493">
+		<Firstname>T�ng</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="458">
+		<Firstname>Marie-th�r�se</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="4">
+		<Firstname>Laur�na</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="712">
+		<Firstname>Alo�s</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="102">
+		<Firstname>Erw�i</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="368">
+		<Firstname>S�r�na</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="524">
+		<Firstname>Gwena�lle</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="1">
+		<Firstname>D�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="407">
+		<Firstname>Ma�na</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="200">
+		<Firstname>Lor�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="551">
+		<Firstname>Oc�ane</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="18">
+		<Firstname>M�thode</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="107">
+		<Firstname>M�n</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="224">
+		<Firstname>L�onie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="763">
+		<Firstname>P�lagie</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="736">
+		<Firstname>L�a</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="391">
+		<Firstname>Cam�lia</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="593">
+		<Firstname>B�rje</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="198">
+		<Firstname>Lor�ne</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="169">
+		<Firstname>M�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="20">
+		<Firstname>C�lestine</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="461">
+		<Firstname>Ma�</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="37">
+		<Firstname>Cun�gonde</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+	<Customer customerid="170">
+		<Firstname>L�i</Firstname>
+		<Lastname/>
+		<Planes/>
+	</Customer>
+</Customers>
