@@ -12,21 +12,26 @@
 			<xsl:attribute name="teamid">
 				<xsl:value-of select="./manufacturingteamid"/>
 			</xsl:attribute>
+			<xsl:attribute name="employees">
+				<xsl:text>-1</xsl:text>
+			</xsl:attribute>
 			<xsl:choose>
 				<xsl:when test="./airplanes/airplane">
-					<Unit>
-						<xsl:attribute name="unitd">
-							<xsl:text>Default</xsl:text>
-						</xsl:attribute>
-						<xsl:attribute name="registration">
-							<xsl:value-of select="./airplanes/airplane/@serialNumber"/>
-						</xsl:attribute>
-						<Wingtips>True</Wingtips>
-						<Windows>4</Windows>
-						<seatconfig>
-							<brand>Recaro</brand>
-						</seatconfig>
-					</Unit>
+					<Units>
+						<Unit>
+							<xsl:attribute name="unitid">
+								<xsl:text>Default</xsl:text>
+							</xsl:attribute>
+							<xsl:attribute name="registration">
+								<xsl:value-of select="./airplanes/airplane/@serialNumber"/>
+							</xsl:attribute>
+							<Wingtips>True</Wingtips>
+							<Windows>4</Windows>
+							<seatconfig>
+								<brand>Recaro</brand>
+							</seatconfig>
+						</Unit>
+					</Units>
 				</xsl:when>
 				<xsl:otherwise>
 					<Units/>
