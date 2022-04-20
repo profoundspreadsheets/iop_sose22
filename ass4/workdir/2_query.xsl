@@ -17,23 +17,19 @@
 						<xsl:value-of select="./customer/firstname"/>
 					</xsl:element>
 					<xsl:element name="Lastname">
-						<xsl:value-of select="./customer/lastname"/>
+						<xsl:value-of select="./customer/surname"/>
 					</xsl:element>
-					<xsl:choose>
-						<xsl:when test="./customer/specification/specification">
-							<xsl:element name="Planes">
+					<xsl:element name="Planes">
+						<xsl:choose>
+							<xsl:when test="./customer/specification/specification">
 								<xsl:element name="Plane">
 									<xsl:attribute name="registration">
 										<xsl:value-of select="./customer/specification/specification/@specificationId"/>
 									</xsl:attribute>
-                                    <xsl:element name="Protocols"/>
-								</xsl:element>
-							</xsl:element>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:element name="Planes"/>
-						</xsl:otherwise>
-					</xsl:choose>
+									<xsl:element name="Protocols"/></xsl:element>
+							</xsl:when>
+						</xsl:choose>
+					</xsl:element>
 				</Customer>
 			</xsl:when>
 		</xsl:choose>
