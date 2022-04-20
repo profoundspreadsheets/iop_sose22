@@ -8,7 +8,7 @@
 	<xsl:template match="customers">
 		<xsl:choose>
 			<xsl:when test="./customer">
-				<!-- custmer exists -->
+				<!-- customer exists -->
 				<Customer>
 					<xsl:attribute name="customerid">
 						<xsl:value-of select="./customer/@customerId"/>
@@ -22,11 +22,13 @@
 					<xsl:element name="Planes">
 						<xsl:choose>
 							<xsl:when test="./customer/specification/specification">
+								<!-- specification exists, registration mapped to specificationid-->
 								<xsl:element name="Plane">
 									<xsl:attribute name="registration">
 										<xsl:value-of select="./customer/specification/specification/@specificationId"/>
 									</xsl:attribute>
-									<xsl:element name="Protocols"/></xsl:element>
+									<xsl:element name="Protocols"></xsl:element>
+								</xsl:element>
 							</xsl:when>
 						</xsl:choose>
 					</xsl:element>
