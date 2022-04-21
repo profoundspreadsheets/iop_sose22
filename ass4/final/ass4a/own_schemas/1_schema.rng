@@ -16,7 +16,7 @@
         <attribute name="teamid"/>
         <attribute name="employees"/>
         <element name="Units">
-            <zeroOrMore>
+            <oneOrMore>
                 <element name="Unit">
                     <attribute name="unitid"/>
                     <attribute name="registration"/>
@@ -32,7 +32,7 @@
                         </element>
                     </element>
                 </element>
-            </zeroOrMore>
+            </oneOrMore>
         </element>
     </element>
 </define>
