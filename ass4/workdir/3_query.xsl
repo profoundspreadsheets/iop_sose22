@@ -21,9 +21,25 @@
 			</xsl:element>
 			<xsl:element name="Toilets">
 				<xsl:element name="ToiletSpecs">
-					<xsl:attribute name="unitid">UUID</xsl:attribute>
-					<xsl:element name="Capacity">2.0</xsl:element>
-					<xsl:element name="Flowrate">10.0</xsl:element>
+					<xsl:choose>
+						<xsl:when test="./companies/company[1]">
+							<xsl:attribute name="unitid">
+								<xsl:value-of select="./companies/company[1]/companyname"/>
+								<xsl:value-of select="./companies/company[1]/@companyId"/>
+							</xsl:attribute>
+							<xsl:element name="Capacity">
+								<xsl:value-of select="number(./companies/company[1]/@companyId div 80)"/>
+							</xsl:element>
+							<xsl:element name="Flowrate">
+								<xsl:value-of select="number(./companies/company[1]/@companyId div 320)"/>
+							</xsl:element>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:attribute name="unitid">UUID</xsl:attribute>
+							<xsl:element name="Capacity">2.0</xsl:element>
+							<xsl:element name="Flowrate">10.0</xsl:element>
+						</xsl:otherwise>
+					</xsl:choose>
 				</xsl:element>
 			</xsl:element>
 		</xsl:element>
