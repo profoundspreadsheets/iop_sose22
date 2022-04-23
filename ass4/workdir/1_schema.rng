@@ -16,7 +16,7 @@
         <attribute name="teamid"/>
         <attribute name="employees"/>
         <element name="Units">
-            <zeroOrMore>
+            <oneOrMore>
                 <element name="Unit">
                     <attribute name="unitid"/>
                     <attribute name="registration"/>
@@ -24,15 +24,15 @@
                         <ref name="plane"/>
                     </optional>
                     <element name="seatconfig">
-                        <zeroOrMore>
+                        <oneOrMore>
                             <ref name="seat"/>
-                        </zeroOrMore>
+                        </oneOrMore>
                         <element name="brand">
                             <text/>
                         </element>
                     </element>
                 </element>
-            </zeroOrMore>
+            </oneOrMore>
         </element>
     </element>
 </define>

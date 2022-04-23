@@ -13,11 +13,19 @@
                     <Wingtips>True</Wingtips>
                     <Windows>4</Windows>
                     <seatconfig>
+                        <seat compartment="business" cover="fabric">
+                            <amount>2</amount>
+                            <tv/>
+                        </seat>
                         <brand>Recaro</brand>
                     </seatconfig>
                 </Unit> ) else (
                     <Unit unitid="{$unitid_}" registration="No plane">
                         <seatconfig>
+                            <seat compartment="business" cover="fabric">
+                                <amount>2</amount>
+                                <tv/>
+                            </seat>
                             <brand>Recaro</brand>
                         </seatconfig>
                     </Unit>
@@ -38,6 +46,10 @@
             return
             <Unit unitid="{$unitid_}" registration="No plane">
                 <seatconfig>
+                    <seat compartment="business" cover="fabric">
+                        <amount>2</amount>
+                        <tv/>
+                    </seat>
                     <brand>Recaro</brand>
                 </seatconfig>
             </Unit>

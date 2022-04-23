@@ -39,6 +39,16 @@
 							</xsl:element>
 							<xsl:element name="Windows">4</xsl:element>
 							<xsl:element name="seatconfig">
+								<xsl:element name="seat">
+									<xsl:attribute name="compartment">
+										<xsl:text>business</xsl:text>
+									</xsl:attribute>
+									<xsl:attribute name="cover">
+										<xsl:text>fabric</xsl:text>
+									</xsl:attribute>
+									<xsl:element name="amount">2</xsl:element>
+									<xsl:element name="tv"></xsl:element>
+								</xsl:element>
 								<xsl:element name="brand">Recaro</xsl:element>
 							</xsl:element>
 						</xsl:element>
@@ -56,6 +66,16 @@
 								<xsl:text>No plane</xsl:text>
 							</xsl:attribute>
 							<xsl:element name="seatconfig">
+								<xsl:element name="seat">
+									<xsl:attribute name="compartment">
+										<xsl:text>business</xsl:text>
+									</xsl:attribute>
+									<xsl:attribute name="cover">
+										<xsl:text>fabric</xsl:text>
+									</xsl:attribute>
+									<xsl:element name="amount">2</xsl:element>
+									<xsl:element name="tv"></xsl:element>
+								</xsl:element>
 								<xsl:element name="brand">Recaro</xsl:element>
 							</xsl:element>
 						</xsl:element>
