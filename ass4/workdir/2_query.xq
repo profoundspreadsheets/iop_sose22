@@ -13,15 +13,16 @@
                         let $plane:=$doc3//airplane[$indexCurrComp]
                         return <Plane registration="{$plane/serialnumber}">
                             <Protocols>{
-                                for $protocol in $plane/flighttests/flighttest
+                                for $protocol in $plane/flighttests/flighttest/testprotocols/testprotocol
+                                let $critical_:=data($protocol/improvementmandatory)
                                 return
-                                <Protocol protocolid="{data($protocol/@testId)}">
-                                    <Testdate>{data($protocol/testdate)}</Testdate>
+                                <Protocol protocolid="{data($protocol/@testprotocolid)}">
+                                    <Testdate>{data($protocol/ancestor::flighttest/testdate/text())}</Testdate>
                                     <results>
                                         <test>wings</test>
                                         <vibrations loc="DEFAULT">
                                             <scale/>
-                                            <critical>false</critical>
+                                            <critical>{xs:boolean($critical_)}</critical>
                                         </vibrations>
                                         <detached-wing side="left">false</detached-wing>
                                         <detached-wing side="right">false</detached-wing>

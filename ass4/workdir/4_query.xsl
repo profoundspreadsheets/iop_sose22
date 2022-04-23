@@ -1,6 +1,7 @@
 <xsl:stylesheet version="1.0" 
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
+		<!-- using 3_data.xml -->
 		<xsl:element name="Planes">
 			<xsl:apply-templates select="//airplanes"/>
 		</xsl:element>
