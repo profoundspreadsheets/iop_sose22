@@ -1,0 +1,94 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+<start>
+    <element name="Customers">
+        <zeroOrMore>
+            <ref name="Customer"/>
+        </zeroOrMore>
+    </element>
+</start>
+
+<define name="Customer">
+    <element name="Customer">
+        <attribute name="customerid"/>
+        <optional>
+            <element name="Firstname">
+                <text/>
+            </element>
+            <element name="Lastname">
+                <text/>
+            </element>
+        </optional>
+        <element name="Planes">
+            <zeroOrMore>
+                <ref name="Plane"/>
+            </zeroOrMore>
+        </element>
+    </element>
+</define>
+
+<define name="Plane">
+    <element name="Plane">
+        <attribute name="registration"/>
+        <element name="Protocols">
+            <zeroOrMore>
+                <ref name="Protocol"/>
+            </zeroOrMore>
+        </element>
+    </element>
+</define>
+
+<define name="Protocol">
+    <element name="Protocol">
+        <attribute name="protocolid"/>
+        <element name="Testdate">
+            <text/>
+        </element>
+        <element name="results">
+            <ref name="Results"/>
+        </element>
+    </element>
+</define>
+
+<define name="Results">
+    <interleave>
+        <element name="test">
+            <choice>
+                <value>high-g</value>
+                <value>instrument</value>
+                <value>barrel-roll</value>
+                <value>looping</value>
+                <value>engine</value>
+                <value>structural-integrity</value>
+                <value>wings</value>
+                <value>pimp-status</value>
+            </choice>
+        </element>
+        <oneOrMore>
+            <element name="vibrations">
+                <attribute name="loc"/>
+                <element name="scale">
+                    <text/>
+                </element>
+                <element name="critical">
+                    <choice>
+                        <value>true</value>
+                        <value>false</value>
+                    </choice>
+                </element>
+            </element>
+        </oneOrMore>
+        <oneOrMore>
+            <element name="detached-wing">
+                <attribute name="side">
+                    <choice>
+                        <value>left</value>
+                        <value>right</value>
+                    </choice>
+                </attribute>
+                <text/>
+            </element>
+        </oneOrMore>
+    </interleave>
+</define>
+
+</grammar>
