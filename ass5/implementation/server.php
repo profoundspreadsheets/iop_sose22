@@ -42,6 +42,20 @@ class Server {
     }
     return json_encode($sxml, JSON_PRETTY_PRINT);
   }
+
+  function getProtocolByDate($date) {
+    $xml = simplexml_load_file("2_data.xml");
+    $query = "//Testdate[.=\"$date\"]/ancestor::Protocol";
+    $result = $xml->xpath($query);
+    $sxml = simplexml_load_string('<Protocols></Protocols>');
+
+    $returnXML = new SimpleXMLElement('<Protocols></Protocols>');
+
+    foreach ($result as $node) {
+      $this->sxml_append($returnXML, $node);
+    }
+    return $returnXML->asXML();
+  }
 }
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   header('content-type: text/plain');

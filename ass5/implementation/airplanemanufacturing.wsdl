@@ -19,26 +19,33 @@
 			</xsd:complexType>
 		</xsd:schema>
 	</types>
-	<!-- getCustomerByIDRequest -->
+	<!-- getCustomerByIDRequest R2 -->
 	<message name="getCustomerByIDRequest">
 		<part name="ID" type="xsd:integer"/>
 	</message>
 	<message name="getCustomerByIDResponse">
 		<part name="ID" type="xsd:string"/>
 	</message>
-	<!-- getPlaneByColor -->
+	<!-- getPlaneByColor R1, R5.1, R7 -->
 	<message name="getPlanesByColorRequest">
 		<part name="colors" type="m:PlanesColorsRequestArray"/>
 	</message>
 	<message name="getPlanesByColorResponse">
 		<part name="result" type="xsd:xml"/>
 	</message>
-	<!-- getPlaneByLivery -->
+	<!-- getPlaneByLivery R1, R5.1, R6 -->
 	<message name="getPlaneByLiveryRequest">
 		<part name="colors" type="m:PlanesLiveriesRequestArray"/>
 	</message>
 	<message name="getPlaneByLiveryResponse">
 		<part name="result" type="xsd:json"/>
+	</message>
+	<!-- getProtocolByDate R4 -->
+	<message name="getProtocolByDateRequest">
+		<part name="date" type="xs:date"/>
+	</message>
+	<message name="getProtocolByDateResponse">
+		<part name="result" type="xsd:xml"/>
 	</message>
 	<portType name="airplanemanufacturingPort">
 		<operation name="getCustomerByID">
@@ -52,6 +59,10 @@
 		<operation name="getPlanesByLivery">
 			<input message="m:getPlaneByLiveryRequest"/>
 			<output message="m:getPlaneByLiveryResponse"/>
+		</operation>
+		<operation name="getProtocolByDate">
+			<input message="m:getProtocolByDateRequest"/>
+			<output message="m:getProtocolByDateResponse"/>
 		</operation>
 	</portType>
 	<binding name="airplanemanufacturingBinding" type="m:airplanemanufacturingPort">
@@ -76,6 +87,15 @@
 		</operation>
 		<operation name="getPlanesByLivery">
 			<soap:operation soapAction="urn:airplanemanufacturing#getPlanesByLivery"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
+		<operation name="getProtocolByDate">
+			<soap:operation soapAction="urn:airplanemanufacturing#getProtocolByDate"/>
 			<input>
 				<soap:body use="literal" namespace="urn:m"/>
 			</input>
