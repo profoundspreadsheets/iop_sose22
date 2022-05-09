@@ -1,5 +1,6 @@
 <?php
 ini_set("soap.wsdl_cache_enabled", "0");
+$debug = false;
 try {
   $colors = array('maroon', 'white');
   $client = new SoapClient('airplanemanufacturing.wsdl', array('trace' => 1));
@@ -11,6 +12,7 @@ try {
 
   print("\n");
 
+  if ($debug) {
   $doc = new DOMDocument('1.0');
   $doc->formatOutput = true;
   $doc->loadXML($client->__getLastRequest());
@@ -22,6 +24,7 @@ try {
   $doc->formatOutput = true;
   $doc->loadXML($client->__getLastResponse());
   print $doc->saveXML();
+  }
 } catch (SoapFault $e) {
   print_r($colors);
   print_r($e);
