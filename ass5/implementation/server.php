@@ -54,11 +54,11 @@ class Server {
     return $returnXML->asXML();
   }
 
-  function getToiletsBetweenCapacities($capacities) {
-    $minCap = $capacities->minCap;
-    $maxCap = $capacities->maxCap;
+  function getToiletsBetweenFlowrates($flowrates) {
+    $minRate = $flowrates->minRate;
+    $maxRate = $flowrates->maxRate;
     $xml = simplexml_load_file("3_data.xml");
-    $query = "//Capacity[(.>$minCap and .<$maxCap)]/ancestor::ToiletSpecs";
+    $query = "//Flowrate[(.>$minRate and .<$maxRate)]/ancestor::ToiletSpecs";
     $result = $xml->xpath($query);
     $returnXML = new SimpleXMLElement('<ToiletUnits></ToiletUnits>');    
     foreach ($result as $node) {

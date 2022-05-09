@@ -2,8 +2,8 @@
 ini_set("soap.wsdl_cache_enabled", "0");
 try {
   $client = new SoapClient('airplanemanufacturing.wsdl', array('trace' => 1));
-  $capacities = array("minCap" => 0.0, "maxCap" => 7.0);
-  $result = $client->getToiletsBetweenCapacities($capacities);
+  $flowrates = array("minRate" => 2.0, "maxRate" => 2.5);
+  $result = $client->getToiletsBetweenFlowrates($flowrates);
 
   header('content-type: text/plain');
 
@@ -23,7 +23,7 @@ try {
   $doc->loadXML($client->__getLastResponse());
   print $doc->saveXML();
 } catch (SoapFault $e) {
-  print_r($capacities);
+  print_r($flowrates);
   print_r("\n");
   print_r($e);
 }

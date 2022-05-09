@@ -17,10 +17,10 @@
 					<xsd:element name="livery" type="xsd:string" maxOccurs="unbounded" minOccurs="1"/>
 				</xsd:sequence>
 			</xsd:complexType>
-			<xsd:complexType name="ToiletUnitCapacityRequestDict">
+			<xsd:complexType name="ToiletUnitFlowrateRequestDict">
 				<xsd:all>
-					<xsd:element name="minCap" type="xsd:float"/>
-					<xsd:element name="maxCap" type="xsd:float"/>
+					<xsd:element name="minRate" type="xsd:float"/>
+					<xsd:element name="maxRate" type="xsd:float"/>
 				</xsd:all>
 			</xsd:complexType>
 		</xsd:schema>
@@ -53,11 +53,11 @@
 	<message name="getProtocolByDateResponse">
 		<part name="result" type="xsd:xml"/>
 	</message>
-	<!-- getToiletsBetweenCapacities R2, R5.2, R6 -->
-	<message name="getToiletsBetweenCapacitiesRequest">
-		<part name="date" type="m:ToiletUnitCapacityRequestDict"/>
+	<!-- getToiletsBetweenFlowrates R2, R5.2, R6 -->
+	<message name="getToiletsBetweenFlowratesRequest">
+		<part name="date" type="m:ToiletUnitFlowrateRequestDict"/>
 	</message>
-	<message name="getToiletsBetweenCapacitiesResponse">
+	<message name="getToiletsBetweenFlowratesResponse">
 		<part name="result" type="xsd:xml"/>
 	</message>
 	<portType name="airplanemanufacturingPort">
@@ -77,9 +77,9 @@
 			<input message="m:getProtocolByDateRequest"/>
 			<output message="m:getProtocolByDateResponse"/>
 		</operation>
-		<operation name="getToiletsBetweenCapacities">
-			<input message="m:getToiletsBetweenCapacitiesRequest"/>
-			<output message="m:getToiletsBetweenCapacitiesResponse"/>
+		<operation name="getToiletsBetweenFlowrates">
+			<input message="m:getToiletsBetweenFlowratesRequest"/>
+			<output message="m:getToiletsBetweenFlowratesResponse"/>
 		</operation>
 	</portType>
 	<binding name="airplanemanufacturingBinding" type="m:airplanemanufacturingPort">
@@ -120,8 +120,8 @@
 				<soap:body use="literal" namespace="urn:m"/>
 			</output>
 		</operation>
-		<operation name="getToiletsBetweenCapacities">
-			<soap:operation soapAction="urn:airplanemanufacturing#getToiletsBetweenCapacities"/>
+		<operation name="getToiletsBetweenFlowrates">
+			<soap:operation soapAction="urn:airplanemanufacturing#getToiletsBetweenFlowrates"/>
 			<input>
 				<soap:body use="literal" namespace="urn:m"/>
 			</input>
