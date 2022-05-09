@@ -6,6 +6,32 @@ class Server {
     $toDom->appendChild($toDom->ownerDocument->importNode($fromDom, true));
   }
 
+  //xpath11.xp
+  function getTeamsByEmployees($numEmployees) {
+    $xml = simplexml_load_file("1_data.xml");
+    $returnXML = new SimpleXMLElement('<Teams></Teams>');    
+    $query = "//Team[@employees <= $numEmployees]";
+    $result = $xml->xpath($query);
+    foreach ($result as $node) {
+      $this->sxml_append($returnXML, $node);
+    }
+    return $returnXML->asXML();
+  }
+
+  //xpath12.xp
+  function getTeamsByCountry($countryCodes) {
+    $xml = simplexml_load_file("1_data.xml");
+    $returnXML = new SimpleXMLElement('<Teams></Teams>');    
+    foreach ($countryCodes->country as $country) {
+      $query = "//ISO_Code[.=\"$country\"]/ancestor::Team";
+      $result = $xml->xpath($query);
+      foreach ($result as $node) {
+        $this->sxml_append($returnXML, $node);
+      }
+    }
+    return $returnXML->asXML();
+  }
+
   function getCustomerByID($ID) {
     $xml = simplexml_load_file("2_data.xml");
     $query = "//Customer[/@customerid = $ID]/@customerid";
@@ -18,7 +44,6 @@ class Server {
     $sxml = simplexml_load_string('<Planes></Planes>');
 
     foreach ($colors->color as $color) {
-      //$color = $colors->color[1];
       $query = "//Color[.=\"$color\"]/ancestor::Plane";
       $result = $xml->xpath($query);
       foreach ($result as $node) {

@@ -17,6 +17,11 @@
 					<xsd:element name="livery" type="xsd:string" maxOccurs="unbounded" minOccurs="1"/>
 				</xsd:sequence>
 			</xsd:complexType>
+			<xsd:complexType name="CountriesRequestArray">
+				<xsd:sequence>
+					<xsd:element name="country" type="xsd:string" maxOccurs="3" minOccurs="1"/>
+				</xsd:sequence>
+			</xsd:complexType>
 			<xsd:complexType name="ToiletUnitFlowrateRequestDict">
 				<xsd:all>
 					<xsd:element name="minRate" type="xsd:float"/>
@@ -25,6 +30,20 @@
 			</xsd:complexType>
 		</xsd:schema>
 	</types>
+	<!-- getTeamsByEmployees -->
+	<message name="getTeamsByEmployeesRequest">
+		<part name="numEmployees" type="xsd:integer"/>
+	</message>
+	<message name="getTeamsByEmployeesResponse">
+		<part name="Teams" type="xsd:xml"/>
+	</message>
+	<!-- getTeamsByCountry -->
+	<message name="getTeamsByCountryRequest">
+		<part name="countries" type="m:CountriesRequestArray"/>
+	</message>
+	<message name="getTeamsByCountryResponse">
+		<part name="Teams" type="xsd:xml"/>
+	</message>
 	<!-- getCustomerByID R2 -->
 	<message name="getCustomerByIDRequest">
 		<part name="ID" type="xsd:integer"/>
@@ -61,6 +80,14 @@
 		<part name="result" type="xsd:xml"/>
 	</message>
 	<portType name="airplanemanufacturingPort">
+		<operation name="getTeamsByEmployees">
+			<input message="m:getTeamsByEmployeesRequest"/>
+			<output message="m:getTeamsByEmployeesResponse"/>
+		</operation>
+		<operation name="getTeamsByCountry">
+			<input message="m:getTeamsByCountryRequest"/>
+			<output message="m:getTeamsByCountryResponse"/>
+		</operation>
 		<operation name="getCustomerByID">
 			<input message="m:getCustomerByIDRequest"/>
 			<output message="m:getCustomerByIDResponse"/>
@@ -84,6 +111,24 @@
 	</portType>
 	<binding name="airplanemanufacturingBinding" type="m:airplanemanufacturingPort">
 		<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="getTeamsByEmployees">
+			<soap:operation soapAction="urn:airplanemanufacturing#getTeamsByEmployees"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
+		<operation name="getTeamsByCountry">
+			<soap:operation soapAction="urn:airplanemanufacturing#getTeamsByCountry"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
 		<operation name="getCustomerByID">
 			<soap:operation soapAction="urn:airplanemanufacturing#getCustomerByID"/>
 			<input>
