@@ -17,9 +17,15 @@
 					<xsd:element name="livery" type="xsd:string" maxOccurs="unbounded" minOccurs="1"/>
 				</xsd:sequence>
 			</xsd:complexType>
+			<xsd:complexType name="ToiletUnitCapacityRequestDict">
+				<xsd:all>
+					<xsd:element name="minCap" type="xsd:float"/>
+					<xsd:element name="maxCap" type="xsd:float"/>
+				</xsd:all>
+			</xsd:complexType>
 		</xsd:schema>
 	</types>
-	<!-- getCustomerByIDRequest R2 -->
+	<!-- getCustomerByID R2 -->
 	<message name="getCustomerByIDRequest">
 		<part name="ID" type="xsd:integer"/>
 	</message>
@@ -40,11 +46,18 @@
 	<message name="getPlaneByLiveryResponse">
 		<part name="result" type="xsd:json"/>
 	</message>
-	<!-- getProtocolByDate R4 -->
+	<!-- getProtocolByDate R4, R7 -->
 	<message name="getProtocolByDateRequest">
 		<part name="date" type="xs:date"/>
 	</message>
 	<message name="getProtocolByDateResponse">
+		<part name="result" type="xsd:xml"/>
+	</message>
+	<!-- getToiletsBetweenCapacities R2, R5.2, R6 -->
+	<message name="getToiletsBetweenCapacitiesRequest">
+		<part name="date" type="m:ToiletUnitCapacityRequestDict"/>
+	</message>
+	<message name="getToiletsBetweenCapacitiesResponse">
 		<part name="result" type="xsd:xml"/>
 	</message>
 	<portType name="airplanemanufacturingPort">
@@ -63,6 +76,10 @@
 		<operation name="getProtocolByDate">
 			<input message="m:getProtocolByDateRequest"/>
 			<output message="m:getProtocolByDateResponse"/>
+		</operation>
+		<operation name="getToiletsBetweenCapacities">
+			<input message="m:getToiletsBetweenCapacitiesRequest"/>
+			<output message="m:getToiletsBetweenCapacitiesResponse"/>
 		</operation>
 	</portType>
 	<binding name="airplanemanufacturingBinding" type="m:airplanemanufacturingPort">
@@ -96,6 +113,15 @@
 		</operation>
 		<operation name="getProtocolByDate">
 			<soap:operation soapAction="urn:airplanemanufacturing#getProtocolByDate"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
+		<operation name="getToiletsBetweenCapacities">
+			<soap:operation soapAction="urn:airplanemanufacturing#getToiletsBetweenCapacities"/>
 			<input>
 				<soap:body use="literal" namespace="urn:m"/>
 			</input>

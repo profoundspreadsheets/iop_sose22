@@ -47,10 +47,20 @@ class Server {
     $xml = simplexml_load_file("2_data.xml");
     $query = "//Testdate[.=\"$date\"]/ancestor::Protocol";
     $result = $xml->xpath($query);
-    $sxml = simplexml_load_string('<Protocols></Protocols>');
+    $returnXML = new SimpleXMLElement('<Protocols></Protocols>');    
+    foreach ($result as $node) {
+      $this->sxml_append($returnXML, $node);
+    }
+    return $returnXML->asXML();
+  }
 
-    $returnXML = new SimpleXMLElement('<Protocols></Protocols>');
-
+  function getToiletsBetweenCapacities($capacities) {
+    $minCap = $capacities->minCap;
+    $maxCap = $capacities->maxCap;
+    $xml = simplexml_load_file("3_data.xml");
+    $query = "//Capacity[(.>$minCap and .<$maxCap)]/ancestor::ToiletSpecs";
+    $result = $xml->xpath($query);
+    $returnXML = new SimpleXMLElement('<ToiletUnits></ToiletUnits>');    
     foreach ($result as $node) {
       $this->sxml_append($returnXML, $node);
     }
