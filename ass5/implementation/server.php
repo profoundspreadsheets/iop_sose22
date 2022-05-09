@@ -32,11 +32,22 @@ class Server {
     return $returnXML->asXML();
   }
 
+  function getSmallestTeamID() {
+    $xml = simplexml_load_file("1_data.xml");
+    $query = "//Team/@teamid[not(. > //Team/@teamid)]";
+    $result = $xml->xpath($query);
+    return $result[0];
+  }
+
   function getCustomerByID($ID) {
     $xml = simplexml_load_file("2_data.xml");
-    $query = "//Customer[/@customerid = $ID]/@customerid";
+    $returnXML = new SimpleXMLElement('<Customer></Customer>');    
+    $query = "//Customer[@customerid = \"$ID\"]/Firstname | //Customer[@customerid = \"$ID\"]/Lastname";
     $result = $xml->xpath($query);
-    return $result;
+    foreach ($result as $node) {
+      $this->sxml_append($returnXML, $node);
+    }
+    return json_encode($returnXML, JSON_PRETTY_PRINT);
   }
 
   function getPlanesByColor($colors) {

@@ -2,7 +2,7 @@
 ini_set("soap.wsdl_cache_enabled", "0");
 try {
   $client = new SoapClient('airplanemanufacturing.wsdl', array('trace' => 1));
-  $result = $client->getCustomerByID('119');
+  $result = $client->getSmallestTeamID();
 
   header('content-type: text/plain');
 

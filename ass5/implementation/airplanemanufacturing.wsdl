@@ -44,12 +44,17 @@
 	<message name="getTeamsByCountryResponse">
 		<part name="Teams" type="xsd:xml"/>
 	</message>
+	<!-- getSmallestTeamID -->
+	<message name="getSmallestTeamIDRequest"></message>
+	<message name="getSmallestTeamIDResponse">
+		<part name="Team" type="xsd:string"/>
+	</message>
 	<!-- getCustomerByID R2 -->
 	<message name="getCustomerByIDRequest">
 		<part name="ID" type="xsd:integer"/>
 	</message>
 	<message name="getCustomerByIDResponse">
-		<part name="ID" type="xsd:string"/>
+		<part name="Firstname" type="xsd:json"/>
 	</message>
 	<!-- getPlaneByColor R1, R5.1, R7 -->
 	<message name="getPlanesByColorRequest">
@@ -88,6 +93,10 @@
 			<input message="m:getTeamsByCountryRequest"/>
 			<output message="m:getTeamsByCountryResponse"/>
 		</operation>
+		<operation name="getSmallestTeamID">
+			<input message="m:getSmallestTeamIDRequest"/>
+			<output message="m:getSmallestTeamIDResponse"/>
+		</operation>
 		<operation name="getCustomerByID">
 			<input message="m:getCustomerByIDRequest"/>
 			<output message="m:getCustomerByIDResponse"/>
@@ -122,6 +131,15 @@
 		</operation>
 		<operation name="getTeamsByCountry">
 			<soap:operation soapAction="urn:airplanemanufacturing#getTeamsByCountry"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
+		<operation name="getSmallestTeamID">
+			<soap:operation soapAction="urn:airplanemanufacturing#getSmallestTeamID"/>
 			<input>
 				<soap:body use="literal" namespace="urn:m"/>
 			</input>
