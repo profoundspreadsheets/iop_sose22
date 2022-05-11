@@ -157,6 +157,29 @@ class Server {
     }
     return $returnXML->asXML();
   }
+
+  function getCustomerOfPlane($registration) {
+    $xml = simplexml_load_file("3_data.xml");
+    $query = "//Plane[@registration = \"$registration\"]/Customer";
+    $result = $xml->xpath($query);
+    $returnXML = new SimpleXMLElement('<Customer></Customer>');
+    foreach ($result as $node) {
+      $this->sxml_append($returnXML, $node);
+    }
+    return json_encode($returnXML, JSON_PRETTY_PRINT);
+  }
+
+  function getTestdateOfProtocol($protocolId) {
+    $xml = simplexml_load_file("2_data.xml");
+    $query = "//Protocol[@protocolid = \"$protocolId\"]/Testdate";
+    $result = $xml->xpath($query);
+    $returnXML = new SimpleXMLElement('<Testdate></Testdate>');
+    foreach ($result as $node) {
+      $this->sxml_append($returnXML, $node);
+    }
+    return json_encode($returnXML, JSON_PRETTY_PRINT);
+  }
+
 }
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   header('content-type: text/plain');

@@ -2,11 +2,10 @@
 ini_set("soap.wsdl_cache_enabled", "0");
 $debug = false;
 try {
-  $countries = array('IS', 'IT');
   $client = new SoapClient('airplanemanufacturing.wsdl', array('trace' => 1));
-  $result = $client->getTeamsByCountry($countries);
+  $result = $client->getTestdateOfProtocol('KPTDTWVNUZ');
 
-  header('content-type: text/xml');
+  header('content-type: text/plain');
 
   print_r($result);
 

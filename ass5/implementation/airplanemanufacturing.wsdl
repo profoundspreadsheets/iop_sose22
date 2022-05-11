@@ -82,14 +82,14 @@
 	<message name="getCustomerByIDResponse">
 		<part name="Name" type="xsd:json"/>
 	</message>
-	<!-- getPlaneByColor R1, R5.1, R7 -->
+	<!-- getPlanesByColor R1, R5.1, R7 -->
 	<message name="getPlanesByColorRequest">
 		<part name="colors" type="m:PlanesColorsRequestArray"/>
 	</message>
 	<message name="getPlanesByColorResponse">
 		<part name="result" type="xsd:xml"/>
 	</message>
-	<!-- getPlaneByLivery R1, R5.1, R6 -->
+	<!-- getPlanesByLivery R1, R5.1, R6 -->
 	<message name="getPlaneByLiveryRequest">
 		<part name="colors" type="m:PlanesLiveriesRequestArray"/>
 	</message>
@@ -124,7 +124,29 @@
 	<message name="getCustomersByZipResponse">
 		<part name="result" type="xsd:json"/>
 	</message>
+	<!-- getCustomerOfPlane R3, R6 -->
+	<message name="getCustomerOfPlaneRequest">
+		<part name="registration" type="xsd:string"/>
+	</message>
+	<message name="getCustomerOfPlaneResponse">
+		<part name="result" type="xsd:json"/>
+	</message>
+	<!-- getTestdateOfProtocol R3, R6 -->
+	<message name="getTestdateOfProtocolRequest">
+		<part name="date" type="xsd:string"/>
+	</message>
+	<message name="getTestdateOfProtocolResponse">
+		<part name="result" type="xsd:json"/>
+	</message>
 	<portType name="airplanemanufacturingPort">
+		<operation name="getCustomerOfPlane">
+			<input message="m:getCustomerOfPlaneRequest"/>
+			<output message="m:getCustomerOfPlaneResponse"/>
+		</operation>
+		<operation name="getTestdateOfProtocol">
+			<input message="m:getTestdateOfProtocolRequest"/>
+			<output message="m:getTestdateOfProtocolResponse"/>
+		</operation>
 		<operation name="getBarMinifridgeAndColor">
 			<input message="m:getBarMinifridgeAndColorRequest"/>
 			<output message="m:getBarMinifridgeAndColorResponse"/>
@@ -176,6 +198,24 @@
 	</portType>
 	<binding name="airplanemanufacturingBinding" type="m:airplanemanufacturingPort">
 		<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="getCustomerOfPlane">
+			<soap:operation soapAction="urn:airplanemanufacturing#getCustomerOfPlane"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
+		<operation name="getTestdateOfProtocol">
+			<soap:operation soapAction="urn:airplanemanufacturing#getTestdateOfProtocol"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
 		<operation name="getBarMinifridgeAndColor">
 			<soap:operation soapAction="urn:airplanemanufacturing#getBarMinifridgeAndColor"/>
 			<input>
