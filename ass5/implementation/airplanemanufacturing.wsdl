@@ -28,16 +28,42 @@
 					<xsd:element name="maxRate" type="xsd:float"/>
 				</xsd:all>
 			</xsd:complexType>
+			<xsd:complexType name="MinifridgeIntervalRequestDict">
+				<xsd:all>
+					<xsd:element name="minFridges" type="xsd:integer"/>
+					<xsd:element name="maxFridges" type="xsd:integer"/>
+				</xsd:all>
+			</xsd:complexType>
+			<xsd:complexType name="BarMinifridgeAndColorRequestArray">
+				<xsd:all>
+					<xsd:element name="colors" type="m:PlanesColorsRequestArray"/>
+					<xsd:element name="fridgesInterval" type="m:MinifridgeIntervalRequestDict"/>
+				</xsd:all>
+			</xsd:complexType>
 		</xsd:schema>
 	</types>
-	<!-- getTeamsByEmployees -->
+	<!-- getBarMinifridgeAndColor R5.3 -->
+	<message name="getBarMinifridgeAndColorRequest">
+		<part name="requestArray" type="m:BarMinifridgeAndColorRequestArray"/>
+	</message>
+	<message name="getBarMinifridgeAndColorResponse">
+		<part name="Planes" type="xsd:xml"/>
+	</message>
+	<!-- getBarsOfPlane R3 -->
+	<message name="getBarsOfPlaneRequest">
+		<part name="requestArray" type="xsd:string"/>
+	</message>
+	<message name="getBarsOfPlaneResponse">
+		<part name="Bars" type="xsd:json"/>
+	</message>
+	<!-- getTeamsByEmployees R2, R7 -->
 	<message name="getTeamsByEmployeesRequest">
 		<part name="numEmployees" type="xsd:integer"/>
 	</message>
 	<message name="getTeamsByEmployeesResponse">
 		<part name="Teams" type="xsd:xml"/>
 	</message>
-	<!-- getTeamsByCountry -->
+	<!-- getTeamsByCountry R1, R5.1, R7-->
 	<message name="getTeamsByCountryRequest">
 		<part name="countries" type="m:CountriesRequestArray"/>
 	</message>
@@ -49,12 +75,12 @@
 	<message name="getSmallestTeamIDResponse">
 		<part name="Team" type="xsd:string"/>
 	</message>
-	<!-- getCustomerByID R2 -->
+	<!-- getCustomerByID R2, R6 -->
 	<message name="getCustomerByIDRequest">
 		<part name="ID" type="xsd:integer"/>
 	</message>
 	<message name="getCustomerByIDResponse">
-		<part name="Firstname" type="xsd:json"/>
+		<part name="Name" type="xsd:json"/>
 	</message>
 	<!-- getPlaneByColor R1, R5.1, R7 -->
 	<message name="getPlanesByColorRequest">
@@ -77,14 +103,36 @@
 	<message name="getProtocolByDateResponse">
 		<part name="result" type="xsd:xml"/>
 	</message>
-	<!-- getToiletsBetweenFlowrates R2, R5.2, R6 -->
+	<!-- getToiletsBetweenFlowrates R2, R5.2, R7 -->
 	<message name="getToiletsBetweenFlowratesRequest">
 		<part name="date" type="m:ToiletUnitFlowrateRequestDict"/>
 	</message>
 	<message name="getToiletsBetweenFlowratesResponse">
 		<part name="result" type="xsd:xml"/>
 	</message>
+	<!-- getStreetsByZip R2, R6 -->
+	<message name="getStreetsByZipRequest">
+		<part name="date" type="xsd:integer"/>
+	</message>
+	<message name="getStreetsByZipResponse">
+		<part name="result" type="xsd:json"/>
+	</message>
+	<!-- getCustomersByZip R2, R6 -->
+	<message name="getCustomersByZipRequest">
+		<part name="date" type="xsd:integer"/>
+	</message>
+	<message name="getCustomersByZipResponse">
+		<part name="result" type="xsd:json"/>
+	</message>
 	<portType name="airplanemanufacturingPort">
+		<operation name="getBarMinifridgeAndColor">
+			<input message="m:getBarMinifridgeAndColorRequest"/>
+			<output message="m:getBarMinifridgeAndColorResponse"/>
+		</operation>
+		<operation name="getBarsOfPlane">
+			<input message="m:getBarsOfPlaneRequest"/>
+			<output message="m:getBarsOfPlaneResponse"/>
+		</operation>
 		<operation name="getTeamsByEmployees">
 			<input message="m:getTeamsByEmployeesRequest"/>
 			<output message="m:getTeamsByEmployeesResponse"/>
@@ -117,9 +165,35 @@
 			<input message="m:getToiletsBetweenFlowratesRequest"/>
 			<output message="m:getToiletsBetweenFlowratesResponse"/>
 		</operation>
+		<operation name="getStreetsByZip">
+			<input message="m:getStreetsByZipRequest"/>
+			<output message="m:getStreetsByZipResponse"/>
+		</operation>
+		<operation name="getCustomersByZip">
+			<input message="m:getCustomersByZipRequest"/>
+			<output message="m:getCustomersByZipResponse"/>
+		</operation>
 	</portType>
 	<binding name="airplanemanufacturingBinding" type="m:airplanemanufacturingPort">
 		<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="getBarMinifridgeAndColor">
+			<soap:operation soapAction="urn:airplanemanufacturing#getBarMinifridgeAndColor"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
+		<operation name="getBarsOfPlane">
+			<soap:operation soapAction="urn:airplanemanufacturing#getBarsOfPlane"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
 		<operation name="getTeamsByEmployees">
 			<soap:operation soapAction="urn:airplanemanufacturing#getTeamsByEmployees"/>
 			<input>
@@ -185,6 +259,24 @@
 		</operation>
 		<operation name="getToiletsBetweenFlowrates">
 			<soap:operation soapAction="urn:airplanemanufacturing#getToiletsBetweenFlowrates"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
+		<operation name="getStreetsByZip">
+			<soap:operation soapAction="urn:airplanemanufacturing#getStreetsByZip"/>
+			<input>
+				<soap:body use="literal" namespace="urn:m"/>
+			</input>
+			<output>
+				<soap:body use="literal" namespace="urn:m"/>
+			</output>
+		</operation>
+		<operation name="getCustomersByZip">
+			<soap:operation soapAction="urn:airplanemanufacturing#getCustomersByZip"/>
 			<input>
 				<soap:body use="literal" namespace="urn:m"/>
 			</input>
