@@ -1,0 +1,1 @@
+sum(/Teams/Team[1]/Units/Unit/seatconfig/seat/amount)

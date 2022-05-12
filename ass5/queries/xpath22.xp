@@ -1,0 +1,1 @@
+count(/Customers/Customer[@customerid = "119"]/Planes/Plane)

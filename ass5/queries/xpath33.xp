@@ -1,0 +1,1 @@
+sum(//Flowrate[.>4.0]/preceding-sibling::Capacity)
