@@ -1,0 +1,1 @@
+//Color[.="white"]//ancestor::Plane/@registration | //Plane[descendant::Minifridges/Amount[.<6]]/@registration

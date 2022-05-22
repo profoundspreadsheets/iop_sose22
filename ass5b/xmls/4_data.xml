@@ -1,0 +1,1605 @@
+<?xml version="1.0" standalone="yes"?>
+<Planes>
+	<Plane registration="DAJ7178">
+		<Color>maroon</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="OLH2122">
+		<Color>aqua</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="RTM7433">
+		<Color>lime</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="5ed2e601-1236-4a61-ba4b-6bb605d73831" teamid="39">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>43</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="YWB5317">
+		<Color>silver</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="378e8f85-524f-4f82-b5e3-8fec76b89f26" teamid="121">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>18</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>86.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="d671dbd8-8d1d-4305-be38-838620b0f90d" teamid="435">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>14</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>549.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="NJN5002">
+		<Color>fuchsia</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="CKN7593">
+		<Color>silver</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="4344f7ed-411f-48eb-9b0b-86d14ad00174" teamid="143">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>wine glass</Type>
+					<Amount>35</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>25.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="13bc96d8-177e-4429-acc4-69e68dfd7cfd" teamid="625">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>84</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="TEX8779">
+		<Color>white</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="8882156c-f456-40e3-a564-2c55e1d28b68" teamid="767">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>32</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>880</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>21.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="222b8d4d-5ca9-45c9-b1b2-1ac328f3c9e4" teamid="632">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>collins</Type>
+					<Amount>31</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>34.97</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="a6cc1788-c14a-4edb-80dd-ae3da2d8af22" teamid="264">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>48</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>13.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>13.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="FGR3896">
+		<Color>aqua</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="UFH8530">
+		<Color>purple</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="bda0e06c-7993-4519-b551-713f4cf1cd78" teamid="563">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>17</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>45</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>24.49</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="WPA4428">
+		<Color>maroon</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="9270181f-e52d-4b16-8c84-d8808cd679d0" teamid="86">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>30</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="AMF6066">
+		<Color>silver</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="PMR7202">
+		<Color>aqua</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="GMG1231">
+		<Color>lime</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="e37dc4b3-6f3b-4327-8f88-422bc3ba7994" teamid="759">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>67</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="MNR8710">
+		<Color>teal</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="AMQ2317">
+		<Color>gray</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="7934da4f-c036-474c-acf3-d0fa95591cb4" teamid="200">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>mug</Type>
+					<Amount>82</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>2500</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="bc6be691-3849-4876-8a47-06f3934703bb" teamid="149">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>mug</Type>
+					<Amount>80</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="MPF3551">
+		<Color>navy</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="d8390918-c24d-470b-a42a-c77f7717aed7" teamid="35">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>73</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="f797cb3c-bbab-4218-b069-44086054d0bc" teamid="336">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>65</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="BQY5463">
+		<Color>purple</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="2ae98fa6-0c94-44c5-a83e-12f353e2f656" teamid="535">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>72</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>19.97</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>250</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>19.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="EPJ5102">
+		<Color>navy</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="YWK5335">
+		<Color>green</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="50593e8e-ba5c-48a9-861e-a9ec063a0731" teamid="78">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>86</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="DPX3326">
+		<Color>blue</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="f2ff2c73-826f-4335-9ec2-7968e4f326a7" teamid="188">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>57</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>28.49</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="c323f430-de0d-4a37-9e9d-d9f5adf4420a" teamid="67">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>mug</Type>
+					<Amount>21</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="84e99cdc-0104-4bb5-be10-3c6ca29eb16c" teamid="612">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>55</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>10.49</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="EKH5058">
+		<Color>black</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="CCP8044">
+		<Color>olive</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="69e605d0-08cd-4a6f-bc0f-e22192dcc856" teamid="142">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>collins</Type>
+					<Amount>45</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>33.49</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>11.49</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="546a9de5-772a-4dad-8780-e2bcd7c19f5a" teamid="41">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>29</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>89.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>129.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>800</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>170</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="KHJ1354">
+		<Color>black</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="WVP7902">
+		<Color>lime</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="947443f7-bfc4-408d-97c3-9f2fad05864e" teamid="209">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>72</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>59.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="7504b719-737d-4cc8-8184-36a90052cec0" teamid="185">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>37</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Refreshment Beverages</Drink>
+						<Cost>3.09</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>499.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="ZDB2779">
+		<Color>olive</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="FMW2950">
+		<Color>olive</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="ceeae771-0737-4a29-81cb-f8bd1220425d" teamid="41">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>mug</Type>
+					<Amount>84</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>21.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="65eb1124-0bc6-4ccc-b9b5-ac2479c397c8" teamid="597">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>99</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Beer</Drink>
+						<Cost>4.19</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>67.97</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="BVK3060">
+		<Color>lime</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="99286205-7c31-47fa-b896-4c28181c27ba" teamid="305">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>30</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Beer</Drink>
+						<Cost>12.79</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>21.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="532ab8ab-8849-4869-b164-175d54f03e52" teamid="777">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>17</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="ZIM6990">
+		<Color>maroon</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="fd6581c9-1742-4bae-a222-4a98a5a1f00c" teamid="221">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>88</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Refreshment Beverages</Drink>
+						<Cost>9.29</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>60.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="3b9e79f3-356e-4f59-816d-dacf31948c05" teamid="28">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>16</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>24.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>15.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="a56b82c4-6b4d-4ffd-8bb8-cef7aabd46d5" teamid="700">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>44</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="ce44d71f-c1b5-4618-a9b2-06b4fe8c3158" teamid="136">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>82</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>11.49</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>48.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>37.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="CLL4812">
+		<Color>yellow</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="83a2aa79-09f2-4944-ba58-61731dda11b4" teamid="32">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>70</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="96af4dc6-ef54-4253-b9f5-223cb24fa519" teamid="405">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>mug</Type>
+					<Amount>67</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>21.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="NCZ7637">
+		<Color>gray</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="c7d84437-e36c-48d6-9976-2d230c07a038" teamid="613">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>50</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="LQL6162">
+		<Color>olive</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="76ce03a5-ddef-4384-a3d3-128cdfdaee17" teamid="64">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>71</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>26.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="DCU3450">
+		<Color>blue</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="VSS2576">
+		<Color>green</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="3c291b17-abdf-41f9-9a36-f2dc66a6b9e8" teamid="390">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>51</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="IBD1755">
+		<Color>olive</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="QAR8217">
+		<Color>yellow</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="QTD7597">
+		<Color>fuchsia</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="FGU0590">
+		<Color>aqua</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="28455029-bac9-478c-b6ac-472e79d649cd" teamid="595">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>25</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="RIC5442">
+		<Color>blue</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="FAJ8688">
+		<Color>black</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="3f0cd308-e051-4d49-8296-c9c2e51ac058" teamid="158">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>33</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="c7f96280-4e3c-4ef8-8e7e-48d1efcae681" teamid="706">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>87</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="WPO9009">
+		<Color>yellow</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="b96aae37-49c4-441c-a765-d6da83b8cbc9" teamid="167">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>mug</Type>
+					<Amount>36</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>37.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="YJZ1535">
+		<Color>silver</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="777786ce-cb37-40bb-81b8-4d8051236d36" teamid="100">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>96</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>1650</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="XZR1781">
+		<Color>blue</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="YKF6723">
+		<Color>teal</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="9ab97280-71bf-4b58-b198-17bc558ae254" teamid="252">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>88</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="HQZ5725">
+		<Color>maroon</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="XQI5219">
+		<Color>lime</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="18a47052-9f9a-496a-8e40-940c8f3f2a99" teamid="341">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>86</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="b5c4bdc3-bfc8-4f99-83cc-9bc8ca7e00cb" teamid="28">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>56</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>395</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>88.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="fc077277-254d-4c09-a734-7090d634eee2" teamid="285">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>55</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Beer</Drink>
+						<Cost>1.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="MEC5028">
+		<Color>maroon</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="NYG6728">
+		<Color>purple</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="172aad3b-f6b2-4cd5-b7d3-4f48c04dcf65" teamid="295">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>53</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="f3f65d34-390b-4e1d-a3a1-b09a7ce437a5" teamid="544">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>92</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Refreshment Beverages</Drink>
+						<Cost>12.29</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>45.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="800464c6-a717-42de-8d94-8545a0b97cf9" teamid="677">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>48</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Refreshment Beverages</Drink>
+						<Cost>12.29</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="8263aef6-f81a-4c1a-9139-337dc0b763e3" teamid="147">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>mug</Type>
+					<Amount>63</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="PKX0826">
+		<Color>gray</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="71c0b3bf-8265-49a1-8f9c-038bbb025d73" teamid="382">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>40</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>40.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="64fdfedf-6d18-4de9-a4b2-e3e4ac6d6e7c" teamid="720">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>23</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>39</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="LAU5103">
+		<Color>white</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="8f1b8575-25b2-4e67-9cda-7d61dbe0c4c8" teamid="385">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>70</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>2250</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Refreshment Beverages</Drink>
+						<Cost>2.69</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="ZDJ0327">
+		<Color>navy</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="VEK5341">
+		<Color>olive</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="c0844448-cd4b-4498-be84-b4365549ee34" teamid="561">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>wine glass</Type>
+					<Amount>52</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="FSB9980">
+		<Color>silver</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="b6601080-5afd-4963-831b-95f13f16c1b9" teamid="580">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>45</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>19.49</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="1b06a299-f908-4cc2-8ead-1ff6e7d11fca" teamid="57">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>mug</Type>
+					<Amount>23</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>14.97</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="AIN7446">
+		<Color>yellow</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="ARX5204">
+		<Color>lime</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="NLX6965">
+		<Color>yellow</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="f6f65436-2bc7-447a-8cfe-68dfbad3baad" teamid="487">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>84</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="5a5b09c2-31d5-4190-8826-495c05614424" teamid="25">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>94</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="XOV1606">
+		<Color>aqua</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="73d8adbe-8811-48c9-867a-f1bca95f1835" teamid="537">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>collins</Type>
+					<Amount>17</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="LZA1202">
+		<Color>navy</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="03b22822-632d-474f-961c-688c159768e7" teamid="363">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>collins</Type>
+					<Amount>25</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="DTW9940">
+		<Color>purple</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="4ebe9cae-d6f5-407a-aea6-f93e33cacd08" teamid="762">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>32</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>19.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>47.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>38.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="DRB2793">
+		<Color>green</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="c6d48f66-bcc2-4945-99ea-e5a36ae55c3a" teamid="528">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>wine glass</Type>
+					<Amount>68</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>24.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="AAL7510">
+		<Color>white</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="fdab1b1b-c93f-4ce5-8498-fc54c4f3699d" teamid="643">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>98</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>64.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>71.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="DDR5762">
+		<Color>maroon</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="0da4c7fd-5662-4916-abf1-1c663898afef" teamid="538">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>92</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>209.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="df10d090-96ce-4028-86b9-303ecabf0e68" teamid="399">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>44</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>350</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="QNW3322">
+		<Color>navy</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="6e960b64-6920-4ef3-9f29-eb8a4c116777" teamid="66">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>73</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="MWG2479">
+		<Color>lime</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="MQR8506">
+		<Color>silver</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="PWQ0540">
+		<Color>green</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="SLX8566">
+		<Color>gray</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="9fd05b97-66d0-416b-ad99-779a010d9fa5" teamid="483">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>16</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="2be50300-fd0f-49fd-82a9-a533dc828f2f" teamid="324">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>71</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="bfa6d804-86e5-4545-a790-0282aaf701f9" teamid="630">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>collins</Type>
+					<Amount>76</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>599.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="SYJ7449">
+		<Color>teal</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="ARC6892">
+		<Color>gray</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="59a5e3c5-a8f1-44bd-86c0-795fa8a6e8a7" teamid="741">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>collins</Type>
+					<Amount>89</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>53.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>79.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="LQV1108">
+		<Color>fuchsia</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="JKO7816">
+		<Color>navy</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="fa8f835c-ad17-4250-a1b5-561e8a392042" teamid="249">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>90</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Refreshment Beverages</Drink>
+						<Cost>8.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="f9b7679c-1242-44a9-bba1-e27247741bc1" teamid="553">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>flute</Type>
+					<Amount>48</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>21.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Spirits</Drink>
+						<Cost>11.79</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="HSV8858">
+		<Color>navy</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="PRI3007">
+		<Color>white</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="9ad5ce28-af61-4167-907f-a465102b915a" teamid="438">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>beer</Type>
+					<Amount>77</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>13.99</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>46</Cost>
+					</Beverage>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>33.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="HWS4646">
+		<Color>lime</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="dc711b64-4b64-440d-ac9a-07cae0963882" teamid="138">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>15</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>34.97</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+			<Bar unitid="4096135b-7b91-42a8-935c-dc9326df2f40" teamid="119">
+				<Minifridges>
+					<Amount>8</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>old fashioned</Type>
+					<Amount>27</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>10.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="PCM7770">
+		<Color>fuchsia</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="OIY3038">
+		<Color>fuchsia</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="ODH9204">
+		<Color>gray</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="c1538e4f-268d-4c43-8449-20c45880fb61" teamid="672">
+				<Minifridges>
+					<Amount>5</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>wine glass</Type>
+					<Amount>10</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+			<Bar unitid="0b6a12f2-a9e9-43ea-9fac-d682a3124195" teamid="554">
+				<Minifridges>
+					<Amount>7</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>pint</Type>
+					<Amount>83</Amount>
+				</Glasses>
+				<Beverages/>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="YXU1548">
+		<Color>teal</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="JKZ6396">
+		<Color>yellow</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="WNT8044">
+		<Color>aqua</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="QJO3609">
+		<Color>gray</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="ZQB3501">
+		<Color>yellow</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="EPZ5493">
+		<Color>green</Color>
+		<Livery>eurowhite</Livery>
+		<Bars/>
+	</Plane>
+	<Plane registration="NYZ0192">
+		<Color>teal</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="412e082d-80e9-49e4-a5d9-19a821d2a168" teamid="137">
+				<Minifridges>
+					<Amount>6</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>high ball</Type>
+					<Amount>48</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Refreshment Beverages</Drink>
+						<Cost>8.99</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+	<Plane registration="KJU1255">
+		<Color>black</Color>
+		<Livery>eurowhite</Livery>
+		<Bars>
+			<Bar unitid="a71b0ab3-9ac7-438b-aa09-7351dff759fc" teamid="688">
+				<Minifridges>
+					<Amount>9</Amount>
+				</Minifridges>
+				<Glasses>
+					<Type>martini</Type>
+					<Amount>10</Amount>
+				</Glasses>
+				<Beverages>
+					<Beverage>
+						<Drink>Wine</Drink>
+						<Cost>42.27</Cost>
+					</Beverage>
+				</Beverages>
+			</Bar>
+		</Bars>
+	</Plane>
+</Planes>
