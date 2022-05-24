@@ -43,6 +43,17 @@ $app->get('/teams/{numEmployees}', function (Request $request, Response $respons
 });
 
 /**
+ * POST METHODS
+ */
+
+$app->post('/planes/bars/postnewbar', function (Request $request, Response $response, $args) {
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $requestBody = $request->getParsedBody();
+  $requestResult = postNewBar($requestBody);
+  return $response;
+});
+
+/**
  * DELETE METHODS
  * delete customer with ID
  */
@@ -62,6 +73,7 @@ $app->delete('/customers/delete/{customerId}', function (Request $request, Respo
 /**
  * PUT METHODS
  * update a customers address of plane with registration x
+ * TODO error handling
  */
 $app->put('/planes/update', function (Request $request, Response $response, $args) {
   $response = $response->withHeader('Content-Type', 'application/json');
@@ -160,11 +172,75 @@ function updateCustomerAddressByRegistration($requestBody) {
   return true;
 }
 
+/**
+ * POST METHODS HELPERS
+ */
+function postNewBar($requestBody) {
+  $registration = $requestBody['registration'];
+  $teamid = $requestBody['teamid'];
+  $newBarData = $requestBody['Bar'];
+  $amountMinifridges = $newBarData['Minifridges']['Amount'];
+  $typeGlasses = $newBarData['Glasses']['Type'];
+  $amountGlasses = $newBarData['Glasses']['Amount'];
+
+  $doc = new DOMDocument();
+  $doc->load("xmls/4_data.xml");
+  $xpath_selector = new DOMXPath($doc);
+  $planeNode = $xpath_selector->query("//Plane[@registration = \"$registration\"]")->item(0);
+
+  $newBarNode = $doc->createElement("Bar");
+
+  $uuid = getuuid();
+  $newBarNode->setAttribute("unitid", $uuid);
+  $newBarNode->setAttribute("teamid", $teamid);
+
+  $fridgeNode = $doc->createElement("Minifridges");
+  $fridgeNodeAmount = $doc->createElement("Amount", $amountMinifridges);
+
+  $glassNode = $doc->createElement("Glasses");
+  $glassNodeAmount = $doc->createElement("Amount", $amountGlasses);
+  $glassNodeType = $doc->createElement("Type", $typeGlasses);
+
+  $glassNode->appendChild($glassNodeType);
+  $glassNode->appendChild($glassNodeAmount);
+
+  $fridgeNode->appendChild($fridgeNodeAmount);
+
+  $newBarNode->appendChild($fridgeNode);
+  $newBarNode->appendChild($glassNode);
+  
+  $planeNode->appendChild($newBarNode);
+  file_put_contents("xmls/4_data.xml", $doc->saveXML());
+
+  return true;
+
+}
+
 function sxml_append(SimpleXMLElement $to, SimpleXMLElement $from) {
   $toDom = dom_import_simplexml($to);
   $fromDom = dom_import_simplexml($from);
   $toDom->appendChild($toDom->ownerDocument->importNode($fromDom, true));
 }
+
+function getuuid() {
+  // source: https://github.com/symfony/polyfill-uuid/blob/main/Uuid.php#L320
+  $uuid = bin2hex(random_bytes(16));
+  return sprintf('%08s-%04s-4%03s-%04x-%012s',
+  // 32 bits for "time_low"
+  substr($uuid, 0, 8),
+  // 16 bits for "time_mid"
+  substr($uuid, 8, 4),
+  // 16 bits for "time_hi_and_version",
+  // four most significant bits holds version number 4
+  substr($uuid, 13, 3),
+  // 16 bits:
+  // * 8 bits for "clk_seq_hi_res",
+  // * 8 bits for "clk_seq_low",
+  // two most significant bits holds zero and one for variant DCE1.1
+  hexdec(substr($uuid, 16, 4)) & 0x3fff | 0x8000,
+  // 48 bits for "node"
+  substr($uuid, 20, 12)
+);}
 
 
 
