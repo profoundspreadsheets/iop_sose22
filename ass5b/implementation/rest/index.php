@@ -313,14 +313,14 @@ function getPlanesByLivery($requestBody) {
 
 function getProtocolByDate($date) {
   $xml = simplexml_load_file("xmls/2_data.xml");
-    $query = "//Testdate[.=\"$date\"]/ancestor::Protocol";
-    $result = $xml->xpath($query);
-    $returnXML = new SimpleXMLElement('<Protocols></Protocols>');
-    foreach ($result as $node) {
-      sxml_append($returnXML, $node);
-    }
-    return $returnXML->asXML();
+  $query = "//Testdate[.=\"$date\"]/ancestor::Protocol";
+  $result = $xml->xpath($query);
+  $returnXML = new SimpleXMLElement('<Protocols></Protocols>');
+  foreach ($result as $node) {
+    sxml_append($returnXML, $node);
   }
+  return $returnXML->asXML();
+}
 
 /**
  * DELETE METHODS HELPERS
@@ -503,15 +503,134 @@ function getuuid() {
 
 
 
+/**
+ * HATEOAS Endpoints
+ */
+
+$app->get('/hateaos/customers', function (Request $request, Response $response, $args) {
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getHateaosCustomers());
+  return $response;
+});
+
+$app->get('/hateaos/customers/{customerid}/info', function (Request $request, Response $response, $args) {
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getHateaosCustomersInfo($args['customerid']));
+  return $response;
+});
+
+$app->get('/hateaos/customers/{customerid}/fullname', function (Request $request, Response $response, $args) {
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getHateaosCustomersFullname($args['customerid']));
+  return $response;
+});
+
+$app->get('/hateaos/customers/{customerid}/planes', function (Request $request, Response $response, $args) {
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getHateaosCustomersPlanes($args['customerid']));
+  return $response;
+});
 
 
+$app->get('/hateaos/customers/{customerid}/planes/{registration}/protocols', function (Request $request, Response $response, $args) {
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getHateaosCustomersProtocols($args['customerid'], $args['registration']));
+  return $response;
+});
 
 
+function getHateaosCustomers() {
+  $xml = simplexml_load_file("xmls/2_data.xml");
+  $query = "//Customer";
+  $result = $xml->xpath($query);
+  $returnXML = new SimpleXMLElement('<HateaosInfo></HateaosInfo>');
+  $returnXML->addChild('Customer Info Endpoints', "/hateaos/customers/{customerid}/info");
+  foreach ($result as $node) {
+    $newNode = new SimpleXMLElement('<Customers></Customers>');
+    $newNode[0] = $node->attributes()->customerid;
+    sxml_append($returnXML, $newNode);
+  }
+  return json_encode($returnXML, JSON_UNESCAPED_SLASHES);
+}
 
 
+function getHateaosCustomersInfo($customerid) {
+  $xml = simplexml_load_file("xmls/2_data.xml");
+  $query = "//Customer[@customerid = \"$customerid\"]";
+  $result = $xml->xpath($query);
+  $returnXML = new SimpleXMLElement('<HateaosInfo></HateaosInfo>');
+  $customerinfo = new SimpleXMLElement('<customerinfo></customerinfo>');
+  $node = $result[0];
+  $newNode = new SimpleXMLElement('<customerid></customerid>');
+  $newNode[0] = $node->attributes()->customerid;
+  sxml_append($customerinfo, $newNode);
+  $linksnode = new SimpleXMLElement('<links></links>');
+  $linksnode->addChild('fullname', "/hateaos/customers/$customerid/fullname");
+  $linksnode->addChild('planes', "/hateaos/customers/$customerid/planes");
+  sxml_append($customerinfo, $linksnode);
+  sxml_append($returnXML, $customerinfo);
+  return json_encode($returnXML, JSON_UNESCAPED_SLASHES);
+}
 
+function getHateaosCustomersFullname($customerid) {
+  $xml = simplexml_load_file("xmls/2_data.xml");
+  $query = "//Customer[@customerid = \"$customerid\"]/Firstname | //Customer[@customerid = \"$customerid\"]/Lastname";
+  $result = $xml->xpath($query);
+  $returnXML = new SimpleXMLElement('<HateaosInfo></HateaosInfo>');
+  $newNode = new SimpleXMLElement('<customerid></customerid>');
+  $newNode[0] = $customerid;
+  sxml_append($returnXML, $newNode);
+  $firstname = $result[0];
+  $lastname = $result[1];
+  $namesnode = new SimpleXMLElement('<fullname></fullname>');
+  $namesnode->addChild('firstname', "$firstname");
+  $namesnode->addChild('lastname', "$lastname");
+  sxml_append($returnXML, $namesnode);
+  return json_encode($returnXML, JSON_UNESCAPED_SLASHES);
+}
 
+function getHateaosCustomersPlanes($customerid) {
+  $xml = simplexml_load_file("xmls/2_data.xml");
+  $query = "//Customer[@customerid = \"$customerid\"]/Planes/Plane";
+  $result = $xml->xpath($query);
+  $returnXML = new SimpleXMLElement('<HateaosInfo></HateaosInfo>');
+  //sxml_append($returnXML, $result[0]);
+  //var_dump($result);
+  foreach ($result as $plane) {
 
+    $registration=$plane->attributes()->registration;
+
+    $planeNode = new SimpleXMLElement('<plane></plane>');
+    //var_dump($plane->attributes()->registration);
+    $planeNode->addAttribute("registration", $registration);
+    
+
+    $protocols = $plane->xpath("//Plane[@registration = \"$registration\"]/Protocols/Protocol");
+    //var_dump($protocols);
+    //echo "next protocol";
+    $linksNode = new SimpleXMLElement('<links></links>');
+    if ($protocols) {
+      $linksNode->addChild("Test", "/hateaos/customers/$customerid/planes/$registration/protocols");
+      
+    }
+    sxml_append($planeNode, $linksNode);
+    sxml_append($returnXML, $planeNode);
+  }
+
+  
+  return json_encode($returnXML, JSON_UNESCAPED_SLASHES);
+}
+
+function getHateaosCustomersProtocols($customerid, $registration) {
+  $xml = simplexml_load_file("xmls/2_data.xml");
+  $query = "//Customer[@customerid = \"$customerid\"]/Planes/Plane[@registration = \"$registration\"]/Protocols/Protocol";
+  $result = $xml->xpath($query);
+  $returnXML = new SimpleXMLElement('<HateaosInfo></HateaosInfo>');
+  foreach ($result as $protocol) {
+    sxml_append($returnXML, $protocol);
+  }
+  return json_encode($returnXML, JSON_UNESCAPED_SLASHES);
+}
 
 
 
