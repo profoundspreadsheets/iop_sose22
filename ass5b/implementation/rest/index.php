@@ -95,6 +95,15 @@ $app->put('/planes/update', function (Request $request, Response $response, $arg
   // return $response;
 });
 
+/**
+ * PATCH METHODS
+ */
+$app->patch('/planes/bars/patchmeadrink', function (Request $request, Response $response, $args) {
+  $response = $response->withHeader('Content-Type', 'application/merge-patch+json');
+  $requestBody = $request->getParsedBody();
+  $requestResult = patchBeverage($requestBody);
+  return $response->withStatus(200);
+});
 
 /**
  * GET METHODS HELPERS
@@ -208,12 +217,47 @@ function postNewBar($requestBody) {
 
   $newBarNode->appendChild($fridgeNode);
   $newBarNode->appendChild($glassNode);
-  
+
   $planeNode->appendChild($newBarNode);
   file_put_contents("xmls/4_data.xml", $doc->saveXML());
 
   return true;
+}
 
+/**
+ * PATCH METHODS HELPERS
+ */
+function patchBeverage($requestBody) {
+  $unitid = $requestBody['unitid'];
+  $beverages = $requestBody['Beverage'];
+
+  $doc = new DOMDocument();
+  $doc->load("xmls/4_data.xml");
+  $xpath_selector = new DOMXPath($doc);
+  $barNode = $xpath_selector->query("//Bar[@unitid = \"$unitid\"]")->item(0);
+
+
+  foreach ($beverages as $beverage) {
+    $newBeverage = $doc->createElement("Beverage");
+    $newBeverageDrink = $doc->createElement("Drink", $beverage['Drink']);
+    $newBeverageCost = $doc->createElement("Cost", $beverage['Cost']);
+    $newBeverage->appendChild($newBeverageDrink);
+    $newBeverage->appendChild($newBeverageCost);
+
+    $oldBeverages = $barNode->getElementsByTagName("Beverage");
+
+    foreach ($oldBeverages as $oldBeverage) {
+      // check if already exist, and replace if yes otherwise append 
+      if ($oldBeverage->getElementsByTagName("Drink")->item(0)->textContent == $beverage['Drink']) {
+        $oldBeverage->parentNode->replaceChild($newBeverage, $oldBeverage);
+        break;
+      } else {
+        $oldBeverage->parentNode->appendChild($newBeverage);
+      }
+    }
+  }
+  file_put_contents("xmls/4_data.xml", $doc->saveXML());
+  return true;
 }
 
 function sxml_append(SimpleXMLElement $to, SimpleXMLElement $from) {
@@ -225,22 +269,24 @@ function sxml_append(SimpleXMLElement $to, SimpleXMLElement $from) {
 function getuuid() {
   // source: https://github.com/symfony/polyfill-uuid/blob/main/Uuid.php#L320
   $uuid = bin2hex(random_bytes(16));
-  return sprintf('%08s-%04s-4%03s-%04x-%012s',
-  // 32 bits for "time_low"
-  substr($uuid, 0, 8),
-  // 16 bits for "time_mid"
-  substr($uuid, 8, 4),
-  // 16 bits for "time_hi_and_version",
-  // four most significant bits holds version number 4
-  substr($uuid, 13, 3),
-  // 16 bits:
-  // * 8 bits for "clk_seq_hi_res",
-  // * 8 bits for "clk_seq_low",
-  // two most significant bits holds zero and one for variant DCE1.1
-  hexdec(substr($uuid, 16, 4)) & 0x3fff | 0x8000,
-  // 48 bits for "node"
-  substr($uuid, 20, 12)
-);}
+  return sprintf(
+    '%08s-%04s-4%03s-%04x-%012s',
+    // 32 bits for "time_low"
+    substr($uuid, 0, 8),
+    // 16 bits for "time_mid"
+    substr($uuid, 8, 4),
+    // 16 bits for "time_hi_and_version",
+    // four most significant bits holds version number 4
+    substr($uuid, 13, 3),
+    // 16 bits:
+    // * 8 bits for "clk_seq_hi_res",
+    // * 8 bits for "clk_seq_low",
+    // two most significant bits holds zero and one for variant DCE1.1
+    hexdec(substr($uuid, 16, 4)) & 0x3fff | 0x8000,
+    // 48 bits for "node"
+    substr($uuid, 20, 12)
+  );
+}
 
 
 
