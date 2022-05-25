@@ -201,6 +201,21 @@ $app->patch('/planes/bars/patchmeadrink', function (Request $request, Response $
   }
 });
 
+$app->patch('/planes/toiletunits/betweenflowrate', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getToiletsBetweenFlowrates
+   */
+  $response = $response->withHeader('Content-Type', 'application/merge-patch+json');
+  $requestBody = $request->getParsedBody();
+  $requestResult = patchFlowrate($requestBody);
+  //$response->getBody()->write($requestBody['unitid']);
+  if ($requestResult) {
+    return $response->withStatus(200);
+  } else {
+    return $response->withStatus(404);
+  }
+});
+
 /**
  * GET METHODS HELPERS
  */
@@ -473,6 +488,50 @@ function patchBeverage($requestBody) {
   return true;
 }
 
+function patchFlowrate($requestBody) {
+  // check for malformed body
+  if (!isset($requestBody['flowrates'])) {
+    return false;
+  }
+
+  $minRate = $requestBody['flowrates']['minRate'];
+  $maxRate = $requestBody['flowrates']['maxRate'];
+
+  $doc = new DOMDocument();
+  $doc->load("xmls/3_data.xml");
+  $query = "//Flowrate[(.>$minRate and .<$maxRate)]/ancestor::ToiletSpecs";
+  $xpath_selector = new DOMXPath($doc);
+  $result = $xpath_selector->query($query);
+
+  foreach ($result as $toilet) {
+    var_dump($toilet);
+    echo "\n";
+  }
+  /*
+  foreach ($beverages as $beverage) {
+    $newBeverage = $doc->createElement("Beverage");
+    $newBeverageDrink = $doc->createElement("Drink", $beverage['Drink']);
+    $newBeverageCost = $doc->createElement("Cost", $beverage['Cost']);
+    $newBeverage->appendChild($newBeverageDrink);
+    $newBeverage->appendChild($newBeverageCost);
+
+    $oldBeverages = $barNode->getElementsByTagName("Beverage");
+
+    foreach ($oldBeverages as $oldBeverage) {
+      // check if already exist, and replace if yes otherwise append 
+      if ($oldBeverage->getElementsByTagName("Drink")->item(0)->textContent == $beverage['Drink']) {
+        $oldBeverage->parentNode->replaceChild($newBeverage, $oldBeverage);
+        break;
+      } else {
+        $oldBeverage->parentNode->appendChild($newBeverage);
+      }
+    }
+  }
+  file_put_contents("xmls/4_data.xml", $doc->saveXML());
+  */
+  return true;
+}
+
 function sxml_append(SimpleXMLElement $to, SimpleXMLElement $from) {
   $toDom = dom_import_simplexml($to);
   $fromDom = dom_import_simplexml($from);
@@ -594,24 +653,16 @@ function getHateaosCustomersPlanes($customerid) {
   $query = "//Customer[@customerid = \"$customerid\"]/Planes/Plane";
   $result = $xml->xpath($query);
   $returnXML = new SimpleXMLElement('<HateaosInfo></HateaosInfo>');
-  //sxml_append($returnXML, $result[0]);
-  //var_dump($result);
+  $returnXML->addChild("customerid", $customerid);
   foreach ($result as $plane) {
-
     $registration=$plane->attributes()->registration;
-
     $planeNode = new SimpleXMLElement('<plane></plane>');
-    //var_dump($plane->attributes()->registration);
     $planeNode->addAttribute("registration", $registration);
-    
-
     $protocols = $plane->xpath("//Plane[@registration = \"$registration\"]/Protocols/Protocol");
-    //var_dump($protocols);
-    //echo "next protocol";
     $linksNode = new SimpleXMLElement('<links></links>');
     if ($protocols) {
-      $linksNode->addChild("Test", "/hateaos/customers/$customerid/planes/$registration/protocols");
-      
+      // only add link if plane actually has protocols
+      $linksNode->addChild("protocols", "/hateaos/customers/$customerid/planes/$registration/protocols");
     }
     sxml_append($planeNode, $linksNode);
     sxml_append($returnXML, $planeNode);
@@ -626,6 +677,8 @@ function getHateaosCustomersProtocols($customerid, $registration) {
   $query = "//Customer[@customerid = \"$customerid\"]/Planes/Plane[@registration = \"$registration\"]/Protocols/Protocol";
   $result = $xml->xpath($query);
   $returnXML = new SimpleXMLElement('<HateaosInfo></HateaosInfo>');
+  $returnXML->addChild("customerid", $customerid);
+  $returnXML->addChild("registration", $registration);
   foreach ($result as $protocol) {
     sxml_append($returnXML, $protocol);
   }
