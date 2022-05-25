@@ -83,6 +83,28 @@ $app->get('/bars/byminifridgesorcolor/', function (Request $request, Response $r
   return $response;
 });
 
+$app->get('/planes/bycolor/', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getPlanesByColor
+   */
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $requestBody = $request->getParsedBody();
+  $response->getBody()->write(getPlanesByColor($requestBody));
+  return $response;
+});
+
+$app->get('/planes/bylivery/', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getPlanesByLivery
+   */
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $requestBody = $request->getParsedBody();
+  $response->getBody()->write(getPlanesByLivery($requestBody));
+  return $response;
+});
+
+
+
 
 /**
  * POST METHODS
@@ -232,6 +254,34 @@ function getBarsMinifridgeAndColor($requestBody) {
     }
   }
   return json_encode($returnXML);
+}
+
+function getPlanesByColor($requestBody) {
+  $colors = $requestBody['colors'];
+  $xml = simplexml_load_file("xmls/4_data.xml");
+  $sxml = simplexml_load_string('<Planes></Planes>');
+  foreach ($colors as $color) {
+    $query = "//Color[.=\"$color\"]/ancestor::Plane";
+    $result = $xml->xpath($query);
+    foreach ($result as $node) {
+      sxml_append($sxml, $node);
+    }
+  }
+  return $sxml->asXML();
+}
+
+function getPlanesByLivery($requestBody) {
+  $liveries = $requestBody['liveries'];
+  $xml = simplexml_load_file("xmls/4_data.xml");
+  $sxml = simplexml_load_string('<Planes></Planes>');
+  foreach ($liveries as $livery) {
+    $query = "//Livery[.=\"$livery\"]/ancestor::Plane";
+    $result = $xml->xpath($query);
+    foreach ($result as $node) {
+      sxml_append($sxml, $node);
+    }
+  }
+  return json_encode($sxml);
 }
 
 /**
