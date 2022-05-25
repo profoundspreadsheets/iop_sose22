@@ -37,23 +37,60 @@ $app->get('', function (Request $request, Response $response, $args) {
  * GET METHODS
  */
 $app->get('/teams/byemployees/{numEmployees}', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getTeamsByEmployees
+   */
   $response = $response->withHeader('Content-Type', 'application/json');
   $response->getBody()->write(getTeamsByEmployees($args['numEmployees']));
   return $response;
 });
 
 $app->get('/teams/bycountries', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getTeamsByCountries
+   */
   $response = $response->withHeader('Content-Type', 'application/json');
   $requestBody = $request->getParsedBody();
   $response->getBody()->write(getTeamsByCountries($requestBody));
   return $response;
 });
 
+$app->get('/customers/byzip/{zip}', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getCustomersByZip
+   */
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getCustomersByZip($args['zip']));
+  return $response;
+});
+
+$app->get('/streets/byzip/{zip}', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getStreetsByZip
+   */
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getStreetsByZip($args['zip']));
+  return $response;
+});
+
+$app->get('/bars/byminifridgesorcolor/', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getBarsMinifridgeAndColor
+   */
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $requestBody = $request->getParsedBody();
+  $response->getBody()->write(getTeamsByCountries($requestBody));
+  return $response;
+});
+
+
 /**
  * POST METHODS
  */
-
 $app->post('/planes/bars/postnewbar', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getBarsOfPlane
+   */
   $response = $response->withHeader('Content-Type', 'application/json');
   $requestBody = $request->getParsedBody();
   $requestResult = postNewBar($requestBody);
@@ -62,9 +99,11 @@ $app->post('/planes/bars/postnewbar', function (Request $request, Response $resp
 
 /**
  * DELETE METHODS
- * delete customer with ID
  */
 $app->delete('/customers/delete/{customerId}', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getCustomerByID
+   */
   $response = $response->withHeader('Content-Type', 'application/json');
   $customerId = $args['customerId'];
   $requestResult = deleteCustomerById($customerId);
@@ -79,10 +118,11 @@ $app->delete('/customers/delete/{customerId}', function (Request $request, Respo
 
 /**
  * PUT METHODS
- * update a customers address of plane with registration x
- * TODO error handling
  */
 $app->put('/planes/update', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getCustomerOfPlane
+   */
   $response = $response->withHeader('Content-Type', 'application/json');
   $requestBody = $request->getParsedBody();
   $requestResult = updateCustomerAddressByRegistration($requestBody);
@@ -106,6 +146,9 @@ $app->put('/planes/update', function (Request $request, Response $response, $arg
  * PATCH METHODS
  */
 $app->patch('/planes/bars/patchmeadrink', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getBarsOfPlane
+   */
   $response = $response->withHeader('Content-Type', 'application/merge-patch+json');
   $requestBody = $request->getParsedBody();
   $requestResult = patchBeverage($requestBody);
@@ -130,6 +173,28 @@ function getTeamsByEmployees($numEmployees) {
   }
   return json_encode($returnXML);
 }
+
+function getCustomersByZip($zip) {
+  $xml = simplexml_load_file("xmls/3_data.xml");
+  $query = "//Address[@zip < \"$zip\"]/ancestor::Customer";
+  $result = $xml->xpath($query);
+  $returnXML = new SimpleXMLElement('<Customers></Customers>');
+  foreach ($result as $node) {
+    sxml_append($returnXML, $node);
+  }
+  return json_encode($returnXML);
+}
+
+function getStreetsByZip($zip) {
+  $xml = simplexml_load_file("xmls/3_data.xml");
+    $query = "//Address[@zip < \"$zip\"]/descendant::Street";
+    $result = $xml->xpath($query);
+    $returnXML = new SimpleXMLElement('<Streets></Streets>');
+    foreach ($result as $node) {
+      sxml_append($returnXML, $node);
+    }
+    return json_encode($returnXML);
+  }
 
 function getTeamsByCountries($countries) {
   $xml = simplexml_load_file("xmls/1_data.xml");
