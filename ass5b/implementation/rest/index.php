@@ -79,7 +79,7 @@ $app->get('/bars/byminifridgesorcolor/', function (Request $request, Response $r
    */
   $response = $response->withHeader('Content-Type', 'application/json');
   $requestBody = $request->getParsedBody();
-  $response->getBody()->write(getTeamsByCountries($requestBody));
+  $response->getBody()->write(getBarsMinifridgeAndColor($requestBody));
   return $response;
 });
 
@@ -187,14 +187,14 @@ function getCustomersByZip($zip) {
 
 function getStreetsByZip($zip) {
   $xml = simplexml_load_file("xmls/3_data.xml");
-    $query = "//Address[@zip < \"$zip\"]/descendant::Street";
-    $result = $xml->xpath($query);
-    $returnXML = new SimpleXMLElement('<Streets></Streets>');
-    foreach ($result as $node) {
-      sxml_append($returnXML, $node);
-    }
-    return json_encode($returnXML);
+  $query = "//Address[@zip < \"$zip\"]/descendant::Street";
+  $result = $xml->xpath($query);
+  $returnXML = new SimpleXMLElement('<Streets></Streets>');
+  foreach ($result as $node) {
+    sxml_append($returnXML, $node);
   }
+  return json_encode($returnXML);
+}
 
 function getTeamsByCountries($countries) {
   $xml = simplexml_load_file("xmls/1_data.xml");
@@ -205,6 +205,30 @@ function getTeamsByCountries($countries) {
     $result = $xml->xpath($query);
     foreach ($result as $node) {
       sxml_append($returnXML, $node);
+    }
+  }
+  return json_encode($returnXML);
+}
+
+function getBarsMinifridgeAndColor($requestBody) {
+
+  $colors = $requestBody['colors'];
+  $minFridges = $requestBody['fridgesInterval']['minFridges'];
+  $maxFridges = $requestBody['fridgesInterval']['maxFridges'];
+
+
+  $xml = simplexml_load_file("xmls/4_data.xml");
+  $returnXML = new SimpleXMLElement('<Registrations></Registrations>');
+  foreach ($colors as $color) {
+    // query is returning x amount of registrations if second test is satisfied
+    // for x amount of color in colors
+    $colorQuery = "//Color[.=\"$color\"]//ancestor::Plane | //Plane[descendant::Minifridges/Amount[.>$minFridges and .<$maxFridges]]";
+    $result = $xml->xpath($colorQuery);
+    foreach ($result as $node) {
+      // convert attribute in node
+      $newNode = new SimpleXMLElement('<Registration></Registration>');
+      $newNode[0] = $node->attributes()->registration;
+      sxml_append($returnXML, $newNode);
     }
   }
   return json_encode($returnXML);
