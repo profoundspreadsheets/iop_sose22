@@ -208,8 +208,8 @@ $app->patch('/planes/toiletunits/betweenflowrate', function (Request $request, R
   $response = $response->withHeader('Content-Type', 'application/merge-patch+json');
   $requestBody = $request->getParsedBody();
   $requestResult = patchFlowrate($requestBody);
-  //$response->getBody()->write($requestBody['unitid']);
   if ($requestResult) {
+    $response->getBody()->write($requestResult);
     return $response->withStatus(200);
   } else {
     return $response->withStatus(404);
@@ -494,6 +494,8 @@ function patchFlowrate($requestBody) {
     return false;
   }
 
+  $extraRegistration = $requestBody['registration'];
+  $newFlowrate = $requestBody['newFlowrate'];
   $minRate = $requestBody['flowrates']['minRate'];
   $maxRate = $requestBody['flowrates']['maxRate'];
 
@@ -502,34 +504,55 @@ function patchFlowrate($requestBody) {
   $query = "//Flowrate[(.>$minRate and .<$maxRate)]/ancestor::ToiletSpecs";
   $xpath_selector = new DOMXPath($doc);
   $result = $xpath_selector->query($query);
+  $changedToiletUnits = new SimpleXMLElement("<Units></Units>");
+  $extraRegistrationWasChanged = false;
 
   foreach ($result as $toilet) {
-    var_dump($toilet);
-    echo "\n";
-  }
-  /*
-  foreach ($beverages as $beverage) {
-    $newBeverage = $doc->createElement("Beverage");
-    $newBeverageDrink = $doc->createElement("Drink", $beverage['Drink']);
-    $newBeverageCost = $doc->createElement("Cost", $beverage['Cost']);
-    $newBeverage->appendChild($newBeverageDrink);
-    $newBeverage->appendChild($newBeverageCost);
 
-    $oldBeverages = $barNode->getElementsByTagName("Beverage");
+    // check if registration is in given toilets by interval
+    $toilets = $toilet->parentNode;
+    $plane = $toilets->parentNode;
 
-    foreach ($oldBeverages as $oldBeverage) {
-      // check if already exist, and replace if yes otherwise append 
-      if ($oldBeverage->getElementsByTagName("Drink")->item(0)->textContent == $beverage['Drink']) {
-        $oldBeverage->parentNode->replaceChild($newBeverage, $oldBeverage);
-        break;
-      } else {
-        $oldBeverage->parentNode->appendChild($newBeverage);
-      }
+    $changedRegistration = $plane->getAttribute('registration');
+    if ($changedRegistration == $extraRegistration) {
+      $extraRegistrationWasChanged = true;
     }
+
+    $unitid = $toilet->getAttribute("unitid");
+    $oldFlowrate = $toilet->getElementsByTagName("Flowrate")->item(0);
+    $newFlowrateElement = new DOMElement("Flowrate", $newFlowrate);
+    $oldFlowrate->parentNode->replaceChild($newFlowrateElement, $oldFlowrate);
+    
+    // return changes in body
+    $changedToiletUnit = new SimpleXMLElement("<Unit></Unit>");
+    $changedToiletUnit->addChild("operation", "modified");
+    $changedToiletUnit->addChild("registration", $changedRegistration);
+    $changedToiletUnit->addChild("unitid", $unitid);
+    sxml_append($changedToiletUnits, $changedToiletUnit);
   }
-  file_put_contents("xmls/4_data.xml", $doc->saveXML());
-  */
-  return true;
+
+  if (!$extraRegistrationWasChanged) {
+    // extra specified registration was not changed, so add new toilet
+    $planeNode = $xpath_selector->query("//Plane[@registration = \"$extraRegistration\"]")->item(0);
+    $newToiletNode = $doc->createElement("ToiletSpecs");
+    $uuid = getuuid();
+    $newToiletNode->setAttribute("unitid", $uuid);
+    $newCapacityNode = $doc->createElement("Capacity", "2000.00");
+    $newFlowrateNode = $doc->createElement("Flowrate", $newFlowrate);
+    $newToiletNode->appendChild($newCapacityNode);
+    $newToiletNode->appendChild($newFlowrateNode);
+    $planeNode->appendChild($newToiletNode);
+
+    $changedToiletUnit = new SimpleXMLElement("<Unit></Unit>");
+    $changedToiletUnit->addChild("operation", "created");
+    $changedToiletUnit->addChild("registration", $extraRegistration);
+    $changedToiletUnit->addChild("unitid", $uuid);
+    sxml_append($changedToiletUnits, $changedToiletUnit);
+  }
+
+  file_put_contents("xmls/3_data.xml", $doc->saveXML());
+
+  return json_encode($changedToiletUnits);
 }
 
 function sxml_append(SimpleXMLElement $to, SimpleXMLElement $from) {
@@ -655,7 +678,7 @@ function getHateaosCustomersPlanes($customerid) {
   $returnXML = new SimpleXMLElement('<HateaosInfo></HateaosInfo>');
   $returnXML->addChild("customerid", $customerid);
   foreach ($result as $plane) {
-    $registration=$plane->attributes()->registration;
+    $registration = $plane->attributes()->registration;
     $planeNode = new SimpleXMLElement('<plane></plane>');
     $planeNode->addAttribute("registration", $registration);
     $protocols = $plane->xpath("//Plane[@registration = \"$registration\"]/Protocols/Protocol");
@@ -668,7 +691,7 @@ function getHateaosCustomersPlanes($customerid) {
     sxml_append($returnXML, $planeNode);
   }
 
-  
+
   return json_encode($returnXML, JSON_UNESCAPED_SLASHES);
 }
 
