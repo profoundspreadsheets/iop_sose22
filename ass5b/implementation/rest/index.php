@@ -47,11 +47,21 @@ $app->get('/teams/byemployees/{numEmployees}', function (Request $request, Respo
 
 $app->get('/teams/bycountries', function (Request $request, Response $response, $args) {
   /**
-   * SOAP operation getTeamsByCountries
+   * SOAP operation getSmallestTeamID
    */
   $response = $response->withHeader('Content-Type', 'application/json');
   $requestBody = $request->getParsedBody();
   $response->getBody()->write(getTeamsByCountries($requestBody));
+  return $response;
+});
+
+$app->get('/teams/smallest', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getTeamsByCountries
+   */
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $smallestTeamID = getSmallestTeamID();
+  $response->getBody()->write(strval($smallestTeamID));
   return $response;
 });
 
@@ -100,6 +110,15 @@ $app->get('/planes/bylivery/', function (Request $request, Response $response, $
   $response = $response->withHeader('Content-Type', 'application/json');
   $requestBody = $request->getParsedBody();
   $response->getBody()->write(getPlanesByLivery($requestBody));
+  return $response;
+});
+
+$app->get('/protocol/bydate/{date}', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getProtocolByDate
+   */
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getProtocolByDate($args['date']));
   return $response;
 });
 
@@ -196,6 +215,14 @@ function getTeamsByEmployees($numEmployees) {
   return json_encode($returnXML);
 }
 
+function getSmallestTeamID() {
+  $xml = simplexml_load_file("xmls/1_data.xml");
+  $query = "//Team/@teamid[not(. > //Team/@teamid)]";
+  $result = $xml->xpath($query);
+  return $result[0];
+}
+
+
 function getCustomersByZip($zip) {
   $xml = simplexml_load_file("xmls/3_data.xml");
   $query = "//Address[@zip < \"$zip\"]/ancestor::Customer";
@@ -283,6 +310,17 @@ function getPlanesByLivery($requestBody) {
   }
   return json_encode($sxml);
 }
+
+function getProtocolByDate($date) {
+  $xml = simplexml_load_file("xmls/2_data.xml");
+    $query = "//Testdate[.=\"$date\"]/ancestor::Protocol";
+    $result = $xml->xpath($query);
+    $returnXML = new SimpleXMLElement('<Protocols></Protocols>');
+    foreach ($result as $node) {
+      sxml_append($returnXML, $node);
+    }
+    return $returnXML->asXML();
+  }
 
 /**
  * DELETE METHODS HELPERS
