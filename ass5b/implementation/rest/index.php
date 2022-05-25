@@ -36,9 +36,16 @@ $app->get('', function (Request $request, Response $response, $args) {
 /**
  * GET METHODS
  */
-$app->get('/teams/{numEmployees}', function (Request $request, Response $response, $args) {
+$app->get('/teams/byemployees/{numEmployees}', function (Request $request, Response $response, $args) {
   $response = $response->withHeader('Content-Type', 'application/json');
   $response->getBody()->write(getTeamsByEmployees($args['numEmployees']));
+  return $response;
+});
+
+$app->get('/teams/bycountries', function (Request $request, Response $response, $args) {
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $requestBody = $request->getParsedBody();
+  $response->getBody()->write(getTeamsByCountries($requestBody));
   return $response;
 });
 
@@ -102,7 +109,12 @@ $app->patch('/planes/bars/patchmeadrink', function (Request $request, Response $
   $response = $response->withHeader('Content-Type', 'application/merge-patch+json');
   $requestBody = $request->getParsedBody();
   $requestResult = patchBeverage($requestBody);
-  return $response->withStatus(200);
+  //$response->getBody()->write($requestBody['unitid']);
+  if ($requestResult) {
+    return $response->withStatus(200);
+  } else {
+    return $response->withStatus(404);
+  }
 });
 
 /**
@@ -115,6 +127,20 @@ function getTeamsByEmployees($numEmployees) {
   $result = $xml->xpath($query);
   foreach ($result as $node) {
     sxml_append($returnXML, $node);
+  }
+  return json_encode($returnXML);
+}
+
+function getTeamsByCountries($countries) {
+  $xml = simplexml_load_file("xmls/1_data.xml");
+  $returnXML = new SimpleXMLElement('<Teams></Teams>');
+  foreach ($countries['countries'] as $country) {
+    $code = $country['country'];
+    $query = "//ISO_Code[.=\"$code\"]/ancestor::Team";
+    $result = $xml->xpath($query);
+    foreach ($result as $node) {
+      sxml_append($returnXML, $node);
+    }
   }
   return json_encode($returnXML);
 }
@@ -192,6 +218,8 @@ function postNewBar($requestBody) {
   $typeGlasses = $newBarData['Glasses']['Type'];
   $amountGlasses = $newBarData['Glasses']['Amount'];
 
+
+
   $doc = new DOMDocument();
   $doc->load("xmls/4_data.xml");
   $xpath_selector = new DOMXPath($doc);
@@ -228,6 +256,11 @@ function postNewBar($requestBody) {
  * PATCH METHODS HELPERS
  */
 function patchBeverage($requestBody) {
+  // check for malformed body
+  if (!isset($requestBody['unitid'])) {
+    return false;
+  }
+
   $unitid = $requestBody['unitid'];
   $beverages = $requestBody['Beverage'];
 
@@ -235,7 +268,10 @@ function patchBeverage($requestBody) {
   $doc->load("xmls/4_data.xml");
   $xpath_selector = new DOMXPath($doc);
   $barNode = $xpath_selector->query("//Bar[@unitid = \"$unitid\"]")->item(0);
-
+  //no node found
+  if (!$barNode) {
+    return false;
+  }
 
   foreach ($beverages as $beverage) {
     $newBeverage = $doc->createElement("Beverage");
