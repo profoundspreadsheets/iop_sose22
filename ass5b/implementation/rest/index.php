@@ -122,7 +122,14 @@ $app->get('/protocol/bydate/{date}', function (Request $request, Response $respo
   return $response;
 });
 
-
+$app->get('/testdate/byprotocol/{protocolid}', function (Request $request, Response $response, $args) {
+  /**
+   * SOAP operation getProtocolByDate
+   */
+  $response = $response->withHeader('Content-Type', 'application/json');
+  $response->getBody()->write(getTestdateOfProtocol($args['protocolid']));
+  return $response;
+});
 
 
 /**
@@ -223,6 +230,17 @@ function getTeamsByEmployees($numEmployees) {
   $xml = simplexml_load_file("xmls/1_data.xml");
   $returnXML = new SimpleXMLElement('<Teams></Teams>');
   $query = "//Team[@employees <= $numEmployees]";
+  $result = $xml->xpath($query);
+  foreach ($result as $node) {
+    sxml_append($returnXML, $node);
+  }
+  return json_encode($returnXML);
+}
+
+function getTestdateOfProtocol($protocolid) {
+  $xml = simplexml_load_file("xmls/2_data.xml");
+  $returnXML = new SimpleXMLElement('<Testdate></Testdate>');
+  $query = "//Protocol[@protocolid = \"$protocolid\"]/Testdate";
   $result = $xml->xpath($query);
   foreach ($result as $node) {
     sxml_append($returnXML, $node);
