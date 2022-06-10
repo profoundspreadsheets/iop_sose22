@@ -1,0 +1,668 @@
+{
+    "info": {
+        "_postman_id": "37ada872-00a3-407e-b8cf-5a00f119dd42",
+        "name": "Insomnia_2022-05-24",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Hateoas",
+            "item": [
+                {
+                    "name": "getCustomerInfo",
+                    "request": {
+                        "description": "",
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/hateaos/customers/495/info",
+                            "protocol": "https",
+                            "host": [
+                                "wwwlab",
+                                "cs",
+                                "univie",
+                                "ac",
+                                "at"
+                            ],
+                            "path": [
+                                "~bartlp20",
+                                "rest",
+                                "index.php",
+                                "hateaos",
+                                "customers",
+                                "495",
+                                "info"
+                            ]
+                        },
+                        "auth": {}
+                    },
+                    "response": []
+                },
+                {
+                    "name": "getProtocolsOfCustomer",
+                    "request": {
+                        "description": "",
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/hateaos/customers/495/planes/WSE4142/protocols",
+                            "protocol": "https",
+                            "host": [
+                                "wwwlab",
+                                "cs",
+                                "univie",
+                                "ac",
+                                "at"
+                            ],
+                            "path": [
+                                "~bartlp20",
+                                "rest",
+                                "index.php",
+                                "hateaos",
+                                "customers",
+                                "495",
+                                "planes",
+                                "WSE4142",
+                                "protocols"
+                            ]
+                        },
+                        "auth": {}
+                    },
+                    "response": []
+                },
+                {
+                    "name": "getPlanesOfCustomer",
+                    "request": {
+                        "description": "",
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/hateaos/customers/495/planes",
+                            "protocol": "https",
+                            "host": [
+                                "wwwlab",
+                                "cs",
+                                "univie",
+                                "ac",
+                                "at"
+                            ],
+                            "path": [
+                                "~bartlp20",
+                                "rest",
+                                "index.php",
+                                "hateaos",
+                                "customers",
+                                "495",
+                                "planes"
+                            ]
+                        },
+                        "auth": {}
+                    },
+                    "response": []
+                },
+                {
+                    "name": "getNameOfCustomer",
+                    "request": {
+                        "description": "",
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/hateaos/customers/495/fullname",
+                            "protocol": "https",
+                            "host": [
+                                "wwwlab",
+                                "cs",
+                                "univie",
+                                "ac",
+                                "at"
+                            ],
+                            "path": [
+                                "~bartlp20",
+                                "rest",
+                                "index.php",
+                                "hateaos",
+                                "customers",
+                                "495",
+                                "fullname"
+                            ]
+                        },
+                        "auth": {}
+                    },
+                    "response": []
+                },
+                {
+                    "name": "getAllCustomers",
+                    "request": {
+                        "description": "",
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/hateaos/customers",
+                            "protocol": "https",
+                            "host": [
+                                "wwwlab",
+                                "cs",
+                                "univie",
+                                "ac",
+                                "at"
+                            ],
+                            "path": [
+                                "~bartlp20",
+                                "rest",
+                                "index.php",
+                                "hateaos",
+                                "customers"
+                            ]
+                        },
+                        "auth": {}
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "updateCustomerAddressByRegistration",
+            "request": {
+                "description": "",
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\t\"registration\": \"OLH2122\",\n\t\"Address\": {\n\t\t\"@attributes\": {\n\t\t\t\"zip\": \"21360\",\n\t\t\t\"city\": \"South Erintown\"\n\t\t},\n\t\t\"Street\": \"Spencer Shoals\",\n\t\t\"Housenumber\": \"450\"\n\t}\n}"
+                },
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/planes/update",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "planes",
+                        "update"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "postNewBar",
+            "request": {
+                "description": "",
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\t\"registration\": \"OLH2122\",\n\t\"teamid\": \"50\",\n\t\"Bar\": {\n\t\t\"Minifridges\": {\n\t\t\t\"Amount\": 5\n\t\t},\n\t\t\"Glasses\": {\n\t\t\t\"Type\": \"flute\",\n\t\t\t\"Amount\": 10\n\t\t}\n\t}\n}"
+                },
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/planes/bars/postnewbar",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "planes",
+                        "bars",
+                        "postnewbar"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "patchBeverage",
+            "request": {
+                "description": "",
+                "method": "PATCH",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\t\"unitid\": \"69e605d0-08cd-4a6f-bc0f-e22192dcc856\",\n\t\"Beverage\": [\n\t\t{\n\t\t\t\"Drink\": \"Spirits\",\n\t\t\t\"Cost\": 500\n\t\t},\n\t\t{\n\t\t\t\"Drink\": \"Beer\",\n\t\t\t\"Cost\": 100\n\t\t}]\n}"
+                },
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/planes/bars/patchmeadrink",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "planes",
+                        "bars",
+                        "patchmeadrink"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "patchFlowrate",
+            "request": {
+                "description": "",
+                "method": "PATCH",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\t\"registration\": \"DAJ7178\",\n\t\"newFlowrate\": 50,\n\t\"flowrates\": {\n\t\t\"minRate\": 2.0,\n\t\t\"maxRate\": 2.2\n\t}\n}"
+                },
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/planes/toiletunits/betweenflowrate",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "planes",
+                        "toiletunits",
+                        "betweenflowrate"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "deleteCustomerById",
+            "request": {
+                "description": "",
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/customers/delete/19",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "customers",
+                        "delete",
+                        "19"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getTeamsByEmployees",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/teams/byemployees/3",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "teams",
+                        "byemployees",
+                        "3"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getSmallestTeamID",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/teams/smallest",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "teams",
+                        "smallest"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getTeamsByCountry",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\t\"countries\": [\n\t\t{\"country\": \"IT\"},\n\t\t{\"country\": \"IS\"}\n\t]\n}"
+                },
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/teams/bycountries",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "teams",
+                        "bycountries"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getCustomersByZip",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/customers/byzip/10000",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "customers",
+                        "byzip",
+                        "10000"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getStreetsByZip",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/streets/byzip/10000",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "streets",
+                        "byzip",
+                        "10000"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getBarsMinifridgeAndColor",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\t\"colors\": [\n\t\t\"white\",\n\t\t\"maroon\"\n\t],\n\t\"fridgesInterval\": {\n\t\t\"minFridges\": 8,\n\t\t\"maxFridges\": 10\n\t}\n}"
+                },
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/bars/byminifridgesorcolor/",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "bars",
+                        "byminifridgesorcolor",
+                        ""
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getPlanesByColor",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\t\"colors\": [\n\t\t\"white\",\n\t\t\"maroon\"\n\t]\n}"
+                },
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/planes/bycolor/",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "planes",
+                        "bycolor",
+                        ""
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getPlanesByLivery",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\t\"liveries\": [\n\t\t\"eurowhite\",\n\t\t\"jellybean\"\n\t]\n}"
+                },
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/planes/bylivery/",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "planes",
+                        "bylivery",
+                        ""
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getProtocolByDate",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/protocol/bydate/2017-06-12",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "protocol",
+                        "bydate",
+                        "2017-06-12"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        },
+        {
+            "name": "getTestdateOfProtocol",
+            "request": {
+                "description": "",
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://wwwlab.cs.univie.ac.at/~bartlp20/rest/index.php/testdate/byprotocol/KPTDTWVNUZ",
+                    "protocol": "https",
+                    "host": [
+                        "wwwlab",
+                        "cs",
+                        "univie",
+                        "ac",
+                        "at"
+                    ],
+                    "path": [
+                        "~bartlp20",
+                        "rest",
+                        "index.php",
+                        "testdate",
+                        "byprotocol",
+                        "KPTDTWVNUZ"
+                    ]
+                },
+                "auth": {}
+            },
+            "response": []
+        }
+    ]
+}

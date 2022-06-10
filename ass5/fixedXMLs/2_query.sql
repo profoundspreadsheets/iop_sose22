@@ -35,6 +35,6 @@
         )
     ), version '1.0', standalone yes
 ) FROM customer 
-INNER JOIN plane ON plane.customerid = customer.customerid
+INNER JOIN plane USING customerid
 WHERE plane.livery='cheatline')
 TO '/home/paul/Documents/iop_sose22/ass5/fixedXMLs/2_data.xml';
