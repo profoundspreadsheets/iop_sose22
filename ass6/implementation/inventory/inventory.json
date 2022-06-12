@@ -1,0 +1,26 @@
+{
+    "cpus": {
+        "AMD Ryzen 5 5600X": 20,
+        "Intel Core i7-12700K": 42,
+        "AMD Ryzen 7 5800X": 3,
+        "AMD Ryzen 9 5900X": 15
+    },
+    "cpu_coolers": {
+        "Cooler Master Hyper 212 RGB Black Edition": 100,
+        "Noctua NH-D15 chromax.black CPU-Cooler": 461,
+        "be quiet! Dark Rock 4 CPU-Cooler": 412,
+        "be quiet! Pure Rock 2 Black CPU-Cooler": 123
+    },
+    "gpus": {
+        "NVIDIA GeForce RTX 3080": 101,
+        "NVIDIA Quadro RTX A6000": 213,
+        "AMD Radeon RX 6950 XT": 212,
+        "AMD Radeon RX 580": 310
+    },
+    "ram": {
+        "Corsair Vengeance RGB Pro schwarz, DDR4-3200": 315,
+        "G.Skill RipJaws V, DDR4-3200": 123,
+        "Crucial Ballistix schwarz, DDR4-3200": 523,
+        "Corsair Vengeance LPX schwarz": 124
+    }
+}
