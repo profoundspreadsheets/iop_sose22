@@ -1,5 +1,6 @@
 # flask related packages
 
+from urllib import response
 from flask import Flask, render_template
 from flask import request
 from flask import Response
@@ -99,6 +100,13 @@ def createOrder():
         "memory": random.choice(list(ram.keys())),
         "quantDimms": random.choice([2,4]),
         "gpu": random.choice(list(gpus.keys()))
+    }
+    return app.response_class(json.dumps(response), mimetype='application/json')
+
+@app.route('/inventory/status')
+def getStatus():
+    response = {
+        "status": "idk tbh"
     }
     return app.response_class(json.dumps(response), mimetype='application/json')
 
