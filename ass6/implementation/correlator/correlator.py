@@ -1,6 +1,5 @@
 import requests
-from flask import Flask
-from flask import request
+from flask import Flask, request, Response
 
 from datetime import datetime
 import random
@@ -13,118 +12,50 @@ def getInventory():
     inventory = json.load(open('inventory.json'))
     return app.response_class(json.dumps(inventory), mimetype='application/json')
 
-@app.route('/inventory/cpus')
-def getInventoryCPUs():
+@app.route('/inventory/<component>')
+def getInventoryCPUs(component):
     inventory = json.load(open('inventory.json'))
-    partslist = inventory['cpus']
+    partslist = inventory[component]
     return app.response_class(json.dumps(partslist), mimetype='application/json')
 
-@app.route('/inventory/cpus/<cpu>', methods=['GET', 'PUT'])
-def getInventoryPartCPUs(cpu):
-    with open('inventory.json', 'r+') as data: 
+@app.route('/inventory/<component>/<componentName>', methods=['GET', 'PUT'])
+def getInventoryPartCPUCoolers(component, componentName):
+        
+    with open('inventory.json', 'r+') as data:
         inventory = json.load(data)
         if request.method == 'PUT':
-            newAmount = request.form.get('amount')
-            inventory['cpus'][cpu] = newAmount
+            newAmount = request.form.get('amount') # is immutableMultiDict
+            inventory[component][componentName] = int(newAmount)
             data.seek(0)
             json.dump(inventory, data, indent=4)
             data.truncate()
-        partslist = inventory['cpus']
-        cpuCount = partslist.get(cpu, -1)
+            return Response(status=200)
+        partslist = inventory[component]
+        countPart = partslist.get(componentName, -1)
         response = {
-            "amount": cpuCount
+            "amount": countPart
         }
-        data.close()
-    return app.response_class(json.dumps(response), mimetype='application/json')
-
-@app.route('/inventory/cpucoolers')
-def getInventoryCPUCoolers():
-    inventory = json.load(open('inventory.json'))
-    partslist = inventory['cpu_coolers']
-    return app.response_class(json.dumps(partslist), mimetype='application/json')
-
-@app.route('/inventory/cpucoolers/<cpucooler>', methods=['GET', 'PUT'])
-def getInventoryPartCPUCoolers(cpucooler):
-    with open('inventory.json', 'r+') as data: 
-        inventory = json.load(data)
-        if request.method == 'PUT':
-            newAmount = request.form.get('amount')
-            inventory['cpu_coolers'][cpucooler] = newAmount
-            data.seek(0)
-            json.dump(inventory, data, indent=4)
-            data.truncate()
-        partslist = inventory['cpu_coolers']
-        cpuCoolerCount = partslist.get(cpucooler, -1)
-        response = {
-            "amount": cpuCoolerCount
-        }
-        data.close()
-    return app.response_class(json.dumps(response), mimetype='application/json')
-
-@app.route('/inventory/ram')
-def getInventoryRAMs():
-    inventory = json.load(open('inventory.json'))
-    partslist = inventory['ram']
-    return app.response_class(json.dumps(partslist), mimetype='application/json')
-
-@app.route('/inventory/ram/<ram>', methods=['GET', 'PUT'])
-def getInventoryPartRAMs(ram):
-    with open('inventory.json', 'r+') as data: 
-        inventory = json.load(data)
-        if request.method == 'PUT':
-            newAmount = request.form.get('amount')
-            inventory['ram'][ram] = newAmount
-            data.seek(0)
-            json.dump(inventory, data, indent=4)
-            data.truncate()
-        partslist = inventory['ram']
-        ramCount = partslist.get(ram, -1)
-        response = {
-            "amount": ramCount
-        }
-        data.close()
-    return app.response_class(json.dumps(response), mimetype='application/json')
-
-@app.route('/inventory/gpus')
-def getInventoryGPUs():
-    inventory = json.load(open('inventory.json'))
-    partslist = inventory['gpus']
-    return app.response_class(json.dumps(partslist), mimetype='application/json')
-
-@app.route('/inventory/gpus/<gpu>', methods=['GET', 'PUT'])
-def getInventoryPartGPUs(gpu):
-    with open('inventory.json', 'r+') as data: 
-        inventory = json.load(data)
-        if request.method == 'PUT':
-            newAmount = request.form.get('amount')
-            inventory['gpus'][gpu] = newAmount
-            data.seek(0)
-            json.dump(inventory, data, indent=4)
-            data.truncate()
-        partslist = inventory['gpus']
-        gpuCount = partslist.get(gpu, -1)
-        response = {
-            "amount": gpuCount
-        }
-        data.close()
+    data.close()
     return app.response_class(json.dumps(response), mimetype='application/json')
 
 @app.route('/inventory/createOrder')
 def createOrder():
-    inventory = json.load(open('inventory.json'))
-    cpus = inventory['cpus']
-    cpuCoolers = inventory['cpu_coolers']
-    gpus = inventory['gpus']
-    ram = inventory['ram']
-    response = {
-        "cpu": random.choice(list(cpus.keys())),
-        "cpu cooler": random.choice(list(cpuCoolers.keys())),
-        "memory": random.choice(list(ram.keys())),
-        "gpu": random.choice(list(gpus.keys()))
-    }
+    with open('inventory.json') as file:
+      inventory = json.load(file)
+      cpus = inventory['cpus']
+      cpuCoolers = inventory['cpu_coolers']
+      gpus = inventory['gpus']
+      ram = inventory['ram']
+      response = {
+          "cpu": random.choice(list(cpus.keys())),
+          "cpu_cooler": random.choice(list(cpuCoolers.keys())),
+          "ram": random.choice(list(ram.keys())),
+          "gpu": random.choice(list(gpus.keys()))
+      }
+      file.close()
     return app.response_class(json.dumps(response), mimetype='application/json')
 
-@app.route('/inventory/status')
+@app.route('/progress')
 def getStatus():
     response = [
       {
@@ -162,7 +93,7 @@ def getStatus():
       {
         "progress": "ready for delivery",
         "completion": 99
-      },
+      }
     ]
     return app.response_class(json.dumps(response), mimetype='application/json')
 
@@ -182,8 +113,8 @@ def base():
 
     if headerContentId == "UsbC4Eva":
         cpu = body.get('cpu')
-        cpuCooler = body.get('cpu cooler')
-        ram = body.get('memory')
+        cpuCooler = body.get('cpu_cooler')
+        ram = body.get('ram')
         gpu = body.get('gpu')
         instantiateProcess(cpu=cpu, cpuCooler=cpuCooler, ram=ram, gpu=gpu)
 
@@ -201,10 +132,10 @@ def instantiateProcess(cpu, cpuCooler, ram, gpu):
   <endpoints>
     <teil1>http://131.130.122.25:9302/inventory/cpus/{cpu}</teil1>
     <timeout>http://gruppe.wst.univie.ac.at/~mangler/services/timeout.php</timeout>
-    <teil2>http://131.130.122.25:9302/inventory/cpucoolers/{cpuCooler}</teil2>
+    <teil2>http://131.130.122.25:9302/inventory/cpu_coolers/{cpuCooler}</teil2>
     <teil3>http://131.130.122.25:9302/inventory/ram/{ram}</teil3>
     <teil4>http://131.130.122.25:9302/inventory/gpus/{gpu}</teil4>
-    <progress>http://131.130.122.25:9302/inventory/status</progress>
+    <progress>http://131.130.122.25:9302/progress</progress>
     <correlation>http://131.130.122.25:9302/correlator</correlation>
     <produzieren>http://cpee.org:9350</produzieren>
   </endpoints>

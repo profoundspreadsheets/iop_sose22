@@ -1,25 +1,25 @@
 {
     "cpus": {
-        "AMD_Ryzen_5_5600X": 800,
+        "AMD_Ryzen_5_5600X": 8888,
         "Intel_Core_i7-12700K": 42,
         "AMD_Ryzen_7_5800X": 3,
         "AMD_Ryzen_9_5900X": 15
     },
     "cpu_coolers": {
-        "Cooler_Master_Hyper_212_RGB_Black_Edition": 800,
-        "Noctua_NH-D15_chromax.black_CPU-Cooler": 461,
-        "be_quiet!_Dark_Rock_4_CPU-Cooler": 412,
-        "be_quiet!_Pure_Rock_2_Black_CPU-Cooler": 123
+        "Cooler_Master_Hyper_212_RGB_Black_Edition": 8888,
+        "Noctua_NH-D15_chromax_black_CPU-Cooler": 461,
+        "be_quiet_Dark_Rock_4_CPU-Cooler": 412,
+        "be_quiet_Pure_Rock_2_Black_CPU-Cooler": 123
     },
     "gpus": {
-        "NVIDIA_GeForce_RTX_3080": 800,
+        "NVIDIA_GeForce_RTX_3080": 8888,
         "NVIDIA_Quadro_RTX_A6000": 213,
         "AMD_Radeon_RX_6950_XT": 212,
         "AMD_Radeon_RX_580": 310
     },
     "ram": {
-        "Corsair_Vengeance_RGB_Pro_schwarz_DDR4-3200": 800,
-        "G.Skill_RipJaws_V_DDR4-3200": 123,
+        "Corsair_Vengeance_RGB_Pro_schwarz_DDR4-3200": 8888,
+        "G_Skill_RipJaws_V_DDR4-3200": 123,
         "Crucial_Ballistix_schwarz_DDR4-3200": 523,
         "Corsair_Vengeance_LPX_schwarz": 124
     }
