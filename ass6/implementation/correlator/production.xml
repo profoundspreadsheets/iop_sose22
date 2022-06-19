@@ -2,12 +2,12 @@
 	<executionhandler>ruby</executionhandler>
 	<dataelements/>
 	<endpoints>
-		<teil1>http://131.130.122.25:9302/inventory/cpus/{cpu}</teil1>
+		<teil1>http://131.130.122.25:9302/inventory/cpus/AMD_Ryzen_5_5600X</teil1>
 		<timeout>http://gruppe.wst.univie.ac.at/~mangler/services/timeout.php</timeout>
-		<teil2>http://131.130.122.25:9302/inventory/cpucoolers/{cpuCooler}</teil2>
-		<teil3>http://131.130.122.25:9302/inventory/ram/{ram}</teil3>
-		<teil4>http://131.130.122.25:9302/inventory/gpus/{gpu}</teil4>
-		<progress>http://131.130.122.25:9302/inventory/status</progress>
+		<teil2>http://131.130.122.25:9302/inventory/cpu_coolers/Cooler_Master_Hyper_212_RGB_Black_Edition</teil2>
+		<teil3>http://131.130.122.25:9302/inventory/ram/Corsair_Vengeance_RGB_Pro_schwarz_DDR4-3200</teil3>
+		<teil4>http://131.130.122.25:9302/inventory/gpus/NVIDIA_GeForce_RTX_3080</teil4>
+		<progress>http://131.130.122.25:9302/progress</progress>
 		<correlation>http://131.130.122.25:9302/correlator</correlation>
 		<produzieren>http://cpee.org:9350</produzieren>
 	</endpoints>

@@ -1,3 +1,7 @@
+from calendar import c
+from cgi import test
+import mimetypes
+from time import time
 import requests
 from flask import Flask, request, Response
 
@@ -7,10 +11,12 @@ import json
 
 app = Flask(__name__)
 
+
 @app.route('/inventory')
 def getInventory():
     inventory = json.load(open('inventory.json'))
     return app.response_class(json.dumps(inventory), mimetype='application/json')
+
 
 @app.route('/inventory/<component>')
 def getInventoryCPUs(component):
@@ -18,114 +24,148 @@ def getInventoryCPUs(component):
     partslist = inventory[component]
     return app.response_class(json.dumps(partslist), mimetype='application/json')
 
+
 @app.route('/inventory/<component>/<componentName>', methods=['GET', 'PUT'])
 def getInventoryPartCPUCoolers(component, componentName):
-        
     with open('inventory.json', 'r+') as data:
         inventory = json.load(data)
         if request.method == 'PUT':
-            newAmount = request.form.get('amount') # is immutableMultiDict
+            newAmount = request.form.get('amount')  # is immutableMultiDict
             inventory[component][componentName] = int(newAmount)
             data.seek(0)
             json.dump(inventory, data, indent=4)
             data.truncate()
+            with open('log.txt', 'a') as logfile:
+                timestamp = datetime.now()
+                logfile.write(
+                    f"INVENTORY UPDATE | {request.method} | COMPONENT {component}/{componentName} | NEW AMOUNT {newAmount} | {timestamp.strftime('%d/%m/%Y %H:%M:%S')} |\n")
+            logfile.close()
             return Response(status=200)
         partslist = inventory[component]
         countPart = partslist.get(componentName, -1)
         response = {
             "amount": countPart
         }
+
     data.close()
     return app.response_class(json.dumps(response), mimetype='application/json')
+
 
 @app.route('/inventory/createOrder')
 def createOrder():
     with open('inventory.json') as file:
-      inventory = json.load(file)
-      cpus = inventory['cpus']
-      cpuCoolers = inventory['cpu_coolers']
-      gpus = inventory['gpus']
-      ram = inventory['ram']
-      response = {
-          "cpu": random.choice(list(cpus.keys())),
-          "cpu_cooler": random.choice(list(cpuCoolers.keys())),
-          "ram": random.choice(list(ram.keys())),
-          "gpu": random.choice(list(gpus.keys()))
-      }
-      file.close()
+        inventory = json.load(file)
+        cpus = inventory['cpus']
+        cpuCoolers = inventory['cpu_coolers']
+        gpus = inventory['gpus']
+        ram = inventory['ram']
+        response = {
+            "cpu": random.choice(list(cpus.keys())),
+            "cpu_cooler": random.choice(list(cpuCoolers.keys())),
+            "ram": random.choice(list(ram.keys())),
+            "gpu": random.choice(list(gpus.keys()))
+        }
+        file.close()
     return app.response_class(json.dumps(response), mimetype='application/json')
+
 
 @app.route('/progress')
-def getStatus():
-    response = [
-      {
-        "progress": "parts picked out",
-        "completion": 10
-      },
-      {
-        "progress": "parts unboxed",
-        "completion": 12
-      },
-      {
-        "progress": "parts looked at",
-        "completion": 15
-      },
-      {
-        "progress": "parts assembled",
-        "completion": 20
-      },
-      {
-        "progress": "coffee break",
-        "completion": 22
-      },
-      {
-        "progress": "cables plugged in",
-        "completion": 25
-      },
-      {
-        "progress": "smoke break",
-        "completion": 30
-      },
-      {
-        "progress": "packaging computer",
-        "completion": 35
-      },
-      {
-        "progress": "ready for delivery",
-        "completion": 99
-      }
-    ]
-    return app.response_class(json.dumps(response), mimetype='application/json')
+def getProgressSteps():
+    with open('progress.json', 'r') as data:
+        json_ = json.load(data)
+    data.close()
+    return app.response_class(json.dumps(json_), mimetype='application/json')
 
-@app.route('/correlator', methods=['GET', 'POST', 'PUT'])
-def base():
-    
-    headers = dict(request.headers)
+
+@app.route('/progress/<step>')
+def getProgressStep(step):
+    with open('progress.json', 'r') as data:
+        json_ = json.load(data)
+        progress = json_[int(step)]
+    data.close()
+    return app.response_class(json.dumps(progress), mimetype='application/json')
+
+@app.route('/correlator', methods=['GET', 'POST'])
+def newCorrelator():
+  headers = dict(request.headers)
+  if headers.get('Content-Id') == 'UsbC4Eva':
     body = dict(request.get_json())
+    instantiateProcess(requestMethod=request.method, requestHeaders=headers,requestBody=body)
+  elif headers.get('Content-Id') == 'producing':
+    body = dict(request.get_json())
+    updateInstanceStore(body)
+  else:
+    #check if instance finished i guess
+    pid = request.form.get("pid")
+    with open('instancestore.json', 'r+') as file:
+      instancestore = json.load(file)
+      processFinished = False
+      try:
+        for entry in instancestore[pid]:
+          if entry['progress'] == 'FINITO':
+            processFinished = True
+            break
+      except:
+        # Dangerous, needs proper error handling if pid not in store
+        processFinished = False
+    file.close()
+    if processFinished:
+      responseBody = {
+        "progress": "FINITO"
+      }
+      return app.response_class(json.dumps(responseBody), mimetype="application/json")
+    else:
+      responseBody = {
+        "progress": "INTERMEDIATE"
+      }
+      return app.response_class(json.dumps(responseBody), mimetype="application/json")
+  return app.response_class("kid named finger")
 
-    with open('log.txt', 'a') as logfile:
-        timestamp = datetime.now()
-        logfile.write(f"COMING IN HOT | {timestamp.strftime('%d/%m/%Y %H:%M:%S')} | HEADERS {headers} | BODY | {body}\n")
-    logfile.close()
+def updateInstanceStore(requestBody):
+  pid = requestBody.get('pid')
+  completion = requestBody.get('completion')
+  progress = requestBody.get('progress')
+  with open('instancestore.json', 'r+') as file:
+    timestamp = datetime.now()
+    instanceStore = json.load(file)
+    if not pid in instanceStore:
+      instanceStore[pid] = [{
+          "progress": progress,
+          "completion": completion,
+          "timestamp": timestamp.strftime('%d/%m/%Y %H:%M:%S')
+        }]
+    else:
+      instanceStore[pid].append({
+        "progress": progress,
+        "completion": completion,
+        "timestamp": timestamp.strftime('%d/%m/%Y %H:%M:%S')
+      })
+    file.seek(0)
+    json.dump(instanceStore, file, indent=4)
+  file.close()
+  with open('log.txt', 'a') as logfile:
+    timestamp = datetime.now()
+    logfile.write(f"UPDATING INSTANCESTORE | {pid} | {progress} | {completion} | {timestamp.strftime('%d/%m/%Y %H:%M:%S')}\n")
+  logfile.close()
 
-    headerContentId = ""
-    headerContentId = headers.get('Content-Id')
+def instantiateProcess(requestMethod, requestHeaders, requestBody):
+  cpu = requestBody.get('cpu')
+  cpuCooler = requestBody.get('cpu_cooler')
+  ram = requestBody.get('ram')
+  gpu = requestBody.get('gpu')
+  with open('log.txt', 'a') as logfile:
+      timestamp = datetime.now()
+      logfile.write(
+          f"CREATE | {requestMethod} | HEADERS {requestHeaders} | BODY | {requestBody} | {timestamp.strftime('%d/%m/%Y %H:%M:%S')}\n")
+  logfile.close()
 
-    if headerContentId == "UsbC4Eva":
-        cpu = body.get('cpu')
-        cpuCooler = body.get('cpu_cooler')
-        ram = body.get('ram')
-        gpu = body.get('gpu')
-        instantiateProcess(cpu=cpu, cpuCooler=cpuCooler, ram=ram, gpu=gpu)
-
-    return app.response_class("kid named finger")
-
-def instantiateProcess(cpu, cpuCooler, ram, gpu):
-    url = "https://cpee.org/flow/start/xml/"
-    headers = {'Content-Type': 'multipart/form-data;boundary=----'}
-    start = '------' + "\r\n" + 'Content-Disposition: form-data; name="behavior"' + "\r\n\r\n" + 'fork_running' + "\r\n" + '------' + "\r\n" + 'Content-Disposition: form-data; name="xml"' + "\r\n" + 'Content-Type: text/xml' + "\r\n\r\n"
-    end =  "\r\n" + '------' + "\r\n"
-    xmlBody = f"""
+  url = "https://cpee.org/flow/start/xml/"
+  headers = {'Content-Type': 'multipart/form-data;boundary=----'}
+  start = '------' + "\r\n" + 'Content-Disposition: form-data; name="behavior"' + "\r\n\r\n" + 'fork_running' + "\r\n" + \
+        '------' + "\r\n" + 'Content-Disposition: form-data; name="xml"' + \
+            "\r\n" + 'Content-Type: text/xml' + "\r\n\r\n"
+  end = "\r\n" + '------' + "\r\n"
+  xmlBody = f"""
     <testset xmlns="http://cpee.org/ns/properties/2.0">
   <executionhandler>ruby</executionhandler>
   <dataelements/>
@@ -565,14 +605,12 @@ def instantiateProcess(cpu, cpuCooler, ram, gpu):
     </testset>
     """
 
-    body = start + xmlBody + end
-
-    response = requests.post(url, data=body, headers=headers)
-
-    with open('log.txt', 'a') as logfile:
-        timestamp = datetime.now()
-        logfile.write(f"INSTANTIATED CPEE | {timestamp.strftime('%d/%m/%Y %H:%M:%S')} | HEADERS {response.headers} | BODY | {response.json()}\n")
-    logfile.close()
+  body = start + xmlBody + end
+  response = requests.post(url, data=body, headers=headers)
+  with open('log.txt', 'a') as logfile:
+    timestamp = datetime.now()
+    logfile.write(f"INSTANTIATED CPEE | {timestamp.strftime('%d/%m/%Y %H:%M:%S')} | HEADERS {response.headers} | BODY | {response.json()}\n")
+  logfile.close()
 
 
 if __name__ == '__main__':
