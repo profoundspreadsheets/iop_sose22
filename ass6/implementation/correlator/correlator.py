@@ -1,7 +1,3 @@
-from calendar import c
-from cgi import test
-import mimetypes
-from time import time
 import requests
 from flask import Flask, request, Response
 

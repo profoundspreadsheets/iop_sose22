@@ -1,26 +1,26 @@
 {
     "cpus": {
-        "AMD_Ryzen_5_5600X": 8888,
-        "Intel_Core_i7-12700K": 42,
-        "AMD_Ryzen_7_5800X": 3,
-        "AMD_Ryzen_9_5900X": 15
+        "AMD_Ryzen_5_5600X": 9001,
+        "Intel_Core_i7-12700K": 9001,
+        "AMD_Ryzen_7_5800X": 9001,
+        "AMD_Ryzen_9_5900X": 9001
     },
     "cpu_coolers": {
-        "Cooler_Master_Hyper_212_RGB_Black_Edition": 8888,
-        "Noctua_NH-D15_chromax_black_CPU-Cooler": 461,
-        "be_quiet_Dark_Rock_4_CPU-Cooler": 412,
-        "be_quiet_Pure_Rock_2_Black_CPU-Cooler": 123
+        "Cooler_Master_Hyper_212_RGB_Black_Edition": 9001,
+        "Noctua_NH-D15_chromax_black_CPU-Cooler": 9001,
+        "be_quiet_Dark_Rock_4_CPU-Cooler": 9001,
+        "be_quiet_Pure_Rock_2_Black_CPU-Cooler": 9001
     },
     "gpus": {
-        "NVIDIA_GeForce_RTX_3080": 8888,
-        "NVIDIA_Quadro_RTX_A6000": 213,
-        "AMD_Radeon_RX_6950_XT": 212,
-        "AMD_Radeon_RX_580": 310
+        "NVIDIA_GeForce_RTX_3080": 9001,
+        "NVIDIA_Quadro_RTX_A6000": 9001,
+        "AMD_Radeon_RX_6950_XT": 9001,
+        "AMD_Radeon_RX_580": 9001
     },
     "ram": {
-        "Corsair_Vengeance_RGB_Pro_schwarz_DDR4-3200": 8888,
-        "G_Skill_RipJaws_V_DDR4-3200": 123,
-        "Crucial_Ballistix_schwarz_DDR4-3200": 523,
-        "Corsair_Vengeance_LPX_schwarz": 124
+        "Corsair_Vengeance_RGB_Pro_schwarz_DDR4-3200": 9001,
+        "G_Skill_RipJaws_V_DDR4-3200": 9001,
+        "Crucial_Ballistix_schwarz_DDR4-3200": 9001,
+        "Corsair_Vengeance_LPX_schwarz": 9001
     }
 }
