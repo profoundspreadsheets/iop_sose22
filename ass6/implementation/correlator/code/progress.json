@@ -1,0 +1,38 @@
+[
+  {
+    "progress": "parts picked out",
+    "completion": 10
+  },
+  {
+    "progress": "parts unboxed",
+    "completion": 12
+  },
+  {
+    "progress": "parts looked at",
+    "completion": 15
+  },
+  {
+    "progress": "parts assembled",
+    "completion": 20
+  },
+  {
+    "progress": "coffee break",
+    "completion": 22
+  },
+  {
+    "progress": "cables plugged in",
+    "completion": 25
+  },
+  {
+    "progress": "smoke break",
+    "completion": 30
+  },
+  {
+    "progress": "packaging computer",
+    "completion": 35
+  },
+  {
+    "progress": "ready for delivery",
+    "completion": 100
+  }
+]
